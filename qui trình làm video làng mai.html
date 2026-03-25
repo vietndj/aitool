@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bộ Prompt Chi Tiết: Phim Hoạt Hình Ghibli "Làng Mai"</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0F172A;
+            --secondary: #10B981;
+            --accent: #3B82F6;
+            --bg: #F1F5F9;
+            --card-bg: #FFFFFF;
+            --text: #334155;
+            --code-bg: #1E293B;
+            --code-text: #E2E8F0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, #312E81 100%);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .header h1 { margin: 0; font-size: 2.2rem; }
+        .header p { color: #94A3B8; font-size: 1.1rem; margin-top: 10px; }
+
+        .container {
+            max-width: 1000px;
+            margin: -30px auto 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Rule Box */
+        .rule-box {
+            background: #FEF2F2;
+            border-left: 5px solid #EF4444;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .rule-box h3 { color: #B91C1C; margin-top: 0; }
+        .rule-box code { background: #FEE2E2; color: #991B1B; padding: 2px 6px; border-radius: 4px; font-weight: 600;}
+
+        /* Act Divider */
+        .act-divider {
+            background: var(--primary);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 40px 0 20px 0;
+            font-size: 1.2rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            position: sticky;
+            top: 10px;
+            z-index: 10;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Scene Card */
+        .scene-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .scene-header {
+            border-bottom: 2px solid var(--bg);
+            padding-bottom: 15px;
+        }
+
+        .scene-header h2 { margin: 0; color: var(--accent); font-size: 1.4rem; }
+        .scene-header .voiceover { font-style: italic; color: #64748B; margin-top: 8px; font-size: 0.95rem; background: #F8FAFC; padding: 10px; border-radius: 6px; border-left: 3px solid #CBD5E1;}
+
+        .image-placeholder {
+            background: #E2E8F0;
+            border: 2px dashed #94A3B8;
+            border-radius: 8px;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #64748B;
+            font-weight: 600;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .code-block {
+            background: var(--code-bg);
+            border-radius: 8px;
+            padding: 15px;
+            position: relative;
+            margin-top: 15px;
+        }
+
+        .code-block pre {
+            color: var(--code-text);
+            margin: 0;
+            white-space: pre-wrap;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.85rem;
+            padding-right: 80px;
+        }
+
+        .code-label {
+            font-size: 0.8rem;
+            color: #94A3B8;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .copy-btn {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: var(--accent);
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+        .copy-btn:hover { background: #2563EB; }
+        .copy-btn.copied { background: var(--secondary); }
+
+        @media (min-width: 768px) {
+            .scene-content { display: grid; grid-template-columns: 1fr 2fr; gap: 20px; }
+            .image-placeholder { height: 100%; min-height: 200px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Bộ Prompt Gốc: Làng Mai Anime</h1>
+        <p>Bản phẫu thuật chi tiết từng cảnh khớp 100% với Video Thành Phẩm</p>
+    </div>
+
+    <div class="container">
+
+        <div class="rule-box">
+            <h3>⚠️ THẦN CHÚ CHỐNG LỖI (NEGATIVE PROMPT)</h3>
+            <p>BẮT BUỘC copy đoạn lệnh dưới đây dán vào ô <b>Negative Prompt</b> của Google Veo 3 cho <b>TẤT CẢ</b> các cảnh để video không bị móp méo, biến dạng và không tự động chèn nhạc nền lộn xộn.</p>
+            <code>3D, realistic, morphing, face distortion, changing clothes, fast camera movement, character moving out of frame, sudden lighting changes, jittering, text melting, background music.</code>
+        </div>
+
+        <div class="act-divider">🎬 HỒI 1: SỰ NGỘ NHẬN & ỒN ÀO</div>
+
+        <div class="scene-card">
+            <div class="scene-header">
+                <h2>Cảnh 1: Bay đến Thái Lan</h2>
+                <div class="voiceover">🎙️ Voiceover: "Mình đã từng nghĩ rằng... Bình yên nó là một nơi chốn."</div>
+            </div>
+            <div class="scene-content">
+                <div class="image-placeholder">
+                    [ Ảnh 1: Ngồi máy bay ]<br>+<br>[ Ảnh 2: Máy bay hạ cánh ]
+                </div>
+                <div class="prompts">
+                    <div class="code-block">
+                        <div class="code-label">Image Prompt (Midjourney/Gemini)</div>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                        <pre>Studio Ghibli 2D anime style. A young Vietnamese man with short black hair, wearing a light blue t-shirt. He is sitting by the airplane window, smiling eagerly. Bright white clouds outside the window. Warm sunlight reflecting on his face. 16:9 ratio.</pre>
+                    </div>
+                    <div class="code-block">
+                        <div class="code-label">Video Prompt (Google Veo 3)</div>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                        <pre>Studio Ghibli 2D anime style. Boy sitting by the airplane window. Character motion: Keep face completely locked and stable, subtle blinking. Background motion: Soft white clouds moving slowly outside. Camera: Locked. NO background music.</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scene-card">
+            <div class="scene-header">
+                <h2>Cảnh 2: Check-in & Thiền đường trống</h2>
+                <div class="voiceover">🎙️ Voiceover: "Mà khi bạn đi đến đó... Bạn sẽ cảm thấy yên."</div>
+            </div>
+            <div class="scene-content">
+                <div class="image-placeholder">
+                    [ Ảnh Cổng Làng Mai ]<br>+<br>[ Ảnh Đặt Balo / Thiền đường trống ]
+                </div>
+                <div class="prompts">
+                    <div class="code-block">
+                        <div class="code-label">Image Prompt</div>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                        <pre>Studio Ghibli 2D anime style. The young Vietnamese man with short black hair, wearing a black t-shirt, loose dark pants, and grey sneakers. He is wearing a backpack, standing and looking up at a wooden gate that says 'Thai Plum Village'. Lush green trees around. 16:9 ratio.</pre>
+                    </div>
+                    <div class="code-block">
+                        <div class="code-label">Video Prompt</div>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                        <pre>Studio Ghibli 2D anime style. Young man standing at wooden gate. Character motion: Keep face and body locked, subtle idle breathing. Background motion: Green leaves rustling gently in the wind. Camera: Locked, static wide shot. NO background music.</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scene-card">
+            <div class="scene-header">
+                <h2>Cảnh 3: Sống ảo giữa chốn thanh tịnh</h2>
+                <div class="voiceover">🎙️ Voiceover: "Tâm trí tôi vẫn đi lạc... Trong những ồn ào hư ảo..."</div>
+            </div>
+            <div class="scene-content">
+                <div class="image-placeholder">
+                    [ Selfie với Sư ]<br>+<br>[ Selfie V-sign Thiền đường ]<br>+<br>[ Ngồi nghe nhạc ]
+                </div>
+                <div class="prompts">
+                    <div class="code-block">
+                        <div class="code-label">Image Prompt (Cảnh Selfie Thiền Đường)</div>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                        <pre>Studio Ghibli 2D anime style. The young Vietnamese man (short black hair, black t-shirt, dark pants) sitting on a cushion inside a vast wooden meditation hall, taking a wide-angle selfie. He is throwing a playful 'Peace' V-sign and smiling broadly. In the background behind him, long rows of people are meditating silently. 16:9 ratio.</pre>
+                    </div>
+                    <div class="code-block">
+                        <div class="code-label">Video Prompt</div>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                        <pre>Studio Ghibli 2D anime style. Young man taking V-sign selfie. Character motion: Keep face perfectly locked with a broad smile. The hand holding the V-sign is completely locked. Background motion: Meditating people remain perfectly still like statues. Camera: Locked, static POV shot. NO background music.</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scene-card">
+            <div class="scene-header">
+                <h2>Cảnh 4: Ồn ào bầy đàn & Đêm cô độc</h2>
+                <div class="voiceover">🎙️ Voiceover: "Và... trong bóng tối của chính mình."</div>
+            </div>
+            <div class="scene-content">
+                <div class="image-placeholder">
+                    [ Selfie nhóm & Hô hào chòi trúc ]<br>+<br>[ Cầm điện thoại đêm tối ]
+                </div>
+                <div class="prompts">
+                    <div class="code-block">
+                        <div class="code-label">Image Prompt (Cảnh Đêm Cô Độc)</div>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                        <pre>Studio Ghibli 2D anime style. A silhouette of the young Vietnamese man sitting completely alone inside a rustic bamboo hut AT NIGHT. He is wearing his black t-shirt. His face is illuminated ONLY by the cold, glowing blue light of his smartphone screen. Outside is a dark bamboo forest. Melancholic atmosphere. 16:9 ratio.</pre>
+                    </div>
+                    <div class="code-block">
+                        <div class="code-label">Video Prompt</div>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                        <pre>Studio Ghibli 2D anime style. Silhouette of man on phone in dark bamboo hut. Character motion: Keep body locked, extremely subtle thumb movement swiping on screen. Background motion: Rain falling softly outside, bamboo stalks swaying very slowly. Camera: Locked, static wide shot. NO background music.</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="act-divider">🌅 HỒI 2: ÁNH SÁNG & THỨC TỈNH</div>
+
+        <div class="scene-card">
+            <div class="scene-header">
+                <h2>Cảnh 5: Bình minh & Đi chân trần</h2>
+                <div class="voiceover">🎙️ Voiceover: "Cho đến khi thiên nhiên gõ cửa. Những thứ hùng vĩ nhất..."</div>
+            </div>
+            <div class="scene-content">
+                <div class="image-placeholder">
+                    [ Mây núi bình minh ]<br>+<br>[ Chân đạp lá khô ]
+                </div>
+                <div class="prompts">
+                    <div class="code-block">
+                        <div class="code-label">Image Prompt (Cảnh Chân Trần)</div>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                        <pre>Studio Ghibli 2D anime style. Extreme close-up macro shot of a single bare human foot stepping gently onto a crisp, dry brown leaf on a dirt path. Warm morning lighting, beautiful dappled sunbeams (komorebi) falling on the leaf, 16:9 ratio.</pre>
+                    </div>
+                    <div class="code-block">
+                        <div class="code-label">Video Prompt</div>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                        <pre>Studio Ghibli 2D anime style. Extreme close-up of bare foot stepping on leaf. Object motion: The foot slowly and softly presses down. Background motion: Tiny dust particles floating slowly in the sunbeam. Camera: Locked, static macro shot. NO background music.</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scene-card">
+            <div class="scene-header">
+                <h2>Cảnh 6: Giọt nước mắt tĩnh lặng</h2>
+                <div class="voiceover">🎙️ Voiceover: "...Hóa ra 30 năm qua, tôi chưa nhìn mặt trời lên trọn vẹn một lần nào."</div>
+            </div>
+            <div class="scene-content">
+                <div class="image-placeholder">
+                    [ Mắt rơi lệ ]<br>+<br>[ Nụ cười nhắm mắt đón nắng ]
+                </div>
+                <div class="prompts">
+                    <div class="code-block">
+                        <div class="code-label">Image Prompt (Cảnh Khóc)</div>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                        <pre>Studio Ghibli 2D anime style. Extreme close-up of the young Vietnamese man's eye and face (black hair, black t-shirt), filled with profound emotion. A single tear rolling down his cheek. Intimate warm morning lighting filtering through leaves, highly detailed, 16:9 ratio.</pre>
+                    </div>
+                    <div class="code-block">
+                        <div class="code-label">Video Prompt</div>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                        <pre>Studio Ghibli 2D anime style. Extreme close-up of crying face. Character motion: Keep facial features completely locked. A single beautiful tear slowly wells up and gently rolls down the cheek. Subtle blinking. Camera: Locked. NO background music.</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="act-divider">🍵 HỒI 3: HỌC LẠI TỪ ĐẦU</div>
+
+        <div class="scene-card">
+            <div class="scene-header">
+                <h2>Cảnh 7: Sự khiêm nhường tại Làng Mai</h2>
+                <div class="voiceover">🎙️ Voiceover: "Tôi học lại cách đi, cách nói, học cách cúi đầu và biết ơn."</div>
+            </div>
+            <div class="scene-content">
+                <div class="image-placeholder">
+                    [ Đi thiền hành ]<br>+<br>[ Uống trà với Sư ]<br>+<br>[ Ngắm trăng sao ]
+                </div>
+                <div class="prompts">
+                    <div class="code-block">
+                        <div class="code-label">Image Prompt (Uống trà với Sư)</div>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                        <pre>Studio Ghibli 2D anime style. The young Vietnamese man (black t-shirt, dark pants) sitting on a wooden porch, peacefully holding a cup of hot tea. Next to him is an elderly Buddhist monk in a brown robe, smiling and pointing gently. Beautiful forest background, 16:9 ratio.</pre>
+                    </div>
+                    <div class="code-block">
+                        <div class="code-label">Video Prompt</div>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                        <pre>Studio Ghibli 2D anime style. Man and monk drinking tea. Character motion: Keep faces locked with gentle smiles. Very subtle motion of steam rising from the teacup. Background motion: Leaves outside swaying gently in the breeze. Camera: Locked. NO background music.</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="act-divider">🏙️ HỒI 4: 3 NĂM SAU - BÌNH YÊN GIỮA ĐỜI THƯỜNG</div>
+
+        <div class="scene-card">
+            <div class="scene-header">
+                <h2>Cảnh 8: Mang chánh niệm về thành phố</h2>
+                <div class="voiceover">🎙️ Voiceover: "3 năm rồi... Tôi không còn phải đi tìm bình yên ở đâu xa nữa."</div>
+            </div>
+            <div class="scene-content">
+                <div class="image-placeholder">
+                    [ Tưới cây, rửa rau ]<br>+<br>[ Nhắm mắt ở Bến xe bus ]<br>+<br>[ Uống cafe ban công ]
+                </div>
+                <div class="prompts">
+                    <div class="code-block">
+                        <div class="code-label">Image Prompt (Bến Xe Bus / Trong Xe Bus)</div>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                        <pre>Studio Ghibli 2D anime style. The young Vietnamese man (black t-shirt) is sitting inside a crowded, moving city bus. His eyes are peacefully closed in deep meditation. A soft golden afternoon sunbeam shines diagonally through the window, illuminating his calm face. Blurry passengers in background. 16:9 ratio.</pre>
+                    </div>
+                    <div class="code-block">
+                        <div class="code-label">Video Prompt</div>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                        <pre>Studio Ghibli 2D anime style. Young man meditating inside bus. Character motion: Keep serene face locked. Subtle swaying of body matching bus movement. Background motion: Golden dust floating in sunbeam. Scenery outside window moving fast. Camera: Locked. NO background music.</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scene-card">
+            <div class="scene-header">
+                <h2>Cảnh 9: Cảnh Kết (Viên Mãn)</h2>
+                <div class="voiceover">🎙️ Voiceover: "Nó ở ngay đây... Ở ngay ban công nhà tôi."</div>
+            </div>
+            <div class="scene-content">
+                <div class="image-placeholder">
+                    [ Góc trên cao ban công ]<br>+<br>[ Cận cảnh nụ cười nhắm mắt ]
+                </div>
+                <div class="prompts">
+                    <div class="code-block">
+                        <div class="code-label">Image Prompt (Cận cảnh nụ cười)</div>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                        <pre>Studio Ghibli 2D anime style. Close-up of the young Vietnamese man's face (black t-shirt), bathed in pure warm morning sunlight on his plant-filled balcony. Eyes closed in absolute serenity, a deeply peaceful smile on his lips. Heavenly light, highly detailed, 16:9 ratio.</pre>
+                    </div>
+                    <div class="code-block">
+                        <div class="code-label">Video Prompt</div>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                        <pre>Studio Ghibli 2D anime style. Close-up smiling face in sunlight. Character motion: Keep facial features completely locked. A very subtle, deeply peaceful smile on his lips. Soft breathing. Background motion: Gentle breeze moving his hair slightly. Camera: Locked. NO background music.</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function copyCode(btn) {
+            const pre = btn.nextElementSibling;
+            const textToCopy = pre.innerText;
+
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                const originalText = btn.innerText;
+                btn.innerText = 'Đã Copy!';
+                btn.classList.add('copied');
+                
+                setTimeout(() => {
+                    btn.innerText = originalText;
+                    btn.classList.remove('copied');
+                }, 2000);
+            }).catch(err => {
+                alert('Lỗi copy, vui lòng bôi đen thủ công!');
+            });
+        }
+    </script>
+</body>
+</html>
