@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>10 Kịch Bản Tác Chiến Video Bằng Điện Thoại | FPoly</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['"Be Vietnam Pro"', 'sans-serif'] },
+                    colors: {
+                        fpoly: { orange: '#F26F21', blue: '#11295A', light: '#FFF5F0' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* CSS Abstract Art Styles */
+        .art-box { position: relative; overflow: hidden; height: 120px; border-radius: 1rem 1rem 0 0; }
+        .art-box::before, .art-box::after { content: ''; position: absolute; }
+        
+        /* 1. Tổng quan */
+        .art-1 { background: linear-gradient(135deg, #11295A, #2563eb); }
+        .art-1::before { width: 150px; height: 150px; background: #F26F21; border-radius: 50%; top: -50px; right: -50px; opacity: 0.8; }
+        .art-1::after { width: 100%; height: 50px; background: rgba(255,255,255,0.1); bottom: 20px; transform: skewY(-5deg); }
+
+        /* 2. Sống ảo */
+        .art-2 { background: linear-gradient(45deg, #f472b6, #fb923c); }
+        .art-2::before { width: 80px; height: 80px; border: 8px solid white; border-radius: 20px; top: 20px; left: 50%; transform: translateX(-50%); box-shadow: 0 10px 25px rgba(0,0,0,0.2); }
+        .art-2::after { width: 20px; height: 20px; background: white; border-radius: 50%; top: 30px; left: calc(50% + 20px); }
+
+        /* 3. Cơ sở vật chất */
+        .art-3 { background: #1e293b; background-image: radial-gradient(#475569 1px, transparent 1px); background-size: 15px 15px; }
+        .art-3::before { width: 100px; height: 4px; background: #10b981; top: 50px; left: 0; box-shadow: 0 0 15px #10b981; }
+        .art-3::after { width: 4px; height: 100px; background: #3b82f6; top: 0; right: 50px; box-shadow: 0 0 15px #3b82f6; }
+
+        /* 4. Livestream BĐS */
+        .art-4 { background: linear-gradient(to right, #ef4444, #b91c1c); }
+        .art-4::before { width: 60px; height: 60px; border: 5px solid white; border-radius: 50%; top: 30px; left: 30px; animation: pulse 2s infinite; }
+        .art-4::after { content: 'LIVE'; color: white; font-weight: 800; font-size: 24px; top: 45px; right: 30px; letter-spacing: 2px; }
+
+        /* 5. Phóng sự chuyên nghiệp */
+        .art-5 { background: linear-gradient(135deg, #1e3a8a, #0f172a); }
+        .art-5::before { width: 100%; height: 1px; background: rgba(255,255,255,0.2); top: 50%; left: 0; box-shadow: 0 0 10px rgba(255,255,255,0.5); }
+        .art-5::after { width: 60px; height: 60px; border: 2px solid #F26F21; border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%); box-shadow: 0 0 15px rgba(242,111,33,0.5); }
+
+        /* 6. Chuyên nghiệp - Công thức PAS */
+        .art-6 { background: linear-gradient(135deg, #334155 50%, #F26F21 50%); }
+        .art-6::before { width: 120px; height: 120px; border: 10px solid rgba(255,255,255,0.1); border-radius: 50%; top: -20px; left: -20px; }
+        .art-6::after { width: 0; height: 0; border-top: 30px solid transparent; border-bottom: 30px solid transparent; border-left: 50px solid white; top: 30px; right: 40px; opacity: 0.9; }
+
+        /* 7. Review Michelin */
+        .art-7 { background: linear-gradient(to bottom right, #fef08a, #f59e0b); }
+        .art-7::before { width: 90px; height: 90px; border: 15px solid white; border-radius: 50%; top: 15px; left: 50%; transform: translateX(-50%); opacity: 0.9; }
+        .art-7::after { width: 50px; height: 50px; background: #b45309; border-radius: 50%; top: 35px; left: 50%; transform: translateX(-50%); opacity: 0.7; }
+
+        /* 8. Flex sương sương */
+        .art-8 { background: linear-gradient(45deg, #d97706, #fcd34d); }
+        .art-8::before { width: 200%; height: 20px; background: rgba(255,255,255,0.4); top: 50px; left: -50%; transform: rotate(25deg); }
+        .art-8::after { width: 200%; height: 10px; background: rgba(255,255,255,0.6); top: 80px; left: -50%; transform: rotate(-15deg); }
+
+        /* 9. Bóc phốt */
+        .art-9 { background: repeating-linear-gradient(45deg, #000, #000 20px, #dc2626 20px, #dc2626 40px); }
+        .art-9::before { width: 80%; height: 60%; background: white; top: 20%; left: 10%; transform: skewX(-10deg); mix-blend-mode: screen; }
+
+        /* 10. Thao túng tâm lý */
+        .art-10 { background: linear-gradient(180deg, #10b981, #047857); }
+        .art-10::before { width: 50px; height: 80px; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; background: rgba(255,255,255,0.8); top: 20px; right: 40px; transform: rotate(15deg); }
+        .art-10::after { width: 30px; height: 50px; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; background: rgba(255,255,255,0.5); top: 40px; left: 50px; transform: rotate(-20deg); }
+
+        @keyframes pulse { 0% { opacity: 1; transform: scale(1); } 50% { opacity: 0.5; transform: scale(1.1); } 100% { opacity: 1; transform: scale(1); } }
+
+        /* Smooth accordion transition */
+        .script-content { max-height: 0; overflow: hidden; transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out; }
+        .script-content.open { max-height: 2500px; } /* Đủ dài cho nội dung mobile */
+        
+        .step-card { border-left: 3px solid #F26F21; position: relative; }
+        .step-card::before { content: ''; position: absolute; left: -7px; top: 0; width: 11px; height: 11px; background: #F26F21; border-radius: 50%; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased pb-20">
+
+    <!-- Header -->
+    <header class="bg-fpoly-blue text-white pt-10 pb-16 px-6 rounded-b-[2.5rem] shadow-xl relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-48 h-48 bg-fpoly-orange rounded-full mix-blend-multiply filter blur-3xl opacity-50 transform translate-x-1/2 -translate-y-1/2"></div>
+        <div class="relative z-10">
+            <span class="bg-fpoly-orange text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Thực hành Buổi 2</span>
+            <h1 class="text-3xl font-extrabold mt-4 leading-tight">Tác Chiến Video <br>Bằng Điện Thoại</h1>
+            <p class="mt-3 text-gray-300 text-sm">FPT Polytechnic - Cơ sở Trịnh Văn Bô. Hãy chọn 1 kịch bản dưới đây, quay A-Roll (thoại) trước, săn B-Roll (cảnh trám) sau!</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="px-4 -mt-8 space-y-6 relative z-20" id="script-container">
+        <!-- Scripts will be injected here via JS -->
+    </main>
+
+    <!-- Back to top -->
+    <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="fixed bottom-6 right-6 bg-fpoly-orange text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center text-xl z-50">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        const scriptsData = [
+            {
+                id: 1, title: "Tổng Quan Khuôn Viên", style: "art-1", vibe: "Năng động, Bao quát",
+                desc: "Giới thiệu toàn cảnh 'Ngôi trường con nhà người ta'. Dễ quay, phù hợp newbie.",
+                scenes: [
+                    { aroll: "Hôm nay cùng mình đi tour một vòng FPT Polytechnic tại 13 Trịnh Văn Bô - nơi được mệnh danh là ngôi trường 'con nhà người ta' nhé!", broll: "Toàn cảnh cổng trường hoặc sảnh chính tòa nhà có logo. Sinh viên lướt qua ống kính.", shot: "Toàn cảnh. Ngang tầm mắt, lia máy (Pan) chậm.", logic: "Xác nhận địa điểm, cho khán giả thấy độ hoành tráng ngay giây đầu." },
+                    { aroll: "Ngay sảnh chính là tượng Ong Poly siêu to khổng lồ. Đây chính là biểu tượng cho tinh thần 'Thực học - Thực nghiệp'.", broll: "Đặc tả tượng Ong. Một bạn đang đập tay (High-five) với chú ong.", shot: "Trung cảnh. Góc thấp hất lên (Low Angle).", logic: "Tôn lên sự uy nghi của linh vật đặc trưng." },
+                    { aroll: "Khuôn viên trường siêu rộng... Hành lang thênh thang và ngập tràn ánh sáng tự nhiên.", broll: "Cảnh hành lang dài có nắng. Sinh viên đang ôm laptop bấm hoặc trò chuyện.", shot: "Cầm máy đi tiến lên phía trước theo trục hành lang.", logic: "Tạo cảm giác dẫn dắt người xem đi sâu vào không gian trường." },
+                    { aroll: "...Điểm nhấn là các phòng học được đặt tên cực kêu như Thăng Long, Đông Đô, Kẻ Chợ. Cực kỳ bản sắc!", broll: "Cận cảnh biển tên phòng. Sau đó lia nhẹ vào lớp học qua ô cửa kính.", shot: "Cận cảnh. Ngang mắt, tĩnh.", logic: "Nhấn mạnh chi tiết độc quyền chỉ cơ sở Trịnh Văn Bô mới có." },
+                    { aroll: "Học ở đây không lo thiếu chỗ chill, chỉ lo không có sức chạy deadline! Hẹn gặp ở FPoly nhé!", broll: "(Quay mặt người nói) Vẫy tay chào.", shot: "Cam trước selfie. Tĩnh.", logic: "Kêu gọi hành động vui vẻ, năng lượng." }
+                ]
+            },
+            {
+                id: 2, title: "Săn 3 Góc Sống Ảo", style: "art-2", vibe: "Chill, Đẹp mắt, Gen Z",
+                desc: "Đánh vào visual. Di chuyển liên tục, khoe các góc kiến trúc đỉnh nhất trường.",
+                scenes: [
+                    { aroll: "Học mệt thì làm gì? Đi săn góc sống ảo chứ sao! Cùng mình điểm danh 3 góc check-in đỉnh nhất FPoly Trịnh Văn Bô.", broll: "Ghép 3 cảnh chuyển động nhanh (Whip pan) của 3 góc đẹp nhất.", shot: "Đa dạng. Đánh ngoặt điện thoại sang 2 bên để chuyển cảnh.", logic: "Giữ chân người xem bằng nhịp điệu nhanh chóng mặt." },
+                    { aroll: "Top 1: Những chiếc cầu thang ziczac tại tòa F, P, L. Đứng vào đây đón ánh sáng tự nhiên thì auto có ảnh đẹp.", broll: "Bạn sinh viên đứng ở chiếu nghỉ cầu thang đón nắng.", shot: "Toàn cảnh. Cao chúi xuống dọc theo khe hở cầu thang.", logic: "Tôn đường nét hình học ziczac và chiều sâu không gian." },
+                    { aroll: "Top 2: Những ô cửa sổ full kính. View từ đây nhìn ra toàn cảnh Nam Từ Liêm cực kỳ thoáng đãng.", broll: "Quay bóng lưng sinh viên đang nhìn ra ngoài cửa sổ kính lớn.", shot: "Trung/Toàn cảnh. Cầm máy lùi dần ra xa nhân vật.", logic: "Tạo cảm giác chill, thư giãn, không gian mở." },
+                    { aroll: "Top 3: Khu vực không gian sáng tạo nghệ thuật. Trang trí mộc mạc nhưng lên hình bao chất!", broll: "Sinh viên ngồi sofa/bàn gỗ trong trường, nhìn vào laptop.", shot: "Góc 45 độ, lấy ven sáng tự nhiên qua cửa sổ.", logic: "Thể hiện trường có gu thẩm mỹ cao." },
+                    { aroll: "Bạn thích góc nào nhất? Comment cho mình biết với nhé!", broll: "Tự selfie và cười tươi ở 1 trong 3 góc trên.", shot: "Qua vai (Over the shoulder) nhìn vào màn hình điện thoại.", logic: "Kêu gọi bình luận tăng tương tác." }
+                ]
+            },
+            {
+                id: 3, title: "Đột Nhập Cơ Sở Vật Chất", style: "art-3", vibe: "Chuyên nghiệp, Thực dụng",
+                desc: "Khoe đồ nghề, máy móc, phòng thực hành xịn sò. Giọng tự hào.",
+                scenes: [
+                    { aroll: "Người ta đồn sinh viên FPoly 'thực hành' nhiều hơn lý thuyết. Đi kiểm chứng cơ sở vật chất ở Trịnh Văn Bô xem sao!", broll: "Cảnh quẹt thẻ đi vào cửa hoặc sảnh đông đúc.", shot: "Góc nhìn thứ nhất (POV). Cầm máy ngang ngực đi tới.", logic: "Tạo cảm giác đang lén 'đột nhập' khám phá." },
+                    { aroll: "Đầu tiên là phòng Studio. Đèn đóm, phông xanh, đồ nghề đủ cả. Dân Media nhẵn mặt ở đây luôn.", broll: "Sinh viên đang set up đèn hoặc ngắm máy ảnh trong Studio.", shot: "Cận cảnh vào tay chỉnh thông số hoặc màn hình máy ảnh.", logic: "Đặc tả chi tiết thiết bị để thể hiện sự chuyên nghiệp." },
+                    { aroll: "Tiếp theo là Maker Space. Tại đây bọn mình có thể vọc vạch đủ thứ đồ chơi công nghệ để làm dự án.", broll: "Không gian phòng có máy in 3D, mô hình điện tử.", shot: "Máy từ dưới hất từ từ lên trên mặt bàn (Tilt up).", logic: "Minh chứng 'Thực nghiệp' bằng thiết bị vật lý." },
+                    { aroll: "Thậm chí trường còn có cả khu tập Vovinam siêu rộng giúp anh em rèn thể lực, xả stress.", broll: "Sân tập võ. Các bạn mặc võ phục xanh đang tập luyện.", shot: "Toàn cảnh. Đặt tĩnh để lấy trọn chuyển động võ thuật.", logic: "Nhấn mạnh 'đặc sản' Vovinam của FPT." },
+                    { aroll: "Trang bị tận răng thế này, thử thách nào bọn mình cũng cân được! Follow mình nhé.", broll: "(Quay mặt người nói) Giơ ngón cái Like.", shot: "Trung cảnh. Background là phòng thực hành.", logic: "Khẳng định giá trị học tập, chốt uy tín." }
+                ]
+            },
+            {
+                id: 4, title: "Livestream 'Chốt Đơn' BĐS", style: "art-4", vibe: "Tốc độ, Mõm, Vồn vã",
+                desc: "Đóng vai 'cò đất' bán trường học. Nói liến thoắng, không vấp, hài hước.",
+                scenes: [
+                    { aroll: "Nóng hổi anh em ơi! Hôm nay em review một siêu dự án bất động sản tọa lạc tại khu đất vàng 13 Trịnh Văn Bô!", broll: "View toàn cảnh trường từ cổng hoặc nhìn từ trên cao.", shot: "Viễn cảnh. Lia máy thật nhanh bao quát.", logic: "Hook bằng giọng điệu bán hàng chớp nhoáng." },
+                    { aroll: "Chủ đầu tư chơi lớn, xây tiện ích 5 sao: View ngắm hoàng hôn đỉnh chóp, ánh sáng tự nhiên ngập tràn...", broll: "Hắt nắng qua cửa sổ, hoặc ban công chill của trường.", shot: "Ngửa máy lên đón ánh nắng (flare) vào ống kính.", logic: "Dùng từ BĐS cao cấp để tả cảnh bình dị, tạo sự đối lập buồn cười." },
+                    { aroll: "...Đặc biệt, hệ thống an ninh 'Ong Poly' đứng gác 24/7, uy tín luôn!", broll: "Đập ngay vào mặt tượng Ong khổng lồ.", shot: "Trung cảnh. Hất từ dưới lên, máy đánh giật cục.", logic: "Nhân cách hóa linh vật thành bảo vệ." },
+                    { aroll: "Diện tích cực rộng, phong thủy cực vượng cho việc... chạy deadline thâu đêm! Lên đồ án mượt mà.", broll: "Sinh viên ôm gối gõ phím điên cuồng, tóc tai bù xù.", shot: "Cận tay gõ phím. Cầm tay hơi rung nhẹ tạo sự căng thẳng.", logic: "Cú twist kéo về hiện thực phũ phàng." },
+                    { aroll: "Chốt đơn! Ai muốn sở hữu suất học ở đây thì bấm ngay vào giỏ hàng. Đang freeship voucher rớt môn nha! Hết!", broll: "(Quay mặt người nói) Cầm thẻ sinh viên giơ lên như bán hàng.", shot: "Cận cảnh. Quay dọc màn hình, tĩnh.", logic: "Kết thúc bằng câu đùa rớt môn đặc trưng sinh viên." }
+                ]
+            },
+            {
+                id: 5, title: "Review Chuyên Nghiệp Tiêu Chuẩn", style: "art-5", vibe: "Cinematic, Chuẩn công thức",
+                desc: "Kịch bản chuẩn công nghiệp (Hook - Bối cảnh - Giải pháp - CTA). Phù hợp làm video giới thiệu chính thức, yêu cầu MC có phong thái nghiêm túc.",
+                scenes: [
+                    { aroll: "Bạn đang tìm kiếm một môi trường học tập không chỉ có lý thuyết? Chào mừng đến với FPT Polytechnic cơ sở Trịnh Văn Bô.", broll: "Góc quay toàn cảnh sảnh trường, sinh viên bước vào năng động, ánh sáng đẹp.", shot: "Toàn cảnh. Lia máy mượt mà (Pan/Slider) hoặc dùng Gimbal.", logic: "Hook chuẩn mực, đặt vấn đề và đưa ra ngay địa điểm để giữ chân người xem." },
+                    { aroll: "Với triết lý 'Thực học - Thực nghiệp', chúng mình được rèn luyện toàn diện. Bắt đầu từ thể chất với môn võ Vovinam đặc trưng...", broll: "Cảnh một bạn sinh viên thực hiện một đường quyền Vovinam dứt khoát.", shot: "Trung cảnh. Đặt tĩnh, kết hợp quay chậm (Slow-motion) lúc ra đòn.", logic: "Context (Bối cảnh): Giới thiệu văn hóa đặc trưng tạo nên sự khác biệt của trường." },
+                    { aroll: "...cho đến không gian học tập mở, kích thích sự sáng tạo như Maker Space hay những góc hành lang ngập tràn ánh sáng.", broll: "Cảnh sinh viên đang tập trung làm việc nhóm hoặc thảo luận tại Maker Space/hành lang.", shot: "Tracking shot (Tiến lại gần). Chuyển động máy mượt mà.", logic: "Solution 1: Khẳng định môi trường vật lý đáp ứng được nhu cầu sáng tạo của sinh viên." },
+                    { aroll: "Đặc biệt, hệ thống phòng thực hành như Studio được trang bị tiêu chuẩn, giúp sinh viên làm quen công việc thực tế ngay từ ghế nhà trường.", broll: "Đặc tả tay đang vặn ống kính máy ảnh, hoặc bật đèn softbox chiếu sáng.", shot: "Đặc tả (Close-up). Lấy nét sâu, làm mờ phông nền (Bokeh).", logic: "Proof (Bằng chứng): Đưa ra hình ảnh thiết bị thật để củng cố niềm tin cho lời nói." },
+                    { aroll: "Trải nghiệm thực tế, kiến tạo tương lai. Bạn đã sẵn sàng gia nhập cộng đồng FPoly chưa? Tìm hiểu ngay hôm nay!", broll: "(Quay mặt MC) Phong thái tự tin, mỉm cười và chỉ tay về hướng ống kính (hoặc logo).", shot: "Bán thân. Đặt máy trên chân (Tripod) vững chắc, góc ngang tầm mắt.", logic: "CTA (Kêu gọi hành động) mạnh mẽ, chuyên nghiệp và đáng tin cậy." }
+                ]
+            },
+            {
+                id: 6, title: "Phóng Sự PAS: Giải Quyết Nỗi Đau", style: "art-6", vibe: "Nghiêm túc, Thuyết phục",
+                desc: "Áp dụng công thức PAS (Problem - Agitate - Solve). Đánh trúng nỗi sợ thất nghiệp, lý thuyết suông và đưa ra giải pháp 'Thực học'.",
+                scenes: [
+                    { aroll: "Sợ học lý thuyết nhàm chán? Lo lắng ra trường không làm được việc?", broll: "Cảnh sinh viên ngồi trầm ngâm trước một đống sách vở dày cộp, hoặc thở dài nhìn màn hình laptop.", shot: "Trung cảnh. Góc máy hơi cao hất xuống, tạo cảm giác áp lực, bế tắc.", logic: "Problem (Vấn đề): Đặt câu hỏi trực diện vào nỗi sợ lớn nhất của học sinh/sinh viên." },
+                    { aroll: "Đó là nỗi ám ảnh của rất nhiều người: Lãng phí 3 năm thanh xuân mà vẫn 'trắng tay' kinh nghiệm khi đối diện nhà tuyển dụng.", broll: "Đặc tả màn hình laptop đang mở một trang CV trống trơn, hoặc cảnh bước đi vô định ở hành lang vắng.", shot: "Cận cảnh/Đặc tả. Góc máy tĩnh, màu sắc hơi trầm.", logic: "Agitate (Khoét sâu nỗi đau): Làm trầm trọng hóa vấn đề để khán giả thấy tính cấp bách." },
+                    { aroll: "Nhưng tại FPT Polytechnic Trịnh Văn Bô, câu chuyện hoàn toàn khác! Với 70% thời lượng là thực hành...", broll: "Sinh viên đẩy cửa bước vào không gian Maker Space/Studio sáng choang, phong thái tự tin.", shot: "Tracking shot theo bước chân đẩy cửa, góc hất lên tự hào.", logic: "Solve (Giải pháp): Chuyển trạng thái từ u ám sang tươi sáng. Giới thiệu giải pháp cốt lõi." },
+                    { aroll: "...bạn được 'cọ xát' với máy móc hiện đại, chạy dự án thật, làm việc nhóm thật ngay từ học kỳ đầu tiên. Sai thì sửa, thử thì mới thành công!", broll: "Cảnh làm việc nhóm năng nổ, tay đang thao tác trên máy in 3D, hoặc bấm máy quay phim trong Studio.", shot: "Nhiều góc máy cận cảnh (Fast cut) ghép nối liên tục thể hiện sự bận rộn.", logic: "Proof (Chứng minh): Hình ảnh thực hành dồn dập chứng minh cho việc học thật làm thật." },
+                    { aroll: "Đừng để thanh xuân chỉ nằm trên giấy! Hãy bắt đầu hành trình nghề nghiệp của bạn ngay hôm nay tại FPoly.", broll: "(Quay mặt MC) MC mỉm cười tự tin, bước đi hướng về phía camera.", shot: "Trung cảnh, vừa đi vừa nói (Walk and talk).", logic: "Action (Kêu gọi hành động): Lời chốt dứt khoát, truyền cảm hứng mạnh mẽ." }
+                ]
+            },
+            {
+                id: 7, title: "Nhà Hàng 5 Sao Canteen", style: "art-7", vibe: "Sang chảnh giả trân",
+                desc: "Review Canteen bình dân bằng ngôn ngữ ẩm thực Michelin. Cực lố.",
+                scenes: [
+                    { aroll: "Hôm nay mình dẫn các bạn đi trải nghiệm nhà hàng buffet chuẩn Michelin ngay tại Trịnh Văn Bô.", broll: "Sinh viên bước đi oai vệ tiến về phía Canteen.", shot: "Góc thấp đi theo sau lưng (Tracking shot).", logic: "Sang chảnh hóa một nơi vô cùng quen thuộc." },
+                    { aroll: "Không gian mang phong cách 'industrial', tiếng ồn trắng từ thực khách giúp kích thích vị giác.", broll: "Canteen đông đúc, xếp hàng mua đồ, tiếng ồn ào.", shot: "Toàn cảnh ngang. Đặt máy tĩnh bao quát.", logic: "Gọi sự ồn ào là 'tiếng ồn trắng' gây cười." },
+                    { aroll: "Menu Omakase hôm nay: Bánh mì bóng đêm và trà đào dầm sương mai.", broll: "Đặc tả (Slow-mo) ổ bánh mì cắn dở và ly trà đào nhựa.", shot: "Cận cảnh (Macro). Lấy nét kỹ đồ ăn, xóa phông nền.", logic: "Kỹ năng quay macro giúp đồ ăn bình dân trông đắt tiền." },
+                    { aroll: "Tổng thiệt hại cho bữa tiệc quý tộc này là... 25 cành. Quẹt QR nhanh như người yêu cũ trở mặt!", broll: "Tay cầm điện thoại quét mã QR code của cô bán hàng.", shot: "Cận cảnh tay. Góc nhìn POV.", logic: "Bắt trend ngôn từ GenZ." },
+                    { aroll: "Ai rảnh thì ghé ăn thử. Bạn thích món gì, báo mình mua hộ... lấy phí ship nha!", broll: "(Quay mặt người nói) Đang ngậm ống hút trà đào nháy mắt.", shot: "Cận mặt. Tĩnh.", logic: "Kết thúc bằng pha kiếm tiền lẻ ranh mãnh." }
+                ]
+            },
+            {
+                id: 8, title: "Trend Flex Sương Sương", style: "art-8", vibe: "Khiêm tốn giả tạo, Ngạo nghễ",
+                desc: "Khoe trường nhưng dùng mẫu câu 'Mình không có gì để flex ngoài việc...'.",
+                scenes: [
+                    { aroll: "Mình là sinh viên FPoly bình thường, không có gì để flex ngoài việc...", broll: "Sinh viên mặc áo đồng phục, hất tóc tự tin.", shot: "Selfie cam trước. Tĩnh.", logic: "Mở đầu bằng format kinh điển của cộng đồng Flex." },
+                    { aroll: "...Ngoài việc trường mình có nguyên con Ong khổng lồ làm linh vật chặn cửa, uy tín chưa?", broll: "Đứng bé xíu dưới chân tượng Ong Poly.", shot: "Góc cực thấp hất lên tôn sự khổng lồ của tượng.", logic: "Dùng tỷ lệ cơ thể để so sánh kích thước." },
+                    { aroll: "...Ngoài việc đi học được múa võ Vovinam như phim chưởng, khỏe re!", broll: "Tung cú đá Vovinam hoặc tạo thế võ dứt khoát.", shot: "Ngang tầm mắt, bắt trọn hành động nhanh.", logic: "Khoe điểm nhấn thể chất của khối giáo dục FPT." },
+                    { aroll: "...Và ngoài việc, phòng thực hành Studio đồ chơi nhiều hơn cả studio dịch vụ ngoài kia.", broll: "Lướt qua dàn đèn, phông xanh, máy tính cấu hình mạnh.", shot: "Pan mượt mà qua các thiết bị đắt tiền.", logic: "Khẳng định chất lượng đầu tư." },
+                    { aroll: "Nói chung là cũng bình thường! Anh em nào muốn thử sự 'bình thường' này thì nhập học lẹ lên, đang có deal ngon!", broll: "(Quay mặt người nói) Nhún vai khiêm tốn rồi chỉ tay xuống dưới (giả vờ có link).", shot: "Trung cảnh. Tĩnh.", logic: "Đang flex bẻ lái sang dụ dỗ nhập học." }
+                ]
+            },
+            {
+                id: 9, title: "Bóc Phốt Trá Hình", style: "art-9", vibe: "Bức xúc giả trân, Giật tít",
+                desc: "Tiêu đề bóc phốt cực căng nhưng nội dung bên trong lại là khoe trường.",
+                scenes: [
+                    { aroll: "(Mặt giận dữ) Hôm nay mình chính thức lên video bóc phốt FPoly! Quá đáng lắm rồi!", broll: "Đi xồng xộc, nhăn nhó qua cổng trường.", shot: "Cầm tay (Handheld) bước đi theo nhân vật gấp gáp.", logic: "Bắt trọn trí tò mò của người xem bằng thái độ bức xúc." },
+                    { aroll: "Tội thứ nhất: Ép vận động quá đà. Sân Vovinam to đùng, tuần nào cũng bắt ra khởi động muốn tiền đình.", broll: "Nhóm sinh viên áo xanh khởi động mệt mỏi mồ hôi nhễ nhại.", shot: "Ngang, quay chậm (Slow-mo) cảnh thở dốc.", logic: "Phàn nàn mệt mỏi để khoe có sân tập hoành tráng." },
+                    { aroll: "Tội thứ hai: Quá tốn dung lượng điện thoại. Hành lang, cầu thang góc nào cũng đẹp bắt chụp ảnh suốt.", broll: "Đứng tạo dáng lố lăng tại cầu thang đầy nắng.", shot: "Hất lên (Low angle) thấy rõ kiến trúc và ánh nắng.", logic: "Khen trường nhiều góc sống ảo bằng giọng bực tức." },
+                    { aroll: "Tội nặng nhất: Trang bị phòng Studio xịn quá làm sinh viên không có cớ đổ lỗi thiết bị khi nộp bài trễ!", broll: "Quay máy móc, đèn đang hoạt động trong phòng thực hành.", shot: "Đặc tả lướt qua các nút bấm, thiết bị.", logic: "Phá bỏ cái cớ muôn thuở của sinh viên thiết kế." },
+                    { aroll: "Bức xúc lắm! Ai đồng tình thì mua ủng hộ ly trà đào Canteen hạ hỏa nhé. Nhận ship tận lớp, comment!", broll: "(Quay mặt người nói) Đổi thái độ cười tươi, chà tay đòi tiền.", shot: "Cận mặt. Tĩnh.", logic: "Đang bóc phốt chuyển sang bán nước mưu sinh." }
+                ]
+            },
+            {
+                id: 10, title: "Thao Túng Tâm Lý Phụ Huynh", style: "art-10", vibe: "Khóc lóc giả trân, Kể khổ",
+                desc: "Giả vờ khóc than vất vả để quay video gửi mẹ xin tiền. Diễn xuất 'cảm lạnh'.",
+                scenes: [
+                    { aroll: "(Giọng mếu máo, lấy giấy chấm mắt) Video này gửi mẹ, con học ở Trịnh Văn Bô khổ quá mẹ ơi...", broll: "Ngồi cô đơn gục đầu ở góc ghế đá sân trường.", shot: "Góc cao hất xuống, tạo sự nhỏ bé, cô đơn.", logic: "Mở đầu thao túng bằng nước mắt diễn giả trân." },
+                    { aroll: "Mẹ xem này, trường bắt học phòng Thăng Long, điều hòa lạnh buốt xương, con phải xin tiền mua áo khoác mới chịu được.", broll: "Cửa gió điều hòa phả gió, sinh viên rùng mình ôm tay.", shot: "Trung cảnh hất lên trần. Tĩnh.", logic: "Khoe điều hòa mát rượi để xin tiền mua quần áo." },
+                    { aroll: "Học phí mẹ đóng rồi, nhưng Maker Space đồ nghề xịn quá làm con đam mê... lại phải tốn tiền mua linh kiện.", broll: "Mân mê mô hình 3D, mắt sáng rực trong phòng thực hành.", shot: "Cận cảnh ngang tay cầm đồ vật.", logic: "Hợp lý hóa việc xin tiền tiêu vặt bằng 'đam mê học hành'." },
+                    { aroll: "Ăn uống Canteen thì ngon, nhưng học Vovinam tốn calo lắm, con phải ăn x2 mới có sức trụ lại.", broll: "Cầm 2 tay 2 xiên xúc xích cắn ngấu nghiến.", shot: "POV nhìn xuống bàn ăn.", logic: "Viện cớ học võ để biện minh cho việc ăn nhiều." },
+                    { aroll: "Nên mẹ ting ting cho con 500k nhé. (Nói với cam) Anh em thấy diễn ok không? Book mình viết kịch bản lừa tiền mẹ nhé!", broll: "(Quay mặt người nói) Thu nét mặt mếu máo, cười ranh ma nháy mắt.", shot: "Cận mặt. Tĩnh.", logic: "Lộ nguyên hình là dân làm content mưu mô." }
+                ]
+            }
+        ];
+
+        const container = document.getElementById('script-container');
+
+        scriptsData.forEach((script) => {
+            // HTML for each script card
+            const cardHTML = `
+                <div class="bg-white rounded-[1.5rem] shadow-md border border-gray-100 overflow-hidden mb-6">
+                    <div class="art-box ${script.style}"></div>
+                    <div class="p-5 relative">
+                        <!-- Badge -->
+                        <span class="absolute -top-4 right-5 bg-white text-fpoly-blue text-xs font-bold px-3 py-1 rounded-full shadow-md border border-gray-100">
+                            <i class="fas fa-video mr-1"></i> ${script.vibe}
+                        </span>
+                        
+                        <h2 class="text-xl font-extrabold text-fpoly-blue mb-2">
+                            <span class="text-fpoly-orange mr-1">#${script.id}</span> ${script.title}
+                        </h2>
+                        <p class="text-sm text-gray-500 mb-4 font-medium leading-relaxed">${script.desc}</p>
+                        
+                        <button onclick="toggleScript(${script.id})" class="w-full bg-gray-50 hover:bg-fpoly-light text-fpoly-orange font-bold py-3 px-4 rounded-xl border border-gray-200 flex justify-between items-center transition-colors">
+                            <span>Mở kịch bản chi tiết</span>
+                            <i id="icon-${script.id}" class="fas fa-chevron-down transition-transform duration-300"></i>
+                        </button>
+
+                        <div id="content-${script.id}" class="script-content">
+                            <div class="pt-6 space-y-5">
+                                ${script.scenes.map((scene, index) => `
+                                    <div class="step-card pl-4">
+                                        <div class="text-xs font-bold text-gray-400 uppercase tracking-wide mb-2">Cảnh ${index + 1}</div>
+                                        
+                                        <div class="bg-gray-50 rounded-lg p-3 mb-2 border border-gray-100">
+                                            <p class="text-sm text-gray-800"><span class="text-fpoly-orange"><i class="fas fa-microphone-alt w-5"></i></span> <strong>Thoại chính:</strong> "${scene.aroll}"</p>
+                                        </div>
+                                        
+                                        <div class="space-y-1.5 mt-2">
+                                            <p class="text-sm"><span class="text-blue-500"><i class="fas fa-film w-5"></i></span> <strong>Hình (B-roll):</strong> <span class="text-gray-600">${scene.broll}</span></p>
+                                            <p class="text-sm"><span class="text-purple-500"><i class="fas fa-camera w-5"></i></span> <strong>Góc máy:</strong> <span class="text-gray-600">${scene.shot}</span></p>
+                                            <p class="text-sm"><span class="text-green-500"><i class="fas fa-lightbulb w-5"></i></span> <strong>Logic:</strong> <span class="text-gray-600 italic">${scene.logic}</span></p>
+                                        </div>
+                                    </div>
+                                `).join('')}
+                                
+                                <div class="bg-fpoly-light rounded-xl p-4 mt-4 text-center border border-fpoly-orange/30">
+                                    <p class="text-sm font-bold text-fpoly-orange"><i class="fas fa-bolt mr-1"></i> Micro-batching Tips</p>
+                                    <p class="text-xs text-gray-600 mt-1">Quay hết toàn bộ Thoại ở trên trong 1 lần đứng im. Sau đó xách máy đi lượn 1 vòng trường để thu toàn bộ Hình. Dựng ráp lại là xong!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            container.insertAdjacentHTML('beforeend', cardHTML);
+        });
+
+        // Toggle Functionality
+        function toggleScript(id) {
+            const content = document.getElementById(`content-${id}`);
+            const icon = document.getElementById(`icon-${id}`);
+            
+            if (content.classList.contains('open')) {
+                content.classList.remove('open');
+                icon.style.transform = 'rotate(0deg)';
+            } else {
+                // Đóng các tab khác (nếu muốn, hiện tại cứ cho mở nhiều tab)
+                content.classList.add('open');
+                icon.style.transform = 'rotate(180deg)';
+                
+                // Cuộn mượt đến thẻ vừa mở
+                setTimeout(() => {
+                    const card = content.parentElement.parentElement;
+                    const y = card.getBoundingClientRect().top + window.scrollY - 20;
+                    window.scrollTo({top: y, behavior: 'smooth'});
+                }, 300);
+            }
+        }
+    </script>
+</body>
+</html>
