@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAI One Nest - Video Practice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        /* Custom styles for smoother mobile experience */
+        body { -webkit-tap-highlight-color: transparent; }
+        .tab-active { border-bottom: 2px solid #f97316; color: #f97316; font-weight: bold; }
+        .scene-done { opacity: 0.6; background-color: #f3f4f6; }
+        .scene-done .a-roll-text { text-decoration: line-through; color: #9ca3af; }
+        
+        /* Modal Animation */
+        .modal-enter { animation: slideUp 0.3s ease-out forwards; }
+        @keyframes slideUp {
+            from { transform: translateY(100%); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans pb-24">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-40">
+        <div class="px-4 py-3 flex items-center justify-between border-b border-orange-500">
+            <div>
+                <h1 class="font-bold text-lg text-slate-900">FAI One Nest</h1>
+                <p class="text-xs text-orange-600 font-medium">Thực hành Video Marketing - Thầy Việt</p>
+            </div>
+            <i data-lucide="video" class="text-orange-500"></i>
+        </div>
+        
+        <!-- Navigation Tabs -->
+        <div class="flex px-2 overflow-x-auto hide-scrollbar bg-white">
+            <button onclick="switchTab('scripts')" id="tab-scripts" class="px-4 py-3 text-sm whitespace-nowrap tab-active flex items-center gap-1">
+                <i data-lucide="clapperboard" class="w-4 h-4"></i> Kịch bản
+            </button>
+            <button onclick="switchTab('guide')" id="tab-guide" class="px-4 py-3 text-sm whitespace-nowrap text-slate-500 flex items-center gap-1">
+                <i data-lucide="book-open-check" class="w-4 h-4"></i> Hướng dẫn & Lưu ý
+            </button>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT: SCRIPTS -->
+    <main id="view-scripts" class="p-4 space-y-4">
+        
+        <!-- Script Selector -->
+        <div class="bg-white p-3 rounded-xl shadow-sm border border-slate-100">
+            <label class="block text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Chọn công thức quay</label>
+            <div class="relative">
+                <select id="script-selector" onchange="renderScript()" class="w-full appearance-none bg-slate-50 border border-slate-200 text-slate-800 py-3 pl-3 pr-10 rounded-lg font-medium focus:outline-none focus:ring-2 focus:ring-orange-500">
+                    <!-- Options populated by JS -->
+                </select>
+                <i data-lucide="chevron-down" class="absolute right-3 top-3.5 w-5 h-5 text-slate-400 pointer-events-none"></i>
+            </div>
+        </div>
+
+        <!-- Teleprompter Button -->
+        <button onclick="toggleTeleprompter()" class="w-full bg-slate-900 text-white py-3 rounded-xl font-medium flex items-center justify-center gap-2 shadow-sm active:scale-95 transition-transform">
+            <i data-lucide="monitor-play" class="w-5 h-5"></i>
+            Chế độ Đọc Kịch Bản (A-Roll)
+        </button>
+
+        <!-- Script Info -->
+        <div id="script-info" class="mb-2"></div>
+
+        <!-- Scenes Container -->
+        <div id="scenes-container" class="space-y-4">
+            <!-- Scenes populated by JS -->
+        </div>
+
+    </main>
+
+    <!-- MAIN CONTENT: GUIDE -->
+    <main id="view-guide" class="p-4 space-y-6 hidden">
+        
+        <!-- Các bước thực hành -->
+        <section class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100">
+            <h2 class="font-bold text-lg flex items-center gap-2 mb-4 text-slate-800">
+                <i data-lucide="list-ordered" class="text-orange-500"></i> Quy trình 4 bước
+            </h2>
+            <div class="space-y-4 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-orange-500 before:to-slate-200">
+                
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-orange-500 text-white font-bold shrink-0 shadow z-10">1</div>
+                    <div class="w-[calc(100%-3rem)] md:w-[calc(50%-2.5rem)] pl-4">
+                        <div class="bg-slate-50 p-3 rounded-lg border border-slate-100">
+                            <h3 class="font-bold text-slate-800 text-sm">Chọn góc & Setup</h3>
+                            <p class="text-xs text-slate-500 mt-1">Tìm góc sáng tốt, tránh ồn. Lau sạch ống kính. Bật lưới Grid trên camera.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-slate-200 text-slate-600 font-bold shrink-0 shadow z-10">2</div>
+                    <div class="w-[calc(100%-3rem)] md:w-[calc(50%-2.5rem)] pl-4">
+                        <div class="bg-slate-50 p-3 rounded-lg border border-slate-100">
+                            <h3 class="font-bold text-slate-800 text-sm">Quay A-Roll (Người nói)</h3>
+                            <p class="text-xs text-slate-500 mt-1">Quay 1 mạch phần nói hoặc chia nhỏ. Mắt nhìn thẳng ống kính, nói dứt khoát.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-slate-200 text-slate-600 font-bold shrink-0 shadow z-10">3</div>
+                    <div class="w-[calc(100%-3rem)] md:w-[calc(50%-2.5rem)] pl-4">
+                        <div class="bg-slate-50 p-3 rounded-lg border border-slate-100">
+                            <h3 class="font-bold text-slate-800 text-sm">Quay B-Roll (Cảnh trám)</h3>
+                            <p class="text-xs text-slate-500 mt-1">Bám sát kịch bản. Mỗi cảnh quay tĩnh 5-7 giây. Khóa nét (AE/AF Lock) trước khi quay.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-slate-200 text-slate-600 font-bold shrink-0 shadow z-10">4</div>
+                    <div class="w-[calc(100%-3rem)] md:w-[calc(50%-2.5rem)] pl-4">
+                        <div class="bg-slate-50 p-3 rounded-lg border border-slate-100">
+                            <h3 class="font-bold text-slate-800 text-sm">Kiểm tra & Tick Done</h3>
+                            <p class="text-xs text-slate-500 mt-1">Xem lại source, nghe thử âm thanh. Ok thì tick vào cảnh đó trên App.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3 KHÔNG -->
+        <section class="bg-red-50 p-5 rounded-2xl border border-red-100">
+            <h2 class="font-bold text-lg flex items-center gap-2 mb-3 text-red-700">
+                <i data-lucide="alert-triangle" class="text-red-500"></i> Quy tắc "3 KHÔNG"
+            </h2>
+            <ul class="space-y-3">
+                <li class="flex items-start gap-2 bg-white p-3 rounded-lg shadow-sm">
+                    <i data-lucide="smartphone" class="w-5 h-5 text-red-500 shrink-0 mt-0.5"></i>
+                    <div>
+                        <p class="font-bold text-sm text-slate-800">Không lộn xộn tỷ lệ</p>
+                        <p class="text-xs text-slate-600">Thống nhất quay DỌC (Reels/TikTok) hoặc NGANG ngay từ đầu. Không xoay máy lung tung giữa các cảnh.</p>
+                    </div>
+                </li>
+                <li class="flex items-start gap-2 bg-white p-3 rounded-lg shadow-sm">
+                    <i data-lucide="droplet" class="w-5 h-5 text-red-500 shrink-0 mt-0.5"></i>
+                    <div>
+                        <p class="font-bold text-sm text-slate-800">Không để ống kính bẩn</p>
+                        <p class="text-xs text-slate-600">90% video mờ là do vân tay. Lấy áo cotton/khăn mềm lau sạch cụm camera trước khi bấm máy.</p>
+                    </div>
+                </li>
+                <li class="flex items-start gap-2 bg-white p-3 rounded-lg shadow-sm">
+                    <i data-lucide="zoom-in" class="w-5 h-5 text-red-500 shrink-0 mt-0.5"></i>
+                    <div>
+                        <p class="font-bold text-sm text-slate-800">Không Zoom bằng tay</p>
+                        <p class="text-xs text-slate-600">Tuyệt đối không dùng 2 ngón tay kéo zoom trên màn hình. Hãy "zoom bằng chân" (bước lại gần) để không vỡ nét.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- TELEPROMPTER MODAL -->
+    <div id="teleprompter-modal" class="fixed inset-0 bg-black z-50 hidden flex-col">
+        <div class="flex justify-between items-center p-4 border-b border-gray-800">
+            <h2 class="text-white font-bold text-lg flex items-center gap-2">
+                <i data-lucide="monitor-play" class="text-orange-500"></i> Đọc Kịch Bản
+            </h2>
+            <button onclick="toggleTeleprompter()" class="text-gray-400 hover:text-white p-2">
+                <i data-lucide="x" class="w-6 h-6"></i>
+            </button>
+        </div>
+        <div class="flex-1 overflow-y-auto p-6 bg-slate-900">
+            <div id="teleprompter-content" class="space-y-8 max-w-lg mx-auto">
+                <!-- A-roll text will be populated here -->
+            </div>
+        </div>
+        <div class="p-4 bg-black border-t border-gray-800 text-center">
+            <p class="text-gray-500 text-xs">Mẹo: Đặt điện thoại sát ống kính máy quay chính để mắt không bị liếc.</p>
+        </div>
+    </div>
+
+    <script>
+        // --- DATA: 7 SCRIPTS ---
+        const scriptsData = [
+            {
+                id: "kb1",
+                name: "Kịch bản 1: Tổng quan (AIDA)",
+                desc: "Review không gian tổng thể FAI Tầng 2, nhịp độ nhanh, thu hút.",
+                formulaDesc: "AIDA (Attention - Interest - Desire - Action): Công thức phễu nhận thức. Bắt đầu bằng việc giật tít gây sự chú ý mạnh, giữ chân bằng hình ảnh thú vị, đẩy lên khao khát bằng môi trường lý tưởng và chốt hạ bằng lời kêu gọi hành động dứt khoát.",
+                emotionalArc: "Từ Tò mò/Ngạc nhiên (đầu video) ➜ Hào hứng muốn khám phá ➜ Ghen tị/Khao khát được trải nghiệm ➜ Quyết tâm hành động (rủ bạn bè/đăng ký). Tác động khiến người xem bị cuốn đi không dứt ra được.",
+                scenes: [
+                    {
+                        title: "1 (Attention - Gây chú ý)",
+                        aroll: "Bạn nghĩ trường học chỉ có những bức tường trắng nhàm chán? Quên đi, chào mừng đến với tổ ấm FAI One Nest - Tầng 2 Trịnh Văn Bô!",
+                        broll: "Mở cửa bước vào tầng 2, mở ra không gian sảnh chính rộng rãi, hiện đại, màu sắc bắt mắt của FPT.",
+                        shot: "Toàn cảnh (WS) • POV tiến về trước",
+                        logic: "Kéo người xem vào video bằng cảm giác 'được dẫn đi khám phá'. Cỡ toàn cảnh khoe không gian."
+                    },
+                    {
+                        title: "2 (Interest - Thích thú)",
+                        aroll: "Toàn bộ không gian ở đây được thiết kế mở, lấy cảm hứng từ sự giao thoa giữa Thăng Long cổ kính và công nghệ tương lai.",
+                        broll: "Sinh viên đi dọc hành lang, ánh sáng đèn led chiếu xuống các mảng tường decor nghệ thuật.",
+                        shot: "Trung cảnh / Toàn hẹp • Lia máy ngang",
+                        logic: "Giải thích concept. Lia máy chậm giúp quan sát rõ chi tiết decor."
+                    },
+                    {
+                        title: "3 (Desire - Khao khát)",
+                        aroll: "Góc sống ảo triệu view ở mọi nơi. Dù bạn là dân Code hay dân Thiết kế, học ở môi trường này thì đảm bảo ý tưởng cứ gọi là tuôn trào.",
+                        broll: "Một nhóm sinh viên đang ngồi thảo luận sôi nổi tại khu sinh hoạt chung hoặc thao tác trên laptop.",
+                        shot: "Qua vai (OTS) hoặc Cận cảnh nụ cười",
+                        logic: "Thể hiện sức sống. Góc qua vai tạo cảm giác chân thực."
+                    },
+                    {
+                        title: "4 (Action - Hành động)",
+                        aroll: "Đã là sinh viên FAI thì nhất định phải check-in góc này. Ai chưa lên tầng 2 thì rủ ngay hội bạn đi khám phá nhé!",
+                        broll: "(Không dùng B-roll). Quay lại cảnh A-roll, nhân vật vẫy tay gọi và chỉ tay về hướng không gian phía sau.",
+                        shot: "Trung cận (MCU) • Trực diện",
+                        logic: "Giữ lại hình ảnh người nói để chốt thông điệp và kêu gọi hành động rõ ràng."
+                    }
+                ]
+            },
+            {
+                id: "kb2",
+                name: "Kịch bản 2: Siro Trịnh Văn Bô (PAS)",
+                desc: "Giới thiệu phòng Dịch vụ Sinh viên (Siro), đánh vào sự đồng cảm.",
+                formulaDesc: "PAS (Problem - Agitate - Solve): Công thức đi từ nỗi đau. Đưa ra vấn đề nhức nhối sinh viên hay gặp, khoét sâu vào sự mệt mỏi/cô đơn đó, rồi tung ra 'Siro Trịnh Văn Bô' như một vị cứu tinh giải quyết triệt để.",
+                emotionalArc: "Khởi đầu bằng sự Bế tắc/Đồng cảm cực mạnh ➜ Căng thẳng/Ngần ngại ➜ Vỡ òa nhẹ nhõm và An tâm. Tác động khiến người xem cảm thấy trường học giống như một gia đình có người bảo vệ.",
+                scenes: [
+                    {
+                        title: "1 (Problem - Vấn đề)",
+                        aroll: "Đi học xa nhà, sợ nhất là những lúc loay hoay với mớ thủ tục giấy tờ, hoặc những ngày áp lực deadline tụt cả mood.",
+                        broll: "1 bạn sinh viên ngồi ôm đầu ở ghế hành lang, hoặc cầm một xấp giấy tờ với vẻ mặt bối rối.",
+                        shot: "Cận cảnh (CU) khuôn mặt • Chếch từ trên xuống",
+                        logic: "Đánh trúng tâm lý sinh viên. Góc cao nhấn mạnh sự bế tắc, nhỏ bé."
+                    },
+                    {
+                        title: "2 (Agitate - Khoét sâu)",
+                        aroll: "Nhiều lúc muốn tìm người hỗ trợ nhưng lại e ngại phòng hành chính cứng nhắc, hỏi không ai đáp.",
+                        broll: "Cảnh đôi chân bước đi ngập ngừng dọc hành lang tầng 2.",
+                        shot: "Đặc tả (ECU) bước chân • Đặt sát mặt sàn",
+                        logic: "Bước chân ngập ngừng thể hiện do dự. Nhịp điệu chậm để tăng căng thẳng."
+                    },
+                    {
+                        title: "3 (Solve - Giải pháp)",
+                        aroll: "Nhưng ở FAI One Nest, mọi thứ hoàn toàn khác. Gặp ngay 'Siro Trịnh Văn Bô' - phòng Dịch vụ Sinh viên ngọt ngào nhất hệ mặt trời.",
+                        broll: "Biển tên phòng ban CTSV, cảnh mở cửa bước vào phòng, không gian sáng sủa.",
+                        shot: "Cận cảnh biển tên -> Cảnh toàn phòng • Ngang tầm mắt",
+                        logic: "Đưa ra 'vị cứu tinh'. Ánh sáng phòng bừng sáng đại diện cho lối thoát."
+                    },
+                    {
+                        title: "4 (Solve - Giải pháp)",
+                        aroll: "Các anh chị cán bộ ở đây hỗ trợ thủ tục siêu mượt, lại còn cực kỳ tâm lý. Cần tư vấn định hướng hay tâm sự mỏng, ghé ngay tầng 2 nhé!",
+                        broll: "Cảnh sinh viên nhận lại giấy tờ từ cán bộ CTSV, hai bên cười tươi rạng rỡ đập tay nhau.",
+                        shot: "Trung cảnh (MS) • Cố định máy",
+                        logic: "Minh chứng cho sự thân thiện. Khung hình cân đối tạo cảm giác an tâm."
+                    }
+                ]
+            },
+            {
+                id: "kb3",
+                name: "Kịch bản 3: The FACE Lab (HSO)",
+                desc: "Review phòng thực hành/góc sáng tạo mang phong cách Vlog.",
+                formulaDesc: "HSO (Hook - Story - Offer): Công thức kể chuyện nhân hiệu. Dùng lời dẫn ngược đời làm mồi câu (Hook), kể trải nghiệm chân thực của bản thân để xây dựng lòng tin (Story), và chào mời tương tác một cách tự nhiên (Offer).",
+                emotionalArc: "Bắt đầu với sự Tò mò/Bị thu hút ➜ Cuốn vào câu chuyện đầy Cảm hứng và Thích thú ➜ Thôi thúc muốn tương tác (Comment/Inbox). Tác động tạo ra sự kết nối sâu sắc, gần gũi như bạn bè.",
+                scenes: [
+                    {
+                        title: "1 (Hook - Thu hút)",
+                        aroll: "Nếu mình nói đây là một lớp học, chắc nhiều bạn sẽ tưởng mình đang đi xem triển lãm nghệ thuật!",
+                        broll: "Không gian The FACE Lab hoặc khu vực decor ánh sáng Mapping cực ảo tại tầng 2 FAI.",
+                        shot: "Toàn cảnh (WS) • Máy hất nhẹ từ dưới lên",
+                        logic: "Phá vỡ định kiến lớp học. Góc hất lên làm không gian trông nghệ thuật."
+                    },
+                    {
+                        title: "2 (Story - Kể chuyện)",
+                        aroll: "Lần đầu tiên bước chân lên tầng 2 này, mình bị choáng ngợp. Bọn mình được thả mình vào một không gian đậm chất studio chuyên nghiệp.",
+                        broll: "Một máy quay hoặc điện thoại đang setup đèn sáng, hậu cảnh là thiết kế của phòng Lab.",
+                        shot: "Cận cảnh (CU) thiết bị • Nghiêng 45 độ, xóa phông",
+                        logic: "Giới thiệu môi trường chuyên ngành. Tập trung ánh nhìn vào thiết bị."
+                    },
+                    {
+                        title: "3 (Story - Kể chuyện)",
+                        aroll: "Chính những góc decor phá cách, ánh sáng đỉnh cao ở đây đã thắp sáng ý tưởng cho những dự án thực tế của chúng mình.",
+                        broll: "Các bạn sinh viên đang đứng thực hành quay/chụp cho nhau hoặc đang xem lại source quay.",
+                        shot: "Trung cận (MCU) • Quay chéo (Dutch angle)",
+                        logic: "Góc máy hơi nghiêng tạo cảm giác sáng tạo, năng động, không rập khuôn."
+                    },
+                    {
+                        title: "4 (Offer - Kêu gọi)",
+                        aroll: "Môi trường xịn xò tạo nên tư duy khác biệt. Bạn thích góc nào nhất tại FAI One Nest? Comment ngay bên dưới video nhé!",
+                        broll: "(Không dùng B-roll) A-roll người nói tươi tắn, tay cầm điện thoại hoặc đồ nghề quay phim chào kết.",
+                        shot: "Trung cảnh (MS) • Trực diện",
+                        logic: "Kết thúc mở để tăng tương tác Comment."
+                    }
+                ]
+            },
+            {
+                id: "kb4",
+                name: "Kịch bản 4: Sự khác biệt (BAB)",
+                desc: "So sánh trường học truyền thống vs Không gian sáng tạo tại FAI.",
+                formulaDesc: "BAB (Before - After - Bridge): Phép so sánh 'Vịt hóa thiên nga'. Nhấn mạnh tình trạng tồi tệ của mô hình cũ, phơi bày bức tranh hoàn hảo của hiện tại, và 'cây cầu' đưa bạn từ cũ sang mới chính là FAI One Nest.",
+                emotionalArc: "Ngột ngạt/Chán nản (quá khứ) ➜ Bừng tỉnh/Ngạc nhiên (hiện tại) ➜ Khao khát mãnh liệt muốn vứt bỏ cái cũ để gia nhập cái mới. Tác động bẻ gãy sự trì hoãn của khách hàng.",
+                scenes: [
+                    {
+                        title: "1 (Before - Trước kia)",
+                        aroll: "Nghĩ đến đi học, bạn nghĩ ngay đến những dãy bàn ghế thẳng tắp, không khí ngột ngạt và buồn ngủ đúng không?",
+                        broll: "Hình ảnh một bạn sinh viên ngồi ngáp ngắn ngáp dài, chống cằm chán nản ở một góc cầu thang hoặc hành lang trống.",
+                        shot: "Cận cảnh (CU) biểu cảm • Chếch từ trên xuống",
+                        logic: "Tạo sự đồng cảm với nỗi đau đi học truyền thống. Năng lượng thấp."
+                    },
+                    {
+                        title: "2 (After - Sau khi)",
+                        aroll: "Nhưng nhìn xem, đây là cách sinh viên FAI đi học mỗi ngày: Vừa code, vừa design, vừa chill trong một không gian đậm chất nghệ thuật.",
+                        broll: "Khu vực sinh hoạt chung tầng 2, sinh viên đang gõ phím mượt mà, cười đùa thảo luận dự án.",
+                        shot: "Toàn cảnh hẹp • Lia máy nhanh ngang",
+                        logic: "Tương phản mạnh. Nhịp độ nhanh, vui tươi, năng lượng cao."
+                    },
+                    {
+                        title: "3 (Bridge - Cầu nối)",
+                        aroll: "Bí mật làm nên sự khác biệt này nằm ở FAI One Nest - Tầng 2 Trịnh Văn Bô. Nơi thiết kế không gian mở phá vỡ mọi giới hạn.",
+                        broll: "Bảng hiệu hoặc logo FAI One Nest trên tường, ánh sáng đèn hắt nổi bật.",
+                        shot: "Cận cảnh (CU) • Máy hất từ dưới lên chậm",
+                        logic: "Cầu nối giải thích sự thay đổi. Tôn vinh thương hiệu FAI."
+                    },
+                    {
+                        title: "4 (Action - Hành động)",
+                        aroll: "Muốn đi học mà như đi làm tại tập đoàn công nghệ? Ghé ngay FAI One Nest để trải nghiệm nhé!",
+                        broll: "Trở lại A-roll, nhân vật chính khoanh tay mỉm cười tự tin tại sảnh chính.",
+                        shot: "Trung cận (MCU) • Trực diện, ngang mắt",
+                        logic: "Hình ảnh đĩnh đạc chốt thông điệp."
+                    }
+                ]
+            },
+            {
+                id: "kb5",
+                name: "Kịch bản 5: Góc Ban Công Chill (FAB)",
+                desc: "Review không gian ban công xanh mát, nơi lý tưởng để ôm laptop chạy deadline và thư giãn.",
+                formulaDesc: "FAB (Features - Advantages - Benefits): Công thức bán 'giá trị vô hình'. Đưa ra đặc điểm vật lý của ban công (Feature) -> Việc ngồi học tại đó dễ dàng thế nào (Advantage) -> Cảm giác xả stress, thăng hoa ý tưởng mang lại (Benefit).",
+                emotionalArc: "Tiếp cận khách quan ➜ Bị thuyết phục bởi logic và sự tiện lợi ➜ Thỏa mãn, thư thái và ao ước được ngồi ở vị trí đó. Tác động khiến người xem tự vẽ ra viễn cảnh của chính họ tại trường.",
+                scenes: [
+                    {
+                        title: "1 (Hook - Dẫn nhập)",
+                        aroll: "Đến trường học mà lại ngỡ đang ở một quán cafe chill chill giữa lòng Hà Nội? Không tin à, xem ngay góc này nhé!",
+                        broll: "Bước từ hành lang ra khu vực ban công xanh mát, ánh sáng tự nhiên ngập tràn.",
+                        shot: "Toàn cảnh (WS) • POV tiến ra ngoài",
+                        logic: "Thay đổi không khí, tạo sự bất ngờ (trường học có góc ban công cực xịn)."
+                    },
+                    {
+                        title: "2 (Features - Tính năng)",
+                        aroll: "Đặc sản của FAI One Nest không chỉ là phòng học, mà là khu ban công view phố xá, ngập tràn cây xanh và có sẵn bàn làm việc để chạy deadline.",
+                        broll: "Quay lướt qua những chậu cây xanh, dãy bàn gỗ hướng ra ngoài đường Trịnh Văn Bô, ánh nắng hắt nhẹ.",
+                        shot: "Trung cảnh (MS) • Lia máy ngang (Panning) chậm",
+                        logic: "Đưa ra điểm nhấn không gian. Cú máy chậm để cảm nhận sự thư thái."
+                    },
+                    {
+                        title: "3 (Advantages - Ưu thế)",
+                        aroll: "Góc này sinh ra để anh em vác laptop ra đổi gió. Bí ý tưởng code hay thiết kế? Ra đây hít thở không khí tự nhiên là não lại 'nảy số' ầm ầm.",
+                        broll: "Tay một bạn sinh viên đang gõ laptop trên bàn ban công, bên cạnh là ly nước, phong thái rất tập trung nhưng thư giãn.",
+                        shot: "Cận cảnh (CU) hoặc Qua vai (OTS)",
+                        logic: "Thể hiện tính ứng dụng (ngồi học được luôn). Góc máy lấy được màn hình laptop và một phần view phố."
+                    },
+                    {
+                        title: "4 (Benefits - Lợi ích)",
+                        aroll: "Học tập không gò bó, chạy deadline mà vẫn cân bằng được tâm trạng. Góc ban công này đã đủ lý do để bạn gia nhập FAI chưa?",
+                        broll: "Một bạn sinh viên vươn vai thư giãn, mỉm cười nhìn ra đường phố.",
+                        shot: "Trung cận (MCU) • Ngang tầm mắt",
+                        logic: "Đánh vào cảm xúc (giảm stress, cân bằng). Nụ cười tạo năng lượng tích cực."
+                    }
+                ]
+            },
+            {
+                id: "kb6",
+                name: "Kịch bản 6: Short/Reels nhanh (4C)",
+                desc: "Nhịp độ dồn dập, liệt kê thông tin nhanh, gãy gọn.",
+                formulaDesc: "4C (Clear - Concise - Compelling - Credible): Sát thủ video ngắn. Thông điệp Rõ ràng - Hình ảnh Ngắn gọn sắc bén - Lập luận Thuyết phục - Chốt bằng Bằng chứng Đáng tin cậy. Đánh nhanh thắng nhanh.",
+                emotionalArc: "Bị thu hút ngay lập tức ➜ Cuốn theo nhịp điệu dồn dập không kịp lướt đi ➜ Chốt lại bằng sự Tin tưởng tuyệt đối (nhờ bằng chứng đám đông). Tác động tối đa hóa tỷ lệ giữ chân (Retention Rate).",
+                scenes: [
+                    {
+                        title: "1 (Clear - Rõ ràng)",
+                        aroll: "Đang tìm một môi trường học thực chiến đỉnh nhất Hà Nội? Lên ngay Tầng 2 FAI Trịnh Văn Bô.",
+                        broll: "Khung cảnh sảnh thang máy hoặc bậc thang đi lên tầng 2 có logo FPT/FAI.",
+                        shot: "Toàn cảnh (WS) • Theo chân nhân vật",
+                        logic: "Đi thẳng vào vấn đề không vòng vo."
+                    },
+                    {
+                        title: "2 (Concise - Ngắn gọn)",
+                        aroll: "Ba điểm cộng lớn nhất: Không gian xịn như quán cafe, máy móc chuẩn doanh nghiệp, và góc nào cũng có thể sống ảo.",
+                        broll: "Ghép 3 cảnh quay nhanh (jump cut): 1 góc uống nước -> 1 dãy máy tính -> 1 bức tường check-in.",
+                        shot: "Trung cảnh (MS) • Cố định máy thay bối cảnh",
+                        logic: "Hiệu ứng thị giác dồn dập. Chia nhỏ cảnh quay B-roll."
+                    },
+                    {
+                        title: "3 (Compelling - Thuyết phục)",
+                        aroll: "Học ở đây, bạn không chỉ nhồi nhét lý thuyết, mà được đắm chìm trong văn hóa sáng tạo và làm dự án thật.",
+                        broll: "Sinh viên đang đứng thuyết trình đồ án trước nhóm bạn, cử chỉ tay dứt khoát.",
+                        shot: "Trung cận (MCU) • Tiền cảnh làm mờ",
+                        logic: "Đánh vào khao khát thực học. Tiền cảnh mờ tạo chiều sâu."
+                    },
+                    {
+                        title: "4 (Credible - Tin cậy)",
+                        aroll: "Hàng ngàn sinh viên FPT Arena, Aptech đã chứng minh điều đó. Giờ đến lượt bạn.",
+                        broll: "Cảnh nhóm sinh viên khoác vai nhau cười tươi tại sảnh.",
+                        shot: "Toàn cảnh hẹp • Trực diện",
+                        logic: "Dùng đám đông (Social Proof) tăng độ tin cậy."
+                    }
+                ]
+            },
+            {
+                id: "kb7",
+                name: "Kịch bản 7: Giải đáp (QAS)",
+                desc: "Giải quyết thắc mắc/lời đồn, phong cách chân thực, gần gũi.",
+                formulaDesc: "QAS (Question - Answer - Suggestion): Dạng Q&A đập tan hoài nghi. Đặt ra một câu hỏi/lời đồn thị phi, dùng hình ảnh thực tế làm câu trả lời giải oan, và đưa ra lời thách thức/đề xuất tự trải nghiệm.",
+                emotionalArc: "Hoài nghi/Đề phòng ➜ Sáng tỏ/Bất ngờ khi thấy sự thật ➜ Đồng tình và Gần gũi. Tác động dỡ bỏ hoàn toàn rào cản phòng vệ của khách hàng, biến họ từ nghi ngờ sang ủng hộ.",
+                scenes: [
+                    {
+                        title: "1 (Question - Câu hỏi)",
+                        aroll: "Nhiều bạn hỏi mình: Học ở FAI One Nest có thực sự 'chất' như trên mạng đồn thổi, hay chỉ là phông bạt?",
+                        broll: "Cầm điện thoại lướt mạng xã hội thấy ảnh trường, vẻ mặt nghi ngờ.",
+                        shot: "Qua vai (OTS) nhìn màn hình • Hơi cao chếch xuống",
+                        logic: "Đặt ra mâu thuẫn/hoài nghi để giữ chân người xem."
+                    },
+                    {
+                        title: "2 (Answer - Trả lời)",
+                        aroll: "Sự thật là... nó còn hơn cả lời đồn. Bước lên tầng 2, không có cảnh thầy đọc trò chép...",
+                        broll: "Cảnh hành lang tầng 2 rộng rãi, sinh viên tự do thảo luận, không gò bó.",
+                        shot: "Toàn cảnh (WS) • Lia máy (Panning) chậm",
+                        logic: "Chứng minh không gian mở, không lớp học kín mít."
+                    },
+                    {
+                        title: "3 (Answer - Trả lời)",
+                        aroll: "...Mà là cảnh chạy deadline thực tế, đồ án vây quanh nhưng năng lượng cực kỳ tích cực và bùng nổ.",
+                        broll: "Bàn làm việc bừa bộn giấy tờ/laptop nhưng sinh viên vẫn cười tươi hi-five với nhau.",
+                        shot: "Cận cảnh (CU) bản vẽ -> Tilt up thấy nụ cười",
+                        logic: "Học thực tế vất vả nhưng vui. Cú máy Tilt-up mang ý nghĩa vươn lên."
+                    },
+                    {
+                        title: "4 (Suggestion - Đề xuất)",
+                        aroll: "Trăm nghe không bằng một thấy. Xách balo lên Tầng 2 số 13 Trịnh Văn Bô và tự mình kiểm chứng nhé!",
+                        broll: "A-roll nhân vật chính đeo balo vào, đưa tay vẫy chào và bước đi về phía hành lang trường.",
+                        shot: "Toàn cảnh (WS) • Máy tĩnh, nhân vật đi xa dần",
+                        logic: "Kêu gọi hành động chân thực. Kết thúc tự nhiên, điện ảnh."
+                    }
+                ]
+            }
+        ];
+
+        // --- APP LOGIC ---
+        let currentScriptId = "kb1";
+
+        function initApp() {
+            lucide.createIcons();
+            
+            // Populate selector
+            const selector = document.getElementById('script-selector');
+            scriptsData.forEach(script => {
+                const option = document.createElement('option');
+                option.value = script.id;
+                option.textContent = script.name;
+                selector.appendChild(option);
+            });
+
+            renderScript();
+        }
+
+        function switchTab(tabId) {
+            document.getElementById('view-scripts').classList.add('hidden');
+            document.getElementById('view-guide').classList.add('hidden');
+            
+            document.getElementById('tab-scripts').classList.remove('tab-active', 'text-slate-500');
+            document.getElementById('tab-scripts').classList.add('text-slate-500');
+            document.getElementById('tab-guide').classList.remove('tab-active', 'text-slate-500');
+            document.getElementById('tab-guide').classList.add('text-slate-500');
+
+            document.getElementById(`view-${tabId}`).classList.remove('hidden');
+            document.getElementById(`tab-${tabId}`).classList.add('tab-active');
+            document.getElementById(`tab-${tabId}`).classList.remove('text-slate-500');
+        }
+
+        function renderScript() {
+            currentScriptId = document.getElementById('script-selector').value;
+            const script = scriptsData.find(s => s.id === currentScriptId);
+            
+            // Render Info with Formula and Emotion blocks
+            document.getElementById('script-info').innerHTML = `
+                <div class="space-y-3 mb-4 mt-2">
+                    <p class="text-sm text-slate-600 bg-white p-3 rounded-xl border border-slate-200 shadow-sm flex items-start gap-2">
+                        <i data-lucide="info" class="w-4 h-4 text-slate-500 mt-0.5 shrink-0"></i>
+                        ${script.desc}
+                    </p>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                        <!-- Khối Ý đồ Công thức -->
+                        <div class="bg-blue-50/80 p-3 rounded-xl border border-blue-100 shadow-sm">
+                            <h4 class="text-[11px] font-bold text-blue-700 uppercase tracking-wider flex items-center gap-1.5 mb-1.5">
+                                <i data-lucide="microscope" class="w-3.5 h-3.5"></i> Ý đồ công thức
+                            </h4>
+                            <p class="text-[13px] text-blue-900 leading-relaxed">${script.formulaDesc}</p>
+                        </div>
+                        
+                        <!-- Khối Hành trình Cảm xúc -->
+                        <div class="bg-rose-50/80 p-3 rounded-xl border border-rose-100 shadow-sm">
+                            <h4 class="text-[11px] font-bold text-rose-700 uppercase tracking-wider flex items-center gap-1.5 mb-1.5">
+                                <i data-lucide="heart-pulse" class="w-3.5 h-3.5"></i> Hành trình cảm xúc
+                            </h4>
+                            <p class="text-[13px] text-rose-900 leading-relaxed">${script.emotionalArc}</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // Render Scenes
+            const container = document.getElementById('scenes-container');
+            container.innerHTML = '';
+
+            script.scenes.forEach((scene, index) => {
+                const sceneId = `${currentScriptId}-scene-${index}`;
+                
+                const card = document.createElement('div');
+                card.className = "bg-white p-4 rounded-xl shadow-sm border border-slate-200 transition-colors duration-200";
+                card.id = `card-${sceneId}`;
+                
+                card.innerHTML = `
+                    <div class="flex items-start gap-3">
+                        <button onclick="toggleDone('${sceneId}')" class="shrink-0 mt-1 focus:outline-none">
+                            <div id="check-${sceneId}" class="w-6 h-6 rounded-md border-2 border-slate-300 flex items-center justify-center bg-white transition-colors">
+                                <i data-lucide="check" class="w-4 h-4 text-white opacity-0 transition-opacity"></i>
+                            </div>
+                        </button>
+                        <div class="flex-1 space-y-3">
+                            <h3 class="font-bold text-slate-800 text-sm border-b pb-1">Cảnh ${scene.title}</h3>
+                            
+                            <!-- A-Roll -->
+                            <div class="bg-blue-50/50 p-3 rounded-lg border border-blue-100">
+                                <div class="flex items-center gap-1.5 mb-1.5">
+                                    <i data-lucide="mic" class="w-4 h-4 text-blue-600"></i>
+                                    <span class="text-xs font-bold uppercase tracking-wider text-blue-800">Nói (A-Roll)</span>
+                                </div>
+                                <p id="text-${sceneId}" class="text-[15px] leading-relaxed text-slate-800 a-roll-text font-medium">${scene.aroll}</p>
+                            </div>
+
+                            <!-- B-Roll -->
+                            <div class="bg-orange-50/50 p-3 rounded-lg border border-orange-100">
+                                <div class="flex items-center gap-1.5 mb-1.5">
+                                    <i data-lucide="camera" class="w-4 h-4 text-orange-600"></i>
+                                    <span class="text-xs font-bold uppercase tracking-wider text-orange-800">Quay trám (B-Roll)</span>
+                                </div>
+                                <p class="text-sm text-slate-700 mb-2">${scene.broll}</p>
+                                
+                                <div class="flex flex-wrap gap-2 mt-2">
+                                    <span class="inline-flex items-center gap-1 bg-slate-100 px-2 py-1 rounded text-[11px] font-semibold text-slate-600">
+                                        <i data-lucide="focus" class="w-3 h-3"></i> ${scene.shot}
+                                    </span>
+                                </div>
+                            </div>
+                            
+                            <!-- Logic -->
+                            <p class="text-[12px] text-slate-500 flex items-start gap-1.5 italic">
+                                <i data-lucide="lightbulb" class="w-3.5 h-3.5 mt-0.5 shrink-0 text-yellow-500"></i>
+                                ${scene.logic}
+                            </p>
+                        </div>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+            lucide.createIcons();
+        }
+
+        function toggleDone(sceneId) {
+            const checkDiv = document.getElementById(`check-${sceneId}`);
+            const checkIcon = checkDiv.querySelector('i');
+            const card = document.getElementById(`card-${sceneId}`);
+
+            if (checkDiv.classList.contains('bg-green-500')) {
+                // Undo
+                checkDiv.classList.remove('bg-green-500', 'border-green-500');
+                checkDiv.classList.add('bg-white', 'border-slate-300');
+                checkIcon.classList.remove('opacity-100');
+                checkIcon.classList.add('opacity-0');
+                card.classList.remove('scene-done');
+            } else {
+                // Done
+                checkDiv.classList.remove('bg-white', 'border-slate-300');
+                checkDiv.classList.add('bg-green-500', 'border-green-500');
+                checkIcon.classList.remove('opacity-0');
+                checkIcon.classList.add('opacity-100');
+                card.classList.add('scene-done');
+            }
+        }
+
+        function toggleTeleprompter() {
+            const modal = document.getElementById('teleprompter-modal');
+            const content = document.getElementById('teleprompter-content');
+            
+            if (modal.classList.contains('hidden')) {
+                // Open and populate
+                const script = scriptsData.find(s => s.id === currentScriptId);
+                content.innerHTML = script.scenes.map((scene, index) => `
+                    <div class="mb-8">
+                        <span class="text-orange-500 font-bold text-sm tracking-widest uppercase mb-2 block">Cảnh ${index + 1}</span>
+                        <p class="text-2xl md:text-4xl text-white font-medium leading-normal md:leading-snug">${scene.aroll}</p>
+                    </div>
+                `).join('');
+                
+                modal.classList.remove('hidden');
+                modal.classList.add('flex', 'modal-enter');
+                lucide.createIcons();
+            } else {
+                // Close
+                modal.classList.add('hidden');
+                modal.classList.remove('flex', 'modal-enter');
+            }
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', initApp);
+    </script>
+</body>
+</html>
