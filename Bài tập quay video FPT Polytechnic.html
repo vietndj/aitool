@@ -83,6 +83,16 @@
         .art-12::before { width: 80px; height: 120px; border-radius: 40px; border: 3px solid rgba(255,255,255,0.2); top: 20px; left: 30px; }
         .art-12::after { width: 60px; height: 100px; border-radius: 30px; background: rgba(255,255,255,0.1); top: 30px; left: 40px; backdrop-filter: blur(5px); }
 
+        /* 13. Chung cư mini bình dân */
+        .art-13 { background: linear-gradient(135deg, #a21caf, #db2777); }
+        .art-13::before { width: 40px; height: 100px; background: rgba(255,255,255,0.2); top: 10px; left: 30px; border-radius: 5px; box-shadow: 60px 20px 0 rgba(255,255,255,0.15); }
+        .art-13::after { width: 100%; height: 3px; background: #22d3ee; bottom: 20px; left: 0; box-shadow: 0 0 10px #22d3ee; transform: rotate(-2deg); }
+
+        /* 14. Nhà mặt đất ngõ hẻm */
+        .art-14 { background: linear-gradient(to right, #78350f, #9a3412); }
+        .art-14::before { width: 100%; height: 100%; background-image: repeating-linear-gradient(0deg, transparent, transparent 19px, rgba(255,255,255,0.1) 20px), repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(255,255,255,0.1) 40px); opacity: 0.5; }
+        .art-14::after { width: 50px; height: 50px; background: #fb923c; border-radius: 5px; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(15deg); }
+
         @keyframes pulse { 0% { opacity: 1; transform: scale(1); } 50% { opacity: 0.5; transform: scale(1.1); } 100% { opacity: 1; transform: scale(1); } }
 
         /* Smooth accordion transition */
@@ -246,7 +256,29 @@
                     { aroll: "Sở hữu tầm nhìn panorama tuyệt mỹ, những ô cửa kính Low-E tràn viền giúp cư dân tận hưởng trọn vẹn vẻ đẹp của mây trời.", broll: "Bóng lưng sinh viên đứng nhìn ra cửa sổ kính lớn, bầu trời xanh ngắt.", shot: "Quay từ phía sau lưng, tĩnh và lãng mạn.", logic: "Dùng từ khóa BĐS 'panorama', 'tràn viền' để khoe hệ thống cửa sổ của tòa nhà." },
                     { aroll: "Lấy cảm hứng từ những khu vườn nghệ thuật, không gian sinh hoạt chung được bố trí tinh tế, tối ưu hóa sự kết nối cộng đồng.", broll: "Nhóm sinh viên ngồi đọc sách hoặc trò chuyện ở khu vực ghế đá/sofa.", shot: "Trung cảnh, lấy được sự tương tác tự nhiên, vui vẻ.", logic: "Đề cao thiết kế không gian mở và tính cộng đồng của sinh viên." },
                     { aroll: "Đặc biệt, biểu tượng 'Ong Vàng' án ngữ tại quảng trường trung tâm không chỉ là điểm nhấn nghệ thuật, mà còn là bảo chứng cho sự thịnh vượng.", broll: "Tượng Ong Poly dưới ánh nắng đẹp rực rỡ.", shot: "Quay chậm (Slow-motion) lướt ngang qua tượng.", logic: "Thần thánh hóa linh vật trường thành một công trình biểu tượng phong thủy." },
-                    { aroll: "Chỉ với 0 đồng phí booking, sở hữu ngay tấm thẻ đặc quyền gia nhập hệ sinh thái FPoly. Đăng ký ngay số lượng có hạn!", broll: "(Quay mặt MC) MC cầm thẻ sinh viên FPoly giơ lên ngang ngực, tự tin mỉm cười.", shot: "Cận cảnh, lấy nét vào thẻ sinh viên, xóa phông nhẹ.", logic: "Chốt hạ bằng thuật ngữ 'booking', 'hệ sinh thái', 'đặc quyền'." }
+                    { aroll: "Chỉ với 0 đồng phí booking, sở hữu ngay tấm thẻ đặc quyền gia nhập hệ sinh thái FPoly. Đăng ký ngay số lượng có hạn!", broll: "(Quay mặt MC) MC cầm thẻ sinh viên FPoly giơ lên ngang ngực, tự tự mỉm cười.", shot: "Cận cảnh, lấy nét vào thẻ sinh viên, xóa phông nhẹ.", logic: "Chốt hạ bằng thuật ngữ 'booking', 'hệ sinh thái', 'đặc quyền'." }
+                ]
+            },
+            {
+                id: 13, title: "Review Chung Cư Mini 'Full Đồ'", style: "art-13", vibe: "TikTok bình dân, Nhanh nhẹn",
+                desc: "Đóng vai môi giới dẫn khách xem lớp học/phòng thực hành như xem chung cư mini cho thuê. Nhấn mạnh vào 'full đồ', 'xách vali vào ở'.",
+                scenes: [
+                    { aroll: "Tài chính bằng đúng ly trà sữa mỗi ngày, có ngay chung cư mini full đồ trung tâm Nam Từ Liêm? Đi xem với em nhé!", broll: "POV bước qua cổng trường, quẹt thẻ sinh viên hoặc lướt qua sảnh.", shot: "Cầm tay (Handheld) bước đi thật nhanh (Tracking).", logic: "Hook đánh thẳng vào tài chính rẻ, kích thích sự tò mò của hệ người chơi Tiktok." },
+                    { aroll: "Khu vực an ninh tuyệt đối, có nguyên chú Ong Vàng bự chảng gác cổng 24/24. Chỗ để xe dưới sảnh siêu rộng bao la.", broll: "Lia máy qua bãi để xe của trường, lướt qua tượng Ong.", shot: "Toàn cảnh, Panning nhanh để giữ nhịp độ dồn dập.", logic: "Review các tiện ích cơ bản nhất khi đi thuê trọ (xe cộ, bảo vệ)." },
+                    { aroll: "Phòng ốc full nội thất anh em ơi! Bàn ghế mới đét, điều hòa 2 chiều mát lạnh sun vòi. Đúng nghĩa xách balo... à xách vali vào ở luôn!", broll: "Đặc tả dãy bàn học phẳng lì, lướt lên cửa gió điều hòa đang thổi.", shot: "Tilt up (Hất từ dưới lên) hoặc Cận cảnh đồ đạc.", logic: "Chuyển đổi công năng của thiết bị lớp học thành đồ đạc 'cho thuê'." },
+                    { aroll: "View cửa sổ tầng cao nhìn ra toàn thành phố cực chill. Điện nước, wifi giá dân... à wifi trường thì free tốc độ cao luôn nha!", broll: "Sinh viên đứng ở cửa sổ bấm điện thoại nhìn ra ngoài.", shot: "Trung cảnh nhìn qua vai (Over the shoulder) thấy cả cảnh bên ngoài.", logic: "Khoe view sống ảo - yếu tố chốt sale quen thuộc của các chung cư mini hiện nay." },
+                    { aroll: "Phòng đẹp giá hời, chủ nhà (thầy hiệu trưởng) đang rất dễ tính. Anh em chốt đơn nhập học ngay kẻo lỡ!", broll: "(Quay mặt MC) Cầm quyển giáo trình/hợp đồng đập đập vào tay.", shot: "Bán thân. Đứng tĩnh chỉ tay thẳng vào ống kính.", logic: "Phong thái chốt sale vồn vã, đùa nhây." }
+                ]
+            },
+            {
+                id: 14, title: "Xem 'Nhà Mặt Đất' Ngõ Ba Gác", style: "art-14", vibe: "Cò đất chân chất, Hài hước",
+                desc: "Review khuôn viên trường mà dùng toàn từ ngữ bán nhà hẻm (lô góc, thông sàn, dân trí cao, ngõ ba gác quay đầu).",
+                scenes: [
+                    { aroll: "Chào anh em, hôm nay em dẫn mọi người đi xem một căn lô góc, ngõ ba gác quay đầu ngay tại tổ dân phố 13 Trịnh Văn Bô.", broll: "Đi bộ từ cổng vào sân trường, luồn lách qua vài đám đông sinh viên.", shot: "Góc máy ngang hông, bước đi tự nhiên.", logic: "Mở đầu đậm chất cò đất nhà thổ cư Hà Nội, tạo độ 'phèn' nhưng hài hước." },
+                    { aroll: "Khu này dân trí cực cao, hàng xóm toàn tinh hoa IT với Thiết kế đồ họa. Bước chân ra ngõ là Canteen ngập tràn đồ ăn.", broll: "Sinh viên đang đi lại nhộn nhịp, lướt qua khu vực Canteen mua bán sầm uất.", shot: "Toàn cảnh ngang để thấy rõ sự đông đúc, nhộn nhịp.", logic: "Khoe khéo không khí năng động và tiện ích ăn uống nội khu." },
+                    { aroll: "Nhà thiết kế thông sàn hiện đại, cầu thang ziczac đón ánh sáng tự nhiên. Mặt tiền full kính cường lực bao cách âm.", broll: "Nhìn từ sảnh tầng 1 lên các tầng trên, khoe các ô kính và cầu thang chéo.", shot: "Góc thấp hất lên tôn không gian rộng và chiều cao tòa nhà.", logic: "Miêu tả kiến trúc hiện đại của tòa nhà FPoly bằng thuật ngữ xây dựng dân dụng." },
+                    { aroll: "Đặc biệt nhà có hẳn sân tập thể thao ngay trong khuôn viên. Vượng khí cực tốt cho anh em chạy deadline.", broll: "Cảnh sân tập Vovinam xanh mướt, rộng rãi.", shot: "Lia máy (Pan) chậm để lấy toàn cảnh sân.", logic: "Tận dụng mọi cơ sở vật chất để biến thành 'tiện ích nhà ở'." },
+                    { aroll: "Pháp lý rõ ràng, sổ hồng (bằng tốt nghiệp) cầm tay sau 2 năm 4 tháng. Anh em inbox em dẫn đi xem nhà thực tế luôn và ngay!", broll: "(Quay mặt MC) Cầm cuốn sổ tay hoặc điện thoại giơ lên đầy vẻ uy tín.", shot: "Cận mặt, cười tươi rạng rỡ.", logic: "Khẳng định uy tín, thời gian đào tạo ngắn của trường qua từ lóng pháp lý BĐS." }
                 ]
             }
         ];
