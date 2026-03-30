@@ -73,6 +73,16 @@
         .art-10::before { width: 50px; height: 80px; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; background: rgba(255,255,255,0.8); top: 20px; right: 40px; transform: rotate(15deg); }
         .art-10::after { width: 30px; height: 50px; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; background: rgba(255,255,255,0.5); top: 40px; left: 50px; transform: rotate(-20deg); }
 
+        /* 11. BĐS Cao Cấp */
+        .art-11 { background: linear-gradient(135deg, #000000, #434343); }
+        .art-11::before { width: 150%; height: 2px; background: linear-gradient(90deg, transparent, #fbbf24, transparent); top: 40px; left: -25%; transform: rotate(15deg); box-shadow: 0 0 10px #fbbf24; }
+        .art-11::after { width: 40px; height: 40px; border: 2px solid #fbbf24; top: 60px; left: 50px; transform: rotate(45deg); box-shadow: inset 0 0 10px rgba(251,191,36,0.5); }
+
+        /* 12. BĐS Nghỉ Dưỡng / Eco */
+        .art-12 { background: linear-gradient(to right, #064e3b, #047857); }
+        .art-12::before { width: 80px; height: 120px; border-radius: 40px; border: 3px solid rgba(255,255,255,0.2); top: 20px; left: 30px; }
+        .art-12::after { width: 60px; height: 100px; border-radius: 30px; background: rgba(255,255,255,0.1); top: 30px; left: 40px; backdrop-filter: blur(5px); }
+
         @keyframes pulse { 0% { opacity: 1; transform: scale(1); } 50% { opacity: 0.5; transform: scale(1.1); } 100% { opacity: 1; transform: scale(1); } }
 
         /* Smooth accordion transition */
@@ -215,6 +225,28 @@
                     { aroll: "Học phí mẹ đóng rồi, nhưng Maker Space đồ nghề xịn quá làm con đam mê... lại phải tốn tiền mua linh kiện.", broll: "Mân mê mô hình 3D, mắt sáng rực trong phòng thực hành.", shot: "Cận cảnh ngang tay cầm đồ vật.", logic: "Hợp lý hóa việc xin tiền tiêu vặt bằng 'đam mê học hành'." },
                     { aroll: "Ăn uống Canteen thì ngon, nhưng học Vovinam tốn calo lắm, con phải ăn x2 mới có sức trụ lại.", broll: "Cầm 2 tay 2 xiên xúc xích cắn ngấu nghiến.", shot: "POV nhìn xuống bàn ăn.", logic: "Viện cớ học võ để biện minh cho việc ăn nhiều." },
                     { aroll: "Nên mẹ ting ting cho con 500k nhé. (Nói với cam) Anh em thấy diễn ok không? Book mình viết kịch bản lừa tiền mẹ nhé!", broll: "(Quay mặt người nói) Thu nét mặt mếu máo, cười ranh ma nháy mắt.", shot: "Cận mặt. Tĩnh.", logic: "Lộ nguyên hình là dân làm content mưu mô." }
+                ]
+            },
+            {
+                id: 11, title: "Siêu Dự Án Chung Cư FPoly Center", style: "art-11", vibe: "Sang trọng, Đẳng cấp BĐS",
+                desc: "Review trường học theo phong cách TVC quảng cáo dự án căn hộ cao cấp. Ngôn từ hoa mỹ, bay bổng, góc máy rộng rãi mượt mà.",
+                scenes: [
+                    { aroll: "Chào mừng quý vị đến với siêu dự án FPoly Center - Tổ hợp không gian học tập và sáng tạo đẳng cấp bậc nhất khu vực Nam Từ Liêm.", broll: "Toàn cảnh sân trường hoặc sảnh chính tòa nhà lộng lẫy.", shot: "Góc siêu rộng từ dưới hất lên. Lia máy chậm rãi (Slow Pan).", logic: "Mở đầu hoành tráng chuẩn TVC BĐS. Khẳng định quy mô dự án." },
+                    { aroll: "Tọa lạc tại vị trí kim cương số 13 Trịnh Văn Bô, dự án sở hữu thiết kế mở, đón trọn ánh sáng tự nhiên và luồng sinh khí thịnh vượng.", broll: "Cảnh hành lang ngập nắng hoặc cầu thang ziczac kiến trúc hiện đại.", shot: "Dolly in (Cầm máy tiến lại gần) thật mượt mà, không rung lắc.", logic: "Khoe kiến trúc và dùng các từ lóng phong thủy của dân sale BĐS." },
+                    { aroll: "Hệ thống tiện ích nội khu chuẩn 5 sao: Từ chuỗi F&B đa dạng tại phân khu Canteen, đến tổ hợp giải trí thể thao đặc quyền Vovinam.", broll: "Ghép nhanh cảnh sinh viên ăn uống vui vẻ và cảnh tập võ năng động.", shot: "Trung cảnh. Nhịp chuyển cảnh (transition) nhanh, khớp với nhạc.", logic: "Nâng tầm các khu vực bình dân (nhà ăn, sân tập) thành 'tiện ích nội khu'." },
+                    { aroll: "Và không thể thiếu phân khu R&D - Maker Space và Studio, nơi ươm mầm những dự án triệu đô của cộng đồng cư dân tinh hoa.", broll: "Cảnh máy in 3D đang chạy hoặc sinh viên set up đèn studio chuyên nghiệp.", shot: "Cận cảnh (Close-up) thiết bị đang hoạt động, ánh sáng tương phản.", logic: "Khẳng định chất lượng 'cư dân' (sinh viên) ưu tú, giỏi giang." },
+                    { aroll: "FPoly Center - Nơi kiến tạo tương lai. Liên hệ hotline hoặc click vào link bên dưới để tham quan nhà mẫu ngay hôm nay!", broll: "(Quay mặt MC) Mặc đồ lịch sự, mỉm cười giang tay chào đón.", shot: "Bán thân. Đặt máy cố định trên Tripod.", logic: "Lời kêu gọi CTA đậm chất chốt sale BĐS lịch sự, chuyên nghiệp." }
+                ]
+            },
+            {
+                id: 12, title: "Tuyệt Tác Nghỉ Dưỡng FPoly Eco", style: "art-12", vibe: "Nghỉ dưỡng, Không gian xanh",
+                desc: "Biến trường học thành dự án Resort/Nghỉ dưỡng 5 sao. Tập trung vào các góc chill, ánh sáng tự nhiên và sự chữa lành.",
+                scenes: [
+                    { aroll: "Giữa nhịp sống hối hả, bạn có muốn tìm về một chốn bình yên, nơi khơi nguồn cảm hứng? Giới thiệu tuyệt tác kiến trúc FPoly Eco.", broll: "Cảnh ngọn cây đu đưa trước tòa nhà kính, hoặc một góc chill ít người.", shot: "Góc thấp xuyên qua tán lá (Tiền cảnh/Foreground).", logic: "Gợi cảm giác chữa lành, nghỉ dưỡng, thoát khỏi áp lực deadline." },
+                    { aroll: "Sở hữu tầm nhìn panorama tuyệt mỹ, những ô cửa kính Low-E tràn viền giúp cư dân tận hưởng trọn vẹn vẻ đẹp của mây trời.", broll: "Bóng lưng sinh viên đứng nhìn ra cửa sổ kính lớn, bầu trời xanh ngắt.", shot: "Quay từ phía sau lưng, tĩnh và lãng mạn.", logic: "Dùng từ khóa BĐS 'panorama', 'tràn viền' để khoe hệ thống cửa sổ của tòa nhà." },
+                    { aroll: "Lấy cảm hứng từ những khu vườn nghệ thuật, không gian sinh hoạt chung được bố trí tinh tế, tối ưu hóa sự kết nối cộng đồng.", broll: "Nhóm sinh viên ngồi đọc sách hoặc trò chuyện ở khu vực ghế đá/sofa.", shot: "Trung cảnh, lấy được sự tương tác tự nhiên, vui vẻ.", logic: "Đề cao thiết kế không gian mở và tính cộng đồng của sinh viên." },
+                    { aroll: "Đặc biệt, biểu tượng 'Ong Vàng' án ngữ tại quảng trường trung tâm không chỉ là điểm nhấn nghệ thuật, mà còn là bảo chứng cho sự thịnh vượng.", broll: "Tượng Ong Poly dưới ánh nắng đẹp rực rỡ.", shot: "Quay chậm (Slow-motion) lướt ngang qua tượng.", logic: "Thần thánh hóa linh vật trường thành một công trình biểu tượng phong thủy." },
+                    { aroll: "Chỉ với 0 đồng phí booking, sở hữu ngay tấm thẻ đặc quyền gia nhập hệ sinh thái FPoly. Đăng ký ngay số lượng có hạn!", broll: "(Quay mặt MC) MC cầm thẻ sinh viên FPoly giơ lên ngang ngực, tự tin mỉm cười.", shot: "Cận cảnh, lấy nét vào thẻ sinh viên, xóa phông nhẹ.", logic: "Chốt hạ bằng thuật ngữ 'booking', 'hệ sinh thái', 'đặc quyền'." }
                 ]
             }
         ];
