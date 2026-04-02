@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dự Án: Ngọn Núi Trong Lòng Thành Phố (JSON Master File)</title>
+    <style>
+        :root {
+            --primary: #1e293b;
+            --secondary: #10b981;
+            --accent: #3b82f6;
+            --bg: #f8fafc;
+            --text: #334155;
+            --json-bg: #0f172a;
+            --json-text: #a7f3d0;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, #312e81 100%);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        .header h1 { margin: 0; font-size: 2.2rem; }
+        .header p { color: #cbd5e1; font-size: 1.1rem; margin-top: 10px; }
+
+        .container {
+            max-width: 1000px;
+            margin: -30px auto 40px;
+            padding: 0 20px;
+        }
+
+        .guideline-box {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            border-left: 5px solid var(--accent);
+        }
+
+        .act-divider {
+            background-color: var(--primary);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 40px 0 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            position: sticky;
+            top: 10px;
+            z-index: 100;
+        }
+
+        .json-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+
+        .json-header {
+            background: #e2e8f0;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #cbd5e1;
+        }
+
+        .json-header h3 { margin: 0; color: var(--primary); font-size: 1.1rem; }
+
+        .copy-btn {
+            background: var(--accent);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+        .copy-btn:hover { background: #2563eb; }
+        .copy-btn.copied { background: var(--secondary); }
+
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            padding: 20px;
+            background: #f1f5f9;
+        }
+
+        .img-placeholder {
+            background: #cbd5e1;
+            border: 2px dashed #94a3b8;
+            height: 120px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #475569;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-align: center;
+            padding: 10px;
+        }
+
+        pre {
+            background: var(--json-bg);
+            color: var(--json-text);
+            margin: 0;
+            padding: 20px;
+            overflow-x: auto;
+            font-family: 'Consolas', 'Courier New', monospace;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .key { color: #93c5fd; }
+        .string { color: #fde047; }
+        .boolean { color: #f472b6; }
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Bộ Master Prompt JSON: Làng Mai Anime</h1>
+        <p>Chuẩn hóa 100% định dạng cho AI Veo 3.1 & Khóa Rắc-co Nhân Vật</p>
+    </div>
+
+    <div class="container">
+
+        <div class="guideline-box">
+            <h3>📌 QUY TẮC ĐẠO DIỄN (SYSTEM CONTEXT)</h3>
+            <ul style="color: #475569;">
+                <li><b>Nhân vật:</b> Nam thanh niên Việt, tóc đen ngắn. <b>Luôn mặc:</b> Áo thun đen, quần tối màu.</li>
+                <li><b>Giày dép:</b> Đi chân trần (Barefoot) khi ở Làng Mai. Đi sneaker xám (Grey sneakers) khi ở phố/sân bay.</li>
+                <li><b>Camera:</b> LUÔN KHÓA (Locked, Static shot) để chống móp nét 2D.</li>
+                <li><b>Âm thanh:</b> SFX chi tiết. <b>NO background music, NO talking.</b></li>
+            </ul>
+        </div>
+
+        <!-- INTRO & ACT 1 -->
+        <div class="act-divider">🎬 HỒI 1: INTRO & SỰ ỒN ÀO (Frame Intro, 1-10)</div>
+        
+        <div class="json-card">
+            <div class="json-header">
+                <h3>Khối JSON Hồi 1</h3>
+                <button class="copy-btn" onclick="copyJSON('json-act1', this)">📋 Copy JSON Hồi 1</button>
+            </div>
+            <div class="image-gallery">
+                <div class="img-placeholder">Ảnh Intro: Mây trời</div>
+                <div class="img-placeholder">F1-2: Máy bay</div>
+                <div class="img-placeholder">F3: Check-in Cổng</div>
+                <div class="img-placeholder">F4-5: ĐT & Nghe nhạc</div>
+                <div class="img-placeholder">F6-9: Sống ảo & Ồn ào</div>
+                <div class="img-placeholder">F10: Đêm cô độc</div>
+            </div>
+            <pre id="json-act1">[
+  {
+    "scene": "Intro",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Khoảng thở đầu phim. Bầu trời mây bao la tĩnh lặng.",
+    "input_image": "Frame_Intro.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style background art. A breathtaking, empty, clear blue sky with giant, fluffy white cumulus clouds. Very subtle lens flare from the bright sun. No characters. 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Empty blue sky with giant cumulus clouds. Background motion: The giant clouds drift incredibly slowly. Camera: Locked, completely static wide shot.",
+    "audio_prompt_en": "Gentle, peaceful, high-altitude wind blowing continuously. NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, face distortion, changing clothes, camera panning, background music."
+  },
+  {
+    "scene": "1",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Háo hức trên máy bay. Áo đen, GIÀY XÁM.",
+    "input_image": "Frame_01.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. The young Vietnamese man with short black hair, wearing a black t-shirt, loose dark-colored pants, and GREY SNEAKERS. He is sitting by the airplane window, smiling eagerly. White clouds outside. Warm sunlight on his face. 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Boy sitting by the airplane window. Character motion: Keep face completely locked and stable, subtle blinking. Background motion: Soft white clouds moving slowly outside. Camera: Locked.",
+    "audio_prompt_en": "Continuous low hum of an airplane cabin. NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, face distortion, changing clothes, camera panning, background music."
+  },
+  {
+    "scene": "2",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Máy bay qua cánh đồng Thái Lan.",
+    "input_image": "Frame_02.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. A commercial airplane flying smoothly over lush green rice paddies and palm trees in Thailand. Epic wide landscape shot. Beautiful daylight, 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Airplane flying over rice paddies. Object motion: The airplane glides forward slowly and steadily. Background motion: Subtle wind making palm trees sway. Camera: Locked, wide shot.",
+    "audio_prompt_en": "Distant sound of a jet engine flying past, gentle wind. NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, erratic plane movement, camera panning, background music."
+  },
+  {
+    "scene": "3",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Check-in cổng Làng Mai. Áo đen, GIÀY XÁM.",
+    "input_image": "Frame_03.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. The young Vietnamese man with short black hair, wearing a black t-shirt, loose dark pants, and GREY SNEAKERS. He is wearing a backpack, standing happily in front of a wooden gate. Lush green trees around. Bright dappled sunlight, 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Young man at gate. Character motion: Keep face locked, subtle idle breathing. Background motion: Green leaves rustling gently. Camera: Locked, static shot.",
+    "audio_prompt_en": "Peaceful nature ambiance, morning birds chirping, footsteps on dirt. NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, face distortion, changing clothes, camera panning, background music."
+  },
+  {
+    "scene": "4",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Vừa đi vừa lướt điện thoại vô tâm. Áo đen, GIÀY XÁM.",
+    "input_image": "Frame_04.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. The young Vietnamese man with short black hair, wearing a black t-shirt, loose dark-colored pants, and GREY SNEAKERS. He is walking briskly on a dirt path, constantly looking down and typing on his smartphone. Blurred background monks walking slowly. 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Man looking at phone walking. Character motion: Keep face locked, thumbs typing extremely subtly. Subtle bobbing motion. Background motion: Monks walking extremely slowly. Camera: Locked.",
+    "audio_prompt_en": "Quick heavy footsteps crunching on gravel, continuous fast phone typing sounds. NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, face distortion, changing clothes, camera panning, background music."
+  },
+  {
+    "scene": "5",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Ngồi gác chân nghe nhạc, tâm lý resort. Áo đen, GIÀY XÁM.",
+    "input_image": "Frame_05.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. The young Vietnamese man with short black hair, wearing a black t-shirt, loose dark pants, and GREY SNEAKERS. He is sitting casually in a park with one leg crossed over the other knee. Wearing earbuds, chill expression. 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Man sitting casually with earbuds. Character motion: Keep face locked. Very subtle head bobbing to the music beat. Background motion: Gentle wind moving tree leaves. Camera: Locked.",
+    "audio_prompt_en": "Extremely faint, tinny upbeat music leaking from earbuds, mixed with quiet rustling leaves. NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, face distortion, changing clothes, camera panning, background music."
+  },
+  {
+    "scene": "6",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Selfie V-sign giữa thiền đường. Áo đen, GIÀY XÁM.",
+    "input_image": "Frame_06.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. The young Vietnamese man (short black hair, black t-shirt, dark pants, GREY SNEAKERS) sitting on a cushion inside a vast wooden meditation hall, taking a wide-angle selfie. Throwing a playful 'Peace' V-sign, smiling broadly. Background laypeople meditating silently. 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Man taking V-sign selfie. Character motion: Keep face perfectly locked, broad smile. Hand holding V-sign completely locked. Background motion: Meditating people remain perfectly still. Camera: Locked POV.",
+    "audio_prompt_en": "Loud camera shutter click, digital upload swoosh sound. Echoing silence in background. NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, face distortion, changing clothes, camera panning, people moving, background music."
+  },
+  {
+    "scene": "7",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Selfie nhóm huyên náo trên sỏi. Áo đen, GIÀY XÁM.",
+    "input_image": "Frame_07.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. A group of young Vietnamese friends taking a cheerful group selfie on a gravel path. Main character (short black hair, black t-shirt, dark pants, GREY SNEAKERS) holds the camera smiling broadly. Friends pose happily behind him. 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Group taking selfie. Character motion: Keep all faces completely locked with bright smiles. Subtle natural swaying of bodies. Background motion: Gentle wind blowing dry grass. Camera: Locked high-angle POV.",
+    "audio_prompt_en": "Harsh crunching sound of multiple footsteps on gravel, subtle clothing rustle. NO background music, NO clear talking.",
+    "negative_prompt_en": "3D, realistic, morphing, face distortion, changing clothes, camera panning, background music."
+  },
+  {
+    "scene": "8",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Team-building chòi lá. Áo đen, GIÀY XÁM.",
+    "input_image": "Frame_08.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. A group of friends sitting inside a bamboo hut. Main character (short black hair, black t-shirt, dark pants, GREY SNEAKERS) laughs enthusiastically. They stack hands together like a cheer. Dense bamboo forest outside. 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Group laughing stacking hands. Character motion: Keep all smiling faces perfectly locked. Extremely subtle downward pressing motion of hands. Background motion: Bamboo stalks sway gently. Camera: Locked.",
+    "audio_prompt_en": "Overlapping muffled energetic group cheer sounds, echoing disruptively in the quiet forest. NO background music.",
+    "negative_prompt_en": "3D, realistic, morphing, face distortion, changing clothes, camera panning, background music."
+  },
+  {
+    "scene": "9",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Selfie chớp nhoáng với Sư cầm bình bát. Áo đen.",
+    "input_image": "Frame_09.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. Main character (short black hair, black t-shirt) playfully thrusting arm forward taking a fast selfie, smiling. Next to him stands a young monk in a brown robe wearing a conical hat, holding two wooden alms bowls with a surprised expression. 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Man taking quick selfie with monk. Character motion: Keep faces perfectly locked. Arm holding phone shakes extremely slightly. Monk holding bowls stands perfectly still. Camera: Locked POV.",
+    "audio_prompt_en": "Instant loud camera shutter click, faint rustle of monk robes. NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, face distortion, changing clothes, camera panning, background music."
+  },
+  {
+    "scene": "10",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Đêm cô độc chòi lá, lướt điện thoại. Áo đen.",
+    "input_image": "Frame_10.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. Silhouette of the young Vietnamese man sitting completely alone inside a bamboo hut AT NIGHT. Wearing black t-shirt. Face illuminated ONLY by cold blue light of smartphone screen. Dark bamboo forest outside. 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Silhouette of man on phone in dark hut. Character motion: Keep body locked, extremely subtle thumb movement swiping on screen. Background motion: Bamboo stalks swaying very slowly in night wind. Camera: Locked.",
+    "audio_prompt_en": "Continuous hollow tapping sounds on glass screen. Lonely cricket chirping loudly. NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, face distortion, changing clothes, camera panning, background music."
+  }
+]</pre>
+        </div>
+
+        <!-- ACT 2 -->
+        <div class="act-divider">🌅 HỒI 2: THỨC TỈNH TỪ THIÊN NHIÊN (Frame 11-16)</div>
+
+        <div class="json-card">
+            <div class="json-header">
+                <h3>Khối JSON Hồi 2</h3>
+                <button class="copy-btn" onclick="copyJSON('json-act2', this)">📋 Copy JSON Hồi 2</button>
+            </div>
+            <div class="image-gallery">
+                <div class="img-placeholder">F11-12: Bình minh</div>
+                <div class="img-placeholder">F13: Đi sau đoàn</div>
+                <div class="img-placeholder">F14: Dẫm lá (Macro)</div>
+                <div class="img-placeholder">F15: Chân trần theo Sư</div>
+                <div class="img-placeholder">F16: Giọt nước mắt</div>
+            </div>
+            <pre id="json-act2">[
+  {
+    "scene": "11",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Bình minh hùng vĩ xua tan bóng tối.",
+    "input_image": "Frame_11.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style background art. A breathtaking epic wide landscape of misty green mountains and a small quiet village at sunrise. Ethereal warm golden hour light piercing through morning fog. 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Misty mountain sunrise. Object motion: Morning mist rolls extremely slowly. Golden sun glows steadily. Camera: Very slow, majestic cinematic push-in (zoom).",
+    "audio_prompt_en": "A deep, incredibly slow toll of a large temple bell (boong...). Complete serenity. NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, camera panning, fast zooming, background music."
+  },
+  {
+    "scene": "12",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Ngỡ ngàng đón nắng. Áo đen.",
+    "input_image": "Frame_12.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. Close-up profile of the young Vietnamese man (short black hair, black t-shirt). He is looking out at the sunrise, expression mesmerized and awakened. Warm golden morning light washes over his face. 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Close-up profile looking at sunrise. Character motion: Keep face completely locked. Extremely subtle slow blinking and soft breathing. Background motion: Golden sunlight brightens subtly. Camera: Locked.",
+    "audio_prompt_en": "Soft calm breathing sound. Distant clear morning birds singing beautifully. NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, face distortion, changing clothes, camera panning, background music."
+  },
+  {
+    "scene": "13",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Lầm lũi đi cuối đoàn. Áo đen, QUẦN TỐI (Không thấy chân).",
+    "input_image": "Frame_13.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. Wide shot from behind showing a group walking incredibly slowly (walking meditation) along a gravel path next to a bamboo grove. Monks lead. At the very back is the young Vietnamese man (black t-shirt, dark pants) walking quietly. Komorebi sunlight, 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Line of people walking mindfully. Character motion: Entire line walks at an extremely slow, synchronized, peaceful pace. Background motion: Bamboo stalks swaying gently. Camera: Locked, static wide shot.",
+    "audio_prompt_en": "Extremely slow, synchronized soft crunching of many footsteps on gravel. NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, changing clothes, fast walking, camera panning, background music."
+  },
+  {
+    "scene": "14",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Chân trần chạm lá khô. CHÂN TRẦN (BAREFOOT).",
+    "input_image": "Frame_14.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. Extreme close-up macro shot of a single bare human foot stepping gently onto a crisp, dry brown leaf on a dirt path. Warm morning lighting, dappled sunbeams falling on the leaf, 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Close-up of bare foot stepping on leaf. Object motion: The foot slowly and softly presses down. Background motion: Tiny dust particles floating slowly in the sunbeam. Camera: Locked.",
+    "audio_prompt_en": "A single, distinct, crisp sound of a dry leaf cracking under a bare foot. Absolute silence before and after. NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, shoes appearing, fast stomping, camera shaking, background music."
+  },
+  {
+    "scene": "15",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Bóng lưng đi chân trần theo Sư. Áo đen, CHÂN TRẦN.",
+    "input_image": "Frame_15.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. Over-the-shoulder shot from behind the young Vietnamese man (black t-shirt, dark pants). He is quietly following a monk in a brown robe along a dirt path through a dense forest. He is walking BAREFOOT. Ethereal golden sunbeams, 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Man following monk barefoot. Character motion: Young man walks very slowly, shoulders relaxed. Background motion: Golden sunbeams glowing, leaves rustling softly. Camera: Very slow forward tracking.",
+    "audio_prompt_en": "Two sets of slow, synchronized bare footsteps softly touching the earth. Profound forest ambiance. NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, changing clothes, wearing shoes, fast walking, camera panning, background music."
+  },
+  {
+    "scene": "16",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Giọt nước mắt vỡ òa. Áo đen.",
+    "input_image": "Frame_16.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. Extreme close-up of the young Vietnamese man's eye and face (black t-shirt), filled with profound emotion. A single tear rolling down his cheek. Intimate warm lighting filtering through leaves, 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Close-up of crying face. Character motion: Keep facial features completely locked. A single beautiful tear slowly wells up and gently rolls down cheek. Subtle blinking. Camera: Locked.",
+    "audio_prompt_en": "Absolute silence. Followed by a very slow, tremulous inhale (a breath of deep emotion). NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, face distortion, changing clothes, camera panning, heavy crying, background music."
+  }
+]</pre>
+        </div>
+
+        <!-- ACT 3 -->
+        <div class="act-divider">🍵 HỒI 3: AN TRÚ (Frame 17-20)</div>
+
+        <div class="json-card">
+            <div class="json-header">
+                <h3>Khối JSON Hồi 3</h3>
+                <button class="copy-btn" onclick="copyJSON('json-act3', this)">📋 Copy JSON Hồi 3</button>
+            </div>
+            <div class="image-gallery">
+                <div class="img-placeholder">F17: Uống trà với Sư</div>
+                <div class="img-placeholder">F18: Thiền đại chúng</div>
+                <div class="img-placeholder">F19: Nấu ăn</div>
+                <div class="img-placeholder">F20: Xếp đồ (3 Năm Sau)</div>
+            </div>
+            <pre id="json-act3">[
+  {
+    "scene": "17",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Uống trà hiên nhà với Sư. Áo đen, CHÂN TRẦN.",
+    "input_image": "Frame_17.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. The young Vietnamese man (black t-shirt, dark pants, BAREFOOT) sitting peacefully on a wooden porch, holding a cup of hot tea. Next to him is an elderly monk in a brown robe, pointing gently. Forest background, 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Man and monk drinking tea. Character motion: Keep faces locked with gentle smiles. Subtle motion of steam rising from teacup. Background motion: Leaves swaying gently. Camera: Locked.",
+    "audio_prompt_en": "Peaceful pouring of tea sound, soft wind chimes, distant birds. NO background music, NO clear talking.",
+    "negative_prompt_en": "3D, realistic, morphing, face distortion, changing clothes, wearing shoes, camera panning, background music."
+  },
+  {
+    "scene": "18",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Thiền đại chúng hội trường. Áo đen.",
+    "input_image": "Frame_18.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. Wide shot of the young Vietnamese man (black t-shirt) sitting in a circle with other people and monks, meditating deeply in a beautiful wooden hall. Soft sunlight shifting across the room. 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Group meditating in hall. Character motion: Keep all faces and bodies completely locked and perfectly still. Extremely subtle breathing motions. Camera: Locked static wide shot.",
+    "audio_prompt_en": "A continuous, low resonant singing bowl vibration (boong...), profound collective silence. NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, changing clothes, camera panning, people moving, background music."
+  },
+  {
+    "scene": "19",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Nấu ăn chánh niệm. Áo đen.",
+    "input_image": "Frame_19.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. The young Vietnamese man (black t-shirt) calmly preparing a simple meal in a bright rustic kitchen, eyes gently closed in peace. Bright morning light, 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Man cooking calmly. Character motion: Keep face locked with gentle smile. Slow mindful hand movement stirring a pot. Background motion: Steam rising slowly from hot food. Camera: Locked.",
+    "audio_prompt_en": "Comforting bubbling sound of a stew simmering, gentle clink of a wooden spoon. NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, face distortion, changing clothes, fast chopping, camera panning, background music."
+  },
+  {
+    "scene": "20",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Xếp đồ rời Làng Mai (Bước nhảy 3 năm). Áo đen.",
+    "input_image": "Frame_20.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. The young Vietnamese man (black t-shirt) calmly packing a cardboard box indoors. Text overlay '3 Năm Sau' (3 Years Later) is clearly visible on screen. Clean bright light, 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Man packing box. Character motion: Keep face locked, slow movement of hands. Keep text '3 Năm Sau' perfectly stable. Camera: Locked static medium shot.",
+    "audio_prompt_en": "Quiet sound of folding clothes, fading into a subtle wind chime transitioning to city sounds. NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, face distortion, text melting, changing clothes, camera panning, background music."
+  }
+]</pre>
+        </div>
+
+        <!-- ACT 4 & OUTRO -->
+        <div class="act-divider">🏙️ HỒI 4: THÀNH PHỐ TĨNH LẶNG (Frame 21-27, Outro)</div>
+
+        <div class="json-card">
+            <div class="json-header">
+                <h3>Khối JSON Hồi 4 & Outro</h3>
+                <button class="copy-btn" onclick="copyJSON('json-act4', this)">📋 Copy JSON Hồi 4</button>
+            </div>
+            <div class="image-gallery">
+                <div class="img-placeholder">F21-22: Thiền ban công/Công viên</div>
+                <div class="img-placeholder">F23: Trong xe Bus</div>
+                <div class="img-placeholder">F24: Cafe ban công (Chân trần)</div>
+                <div class="img-placeholder">F25-26: Phố đông & Bầu trời</div>
+                <div class="img-placeholder">F27: Mây Ghibli</div>
+                <div class="img-placeholder">Outro: Chiếc lá</div>
+            </div>
+            <pre id="json-act4">[
+  {
+    "scene": "21",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Thiền ban công. Áo đen.",
+    "input_image": "Frame_21.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. The young Vietnamese man (black t-shirt, dark pants) meditating peacefully in lotus position on an apartment balcony. Modern city skyline in background at sunset. Epic golden hour light, 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Man meditating on balcony. Character motion: Keep body locked, incredibly subtle deep breathing. Background motion: Gentle wind moving plants. Sunset clouds drifting slowly. Camera: Locked.",
+    "audio_prompt_en": "Muffled city traffic hum contrasting with a clear, gentle wind blowing on balcony. NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, changing clothes, camera panning, background music."
+  },
+  {
+    "scene": "22",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Thiền công viên đêm. Áo đen.",
+    "input_image": "Frame_22.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. A group of people sitting in a circle meditating outdoors at night in a city park. City skyline glows in background. Magical calm night blue with warm lanterns, 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Group meditating in park at night. Character motion: Keep all figures perfectly still. Background motion: Subtle flickering of soft lanterns. Camera: Locked majestic wide shot.",
+    "audio_prompt_en": "Profound silence, faint chirping of night crickets, low collective breathing sound. NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, camera panning, people moving, background music."
+  },
+  {
+    "scene": "23",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Trong xe Bus xô bồ. Áo đen, GIÀY XÁM.",
+    "input_image": "Frame_23.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. The young Vietnamese man (black t-shirt, dark pants, GREY SNEAKERS) is sitting next to the window inside a crowded, moving city bus. Eyes peacefully closed. Soft golden afternoon sunbeam shines diagonally through window, illuminating his calm face. Blurry passengers in background. 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Young man meditating inside bus. Character motion: Keep serene face locked. Subtle swaying of body matching bus movement. Background motion: Golden dust floating in sunbeam. Scenery outside window moving fast. Camera: Locked.",
+    "audio_prompt_en": "Low smooth hum of electric bus engine, mixed with muffled overlapping lively chatter of passengers. NO background music.",
+    "negative_prompt_en": "3D, realistic, morphing, face distortion, opening eyes, changing clothes, barefoot, camera panning, background music."
+  },
+  {
+    "scene": "24",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Nhắm mắt uống cafe ban công. Áo đen, CHÂN TRẦN.",
+    "input_image": "Frame_24.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. Wide profile shot of the young Vietnamese man (black t-shirt, dark pants, BAREFOOT). He is sitting cross-legged on a cozy apartment balcony filled with lush green potted plants. Holding a clear glass cup, taking a sip of coffee with eyes closed in deep relaxation. Magical morning sunlight, 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Man drinking coffee on lush balcony. Character motion: Very slow gentle motion of sipping from cup. Keep eyes closed and face relaxed. Background motion: Green leaves swaying gently in breeze. Camera: Locked, static wide profile shot.",
+    "audio_prompt_en": "ASMR sound of a gentle sip, followed by a relaxing exhale. Morning birds chirping, rustling leaves. NO background music.",
+    "negative_prompt_en": "3D, realistic, morphing, opening eyes, changing clothes, wearing shoes, camera panning, background music."
+  },
+  {
+    "scene": "25",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Bước chậm giữa phố đông. Áo đen, GIÀY XÁM.",
+    "input_image": "Frame_25.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. The young Vietnamese man (black t-shirt, dark pants, GREY SNEAKERS) walking mindfully and slowly on a city sidewalk. Blurred background figures moving fast to create pacing contrast. Bright daytime, 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Man walking slowly in city. Character motion: Extremely slow, mindful step, keeping face locked. Background motion: Blurred background figures moving slightly faster. Camera: Locked static tracking shot.",
+    "audio_prompt_en": "Clear, slow footstep on pavement, contrasting with a muffled, fast-paced city rush sound. NO background music.",
+    "negative_prompt_en": "3D, realistic, morphing, changing clothes, barefoot, fast walking, camera panning, background music."
+  },
+  {
+    "scene": "26",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Ngước nhìn bầu trời. Áo đen.",
+    "input_image": "Frame_26.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. The young Vietnamese man (black t-shirt) standing and looking up at the vast sky. Completely at peace. Beautiful hopeful afternoon sunlight, 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Man looking up at sky. Character motion: Keep face locked, subtle slow blinking. Background motion: Gentle wind blowing hair. Leaves falling extremely slowly. Camera: Locked static medium shot.",
+    "audio_prompt_en": "A warm, gentle breeze rustling nearby leaves, a feeling of deep gratitude. NO background music, NO talking.",
+    "negative_prompt_en": "3D, realistic, morphing, changing clothes, camera panning, background music."
+  },
+  {
+    "scene": "27",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Đám mây hoàng hôn khổng lồ.",
+    "input_image": "Frame_27.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style. Final majestic wide shot of the vast sunset sky over the city. Giant colorful Ghibli clouds. Epic breathtaking sunset lighting, 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Epic sunset clouds. Object motion: Giant colorful clouds drift incredibly slowly across the sky. Camera: Extremely slow, majestic cinematic tilt up towards the endless sky.",
+    "audio_prompt_en": "A deep, resonant final singing bowl chime (boong...) that slowly fades out into the wind. NO background music.",
+    "negative_prompt_en": "3D, realistic, morphing, camera panning, fast moving clouds, background music."
+  },
+  {
+    "scene": "Outro",
+    "veo_mode": "Frame (Start Image)",
+    "description_vn": "Cảnh Outro: Chiếc lá.",
+    "input_image": "Frame_Outro.jpg",
+    "image_prompt_en": "Studio Ghibli 2D anime style background art. An extremely close-up macro shot of a single dry brown leaf resting peacefully on a stone path in a forest. Dappled morning sunlight (komorebi). No characters. 16:9 ratio.",
+    "video_prompt_en": "Studio Ghibli 2D anime style. Extreme close-up of dry leaf. Object motion: The leaf rests perfectly still. Background motion: Dappled sunlight shifts incredibly slowly across the leaf. Camera: Locked static macro shot.",
+    "audio_prompt_en": "Absolute silence, fading wind, the singing bowl chime from frame 27 still echoing faintly. NO background music.",
+    "negative_prompt_en": "3D, realistic, morphing, camera panning, shoes appearing, text appearing, background music."
+  }
+]</pre>
+        </div>
+
+    </div>
+
+    <script>
+        function copyJSON(elementId, btn) {
+            const pre = document.getElementById(elementId);
+            const textToCopy = pre.innerText;
+
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                const originalText = btn.innerText;
+                btn.innerText = '✅ Đã Copy JSON';
+                btn.classList.add('copied');
+                
+                setTimeout(() => {
+                    btn.innerText = originalText;
+                    btn.classList.remove('copied');
+                }, 2000);
+            }).catch(err => {
+                alert('Lỗi copy, vui lòng bôi đen thủ công!');
+            });
+        }
+    </script>
+</body>
+</html>
