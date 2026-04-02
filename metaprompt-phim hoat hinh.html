@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công Cụ Tạo Prompt Làm Phim AI - Dành Cho Học Viên</title>
+    <style>
+        :root {
+            --bg-main: #f8fafc;
+            --bg-panel: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --accent: #2563eb;
+            --accent-hover: #1d4ed8;
+            --border: #e2e8f0;
+            --highlight-text: #b45309;
+            --highlight-bg: #fef3c7;
+            --success: #059669;
+            --guide-bg: #f0fdf4;
+            --guide-border: #10b981;
+            --guide-text: #065f46;
+        }
+
+        body { font-family: 'Segoe UI', system-ui, sans-serif; background-color: var(--bg-main); color: var(--text-main); margin: 0; padding: 20px; line-height: 1.6; }
+        .container { max-width: 1350px; margin: 0 auto; }
+        .header { text-align: center; margin-bottom: 30px; background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-top: 4px solid var(--accent);}
+        .header h1 { color: var(--accent); margin-bottom: 5px; text-transform: uppercase; font-size: 2.2em; letter-spacing: 1px;}
+        .header p { color: var(--text-muted); font-size: 1.1em; margin-top: 0; font-weight: 500;}
+
+        .layout { display: grid; grid-template-columns: 360px 1fr; gap: 25px; align-items: start; }
+        @media (max-width: 1024px) { .layout { grid-template-columns: 1fr; } }
+
+        /* --- LEFT PANEL --- */
+        .input-panel { background: var(--bg-panel); padding: 25px; border-radius: 12px; border: 1px solid var(--border); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); position: sticky; top: 20px; }
+        .input-panel h2 { margin-top: 0; font-size: 1.3em; color: var(--text-main); border-bottom: 2px solid var(--border); padding-bottom: 15px; margin-bottom: 20px; text-transform: uppercase; }
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; margin-bottom: 8px; color: #475569; font-weight: 700; font-size: 0.95em; }
+        .form-group input, .form-group textarea { width: 100%; padding: 12px; background: #f8fafc; border: 1px solid var(--border); color: var(--text-main); border-radius: 8px; font-family: inherit; font-size: 14px; box-sizing: border-box; transition: all 0.3s ease; }
+        .form-group input:focus, .form-group textarea:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2); background: #fff; }
+        .form-group textarea { resize: vertical; min-height: 80px; }
+        .hint { font-size: 0.9em; color: #047857; text-align: center; display: block; margin-top: 20px; font-weight: 600; background: #d1fae5; padding: 12px; border-radius: 8px; border: 1px solid #a7f3d0;}
+
+        /* --- RIGHT PANEL --- */
+        .output-panel { display: flex; flex-direction: column; gap: 25px; }
+
+        /* Accordion Meta Prompt */
+        .accordion-btn { background: #1e293b; color: white; cursor: pointer; padding: 18px; width: 100%; text-align: left; border: none; outline: none; transition: 0.3s; font-size: 1.1em; font-weight: bold; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);}
+        .accordion-btn:hover { background: #334155; }
+        .accordion-btn.active { border-radius: 12px 12px 0 0; background: #334155; border-bottom: 2px solid var(--accent); }
+        .accordion-content { padding: 0 20px; background-color: white; display: none; overflow: hidden; border: 1px solid var(--border); border-top: none; border-radius: 0 0 12px 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);}
+        .accordion-content.show { display: block; padding: 20px; }
+
+        .step-card { background: var(--bg-panel); border-radius: 12px; border: 1px solid var(--border); overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
+        .step-header { background: #f1f5f9; padding: 15px 25px; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 15px; }
+        .step-badge { background: var(--accent); color: white; padding: 6px 14px; border-radius: 6px; font-weight: bold; font-size: 0.9em; }
+        .step-title { margin: 0; font-size: 1.15em; font-weight: bold; color: #1e293b; text-transform: uppercase; }
+        .step-content { padding: 25px; }
+
+        .guide-box { background: var(--guide-bg); border-left: 5px solid var(--guide-border); padding: 20px; border-radius: 0 8px 8px 0; margin-bottom: 20px; }
+        .guide-title { color: var(--guide-text); font-weight: 800; margin: 0 0 8px 0; font-size: 1em; display: flex; align-items: center; gap: 8px; text-transform: uppercase; }
+        .guide-text { margin: 0; color: #064e3b; line-height: 1.6; font-size: 0.95em; }
+        .guide-text strong { color: #065f46; font-weight: 700; background: #d1fae5; padding: 2px 6px; border-radius: 4px;}
+
+        .prompt-box { position: relative; }
+        pre { background: #0f172a; color: #e2e8f0; padding: 45px 20px 20px 20px; border-radius: 8px; font-family: 'Consolas', monospace; font-size: 14.5px; white-space: pre-wrap; word-wrap: break-word; border: 1px solid #1e293b; margin: 0; line-height: 1.6; }
+        .highlight { color: var(--highlight-text); background: var(--highlight-bg); padding: 2px 4px; border-radius: 4px; font-weight: bold; transition: all 0.2s; }
+
+        .copy-btn { position: absolute; top: 10px; right: 10px; background: var(--accent); color: white; border: none; padding: 8px 16px; border-radius: 6px; font-size: 12px; font-weight: bold; cursor: pointer; transition: 0.2s; text-transform: uppercase; }
+        .copy-btn:hover { background: var(--accent-hover); box-shadow: 0 2px 5px rgba(0,0,0,0.2);}
+        .copy-btn.copied { background: var(--success); }
+
+        .tips-section { background: #fff; padding: 25px; border-radius: 12px; border: 1px solid var(--border); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
+        .tips-section h3 { color: #ea580c; margin-top: 0; font-size: 1.3em; display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #ffedd5; padding-bottom: 15px;}
+        .tips-section ul { margin: 0; padding-left: 20px; color: #334155; }
+        .tips-section li { margin-bottom: 12px; line-height: 1.6; font-size: 0.95em;}
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>🎬 CÔNG CỤ LÊN KỊCH BẢN PHIM AI TỰ ĐỘNG</h1>
+        <p>Hệ thống tự động hóa Prompt - Hỗ trợ chuẩn hóa quy trình làm phim cho Học viên</p>
+    </div>
+
+    <div class="layout">
+        <div class="input-panel">
+            <h2>⚙️ ĐIỀN THÔNG TIN THỦ CÔNG</h2>
+            <div class="form-group">
+                <label>👉 1. Ý tưởng cốt truyện (Tiếng Anh):</label>
+                <textarea id="val_idea" placeholder="Ví dụ: A boy and a stray Corgi dog...">A boy and a stray Corgi dog — a heartwarming rainy day rescue.</textarea>
+            </div>
+            <div class="form-group">
+                <label>🎨 2. Phong cách hình (Style):</label>
+                <input type="text" id="val_style" value="Studio Ghibli 2D anime style">
+            </div>
+            <div class="form-group">
+                <label>📝 3. Tóm tắt 1 câu (Làm ảnh Storyboard):</label>
+                <textarea id="val_summary" rows="2">a boy rescuing a stray Corgi dog in the rain</textarea>
+            </div>
+            <div class="form-group">
+                <label>⏱️ 4. Tổng thời lượng Video (Giây):</label>
+                <input type="number" id="val_duration" value="60">
+            </div>
+            <span class="hint">💡 Gõ vào đây để cập nhật mã màu cam bên phải!</span>
+        </div>
+
+        <div class="output-panel">
+            
+            <div>
+                <button class="accordion-btn" onclick="toggleAccordion(this)">
+                    <span>🤖 CÁCH 2: DÙNG META PROMPT (AI TỰ HỎI - TỰ ĐIỀN)</span>
+                    <span class="icon">▼</span>
+                </button>
+                <div class="accordion-content">
+                    <div class="guide-box" style="background: #eff6ff; border-color: #3b82f6;">
+                        <div class="guide-title" style="color: #1e3a8a;">📘 HƯỚNG DẪN THỰC HÀNH:</div>
+                        <p class="guide-text" style="color: #1e40af;">Nếu không muốn tự điền Form bên trái, hãy copy lệnh này dán vào ChatGPT/Gemini. <strong>AI sẽ đóng vai Trợ lý, tự động đặt câu hỏi từng bước cho bạn</strong>. Sau khi bạn trả lời đủ, AI sẽ tự xuất ra toàn bộ kịch bản và Prompt làm phim.</p>
+                    </div>
+                    <div class="prompt-box">
+                        <button class="copy-btn" onclick="copyPrompt('meta_prompt', this)">Copy Lệnh Này</button>
+                        <pre id="meta_prompt">You are an Expert AI Film Assistant. Your job is to guide me step-by-step to create a full AI film prompt sequence. Do not generate the final outputs until you have asked me for all the following information one by one:
+
+Step 1: Ask me to upload a reference photo of the main character AND provide a short story idea.
+Step 2: Ask me for the visual style (e.g., Studio Ghibli 2D anime).
+Step 3: Ask me for a 1-sentence summary of the story.
+Step 4: Ask me for the estimated video duration in seconds.
+
+Once I have provided all answers, extract the character details from the photo to lock consistency. Then, automatically generate 4 exact outputs for me:
+1. A 27-frame JSON script (frame, shot_type, scene_description).
+2. A single Midjourney/Bing image prompt for a vertical multi-panel comic grid of the story.
+3. A JSON list of specific image & video prompts (for Veo 3 / Kling) applying the "Camera: Locked, static shot" rule.
+4. A Vietnamese voice-over script table with "[... Ngưng 3 giây ...]" pauses for sound effects.</pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step-card">
+                <div class="step-header">
+                    <span class="step-badge">BƯỚC 1A</span>
+                    <h3 class="step-title">TẠO KỊCH BẢN TỪ ẢNH NHÂN VẬT</h3>
+                </div>
+                <div class="step-content">
+                    <div class="guide-box">
+                        <div class="guide-title">📘 HƯỚNG DẪN:</div>
+                        <p class="guide-text">Tải ảnh mặt nhân vật lên ChatGPT. Copy đoạn lệnh dưới đây gửi kèm.</p>
+                    </div>
+                    <div class="prompt-box">
+                        <button class="copy-btn" onclick="copyPrompt('p1a', this)">Copy Lệnh Này</button>
+                        <pre id="p1a"></pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step-card">
+                <div class="step-header">
+                    <span class="step-badge" style="background: #8b5cf6;">BƯỚC 1B</span>
+                    <h3 class="step-title">TẠO ẢNH LƯỚI STORYBOARD</h3>
+                </div>
+                <div class="step-content">
+                    <div class="guide-box" style="background: #f3f0ff; border-color: #8b5cf6;">
+                        <div class="guide-title" style="color: #5b21b6;">📘 HƯỚNG DẪN:</div>
+                        <p class="guide-text">Dán tiếp lệnh này vào cuộc trò chuyện vừa rồi. Mang lệnh vẽ qua Midjourney/Bing.</p>
+                    </div>
+                    <div class="prompt-box">
+                        <button class="copy-btn" style="background: #8b5cf6;" onclick="copyPrompt('p1b', this)">Copy Lệnh Này</button>
+                        <pre id="p1b"></pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step-card">
+                <div class="step-header">
+                    <span class="step-badge">BƯỚC 2</span>
+                    <h3 class="step-title">TẠO LỆNH SẢN XUẤT VIDEO (CHỐNG MÉO)</h3>
+                </div>
+                <div class="step-content">
+                    <div class="guide-box">
+                        <div class="guide-title">📘 HƯỚNG DẪN:</div>
+                        <p class="guide-text">Dán lệnh này để AI tách kịch bản thành các Prompt Video (có khóa Camera tĩnh).</p>
+                    </div>
+                    <div class="prompt-box">
+                        <button class="copy-btn" onclick="copyPrompt('p2', this)">Copy Lệnh Này</button>
+                        <pre id="p2"></pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step-card">
+                <div class="step-header">
+                    <span class="step-badge">BƯỚC 3</span>
+                    <h3 class="step-title">KỊCH BẢN THU ÂM (CÓ ĐIỂM DỪNG)</h3>
+                </div>
+                <div class="step-content">
+                    <div class="guide-box">
+                        <div class="guide-title">📘 HƯỚNG DẪN:</div>
+                        <p class="guide-text">Lệnh này viết kịch bản lồng tiếng tiếng Việt, có các khoảng lặng chừa chỗ cho âm thanh môi trường.</p>
+                    </div>
+                    <div class="prompt-box">
+                        <button class="copy-btn" onclick="copyPrompt('p3', this)">Copy Lệnh Này</button>
+                        <pre id="p3"></pre>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+    function escapeHTML(str) { return str.replace(/[&<>'"]/g, tag => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[tag] || tag)); }
+
+    function updatePrompts() {
+        const idea = escapeHTML(document.getElementById('val_idea').value.trim() || '[ ĐIỀN Ý TƯỞNG CỦA BẠN ]');
+        const style = escapeHTML(document.getElementById('val_style').value.trim() || '[ ĐIỀN PHONG CÁCH ]');
+        const summary = escapeHTML(document.getElementById('val_summary').value.trim() || '[ TÓM TẮT CÂU CHUYỆN ]');
+        const duration = escapeHTML(document.getElementById('val_duration').value.trim() || '[ SỐ ]');
+        const span = (text) => `<span class="highlight">${text}</span>`;
+
+        document.getElementById('p1a').innerHTML = `You are a top cinematic storyboard designer and AI prompt engineer.
+Based on the reference photo uploaded alongside this prompt, please:
+1. Extract the main character's physical details (face, hair, outfit).
+2. Create a 27-frame (3x9 grid) story script using that exact character as the main lead.
+
+The story idea is about:
+👉 ${span(idea)}
+
+Rules:
+- Apply the extracted character details to ALL frames to keep consistency.
+- Build a full story arc: Beginning → Build-up → Twist → Resolution.
+- Mix shot types: Close-up / Medium shot / Wide shot / Top-down angle.
+- Keep visual style strictly: ${span(style)}.
+- Output ONLY a clean JSON code block containing: "frame", "shot_type", "scene_description". No extra explanation.`;
+
+        document.getElementById('p1b').innerHTML = `Dựa trên kịch bản 27 cảnh vừa tạo, hãy viết cho tôi 1 câu lệnh (Image Prompt) bằng Tiếng Anh để dán vào công cụ vẽ ảnh (Midjourney/Bing).
+
+Yêu cầu câu lệnh bắt đầu bằng format sau: 
+"${span(style)}. A vertical multi-panel comic book page (grid layout) showing a sequential story about ${span(summary)}. The main character is [Insert the exact character details you extracted in the previous step]. Show a mix of wide landscape shots and emotional close-ups. Masterpiece, highly detailed, vibrant colors, aspect ratio 1:2."
+
+Chỉ xuất ra đoạn prompt Tiếng Anh, không giải thích.`;
+
+        document.getElementById('p2').innerHTML = `Now, generate the exact prompts needed for Image Generation and Video Generation (for Google Veo 3 / Kling / Runway) based on the JSON storyboard.
+
+Output a NEW clean JSON code block with these keys for each frame:
+- "image_prompt": "${span(style)}. [Insert the exact extracted character details from the first step here]. [Scene description]. 16:9 ratio."
+- "video_prompt": "${span(style)}. Character motion: Keep face completely locked, [only subtle motion like blinking/breathing]. Background motion: [Subtle motion like wind/leaves]. Camera: Locked, static shot."
+- "audio_sfx": "[Specific sound effect description]. NO background music."`;
+
+        document.getElementById('p3').innerHTML = `Tôi đã tạo xong các đoạn video ngắn dựa trên kịch bản trên. Tổng thời lượng video là: 👉 ${span(duration)} giây.
+
+Hãy viết cho tôi 1 kịch bản Lời bình (Voice-over) bằng Tiếng Việt để tôi tự thu âm. 
+
+Yêu cầu bắt buộc:
+1. Phong cách: Tự sự, nhẹ nhàng, chữa lành (ít chữ).
+2. TẠO KHOẢNG LẶNG: BẮT BUỘC chèn ký hiệu "[... Ngưng 3 giây ...]" ở những cảnh có tiếng động môi trường để tôi biết đường dừng đọc, nhường chỗ cho âm thanh SFX gốc (tiếng động thực tế) vang lên.
+3. Trình bày dạng Bảng: Thời gian | Lời đọc | Hướng dẫn cảm xúc diễn xuất.`;
+    }
+
+    function copyPrompt(elementId, btnElement) {
+        const textToCopy = document.getElementById(elementId).textContent;
+        navigator.clipboard.writeText(textToCopy).then(() => {
+            const originalText = btnElement.innerText;
+            btnElement.innerText = "✓ ĐÃ COPY";
+            btnElement.classList.add("copied");
+            setTimeout(() => { btnElement.innerText = originalText; btnElement.classList.remove("copied"); }, 2000);
+        }).catch(err => { alert("Vui lòng bôi đen văn bản và copy thủ công!"); });
+    }
+
+    function toggleAccordion(btn) {
+        btn.classList.toggle("active");
+        const content = btn.nextElementSibling;
+        content.classList.toggle("show");
+        btn.querySelector(".icon").innerText = content.classList.contains("show") ? "▲" : "▼";
+    }
+
+    window.onload = () => {
+        updatePrompts();
+        document.querySelectorAll('input, textarea').forEach(input => { input.addEventListener('input', updatePrompts); });
+    };
+</script>
+</body>
+</html>
