@@ -1,0 +1,164 @@
+Title: We're Massively Underestimating AI — Here's Why
+URL: https://www.youtube.com/watch?v=kbS2qazPBEE
+ID: kbS2qazPBEE
+Transcript Type: Language: en -> vi (translated via deep-translator)
+================================================================================
+
+--- TÓM TẮT NỘI DUNG ---
+Vì vậy, từ một thế giới nơi nó sẽ đưa tôi đến một nơi nào đó xung quanh những gì tôi sẽ nói, bạn biết đấy, nếu tôi thành lập Emma vào năm 2022, tôi sẽ phải mất 350 kỹ sư và 40 năm để phóng vào tháng 2 năm 2026. Và tôi nói điều đó bởi vì bạn biết đấy, đối với tất cả chúng tôi trong phòng đang ở vị trí lãnh đạo, chúng tôi không lập dị như người đồng sáng lập hay kỹ sư tài giỏi của tôi. Vì vậy, một phần của sự cường điệu mà chúng tôi trải qua là mọi người nghĩ về AI, bạn biết đấy, chúng tôi nhận được rất nhiều sự cường điệu xung quanh các đặc vụ và móng vuốt mở và tất cả những câu chuyện đó, nhưng thực tế vẫn chưa có. Và đó là một thế giới thực sự đòi hỏi cảm giác cấp bách và hiểu biết rằng ngày nay ai đó có thể bước vào như Anthropic, bạn biết đấy, ngày hôm qua về cơ bản nói rằng, chúng ta có thể viết lại mã.
+
+================================================================================
+
+--- RAW TEXT (FOR LLM INPUT) ---
+Emma là một công ty khởi nghiệp do tôi sáng lập, thời điểm nảy sinh ý tưởng là vào tháng 9 năm ngoái. Chúng tôi bắt đầu thực hiện nó vào khoảng tháng 11 và bắt đầu hoạt động vào Ngày lễ tình nhân với mức định giá một trăm triệu đô la. Phải? Tám tuần làm việc phát triển cộng thêm bốn tuần vì chúng tôi quyết định viết lại mã sáu lần. Vì vậy, từ một thế giới nơi nó sẽ đưa tôi đến một nơi nào đó xung quanh những gì tôi sẽ nói, bạn biết đấy, nếu tôi thành lập Emma vào năm 2022, tôi sẽ phải mất 350 kỹ sư và 40 năm để phóng vào tháng 2 năm 2026. Nếu tôi phóng nó như tôi đã làm vào tháng 11, tôi chỉ mất chưa đầy 3 tháng và bạn biết đấy, về cơ bản là bốn người chúng tôi. Đó là tôi, người đồng sáng lập, một kỹ sư xuất sắc, ba người đam mê công nghệ và một cô gái trẻ tuyệt vời đang điều hành mạng xã hội của chúng tôi. Và thế là xong. Phải? Vì vậy bạn phải cảm ơn bạn. Vì vậy, bạn phải tưởng tượng rằng thế giới đã thay đổi. Phải? Và nó đã thay đổi theo những cách mà chúng ta cần giải quyết. Có rất nhiều sự cường điệu xảy ra xung quanh AI và có rất nhiều thực tế xảy ra về AI và tôi nghĩ thách thức lớn nhất đối với mọi người trong phòng này là phân biệt giữa chúng. Phải? Bởi vì nếu bạn biết sự khác biệt giữa đâu là sự cường điệu và đâu là thực tế, bạn sẽ có thể đưa ra quyết định đủ nhanh để đi theo thực tế. Phải? Và vì vậy, nếu có một điều cần biết về trí tuệ nhân tạo và sự cường điệu xung quanh AI ngày nay thì đó là nó đang bị thổi phồng quá mức. Được rồi? Mọi thứ bạn nghe về AI đều không lớn bằng thực tế của AI. Phải? Và tôi nói điều đó bởi vì bạn biết đấy, đối với tất cả chúng tôi trong phòng đang ở vị trí lãnh đạo, chúng tôi không lập dị như người đồng sáng lập hay kỹ sư tài giỏi của tôi. Phải? Tôi khá là lập dị. Nhưng vì bạn không phải là người đam mê công nghệ nên chúng tôi hiểu AI ở mức độ cao hơn một chút so với thực tế của mã. Phải? Vì vậy, tôi sẽ cho bạn một ví dụ rất rõ ràng. Tôi đã có thời hạn đối với một số đoạn mã cho bản thân tôi và Sanad, người đồng sáng lập của tôi. Chúng tôi quyết định rằng chúng tôi cần hoàn thành nó trong vòng 2 ngày. Anh ấy nói điều đó là không thể hơn nữa. Tôi phải di chuyển. Thế là anh ấy di chuyển từ nhà này sang nhà khác, thành phố này sang thành phố khác. Và bạn biết đấy, tôi phải chuyển đi và tôi phải gọi cho tất cả những người bạn biết, các đặc vụ, v.v. Và về cơ bản tôi đã nói, tại sao bạn lại làm vậy? Hãy hack một đại lý để làm điều đó cho bạn. Phải? Và chỉ trong vòng 20 phút, chúng tôi đã có một nhân viên gọi điện đến 52 công ty vận chuyển, gọi cho họ, dò tìm ngôn ngữ của họ, nói chuyện với họ bằng ngôn ngữ của họ. Phải? Bạn biết đấy, hãy mô tả tất cả các chi tiết của ngôi nhà này, ngôi nhà kia, anh ấy muốn gì, khi nào anh ấy muốn, v.v. Yêu cầu đề xuất, nhận đề xuất qua email, xem xét tất cả chúng, sắp xếp chúng và đưa ra cho chúng tôi hai đề xuất. Sanad, người đồng sáng lập của tôi, bạn biết đấy, chỉ vì anh ấy là một người đam mê công nghệ, đã trả lời người đại diện và nói, ừ, tôi thích cái này, nhưng bạn có thể thương lượng thêm 15% không? Vì vậy, theo đúng nghĩa đen, nó đã nhấc điện thoại, gọi cho công ty chuyển nhà, bạn biết đấy, nhận thêm 15%, nhận được đề xuất, ký tên, gửi lại và người vận chuyển đã xuất hiện ngay trong ngày. Phải? Hiện nay loại năng suất đó là có thật, nhưng không phải tất cả chúng ta đều có thể tiếp cận được. Nó không thể truy cập được cho tất cả chúng ta. Tại sao? Bởi vì cái đó một chút ở cuối, giao diện tạo ra cái đó vẫn chưa được tạo ra. Phải? Vì vậy, một phần của sự cường điệu mà chúng tôi trải qua là mọi người nghĩ về AI, bạn biết đấy, chúng tôi nhận được rất nhiều sự cường điệu xung quanh các đặc vụ và móng vuốt mở và tất cả những câu chuyện đó, nhưng thực tế vẫn chưa có. Thực tế vẫn chưa có vì bạn chưa phải là người lập dị. Những người đam mê công nghệ biết rằng thực tế là có. Bây giờ sự cường điệu lớn khác là AGI. Bởi vì mọi người đều nói về bạn biết đấy, khi nào AGI đánh, khi nào AGI đánh. Và đúng vậy, khi AGI tấn công, đó là khoảnh khắc kỳ dị. Thế giới hoàn toàn thay đổi. Nhưng chúng ta không cần AGI để xây dựng những thứ đáng kinh ngạc có giá trị hàng trăm triệu đô la trong 9 tuần. Bạn có nhận ra điều đó không? Với AI ngày nay, không phải AGI, bạn có thể, theo đúng nghĩa đen, và tôi nói điều đó một cách công khai, quét sạch Oracle và mọi SAS, Microsoft khác cũng như tất cả di sản của Office, Windows và bất cứ thứ gì. Mỗi dòng mã cobol từng được viết, bạn thực sự có thể xây dựng một môi trường mới. Và nhân tiện, nếu bạn là đối tác thực sự cung cấp những thứ đó, bạn sẽ bị xóa sổ. Phải? Và đó là một thế giới thực sự đòi hỏi cảm giác cấp bách và hiểu biết rằng ngày nay ai đó có thể bước vào như Anthropic, bạn biết đấy, ngày hôm qua về cơ bản nói rằng, chúng ta có thể viết lại mã. Chúng ta có thể viết chúng ta có thể viết lại mọi mã ATM từng tồn tại trên hành tinh này. Và tôi đã thấy điều đó với sự phát triển công nghệ của chúng ta. Loại thực tế đó chỉ là sự chuyển pha bị trì hoãn. Bạn hiểu không? Có một vài người ở đâu đó ở Ấn Độ ngày nay đang ngồi cùng nhau nói, làm cách nào để xây dựng thứ gì đó có thể đưa vào hệ thống ERP, hiểu toàn bộ cơ sở dữ liệu và viết lại từ đầu. Được rồi? Làm cách nào để viết một phương pháp phát triển tài liệu mới không phải là Microsoft Word. Microsoft Word là một công nghệ của thập niên 80. Bạn có hiểu điều đó không? Và bằng cách nào đó bạn phải nhận ra rằng điều này đang đến. Hoàn toàn không có nghi ngờ gì về điều đó. AI không quá cường điệu. Đó là giai đoạn thay đổi và bị thổi phồng. Phải? Vậy sẽ có một ngày đường cong đó biến mất
+
+--- TIMESTAMPED TEXT ---
+[00:00] Emma là công ty khởi nghiệp do tôi sáng lập,
+[00:03] thời điểm bắt đầu ý tưởng là vào tháng 9
+[00:05] năm ngoái. Chúng tôi bắt đầu làm việc với nó
+[00:08] vào khoảng tháng 11 và chúng tôi đã bắt đầu vào
+[00:11] Ngày lễ tình nhân được đánh giá cao
+[00:13] trăm triệu đô la. Phải? tám
+[00:16] tuần làm việc phát triển
+[00:19] cộng thêm bốn tuần vì chúng tôi quyết định
+[00:21] viết lại mã sáu lần.
+[00:23] Vậy từ một thế giới nơi nó sẽ có
+[00:26] đưa tôi đi đâu đó
+[00:29] xung quanh
+[00:31] tôi sẽ nói gì, bạn biết đấy, nếu tôi có
+[00:33] bắt đầu Emma vào năm 2022,
+[00:36] tôi sẽ phải mất tới 350 kỹ sư và
+[00:39] 40 năm nữa phóng vào tháng 2 năm 2026. Nếu
+[00:43] Tôi đã khởi chạy nó giống như tôi đã làm trong
+[00:45] Tháng 11,
+[00:47] tôi chỉ mất chưa đầy 3 tháng và
+[00:51] bạn biết đấy, về cơ bản là bốn người chúng tôi.
+[00:54] Đó là tôi, người đồng sáng lập, một người xuất sắc
+[00:56] kỹ sư, ba người đam mê công nghệ và một người tuyệt vời
+[00:59] cô gái trẻ đang điều hành mạng xã hội của chúng tôi
+[01:00] phương tiện truyền thông.
+[01:01] Và thế là xong.
+[01:03] Đúng không? Vì vậy bạn phải cảm ơn bạn. Vì vậy
+[01:05] bạn phải tưởng tượng rằng thế giới có
+[01:07] đã thay đổi. Phải? Và nó đã thay đổi trong
+[01:10] những cách chúng ta cần giải quyết. có một
+[01:12] có rất nhiều sự cường điệu xảy ra xung quanh AI và
+[01:15] có rất nhiều sự thật đang diễn ra
+[01:17] về AI và tôi nghĩ điều lớn nhất
+[01:19] thử thách dành cho mọi người trong phòng này là
+[01:21] để phân biệt giữa chúng.
+[01:23] Đúng không? Bởi vì nếu bạn biết
+[01:25] sự khác biệt giữa cường điệu và thế nào là
+[01:26] là thực tế, bạn sẽ có thể thực hiện
+[01:29] quyết định đủ nhanh để dẫn đầu
+[01:32] thực tế. Phải? Và vì vậy nếu có một
+[01:34] điều cần biết về nhân tạo
+[01:36] thông tin tình báo và sự cường điệu xung quanh AI
+[01:38] hôm nay nó đang được thổi phồng quá mức. Được rồi?
+[01:42] Mọi điều bạn nghe về AI đều không phải
+[01:44] lớn như thực tế của AI. Phải? Và
+[01:47] Tôi nói vậy bởi vì
+[01:50] bạn biết đấy, đối với tất cả chúng ta trong phòng, những người
+[01:53] đang ở vị trí lãnh đạo, chúng tôi thì không
+[01:55] cũng sành điệu như người đồng sáng lập của tôi hay của tôi
+[01:57] kỹ sư tài giỏi.
+[01:59] Đúng không? Tôi khá là lập dị. Nhưng
+[02:02] nhưng vì bạn không phải là người lập dị đến thế nên chúng tôi
+[02:05] hiểu AI ở mức độ như vậy
+[02:08] cao hơn một chút so với thực tế của mã.
+[02:12] Phải không? Vì vậy tôi sẽ cho bạn biết rất rõ ràng
+[02:14] ví dụ.
+[02:15] Tôi nghĩ là chúng ta đã có thời hạn cho một số việc
+[02:18] viết mã cho chính tôi và Sanad, người đồng sáng lập của tôi. Chúng tôi
+[02:20] quyết định rằng chúng ta cần phải hoàn thành nó
+[02:23] trong vòng 2 ngày. Anh ấy nói điều đó là không thể
+[02:25] thêm. Tôi phải di chuyển. Vậy là anh ấy đã di chuyển
+[02:27] từ nhà này sang nhà khác, thành phố này đến thành phố khác. Và bạn
+[02:30] biết rồi, tôi phải di chuyển và tôi phải gọi
+[02:31] tất cả những điều đó
+[02:34] bạn biết đấy, các đặc vụ, v.v.
+[02:36] Và về cơ bản tôi đã nói, tại sao bạn lại làm vậy
+[02:38] cái đó à? Hãy hack một đại lý để làm
+[02:40] cái đó dành cho bạn. Phải? Và bên trong
+[02:42] đúng nghĩa là 20 phút, chúng tôi đã có người đại diện
+[02:45] gọi điện thoại cho 52 công ty chuyển nhà,
+[02:48] hãy gọi cho họ,
+[02:49] phát hiện ngôn ngữ của họ, nói chuyện với họ bằng
+[02:51] ngôn ngữ của họ. Phải?
+[02:54] Bạn biết đấy, hãy mô tả tất cả các chi tiết của
+[02:56] nhà này, nhà kia, thứ anh ấy muốn,
+[02:57] khi anh ấy muốn, v.v. Yêu cầu
+[03:00] đề xuất, nhận đề xuất qua email,
+[03:02] nhìn vào tất cả chúng, sắp xếp chúng, đưa ra
+[03:04] hãy cho chúng tôi hai đề xuất. Sanad, tôi ơi
+[03:07] đồng sáng lập, chỉ vì anh ấy là người đam mê công nghệ,
+[03:09] bạn biết đấy, đã trả lời người đại diện và
+[03:11] đã nói, vâng, tôi thích cái này, nhưng bạn có thể
+[03:13] thương lượng thêm 15%? Vì vậy, theo nghĩa đen
+[03:16] nhấc máy lên, gọi cho
+[03:18] bạn biết đấy, công ty chuyển nhà được 15%
+[03:20] nữa, nhận được đề xuất, ký tên, gửi đi
+[03:21] nó quay lại và những người vận chuyển xuất hiện trên
+[03:24] ngày. Phải? Bây giờ kiểu đó
+[03:26] năng suất
+[03:28] là có thật nhưng không phải ai cũng có thể truy cập được
+[03:30] của chúng tôi. Nó không thể truy cập được cho tất cả chúng ta.
+[03:32] Tại sao? Bởi vì một chút ở cuối,
+[03:36] giao diện tạo ra cái đó chưa
+[03:38] vẫn chưa được tạo.
+[03:40] Đúng không? Vì vậy một phần của sự cường điệu mà chúng tôi đi
+[03:42] thông qua đó mọi người nghĩ AI, bạn
+[03:45] biết đấy, chúng tôi nhận được rất nhiều sự cường điệu xung quanh các đặc vụ
+[03:47] và móng vuốt mở và tất cả những câu chuyện đó,
+[03:51] nhưng thực tế vẫn chưa có. các
+[03:53] thực tế vẫn chưa có bởi vì bạn đang
+[03:54] không đến nỗi lập dị như vậy đâu.
+[03:56] Những người đam mê công nghệ biết rằng thực tế là
+[03:58] đó. Bây giờ sự cường điệu lớn khác là AGI.
+[04:01] Bởi vì mọi người đều nói về em biết không,
+[04:03] khi AGI đánh, khi AGI đánh. Và vâng,
+[04:06] Khi AGI tấn công, đó là khoảnh khắc
+[04:08] điểm kỳ dị. Thế giới hoàn toàn
+[04:10] thay đổi.
+[04:12] Nhưng chúng ta không cần AGI để xây dựng
+[04:15] những điều khó tin lên tới trăm
+[04:18] được định giá hàng triệu đô la trong 9 tuần.
+[04:21] Bạn có nhận ra điều đó không? Với ngày hôm nay
+[04:23] AI, không phải AGI, bạn có thể hiểu theo nghĩa đen, và tôi
+[04:28] nói điều đó một cách công khai, quét sạch Oracle
+[04:33] và mọi SAS khác,
+[04:34] Microsoft và tất cả di sản của tất cả
+[04:37] của Office và Windows và bất cứ thứ gì.
+[04:38] Mỗi dòng mã cobol đều
+[04:40] từng được viết, bạn có thể hiểu theo nghĩa đen
+[04:43] xây dựng môi trường mới. Và nhân tiện,
+[04:45] nếu bạn thực sự là đối tác
+[04:47] cung cấp những thứ đó, có thể sẽ bị xóa sổ.
+[04:51] Đúng không? Và đó thực sự là một thế giới
+[04:54] đòi hỏi cảm giác cấp bách và
+[04:55] hiểu rằng ai đó có thể bước vào
+[04:58] hôm nay cũng như Anthropic, bạn biết đấy,
+[05:00] ngày hôm qua về cơ bản nói rằng, chúng ta có thể
+[05:03] viết lại mã. Chúng ta có thể viết chúng ta có thể
+[05:04] viết lại mọi mã ATM từng có
+[05:06] hành tinh. Và tôi đã thấy điều đó với
+[05:08] của chúng ta
+[05:10] phát triển công nghệ. Đó là loại
+[05:13] thực tế chỉ là sự chuyển pha bị trì hoãn một pha.
+[05:17] Bạn có hiểu không? Có có một
+[05:19] vài người ở đâu đó ở Ấn Độ
+[05:22] hôm nay ngồi bên nhau nói, làm sao đây
+[05:25] xây dựng thứ gì đó có thể trở thành một
+[05:27] Hệ thống ERP, thấu hiểu toàn bộ
+[05:29] cơ sở dữ liệu, hãy viết lại từ đầu. Được rồi?
+[05:32] Làm cách nào để viết một phương pháp mới
+[05:35] phát triển các tài liệu không
+[05:36] Microsoft Word. Microsoft Word là một
+[05:39] một công nghệ của thập niên 80. Bạn có hiểu không?
+[05:42] cái đó à?
+[05:43] Và bằng cách nào đó bạn phải nhận ra điều đó
+[05:46] điều này đang đến.
+[05:47] Hoàn toàn không còn nghi ngờ gì nữa về điều đó. AI là
+[05:50] không quá cường điệu. Đó là sự chuyển pha và
+[05:53] đang được cường điệu hóa. Phải? Vậy sẽ có một
+[05:56] ngày mà đường cong đó sẽ đi

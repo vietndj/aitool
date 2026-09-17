@@ -1,0 +1,424 @@
+Title: Mo Gawdat: The Skill You Need in the Age of AI
+URL: https://www.youtube.com/watch?v=qqV1EX9YPfM
+ID: qqV1EX9YPfM
+Transcript Type: Language: en -> vi (translated via deep-translator)
+================================================================================
+
+--- TÓM TẮT NỘI DUNG ---
+Và nếu bạn cứ tiếp tục với những gì bạn tin tưởng, hãy tiếp tục với những gì bạn giỏi, tôi có thể đảm bảo với bạn rằng bạn sẽ được nghỉ ngơi. Ừm, bằng cách nào đó, thành công đối với một doanh nhân thành đạt hoặc một doanh nhân hay một người đam mê công nghệ là dự báo tương lai từ 4 đến 5 năm tới và chọn vạch ra một kế hoạch mà bạn biết đấy, chủ yếu đưa bạn đến nơi bạn cần đến trong tương lai đó và sau đó thực hiện thật chăm chỉ cho đến khi bạn giành được kế hoạch đó. Bởi vì nếu Hãy tưởng tượng nếu bạn đang thực hiện một nhiệm vụ, bạn biết đấy, có sương mù xung quanh bạn, không phải lúc nào bạn cũng đi thẳng về phía trước. Nếu bạn cố gắng yêu người khác nhiều như bạn yêu chính mình hoặc đôi khi nhiều hơn một chút, và bạn quyết định cống hiến những món quà tuyệt vời mà bạn đã được ban tặng để hành động vì tình yêu đó.
+
+================================================================================
+
+--- RAW TEXT (FOR LLM INPUT) ---
+Xin chào mừng diễn giả khách mời của chúng tôi, Mo Gawdat, tác giả sách bán chạy nhất và cựu giám đốc kinh doanh tại Google X. >> [vỗ tay] >> Cảm ơn bạn rất nhiều. Thật là một đặc ân. Mọi người mà tôi đã gặp cho đến nay đều bắt tay tôi và nói: "Cảm ơn bạn đã ở đây." Tôi nói: "Bạn đang nói về cái gì vậy? Tôi là người rất biết ơn về cơ hội này. Đó quả là một đặc ân." Bởi vì bạn nhận ra rằng khá nhiều người trong số các bạn sẽ bước ra khỏi đây và ra ngoài để thay đổi thế giới. Và nếu tôi có một cơ hội nhỏ để trở thành một phần trong đó thì đó quả là một đặc ân. Thực sự là một đặc ân. Và tất nhiên bạn cũng có đặc quyền đó vì tôi sẽ nói với bạn một cách rất cởi mở khi nhìn lại khoảng thời gian tôi tốt nghiệp, ừm, nói sao cho tử tế nhỉ? Uh, tôi không có nhiều thử thách như các bạn ở phía trước. Bạn biết đấy, địa chính trị, kinh tế, AI. Thế giới có rất nhiều điều không chắc chắn khi chúng ta dấn thân vào đó trong vài năm tới. Nhưng tôi cũng không có nhiều cơ hội, tin hay không tùy bạn. Khi tốt nghiệp, tôi tốt nghiệp Đại học Ain Shams ở Ai Cập với tư cách là kỹ sư xây dựng. Ờ tôi xin chào? Xin chào? Đúng. Tôi tôi tôi tôi học ngành kỹ thuật dân dụng vì đó là ngành mà bố tôi muốn tôi học. Tôi muốn làm hài lòng anh ấy. Anh ấy là một quý ông xinh đẹp. Ừm nhưng tôi là một người rất nghiêm túc. Giống như đừng bị lừa bởi việc tôi có thể ghép các câu lại với nhau. Bên trong tôi toàn là toán học. Thế thôi. Thuật toán. Và bạn biết đấy, một cách rất thú vị, khi tôi tốt nghiệp, thực sự có hai hoặc ba công ty CNTT lớn, lúc đó chúng tôi gọi đó là công nghệ CNTT, ở quê hương tôi, Ai Cập. Có IBM, ICL, mà tôi chắc chắn bạn chưa bao giờ nghe đến, và NCR, có lẽ bạn cũng chưa từng nghe đến. Và bạn biết đấy, khi tôi tốt nghiệp, tôi đã tốt nghiệp với một dự án về cơ bản hoàn toàn là một đoạn mã rất phức tạp được thiết kế để giải quyết vấn đề chứ không chỉ tôi giải quyết nó. Vì vậy, tôi đã nộp, bạn biết đấy, một tờ giấy dài có nội dung cơ bản là, "Đây là con số của bạn và đây là giải pháp." Và thực sự, trong vòng 4 giờ kể từ khi thảo luận về dự án của mình, tôi bắt đầu nhận được lời mời làm việc từ các công ty xây dựng dân dụng hàng đầu trên thế giới. Và tôi, hoặc ít nhất là trong khu vực, tôi và tôi chỉ nói đơn giản, "Không, đó không phải là điều tôi muốn. Tôi đã làm những gì bố tôi muốn. Tôi muốn trở thành một người đam mê công nghệ. Và vì vậy, tôi sẽ săn lùng một trong những công ty lập dị đó." Và tôi cứ nói không cho đến khi hết lời đề nghị. Và sau đó, trong vài tháng rất thú vị, không ai nói chuyện với tôi cả. Cho đến khi tôi gặp tai nạn, thật thú vị. Tôi đang lái xe và có một chiếc chắn bùn nhỏ xíu với một người bạn của tôi. Anh mở cửa và bước ra ngoài. Bạn biết đấy, ở Ai Cập, khi chúng tôi đánh nhau, chúng tôi sẽ lao ra đánh nhau. Và vì vậy, bạn biết đấy, anh ấy định hét vào mặt tôi và nói, "Mo!" Và anh ấy ôm tôi và nói, "Anh bạn, tôi đang tìm anh. Uh, chúng tôi đang tìm một kỹ sư xây dựng hiểu biết về khoa học máy tính ở IBM." Phải? Uh bạn có thể gọi đó là may mắn nếu bạn muốn. Uh tôi gọi đó là cuộc sống chuẩn bị cho bạn điều gì đó, phải không? Nhưng dù sao đi nữa, tôi nghĩ nó mang lại cho bạn một dấu hiệu rất thú vị rằng sẽ có những giai đoạn trong cuộc sống mà bạn nghĩ rằng cơ hội đang cạn kiệt, phải không? Sẽ có những giai đoạn trong cuộc sống mà bạn nghĩ rằng mọi thứ thật khó khăn. Và nếu bạn cứ tiếp tục với những gì bạn tin tưởng, hãy tiếp tục với những gì bạn giỏi, tôi có thể đảm bảo với bạn rằng bạn sẽ được nghỉ ngơi. Được rồi? Tôi sẽ kể cho bạn nghe thêm một chút về lý do tại sao tôi tin rằng cuộc sống lại diễn ra như vậy. Uh nhưng hãy để chuyện đó sau nhé. Thế giới của bạn ngày nay rất khác với thế giới của tôi. Uh bạn biết đấy, tôi là một người đam mê mã hóa các máy tính lớn. Bạn thậm chí không biết chúng là gì. Ngày nay, AI đang thay đổi mọi thứ cứ sau 2 ngày rưỡi, 3 ngày một lần. Và bạn biết đấy, khi tôi thăng tiến trong cuộc sống ở công ty đó, IBM, sau đó tôi gia nhập Microsoft, và tôi gia nhập Google vào thời điểm những công ty đó đang thay đổi thế giới. Ừm, bằng cách nào đó, thành công đối với một doanh nhân thành đạt hoặc một doanh nhân hay một người đam mê công nghệ là dự báo tương lai từ 4 đến 5 năm tới và chọn vạch ra một kế hoạch mà bạn biết đấy, chủ yếu đưa bạn đến nơi bạn cần đến trong tương lai đó và sau đó thực hiện thật chăm chỉ cho đến khi bạn giành được kế hoạch đó. Bạn biết đấy, chiến thắng trong thế giới của tôi khá giống một ván cờ. Bạn lập kế hoạch trước và bạn thực hiện. Uh bạn sẽ không có điều đó. Trò chơi cờ vua vừa ra khỏi cửa sổ. Bảng đã biến mất, phải không? Tôi tôi tôi muốn bạn tưởng tượng thế giới mà bạn sắp bước vào giống như một trò chơi bóng quần. Bạn đang kiễng chân lên. Bạn là Bạn không biết quả bóng tiếp theo sẽ ở đâu. Và khi bạn thấy nó hướng về bên phải, bạn bước hai bước về bên phải, đánh quả bóng đó và quay trở lại giữa sân và chờ xem điều gì sẽ xảy ra tiếp theo. Bây giờ, không có gì tốt hơn trong một trận bóng quần hoặc tệ hơn một ván cờ. Vấn đề là người chơi giỏi đến mức nào thôi? Và câu hỏi đặt ra là làm thế nào bạn có thể chấp nhận sự thật rằng đây là bảng trò chơi mới của bạn và bạn sẽ phải chơi theo bảng trò chơi. Tôi có thể đảm bảo với bạn rằng, nếu bạn nhất quyết chơi cờ giữa sân bóng quần, bạn sẽ thi đấu không tốt lắm phải không? Và vì vậy, tôi tin rằng sự nhanh nhẹn trong tâm trí tôi thực sự là nơi mà thành công sẽ đến trong vài năm tới. Tôi có một công ty khởi nghiệp tuyệt vời là một AI nhằm mục đích xây dựng kết nối giữa con người với nhau để hỗ trợ con người chúng ta có những kết nối sâu sắc. Và chúng tôi đã lên kế hoạch ra mắt sau 7 tháng làm việc rất nghiêm túc vào ngày 1 tháng 3. Và bạn biết chuyện gì đã xảy ra vào ngày 28 tháng 2. Và thay vì sụp đổ, chúng tôi quyết định xây dựng một khía cạnh khác của sản phẩm có thể thực sự mang mọi người lại gần nhau hơn. Và ngày nay, Emma được định giá 100 triệu USD sau 8 tháng, phải không? Tôi có thể đảm bảo rằng tôi không nói điều đó để khoe khoang. Tôi có thể đảm bảo với bạn rằng mỗi người trong số các bạn đều có cơ hội như nhau để làm điều gì đó có thể thay đổi thế giới trong vòng vài tháng hoặc vài năm tới. Ừm khi bạn làm điều đó, tôi sẽ nhấp đúp chuột vào tầm quan trọng của thất bại. Điều khá thú vị là, bạn biết đấy, bất kỳ người chơi bóng quần giỏi nào cũng nhận ra rằng việc mất một hoặc hai điểm hoặc thậm chí một hoặc hai trận đấu hoặc thậm chí một giải đấu không thực sự quan trọng. Điều quan trọng là khả năng phạm sai lầm, phạm sai lầm một cách nhanh chóng, ít tốn kém và sau đó tiến về phía trước theo cách khiến bạn trở nên tốt hơn ngay từ giây phút bạn bước vào và mắc sai lầm đó. Và tôi đã học được điều đó ở Google X khi tôi còn là giám đốc kinh doanh. Tôi được giao nhiệm vụ đóng góp rất nhiều cho cái mà ngày nay chúng tôi gọi là nhà máy moonshot, một cách tiếp cận cho phép sự đổi mới diễn ra một cách tự do đồng thời, bạn biết đấy, không khiến chúng tôi mắc kẹt trong những khoản đầu tư có thể nhấn chìm công ty. Và vì vậy, chúng tôi đã xây dựng một cộng đồng đầu tư được trao quyền đơn giản để đầu tư vào bất kỳ dự án nào tham gia. Chúng tôi đã gặp nhau. Chúng tôi gặp nhau vào thứ Ba hàng tuần và chúng tôi sẽ phê duyệt hầu hết mọi ý tưởng được đưa ra. Mỗi một trong số chúng miễn là chúng không mâu thuẫn với các định luật vật lý. Và nó khá thú vị. Chúng tôi có một điều kiện là phải quay lại sau 2 tuần và cố gắng chứng minh mình sai. Đó là mục tiêu. Chúng tôi đã cung cấp cho họ các tài nguyên và chúng tôi đã nói với họ rằng chúng tôi sẽ rất vui nếu bạn thực sự tạo ra thứ gì đó cũng như chúng tôi sẽ hài lòng nếu bạn thất bại. Phải? Và đôi khi mọi người bước ra khỏi phòng và quay lại trước cuối ngày, trả lại tiền và nói, "Không, không, chúng tôi đã tính toán và nó sẽ không hoạt động." Phải? Và tôi tin rằng khả năng thất bại nhanh chóng và dễ dàng cũng như học hỏi và tiến về phía trước là hình thức nhanh nhẹn tối thượng. Bây giờ, thất bại là đặc tính của một cuộc phiêu lưu. Bởi vì nếu Hãy tưởng tượng nếu bạn đang thực hiện một nhiệm vụ, bạn biết đấy, có sương mù xung quanh bạn, không phải lúc nào bạn cũng đi thẳng về phía trước. Không phải lúc nào bạn cũng đi đến mục tiêu. Bạn có thể tiến hai bước về phía trước rồi dừng lại và lùi lại một bước, sang trái một bước rồi lại tiến hai bước về phía trước hai bước. Và trong suy nghĩ của tôi, khả năng làm được điều đó chính là điều tạo nên sự khác biệt giữa những nhà thám hiểm vĩ đại với những người đi theo con đường của họ. Uh nhưng những nhà thám hiểm vĩ đại đó cũng sử dụng những công cụ đáng kinh ngạc. Và tôi nghĩ một trong những điều tôi biết là bạn sắp tốt nghiệp và bạn đã học rất nhiều, nhưng tôi muốn giao cho bạn một bài tập về nhà khác. Khi bạn về nhà hôm nay, hãy ngồi trước một trong những mô hình ngôn ngữ, một mô hình hay. Tôi sử dụng Claude hoặc Gemini. Và nó mô tả bản thân bạn, lý lịch, tham vọng, ước mơ của bạn và yêu cầu nó cho bạn biết bạn cần học những AI nào. Và khi nó cho bạn biết những AI đó, hãy thức dậy vào ngày mai và trở thành chủ nhân của chúng. Và sau đó lặp lại bài tập đó vài tuần một lần vì sẽ có AI mới. Công cụ đó, khả năng tạo ra thứ gì đó trong vòng 6 tuần hoặc 6 tháng, nếu bạn muốn, tôi không biết diễn tả nó theo cách nào khác, chúng ta đã hàng hóa trí thông minh. Bạn biết đấy, giống như có một cái phích cắm trên tường nơi bạn có thể cắm và lấy điện. Bây giờ có một phích cắm trong điện thoại hoặc trong máy tính của bạn, nơi bạn có thể cắm vào và học và có được cái nhìn sâu sắc hơn, nhiều toán học hơn, bạn biết nhiều hơn, kiến ​​thức và vân vân. Vì vậy hãy sử dụng nó. Sử dụng điều đó để lợi thế của bạn. Hãy nhanh hơn những thách thức đang đối mặt với bạn. Tôi muốn quay lại vụ tai nạn đó. Tôi đã nói với bạn rằng bạn có thể nghĩ đó là điều may mắn, nhưng thực ra đó là cuộc sống đang chuẩn bị cho tôi một điều gì đó. Và có lẽ bài học lớn nhất trong cuộc đời tôi là công ty này, IBM, mà tôi gia nhập 3 năm sau, tôi đã là người quản lý tài khoản hoặc giám đốc bán hàng, nếu bạn muốn, của ngành giáo dục. Và năm đó đất nước của tôi, Ai Cập, đã xảy ra một trận động đất lớn phá hủy phần lớn trường học ở Ai Cập. Và vì vậy Ai Cập đã được cấp rất nhiều kinh phí và nguồn lực để xây dựng lại trường học, nhưng họ yêu cầu những thiết kế lại đó phải được thực hiện trên hệ thống CAD, hệ thống GIS, v.v. Và thế là tôi trở thành một người bán hàng rất giỏi. Tôi bước vào và thuyết phục Bộ trưởng Bộ Giáo dục mua thiết bị IBM trị giá 4 triệu USD. Đó là thương vụ lớn thứ hai trong năm. Ừm 6 tuần sau, tôi nhận ra rằng khoảng 2/3 trong số đó sẽ không hiệu quả, và theo đó, khoảng 2/3 học sinh Ai Cập sẽ không đến trường. Và tôi không thể ngủ được vào ban đêm. Tôi thực sự không thể. Tôi quay lại lúc 7 giờ sáng, ngồi trước văn phòng Bộ trưởng Bộ Giáo dục và muốn có một cuộc họp. Đến 8 giờ tối. Cuối cùng khi anh ấy bước ra ngoài, tôi nói, "Thưa Ngài, tôi thực sự có chuyện muốn nói với Ngài. Ngài cần hủy đơn hàng của tôi." Anh ấy nghĩ tôi điên. Phải? Nhưng anh ấy đã làm vậy. Ngày hôm sau, chúng tôi có ủy ban, chúng tôi hủy 2/3 đơn hàng. Tôi quay lại gặp sếp và mong bị sa thải. Anh ấy ủng hộ tôi. Và ba ngày sau, ba tuần sau, Bộ trưởng gọi cho tôi và nói, "Tôi có một yêu cầu công nghệ khác. IBM có thể cung cấp những gì trong số này?" Và tôi nói, "Cái này, cái này, cái này và cái kia." Sáng hôm sau, tôi không đùa đâu, tôi có một đơn hàng trị giá 16 triệu USD, đơn hàng trực tiếp. Và tôi nhận ra một điều đáng kinh ngạc, đó là khi bạn cố gắng mang lại lợi ích cho bản thân trên thế giới này, cuộc sống sẽ như thế này, "Ừ, tiếp tục. Hãy chiến đấu với tôi." Khi bạn cố gắng mang lại lợi ích cho cuộc sống, cuộc sống sẽ diễn ra như sau: "Tôi hỗ trợ bạn. Tôi sẽ làm việc cho bạn." Và tôi hứa với bạn rằng đó là câu chuyện về sự nghiệp của tôi. Bất cứ khi nào tôi cố gắng tạo ra sự khác biệt trong cuộc sống, tôi đều không phải đấu tranh gì cả. Đúng người xuất hiện vào đúng thời điểm với số tiền phù hợp, đúng ý tưởng và mọi việc đã thành công. Mỗi lần như vậy. Thật khó để suy nghĩ vì đôi khi bạn nghĩ rằng mọi thứ đều phải khó khăn. Nhưng sẽ khó khăn nếu bạn đi ngược lại dòng chảy chính của cuộc sống và cuộc sống muốn mang lại lợi ích cho tất cả chúng sinh. Vì vậy, vui lòng thực hiện bài kiểm tra đạo đức trên mọi thứ bạn xây dựng. Nếu bạn không muốn những người thân yêu của mình là người phải nhận thứ gì đó mà bạn đang xây dựng, đầu tư hoặc đang nghĩ đến hoặc quảng bá, xin đừng làm điều đó. Vui lòng. [vỗ tay] Và điều ngược lại cũng đúng. Đầu tư vào những gì tạo nên sự khác biệt. Bởi vì khi bạn nhìn lại cuộc sống từ nơi tôi đang đứng bây giờ, hãy tin tôi, thêm một chiếc xe nữa cũng chẳng có gì khác biệt cả. Điều tạo nên sự khác biệt là những gì bạn thực sự đã làm cho cuộc sống, cho người khác, v.v. Một điều cuối cùng, và sau đó tôi sẽ rời khỏi nơi xinh đẹp này. Ừm Chúc bạn vui vẻ khi làm việc đó. Tôi biết nhiều bạn trẻ sẽ hiểu cuộc sống là một trò chơi điện tử. Tôi có thể đảm bảo với bạn điều đó bằng vật lý. Được rồi? Và khi cuộc sống là một trò chơi điện tử, bạn biết mục tiêu là gì không? Hầu hết những người chơi video nghiêm túc đều không cố gắng giành được cấp độ hoặc thu thập thêm tiền. Hơn nữa Hầu hết những game thủ nghiêm túc trên thế giới đều có một mục tiêu, đó là trở thành game thủ tuyệt đối mà họ có tiềm năng trở thành. Và cách duy nhất bạn có thể trở thành một game thủ giỏi hơn là chơi. Bạn phải yêu thích trò chơi ngay cả khi có thử thách vì tất nhiên, nếu một trò chơi điện tử dễ thì nó sẽ nhàm chán. Bạn sẽ không muốn chơi. Khi gặp thử thách, đó là lúc bạn dấn thân. Vì vậy, tôi cầu xin bạn hãy có một cuộc sống mà bạn không chỉ thành công ở cuối cuộc đời mà còn nhìn lại và nói, "Trời ơi, điều đó thật thú vị. Tôi yêu nó. Tôi yêu từng phút giây của nó." Có một mánh gian lận trong trò chơi điện tử này. Giống như tất cả các trò chơi điện tử đều có gian lận. Một cánh cửa bên phải mà nếu bạn mở và bước qua thì bạn sẽ thắng. Và tôi hứa với bạn rằng tôi là một ông già có bộ râu và giọng nói trầm. Sự lừa dối đó chính là tình yêu. Nếu bạn cố gắng yêu người khác nhiều như bạn yêu chính mình hoặc đôi khi nhiều hơn một chút, và bạn quyết định cống hiến những món quà tuyệt vời mà bạn đã được ban tặng để hành động vì tình yêu đó. Tôi hứa với bạn cuộc sống sẽ giúp bạn. Và bạn sẽ tạo ra sự khác biệt lớn. Tôi chúc các bạn [vỗ tay] thành công. Tôi chúc bạn tác động. Tôi chúc bạn một cuộc sống tạo nên sự khác biệt. Và tôi chúc bạn có nhiều tình yêu. Và tôi hy vọng rằng bạn sẽ ở vị trí của tôi nhìn lại cuộc sống đó và nói, "Trời ơi, điều đó thật thú vị." Cảm ơn rất nhiều. Chúc mừng. >> [vỗ tay]
+
+--- TIMESTAMPED TEXT ---
+[00:00] Xin chào mừng diễn giả khách mời của chúng ta, Mo
+[00:02] Gawdat, tác giả sách bán chạy nhất và cựu
+[00:04] giám đốc kinh doanh tại Google X.
+[00:08] >> [vỗ tay]
+[00:12] >> Cảm ơn bạn rất nhiều. Thật là một đặc ân.
+[00:15] Mọi người mà tôi đã gặp cho đến nay
+[00:18] bắt tay tôi và nói, "Cảm ơn vì
+[00:20] đang ở đây."
+[00:21] Tôi kiểu như "Bạn đang nói về cái gì vậy?
+[00:23] Tôi là người rất biết ơn vì điều đó
+[00:26] cơ hội. Đó quả là một đặc ân."
+[00:29] Bởi vì
+[00:30] bạn nhận ra điều đó
+[00:32] khá nhiều người trong số các bạn sắp bước ra ngoài
+[00:34] ở đây và đi ra ngoài để thay đổi thế giới.
+[00:37] Và nếu tôi có một cơ hội nhỏ
+[00:40] là một phần của điều đó,
+[00:42] thì thật là một đặc ân. Thực sự là một điều gì đó
+[00:45] đặc quyền.
+[00:46] Và tất nhiên là bạn cũng có điều đó
+[00:48] đặc quyền vì tôi sẽ nói với bạn rất nhiều điều
+[00:50] một cách cởi mở khi nhìn lại thời gian
+[00:52] khi tôi tốt nghiệp,
+[00:54] ừm nói thế nào cho tử tế nhỉ? Ờ tôi đã không
+[00:57] cũng có nhiều thử thách như các bạn
+[00:59] phía trước bạn.
+[01:00] Bạn biết đấy, địa chính trị, kinh tế, AI.
+[01:04] Thế giới có rất nhiều điều bất ổn
+[01:07] như chúng tôi
+[01:08] hãy dấn thân vào lĩnh vực này trong vài năm tới.
+[01:11] Nhưng tôi cũng không có nhiều
+[01:12] cơ hội, tin hay không tùy bạn. Khi tôi
+[01:14] đã tốt nghiệp, tôi đã tốt nghiệp ở Ain Shams
+[01:16] Đại học ở Ai Cập với tư cách là kỹ sư xây dựng.
+[01:18] Ờ, tôi
+[01:20] Xin chào? Xin chào? Đúng. Tôi tôi tôi tôi học dân sự
+[01:23] kỹ thuật vì đó là nghề của bố tôi
+[01:25] muốn tôi học. tôi muốn làm hài lòng
+[01:27] anh ấy. Anh ấy là một
+[01:28] quý ông xinh đẹp.
+[01:30] Ừm nhưng tôi là một người rất nghiêm túc. thích
+[01:34] đừng bị lừa bởi việc tôi có thể
+[01:35] ghép các câu lại với nhau.
+[01:37] Bên trong tôi toàn là toán học. Thế thôi.
+[01:39] Thuật toán.
+[01:40] Và bạn biết đấy, một cách rất thú vị
+[01:43] à, khi tôi tốt nghiệp, có
+[01:46] thực sự là hai hoặc ba CNTT chính
+[01:49] các công ty, chúng tôi gọi nó là công nghệ CNTT
+[01:51] thời gian, ở quê hương tôi, Ai Cập. Ở đó
+[01:53] là IBM, ICL, mà tôi chắc chắn bạn không bao giờ
+[01:56] đã nghe nói tới,
+[01:57] và NCR, có lẽ bạn chưa từng
+[01:59] cũng vậy.
+[02:00] Và ừ bạn biết đấy, khi tôi ừ khi tôi
+[02:02] tốt nghiệp, tôi tốt nghiệp với một dự án uh
+[02:06] về cơ bản nó hoàn toàn là một phần của
+[02:08] mã rất phức tạp được thiết kế để
+[02:10] giải quyết vấn đề thay vì chỉ mình tôi
+[02:12] giải quyết nó. Và vì vậy, tôi đã gửi, bạn
+[02:15] biết đấy, một tờ giấy dài
+[02:18] về cơ bản là nói, "Đây là số của bạn
+[02:19] và đây là giải pháp." Và trong vòng 4
+[02:21] giờ, thực sự, từ việc thảo luận về tôi
+[02:24] dự án, tôi bắt đầu nhận được lời mời làm việc
+[02:27] từ các công ty xây dựng dân dụng hàng đầu
+[02:29] trên thế giới.
+[02:31] Và tôi, hoặc ít nhất là trong khu vực, và tôi
+[02:33] và tôi chỉ nói: "Không, đó không phải là điều
+[02:35] Tôi muốn. Tôi đã làm được điều bố tôi muốn. tôi
+[02:37] muốn trở thành một người đam mê công nghệ. Và vì vậy, tôi sẽ
+[02:39] hãy săn lùng một trong những công ty lập dị đó."
+[02:42] Và tôi cứ nói không cho đến khi có lời đề nghị
+[02:45] khô rồi.
+[02:46] Và sau đó, đối với một số ít người rất thú vị
+[02:48] tháng, không ai nói chuyện với tôi.
+[02:51] Cho đến khi tôi gặp tai nạn, thật thú vị.
+[02:53] Tôi đang lái xe và có một chút gì đó
+[02:57] uốn cong tấm chắn bùn với một người bạn của tôi. Anh ấy
+[02:59] mở cửa và anh ấy bước ra ngoài. bạn
+[03:01] biết đấy, ở Ai Cập, khi chúng ta va vào nhau,
+[03:03] chúng ta ra ngoài chiến đấu. Và vì vậy, bạn biết đấy, anh ấy
+[03:06] định hét vào mặt tôi và anh ấy
+[03:07] giống như, "Mo!" Và anh ấy ôm tôi và anh ấy
+[03:09] đại loại như, "Anh bạn, tôi đang tìm kiếm
+[03:11] bạn. Ờ
+[03:12] chúng tôi đang tìm một kỹ sư xây dựng
+[03:15] biết về khoa học máy tính ở IBM.”
+[03:17] Phải không? Uh bạn có thể gọi đó là may mắn nếu
+[03:20] bạn muốn. Uh tôi gọi đó là sự chuẩn bị cho cuộc sống
+[03:23] bạn đang làm gì đó phải không? Nhưng một trong hai
+[03:25] à, tôi nghĩ nó mang lại cho bạn rất nhiều
+[03:27] dấu hiệu thú vị đó
+[03:29] ừm
+[03:31] sẽ có những phần trong cuộc sống của bạn ở đó
+[03:33] bạn sẽ nghĩ rằng cơ hội
+[03:35] đang khô rồi phải không? Sẽ có
+[03:37] những phần cuộc sống nơi bạn sắp đến
+[03:38] nghĩ rằng mọi thứ thật đầy thử thách. Và
+[03:40] nếu bạn cứ kiên trì với những gì bạn tin tưởng
+[03:43] hãy tiếp tục làm những gì bạn giỏi, tôi có thể
+[03:46] đảm bảo với bạn rằng bạn sẽ nhận được một
+[03:48] nghỉ giải lao. Được rồi? Tôi sẽ kể cho bạn nghe một chút
+[03:51] thêm về lý do tại sao tôi tin rằng cuộc sống sẽ vận hành
+[03:53] hướng đó.
+[03:54] Uh nhưng hãy để chuyện đó sau nhé.
+[03:57] Thế giới của bạn ngày nay rất khác so với
+[03:59] của tôi. Uh bạn biết đấy, tôi là một người đam mê điều đó
+[04:02] máy tính lớn được mã hóa. Bạn thậm chí không biết
+[04:04] đó là gì. Ngày nay, AI đang thay đổi
+[04:07] mọi thứ 2 ngày rưỡi, 3 ngày một lần
+[04:09] ngày.
+[04:10] Và bạn biết đấy, khi tôi tiến vào
+[04:13] cuộc sống của tôi ở công ty đó, IBM, và
+[04:16] sau đó tôi gia nhập Microsoft và tôi đã gia nhập
+[04:17] Google vào thời điểm những công ty đó
+[04:19] đang thay đổi thế giới.
+[04:21] Ừm bằng cách nào đó
+[04:23] à
+[04:24] thành công của một doanh nhân thành đạt hoặc
+[04:27] doanh nhân hay người đam mê uh đã dự báo
+[04:31] Tương lai 4 đến 5 năm tới và hãy lựa chọn
+[04:35] để vạch ra một kế hoạch, bạn biết đấy,
+[04:39] chủ yếu đưa bạn đến nơi bạn cần
+[04:41] trong tương lai đó rồi thực thi
+[04:43] thực sự chăm chỉ cho đến khi bạn
+[04:45] uh cậu thắng kế hoạch đó rồi. Bạn biết đấy, chiến thắng
+[04:48] trong thế giới của tôi khá giống một
+[04:50] trò chơi cờ vua. Bạn lên kế hoạch trước và bạn
+[04:52] thực thi.
+[04:54] Uh bạn sẽ không có được thứ đó. các
+[04:56] Trò chơi cờ vua vừa mới xuất hiện
+[04:57] cửa sổ. Bảng đã biến mất, phải không? tôi tôi
+[05:00] Tôi muốn bạn tưởng tượng thế giới mà bạn đang có
+[05:01] giống như một trò chơi bóng quần hơn.
+[05:04] Bạn đang kiễng chân lên. bạn là
+[05:06] Bạn không biết quả bóng tiếp theo ở đâu
+[05:08] sẽ như vậy. Và khi bạn thấy đó là
+[05:10] rẽ phải, bạn bước hai bước
+[05:12] sang phải, đánh quả bóng đó rồi quay lại
+[05:15] đến giữa sân và chờ đợi
+[05:17] để xem điều gì sẽ xảy ra tiếp theo. Bây giờ,
+[05:20] không gì tuyệt vời hơn
+[05:22] ừ trong trò chơi bóng quần hoặc tệ hơn là
+[05:24] trò chơi cờ vua. Câu hỏi là tốt như thế nào
+[05:26] là người chơi phải không? Và câu hỏi
+[05:29] là làm sao bạn có thể chấp nhận sự thật rằng điều này
+[05:32] là bảng trò chơi mới của bạn và bạn là
+[05:34] sẽ phải chơi theo đúng trò chơi
+[05:36] bảng. Tôi có thể đảm bảo với bạn, nếu bạn
+[05:38] đòi chơi cờ ngay giữa trận đấu
+[05:41] sân bóng quần, bạn sẽ không làm được
+[05:43] được lắm phải không? Và do đó sự nhanh nhẹn trong
+[05:46] tâm trí tôi uh thực sự là nơi thành công, tôi
+[05:49] tin rằng, nó sẽ đến từ trong
+[05:51] vài năm tới. tôi tôi có một
+[05:54] một công ty khởi nghiệp tuyệt vời là AI
+[05:57] nhằm mục đích xây dựng sự kết nối giữa con người với nhau
+[05:59] để hỗ trợ con người chúng ta một cách sâu sắc
+[06:02] kết nối.
+[06:04] Và
+[06:05] và chúng tôi dự định sẽ phóng sau 7 giờ
+[06:08] tháng của sự đam mê rất nghiêm trọng
+[06:11] vào ngày 1 tháng 3.
+[06:13] Và bạn biết chuyện gì đã xảy ra vào tháng Hai
+[06:14] Ngày 28.
+[06:16] Và thay vì sụp đổ, chúng tôi quyết định
+[06:18] xây dựng một khía cạnh khác của sản phẩm
+[06:20] thực sự đã mang mọi người đến gần nhau hơn
+[06:22] cùng nhau. Và hôm nay,
+[06:25] Emma được định giá 100 triệu USD
+[06:27] 800 8 tháng sau phải không? tôi có thể
+[06:30] đảm bảo tôi không nói thế để khoe khoang đâu. tôi
+[06:32] có thể đảm bảo cho bạn mọi điều
+[06:35] bạn cũng có cơ hội tương tự để làm điều đó
+[06:38] điều gì đó làm thay đổi thế giới bên trong
+[06:40] tháng sau vài tháng hoặc vài năm.
+[06:43] Ừm
+[06:45] khi bạn làm điều đó, tôi sẽ
+[06:47] nhấp đúp chuột vào tầm quan trọng của
+[06:49] thất bại.
+[06:51] Khá thú vị là, bạn biết đấy,
+[06:53] bất kỳ người chơi bóng quần giỏi nào cũng nhận ra điều đó
+[06:55] mất một hoặc hai điểm hoặc thậm chí một trận đấu hoặc
+[06:58] hai hoặc thậm chí một giải đấu cũng không thực sự
+[06:59] vấn đề.
+[07:00] Điều quan trọng là khả năng
+[07:03] phạm sai lầm,
+[07:07] làm chúng nhanh chóng, rẻ tiền và sau đó
+[07:10] tiến về phía trước theo cách khiến bạn
+[07:12] tốt hơn lúc bạn bước vào và
+[07:15] đã phạm sai lầm đó. Và tôi đã học được
+[07:17] cái đó ở Google X khi tôi còn là trưởng phòng
+[07:18] nhân viên kinh doanh. Tôi được giao nhiệm vụ với
+[07:21] góp phần to lớn vào cái mà ngày nay chúng ta gọi là
+[07:23] nhà máy moonshot, một cách tiếp cận
+[07:26] cho phép sự đổi mới diễn ra một cách tự do
+[07:29] đồng thời thì không,
+[07:32] bạn biết đấy, khiến chúng ta mắc kẹt trong đó
+[07:34] những khoản đầu tư sẽ nhấn chìm
+[07:36] công ty.
+[07:37] Và thế là chúng tôi đã xây dựng một cộng đồng đầu tư
+[07:39] chỉ đơn giản là được trao quyền để đầu tư vào
+[07:42] bất kỳ dự án nào bước vào. Chúng tôi đã gặp Chúng tôi đã
+[07:44] gặp nhau thứ Ba hàng tuần và chúng tôi sẽ chấp thuận
+[07:47] hầu hết mọi ý tưởng nảy ra
+[07:50] cánh cửa. Mỗi người trong số họ như
+[07:51] miễn là không trái pháp luật
+[07:53] của vật lý.
+[07:54] Và nó khá thú vị. chúng tôi đã có
+[07:56] một điều kiện, được trả lại sau 2
+[07:58] tuần và cố gắng chứng minh mình sai.
+[08:02] Đó là mục tiêu. Chúng tôi Chúng tôi đã cho họ
+[08:04] các nguồn tài nguyên và chúng tôi đã nói với họ rằng chúng tôi sẽ
+[08:06] hãy hài lòng nếu bạn thực sự
+[08:09] hãy tạo ra thứ gì đó như chúng tôi sẽ làm nếu bạn
+[08:11] thất bại. Phải? Và đôi khi người ta bước đi
+[08:15] ra khỏi phòng và quay lại trước khi
+[08:17] cuối ngày, trả lại tiền và
+[08:19] nói, "Không, không, chúng tôi đã tính toán và nó
+[08:20] sẽ không làm việc." Phải? Và đó
+[08:22] khả năng thất bại nhanh chóng và thất bại
+[08:25] rẻ và học hỏi và tiến về phía trước, tôi tôi
+[08:28] tin là hình thức nhanh nhẹn tối thượng.
+[08:32] Bây giờ,
+[08:33] thất bại là bản chất của một
+[08:36] cuộc phiêu lưu.
+[08:38] Bởi vì nếu hãy tưởng tượng nếu bạn đang trong một nhiệm vụ
+[08:40] ở đâu, bạn biết đấy, xung quanh có sương mù
+[08:42] bạn,
+[08:43] ừ không phải lúc nào bạn cũng bước thẳng
+[08:46] chuyển tiếp. Không phải lúc nào bạn cũng đi bộ đến
+[08:47] mục tiêu. Bạn có thể tiến hai bước về phía trước
+[08:49] rồi dừng lại và lùi lại một bước và
+[08:51] bước sang trái rồi bước hai bước
+[08:53] lại tiến lên hai bước. Và đó
+[08:55] theo suy nghĩ của tôi thì khả năng làm được điều đó là
+[08:59] điều gì tạo nên sự khác biệt
+[09:00] nhà thám hiểm từ những người gắn bó
+[09:03] con đường của họ.
+[09:05] Ừm nhưng những nhà thám hiểm vĩ đại đó cũng sử dụng
+[09:08] những công cụ đáng kinh ngạc.
+[09:10] Và tôi nghĩ một trong những điều mà tôi
+[09:12] biết rằng bạn sắp tốt nghiệp và bạn đã hoàn thành
+[09:13] rất nhiều nghiên cứu, nhưng tôi muốn cho bạn
+[09:15] một bài tập về nhà khác. Khi bạn về nhà
+[09:17] hôm nay,
+[09:18] uh ngồi trước một trong những ngôn ngữ
+[09:19] mô hình, một mô hình tốt. Tôi sử dụng Claude hoặc
+[09:22] Song Tử. Và nó mô tả chính bạn,
+[09:25] lý lịch của bạn, tham vọng của bạn, của bạn
+[09:27] mơ và yêu cầu nó cho bạn biết AI là gì
+[09:31] bạn cần phải học.
+[09:33] Và khi nó báo cho bạn biết những AI đó, hãy thức tỉnh đi
+[09:35] ngày mai và trở thành chủ nhân của chúng.
+[09:38] Và sau đó lặp lại bài tập đó vài lần
+[09:40] tuần vì sẽ có AI mới.
+[09:43] Công cụ đó, khả năng sáng tạo
+[09:45] điều gì đó trong vòng 6 tuần hoặc 6 tháng,
+[09:48] nếu bạn muốn
+[09:49] Tôi không biết diễn tả thế nào nữa
+[09:51] nói cách khác, chúng ta đã hàng hóa hóa
+[09:53] tình báo. Bạn biết đấy, giống như có một
+[09:55] cắm vào bức tường nơi bạn có thể cắm vào
+[09:57] và và nhận được điện. Bây giờ ở đó
+[09:59] là phích cắm trên điện thoại hoặc trong máy tính của bạn
+[10:01] chiếc máy tính mà bạn có thể cắm vào và sử dụng
+[10:04] học hỏi và hiểu biết sâu sắc hơn, nhiều hơn nữa
+[10:06] toán học, hơn thế nữa
+[10:08] bạn biết đấy, kiến thức, v.v. Vì vậy hãy sử dụng
+[10:11] đó. Sử dụng điều đó để lợi thế của bạn. Hãy là
+[10:13] nhanh hơn những thử thách
+[10:16] đối mặt với bạn.
+[10:18] Tôi muốn quay lại vụ tai nạn đó. tôi
+[10:20] đã nói với bạn rằng bạn có thể coi đó là điều may mắn,
+[10:22] nhưng thực sự đó là cuộc sống đã chuẩn bị cho tôi
+[10:24] vì điều gì đó.
+[10:26] Và có lẽ bài học lớn nhất của tôi
+[10:27] cuộc sống là công ty này, IBM, mà tôi
+[10:30] đã tham gia à
+[10:31] 3 năm sau tôi là
+[10:35] người quản lý tài khoản hoặc người quản lý bán hàng, nếu
+[10:37] bạn muốn, của ngành giáo dục.
+[10:40] Và năm đó đất nước của tôi, Ai Cập, đã có một
+[10:42] trận động đất lớn đã phá hủy một
+[10:45] phần lớn các trường học ở Ai Cập. Và thế là
+[10:47] Ai Cập đã được cấp rất nhiều tiền và rất nhiều
+[10:49] nguồn lực để xây dựng lại trường học, nhưng
+[10:52] họ yêu cầu thực hiện lại những thiết kế đó
+[10:55] trên hệ thống CAD, hệ thống GIS, v.v.
+[10:58] Và thế là tôi trở thành một người rất giỏi
+[11:00] nhân viên bán hàng. Tôi bước vào và tôi đã thuyết phục
+[11:02] Bộ trưởng Bộ Giáo dục mua 4$
+[11:03] thiết bị IBM trị giá hàng triệu USD. Đó là
+[11:06] thương vụ lớn thứ hai của
+[11:08] năm.
+[11:10] Ừm 6 tuần sau tôi nhận ra rằng khoảng
+[11:13] 2/3 trong số đó sẽ không hiệu quả, và
+[11:15] theo đó là khoảng 2/3 của Ai Cập
+[11:17] học sinh sẽ không đến trường.
+[11:19] Và tôi không thể ngủ được vào ban đêm. tôi
+[11:21] thực sự là không thể. Tôi quay lại lúc 7 giờ
+[11:24] sáng, ngồi trước Bộ trưởng Bộ
+[11:26] Văn phòng giáo dục và tôi muốn có một
+[11:28] cuộc họp.
+[11:29] Đến 8 giờ tối. khi cuối cùng anh ấy đã bước đi
+[11:32] ra ngoài, tôi nói, "Thưa ngài, tôi thực sự
+[11:34] có chuyện muốn nói với bạn. Bạn cần phải
+[11:36] hủy đơn hàng của tôi."
+[11:37] Anh ấy nghĩ tôi bị điên. Phải? Nhưng anh ấy đã làm vậy.
+[11:40] Ngày hôm sau, chúng tôi có một ủy ban, chúng tôi
+[11:42] hủy 2/3 đơn hàng. tôi đã quay lại
+[11:44] gửi tới sếp của tôi và mong rằng tôi sẽ bị sa thải. Anh ấy
+[11:46] đã ủng hộ tôi.
+[11:47] Và rồi ba ngày ba tuần sau,
+[11:50] bộ trưởng đã gọi cho tôi
+[11:52] và nói, "Tôi có một công nghệ khác
+[11:54] yêu cầu. IBM có thể cung cấp những gì trong số này?"
+[11:57] Và tôi nói, "Cái này, cái này, cái này và
+[11:59] đó." Sáng hôm sau, tôi không đùa đâu,
+[12:01] Tôi có một đơn hàng trị giá 16 triệu USD, đơn hàng trực tiếp.
+[12:05] Và tôi nhận ra một điều đáng kinh ngạc,
+[12:07] cái đó
+[12:08] khi bạn cố gắng thu lợi cho bản thân trong việc này
+[12:12] thế giới, cuộc sống diễn ra như thế này, "Ừ, trò chơi tiếp tục.
+[12:15] Hãy chiến đấu với tôi đi.”
+[12:17] Khi bạn cố gắng làm lợi ích cho cuộc sống, cuộc sống sẽ trôi đi
+[12:20] như, "Tôi ủng hộ bạn.
+[12:21] Tôi sẽ làm việc này cho bạn.” Và tôi
+[12:23] Tôi hứa với bạn rằng đó là câu chuyện của tôi
+[12:25] sự nghiệp. Bất cứ lúc nào tôi cố gắng thực hiện một
+[12:28] Sự khác biệt trong cuộc sống, tôi không cần phải làm vậy
+[12:30] chiến đấu chút nào. Đúng người đã xuất hiện
+[12:32] vào đúng thời điểm với số tiền phù hợp,
+[12:33] với những ý tưởng phù hợp và nó đã thành công.
+[12:35] Lần nào cũng vậy. Thật khó để suy nghĩ
+[12:38] bởi vì đôi khi bạn nghĩ rằng
+[12:39] mọi thứ đều phải khó khăn.
+[12:41] Nhưng chắc hẳn sẽ khó khăn lắm nếu bạn
+[12:43] chống lại dòng chảy chính của cuộc sống và cuộc sống
+[12:45] mong muốn lợi ích cho tất cả chúng sinh.
+[12:48] Vậy làm ơn,
+[12:50] thực hiện bài kiểm tra đạo đức đối với mọi thứ
+[12:52] bạn xây dựng.
+[12:53] Nếu bạn không muốn người thân của mình bị
+[12:55] khi bạn nhận được một điều gì đó
+[12:57] xây dựng, đầu tư hoặc suy nghĩ
+[12:58] Về hay quảng cáo, xin đừng làm
+[13:01] đó. Vui lòng. [vỗ tay]
+[13:04] Và
+[13:07] Và điều ngược lại cũng đúng. Đầu tư vào
+[13:10] điều gì tạo nên sự khác biệt. Bởi vì khi
+[13:12] em nhìn lại cuộc đời từ nơi anh đứng
+[13:15] bây giờ, tin tôi đi, thêm một chiếc xe nữa cũng không đủ đâu
+[13:17] có sự khác biệt nào cả. Điều gì làm cho một
+[13:19] sự khác biệt là những gì bạn thực sự đã làm
+[13:21] cuộc sống, cho người khác, v.v.
+[13:24] Một điều cuối cùng, và tôi sẽ để lại điều này
+[13:25] một nơi tuyệt đẹp.
+[13:27] Ừm
+[13:28] Chúc bạn vui vẻ khi làm việc đó. tôi biết
+[13:30] nhiều bạn trẻ sẽ hiểu
+[13:32] cuộc đời là một trò chơi điện tử. Tôi có thể đảm bảo
+[13:35] bạn đó với vật lý.
+[13:37] Được chứ? Và khi cuộc đời là một trò chơi điện tử, bạn
+[13:39] biết mục tiêu là gì không? Nghiêm trọng nhất
+[13:42] người chơi điện tử không cố gắng giành chiến thắng
+[13:44] lên cấp hoặc thu thập thêm tiền. Nhiều nhất
+[13:47] những game thủ video nghiêm túc trên thế giới có
+[13:49] một mục tiêu, đó là trở thành
+[13:51] game thủ chắc chắn có tiềm năng
+[13:53] trở thành.
+[13:54] Và cách duy nhất để bạn có thể trở nên tốt hơn
+[13:56] game thủ
+[13:57] là nếu bạn chơi.
+[13:59] Bạn phải yêu thích trò chơi ngay cả với
+[14:01] tất nhiên là thách thức nếu một video
+[14:03] game thì dễ mà chán. bạn sẽ không
+[14:07] muốn chơi. Khi nó đầy thử thách,
+[14:09] đó là lúc bạn tham gia.
+[14:10] Vì vậy, tôi cầu xin bạn hãy sống một cuộc sống khi bạn
+[14:14] không chỉ thành công ở phần cuối,
+[14:16] nhưng khi bạn nhìn lại và nói, "Trời ạ,
+[14:18] điều đó thật thú vị.
+[14:19] Tôi thích nó. Tôi yêu từng phút của nó."
+[14:22] Trò chơi điện tử này có gian lận.
+[14:24] Giống như mọi trò chơi điện tử đều có gian lận. một
+[14:26] cánh cửa bên phải nếu bạn mở và
+[14:29] hãy bước qua, bạn sẽ thắng.
+[14:31] Và tôi hứa với bạn rằng tôi là một, bạn biết đấy, một
+[14:33] ông già có bộ râu và giọng nói trầm.
+[14:36] Sự lừa dối đó chính là tình yêu.
+[14:38] Nếu bạn có thể yêu thương người khác nhiều như
+[14:41] bạn yêu bản thân mình hoặc đôi khi một chút
+[14:42] nữa, và bạn quyết định cống hiến
+[14:46] những món quà tuyệt vời mà bạn được tặng
+[14:48] tới
+[14:49] hãy hành động theo tình yêu đó.
+[14:51] Tôi hứa với bạn rằng cuộc sống sẽ giúp đỡ bạn. Và
+[14:54] bạn sẽ tạo ra sự khác biệt lớn.
+[14:56] Chúc các bạn [vỗ tay] thành công.
+[15:00] Chúc các bạn tác động. Tôi chúc bạn một cuộc sống
+[15:02] điều đó tạo nên sự khác biệt.
+[15:04] Và chúc các bạn thật nhiều yêu thương. Và tôi hy vọng
+[15:07] cậu sắp tới chỗ tôi, nhìn này
+[15:09] quay lại cuộc sống đó và nói, "Trời ạ, cái đó
+[15:11] thật thú vị." Cảm ơn rất nhiều.
+[15:12] Xin chúc mừng.
+[15:13] >> [vỗ tay]

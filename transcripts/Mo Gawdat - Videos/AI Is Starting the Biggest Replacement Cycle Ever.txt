@@ -1,0 +1,127 @@
+Title: AI Is Starting the Biggest Replacement Cycle Ever
+URL: https://www.youtube.com/watch?v=NBwjCIxrGKU
+ID: NBwjCIxrGKU
+Transcript Type: Language: en -> vi (translated via deep-translator)
+================================================================================
+
+--- TÓM TẮT NỘI DUNG ---
+Điều đó có nghĩa là như tôi đã nói rằng bạn hiện đang đối mặt với cơ hội lớn nhất trên hành tinh bởi vì nếu bạn đã từng, nếu bạn đủ tuổi như tôi và bạn đã sống qua thời kỳ mà tất cả âm nhạc của bạn đều nằm trên băng và sau đó bạn phải chuyển chúng sang đĩa CD và sau đó bạn phải chuyển chúng sang nền tảng và bây giờ tôi sẽ chuyển chúng trở lại đĩa CD, phải không? Vì vậy ngày nay chúng ta có chu kỳ thay thế công nghệ này và tin hay không thì không, không quốc gia nào trên hành tinh này và không có nơi nào trên hành tinh ngày nay có khả năng làm điều này hơn căn phòng này. Nhưng trong vài năm đó, bây giờ bạn sẽ phải đưa ra lựa chọn sẽ cố gắng bảo vệ công việc của mình trong vài năm bằng cách nói không, không, không, không, chúng tôi rất hài lòng với ERP của mình. Và vì vậy, tôi muốn bạn tưởng tượng rằng những gì chúng tôi đã tạo ra gần đây nhất mà tôi muốn nói kể từ năm 2004 là khi nào cuộc sống của tôi, bạn biết đấy, ở những nơi như Google bắt đầu thấy AI thực sự hoạt động.
+
+================================================================================
+
+--- RAW TEXT (FOR LLM INPUT) ---
+bạn phải hiểu rằng cách chúng tôi phát triển AI trong 25 năm qua rất khác so với cách chúng tôi phát triển nó hiện nay. Bây giờ chúng tôi sử dụng AI tự phát triển, AI tự mã hóa. Chúng ta có dữ liệu đào tạo tổng hợp nên AI phát triển dữ liệu đào tạo cho AI. Chúng ta có AI khoa học có khả năng khám phá những vật liệu mới, toán học mới, phải không? Và chúng tôi có một lần nữa cho bạn biết, ngoài những mẫu lớn mà Mỹ cố gắng bán ra thế giới, chúng tôi còn có những mẫu có viền ngày càng nhỏ hơn, được không? Đó là khả năng thực hiện mọi việc tốt hơn nhiều so với sự cường điệu lớn mà Open AI muốn bạn mong đợi để tưởng tượng rằng thế giới được tạo nên. Điều đó có nghĩa là gì? Điều đó có nghĩa là như tôi đã nói rằng bạn hiện đang đối mặt với cơ hội lớn nhất trên hành tinh bởi vì nếu bạn đã từng, nếu bạn đủ tuổi như tôi và bạn đã sống qua thời kỳ mà tất cả âm nhạc của bạn đều nằm trên băng và sau đó bạn phải chuyển chúng sang đĩa CD và sau đó bạn phải chuyển chúng sang nền tảng và bây giờ tôi sẽ chuyển chúng trở lại đĩa CD, phải không? Mỗi lần tôi mua tất cả nhạc tôi đều phải mua lại. Cả một ngành công nghiệp đã được xây dựng lại chỉ bằng cách chuyển từ đĩa CD từ băng sang đĩa CD, phải không? Chu kỳ thay thế công nghệ đó đã xảy ra nhiều lần trong đời bạn, bạn biết đấy, ô tô điện, v.v. Vì vậy ngày nay chúng ta có chu kỳ thay thế công nghệ này và tin hay không thì không, không quốc gia nào trên hành tinh này và không có nơi nào trên hành tinh ngày nay có khả năng làm điều này hơn căn phòng này. Chúng ta là những người đam mê công nghệ, phải không? Chúng tôi là những kỹ thuật viên thực sự có thể xem xét tất cả công nghệ này và vì chúng tôi đã hỗ trợ nó trong nhiều năm nên chúng tôi có thể xây dựng lại nó trong một chu kỳ thay thế, phải không? Vì vậy, đây là cơ hội lớn nhất trên hành tinh. Chúng ta cũng có thể xây dựng những thứ hoàn toàn chưa từng có như Emma. Đó là một cách hẹn hò và tìm kiếm tình yêu hoàn toàn mới và bạn biết đấy, gần giống như cuộc hôn nhân sắp đặt ở Ấn Độ, nhưng được thực hiện bằng cách sử dụng AI và phù hợp với thế giới ngày nay. Tôi muốn những con bướm và một con bướm, tôi muốn của tôi, bạn biết đấy, tôi muốn anh ấy hoàn thành lời nói của mình. Phải? Và bạn có thể làm điều đó ngay hôm nay. Trước đây bạn không thể tưởng tượng được mình có thể làm được điều đó bằng cách sử dụng lập trình truyền thống. Đồng thời, hả? Có một mối đe dọa lớn vì tôi sẽ phải rất cởi mở. Kiểu cường điệu xung quanh việc mọi người mất việc một lần nữa lại được thay đổi hoàn toàn. Còn vài năm nữa thôi. Hửm? Nhưng trong vài năm đó, bây giờ bạn sẽ phải đưa ra lựa chọn sẽ cố gắng bảo vệ công việc của mình trong vài năm bằng cách nói không, không, không, không, chúng tôi rất hài lòng với ERP của mình. Phải? Hoặc bạn sẽ phải nhảy vào cuộc và nói, ừ, chắc chắn rồi. Tôi sẽ làm cho bạn biết, xé tất cả ra, thử nghiệm, thử và thử nghiệm và tìm được thứ gì đó rất rẻ mà tốt hơn nhiều, hm? Uh đó là những gì tôi có bây giờ. Những người đầu tiên sẽ giữ được công việc của họ, nhưng bạn biết đấy, có lẽ họ sẽ gặp nhiều phản kháng hơn và thu nhập ừ ừ giảm sút. Những người khác sẽ tạo ra các doanh nghiệp trị giá hàng trăm triệu đô la. Phải? Và bạn có thể tưởng tượng cái nào sẽ còn lại sau một vài năm. Phải? Và tôi phải thừa nhận với bạn, lý do khác biệt giữa hai điều đó là ở định nghĩa trí tuệ nhân tạo thực sự là gì. Phải? Và vì vậy, tôi muốn bạn tưởng tượng rằng những gì chúng tôi đã tạo ra gần đây nhất mà tôi muốn nói kể từ năm 2004 là khi nào cuộc sống của tôi, bạn biết đấy, ở những nơi như Google bắt đầu thấy AI thực sự hoạt động. Vì vậy, kể từ năm 2004, những gì chúng tôi đã tạo ra hơi giống như bạn biết đấy, một tiện ích. Bạn biết đấy, bạn biết cách cắm vào tường và lấy năng lượng từ ổ cắm, phải không? Uh về cơ bản, bạn biết đấy, chúng tôi đã sử dụng năng lượng hàng hóa. Bạn cắm điện bất cứ lúc nào, bạn sẽ có được năng lượng. Bây giờ, với trí tuệ nhân tạo, chúng ta đã làm được điều chúng ta đã làm là biến trí thông minh thành hàng hóa. Phải? Tài sản có giá trị nhất trên hành tinh hiện đã được hàng hóa hóa thành một thiết bị. Phải? Bạn có thể cắm vào nó và thay vì lấy điện, bạn sẽ có IQ. Bạn nhận được EQ.
+
+--- TIMESTAMPED TEXT ---
+[00:00] bạn phải hiểu rằng cách chúng tôi
+[00:02] AI được phát triển trong 25 năm qua là
+[00:05] rất khác so với cách chúng tôi phát triển
+[00:07] ngay bây giờ. Bây giờ chúng tôi sử dụng AI tự phát triển,
+[00:10] AI tự mã hóa. Chúng tôi có tổng hợp
+[00:13] đào tạo
+[00:14] dữ liệu, do đó AI đang phát triển dữ liệu đào tạo
+[00:17] dành cho AI. Chúng ta có AI khoa học
+[00:19] khám phá vật liệu mới, mới
+[00:21] toán học phải không? Và chúng tôi có
+[00:24] một lần nữa cho bạn biết, ngoài chuyện lớn
+[00:27] những mẫu xe mà Mỹ cố gắng bán cho
+[00:29] thế giới, chúng ta ngày càng nhỏ hơn
+[00:32] mô hình cạnh, được chứ? Còn hơn thế nữa
+[00:35] có khả năng làm được nhiều việc hơn người lớn
+[00:37] sự cường điệu mà Open AI muốn bạn mong đợi
+[00:40] hãy tưởng tượng rằng thế giới được tạo nên từ đó.
+[00:42] Điều đó có nghĩa là gì?
+[00:44] Điều đó có nghĩa là như tôi đã nói, bây giờ bạn đang
+[00:46] đối mặt với cơ hội lớn nhất trên
+[00:49] hành tinh này bởi vì nếu bạn đã từng
+[00:52] bạn cũng đủ tuổi như tôi và bạn đã
+[00:54] đã sống qua thời kỳ mà tất cả của bạn
+[00:55] âm nhạc đã có trên băng và sau đó bạn phải làm vậy
+[00:57] chuyển chúng sang đĩa CD và sau đó bạn phải
+[01:00] chuyển họ lên bục và bây giờ tôi đang
+[01:01] chuyển chúng trở lại đĩa CD, phải không? Mỗi
+[01:04] thời gian dành cho tất cả âm nhạc tôi từng có
+[01:06] đã mua rồi tôi phải mua lại.
+[01:08] Cả một ngành công nghiệp được xây dựng lại chỉ bằng
+[01:11] đổi từ đĩa CD
+[01:13] từ băng đến đĩa CD phải không? Đó là loại
+[01:16] Chu kỳ thay thế công nghệ diễn ra vào năm
+[01:18] cuộc đời bạn đã nhiều lần, bạn biết đấy,
+[01:20] ô tô điện, v.v. Vì vậy
+[01:23] chúng ta có công nghệ thay thế này
+[01:24] đạp xe ngày hôm nay và tin hay không thì không
+[01:27] quốc gia trên hành tinh và không có chỗ ở
+[01:31] hành tinh ngày nay có nhiều khả năng hơn
+[01:32] làm việc này hơn phòng này.
+[01:34] Chúng ta là những người đam mê công nghệ phải không? Chúng tôi là
+[01:36] những kỹ thuật viên thực sự có thể nhìn vào tất cả
+[01:38] công nghệ này và vì chúng tôi đã hỗ trợ nó nên
+[01:41] nhiều năm nữa, chúng ta có thể xây dựng lại nó trong một
+[01:43] chu kỳ thay thế, phải không?
+[01:46] Vậy đây là cơ hội lớn nhất trên
+[01:47] hành tinh. Chúng ta cũng có thể xây dựng những thứ
+[01:50] giống như Emma hoàn toàn
+[01:52] chưa từng có. Đó là một cách hoàn toàn mới
+[01:56] hẹn hò và tìm kiếm tình yêu và bạn biết đấy,
+[01:59] gần giống như cuộc hôn nhân sắp đặt của
+[02:00] Ấn Độ, nhưng sử dụng AI và phù hợp với
+[02:05] thế giới ngày nay của tôi muốn bướm và
+[02:07] một điều mà tôi muốn, bạn biết đấy, tôi muốn anh ấy làm vậy
+[02:09] hoàn thành lời của tôi đi.
+[02:11] Đúng không? Và bạn có thể làm điều đó ngay hôm nay. bạn
+[02:12] không thể tưởng tượng được mình có thể làm được điều đó
+[02:15] sử dụng lập trình truyền thống một thời gian
+[02:16] quay lại.
+[02:17] Cùng lúc đó hả? Có một cái lớn
+[02:20] đe dọa vì tôi sẽ phải rất
+[02:22] mở.
+[02:25] Kiểu cường điệu xung quanh việc mọi người thua cuộc
+[02:28] công việc của họ
+[02:29] lại bị chuyển mặt. Đã vài năm rồi
+[02:32] đi. Hửm? Nhưng trong vài năm đó, bạn
+[02:35] giờ đây chúng ta sẽ phải đưa ra lựa chọn
+[02:37] sẽ định vị bạn đang cố gắng
+[02:40] bảo vệ công việc của bạn trong vài năm bằng cách
+[02:42] nói không, không, không, không, chúng tôi rất rất
+[02:44] hài lòng với ERP của chúng tôi.
+[02:46] Đúng không? Hoặc bạn sẽ phải nhảy
+[02:49] lên xe và nói, vâng,
+[02:51] hoàn toàn có thể. Tôi sẽ đến với bạn biết đấy, rip
+[02:53] tất cả đều ổn, thử nghiệm và thử nghiệm
+[02:56] và đạt được thứ gì đó rất rất rẻ
+[02:59] như thế tốt hơn nhiều phải không? Ờ cái đó là gì
+[03:01] so với những gì tôi có bây giờ. Những cái đầu tiên
+[03:03] sẽ giữ được công việc của mình, nhưng bạn biết đấy,
+[03:05] có lẽ sẽ có nhiều sức đề kháng hơn và
+[03:07] đang từ chối uh uh
+[03:09] thu nhập. Những cái khác sẽ tạo ra
+[03:11] doanh nghiệp trăm triệu
+[03:13] giá trị đô la.
+[03:15] Phải không? Và bạn có thể tưởng tượng cái nào
+[03:17] những cái đó sẽ vẫn còn sau một vài năm.
+[03:20] Phải không? Và tôi phải thừa nhận với bạn,
+[03:22] lý do cho sự khác biệt giữa hai điều đó
+[03:24] nằm trong định nghĩa nhân tạo
+[03:27] thực tế là có trí thông minh.
+[03:29] Đúng không? Và vì vậy, tôi muốn bạn tưởng tượng
+[03:32] rằng những gì chúng ta đã tạo ra lần trước
+[03:35] Tôi muốn nói là từ năm 2004
+[03:38] ừ là khi nào cuộc đời tôi, bạn biết đấy,
+[03:41] ở những nơi như Google bắt đầu thấy AI
+[03:44] nó thực sự đang hoạt động.
+[03:46] Vì vậy, kể từ năm 2004, những gì chúng tôi đã tạo ra là
+[03:49] hơi giống như bạn biết đấy, một tiện ích. bạn
+[03:52] biết đấy, bạn biết cách kết nối
+[03:54] vào tường và lấy năng lượng từ ổ cắm,
+[03:57] phải không? Ờ
+[03:58] về cơ bản, chúng tôi đã tận dụng
+[04:00] bạn biết đấy, năng lượng đã được hàng hóa hóa. bạn bạn
+[04:03] cắm vào bất cứ lúc nào, bạn sẽ có năng lượng. Bây giờ,
+[04:05] với trí tuệ nhân tạo, chúng ta có những gì
+[04:07] chúng tôi đã hoàn tất việc thương mại hóa
+[04:08] tình báo.
+[04:10] Đúng không? Điều quý giá nhất
+[04:12] tài sản quý giá trên hành tinh hiện nay là
+[04:14] được thương mại hóa trong một thiết bị. Phải? bạn có thể
+[04:17] cắm vào nó và thay vì nhận
+[04:19] điện, bạn sẽ có IQ. Bạn nhận được EQ.

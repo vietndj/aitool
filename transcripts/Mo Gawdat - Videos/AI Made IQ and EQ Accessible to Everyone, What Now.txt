@@ -1,0 +1,173 @@
+Title: AI Made IQ and EQ Accessible to Everyone, What Now?
+URL: https://www.youtube.com/watch?v=SxCldThW_4g
+ID: SxCldThW_4g
+Transcript Type: Language: en -> vi (translated via deep-translator)
+================================================================================
+
+--- TÓM TẮT NỘI DUNG ---
+Và đây là một câu chuyện rất nổi tiếng về đam mê công nghệ bởi vì một lần nữa, nếu bạn là một người đam mê lâu năm như tôi, thì bạn biết đấy, năm 1989 là một thời điểm vô cùng sâu sắc đối với hầu hết chúng ta. Thời đại trí tuệ tăng cường là bạn và cỗ máy cùng nhau trở thành không phải 134 IQ, không phải 164 IQ, không phải 250 IQ. Bây giờ, đối với một tác giả, tôi có thể chọn cách kháng cự và nói, "Không, tôi sẽ viết theo cách nguyên bản của mình." Hoặc tôi có thể quyết định nhảy vào cuộc và thực hiện nó một cách rất khác biệt, tận dụng tối đa tinh thần đồng đội đó và về cơ bản là tạo ra thứ gì đó chưa từng được tạo ra trước đây. Và những người khác về cơ bản đang tiến hành nghiên cứu rất sâu về khoa học, công nghệ, về cơ bản là cơ hội thị trường, các khả năng và sử dụng chỉ số IQ cao đó để xây dựng những thứ chưa từng được xây dựng trước đây.
+
+================================================================================
+
+--- RAW TEXT (FOR LLM INPUT) ---
+Bây giờ với trí tuệ nhân tạo, những gì chúng tôi đã làm là biến trí thông minh thành hàng hóa. Phải? Tài sản có giá trị nhất trên hành tinh hiện đã được hàng hóa hóa thành một thiết bị. Phải? Bạn có thể cắm vào nó và thay vì lấy điện, bạn sẽ có IQ. Bạn nhận được EQ. Được rồi? Bạn có được thông tin quy trình. Bạn có được mọi dạng trí thông minh mà bạn có thể nghĩ tới. Và điều này sẽ xảy ra trong hai giai đoạn. Phải? Giai đoạn thứ nhất mà tôi thường nhắc đến, giai đoạn mà chúng ta đang trải qua hiện nay được gọi là kỷ nguyên của trí thông minh tăng cường. Phải? Đó là máy móc và con người cùng nhau làm việc để tạo ra những thứ mà cả máy móc và con người đều không thể làm được. Được rồi? Và đây là một câu chuyện rất nổi tiếng về đam mê công nghệ bởi vì một lần nữa, nếu bạn là một người đam mê lâu năm như tôi, thì bạn biết đấy, năm 1989 là một thời điểm vô cùng sâu sắc đối với hầu hết chúng ta. Đó là năm mà Deep Blue, hệ thống của IBM, đánh bại Garry Kasparov trong môn cờ vua. Được rồi? Và hầu hết chúng ta đều là những người đam mê cờ vua. Bạn biết đấy, chúng ta nghĩ mình là thứ thông minh nhất từ ​​trước đến nay và rồi một cỗ máy đã chiến thắng Garry Kasparov. Và nếu bạn đã từng gặp Garry thì trời ơi, giống như trí thông minh đáng kinh ngạc vậy. Phải? Kể từ đó, chưa có con người nào thắng được một cỗ máy thực sự trong cờ vua. Bao giờ. Thế thôi. Qua. Phải? Nhưng sau đó, chúng tôi bắt đầu với tư cách là những người chơi cờ để tổ chức các giải đấu khi chúng tôi có con người và máy đấu với con người và máy. Phải? Vì vậy, các nhóm người máy, nếu bạn muốn, sẽ cạnh tranh với nhau và bản thân trò chơi đã nâng tầm những bước đi mới, chiến lược mới, những điều mới mà chúng ta chưa từng nghĩ tới trước đây. Phải? Và đây là thời đại của trí thông minh tăng cường. Thời đại trí tuệ tăng cường là bạn và cỗ máy cùng nhau trở thành không phải 134 IQ, không phải 164 IQ, không phải 250 IQ. Chúng ta có tiềm năng trong vòng một hoặc hai năm để trở thành con người hoạt động ở mức IQ tăng thêm 300-400. Và tôi dám nói trong các bài viết của mình khi chúng ta nói chuyện, cuốn sách cuối cùng của tôi được viết cùng với AI, không phải do AI nghiên cứu và do tôi viết. Nó được viết bằng AI là đồng tác giả có tên cô ấy trên cuốn sách có quyền biên tập, và chúng tôi cùng nhau viết một cuốn sách mà độc giả cho rằng thật khó tin đến mức đôi khi họ sẽ đặt câu hỏi cho tôi và đôi khi đặt câu hỏi cho cô ấy. Phải? Bây giờ, đối với một tác giả, tôi có thể chọn cách kháng cự và nói, "Không, tôi sẽ viết theo cách nguyên bản của mình." Hoặc tôi có thể quyết định nhảy vào cuộc và thực hiện nó một cách rất khác biệt, tận dụng tối đa tinh thần đồng đội đó và về cơ bản là tạo ra thứ gì đó chưa từng được tạo ra trước đây. Sự khác biệt giữa cơ hội đó và mối đe dọa đó thực sự rất thú vị. Ừm, một số người trong chúng ta được ban cho trí thông minh đáng kinh ngạc này. Hãy tưởng tượng khoảnh khắc bạn có thể mượn 400 điểm IQ. Phải? Hãy tưởng tượng sự hiểu biết của bạn về mọi thứ khi bạn có IQ cao hơn 400 điểm. Phải? Tôi thường thách thức mọi người và nói: "Khi bạn cho tôi 400 điểm IQ, tôi sẽ sử dụng vật lý nano để xây dựng một khu vườn bên ngoài, nơi bạn có thể đi đến một cây và hái một quả táo và đi đến cây kia và nhặt một chiếc iPhone." Phải? Về cơ bản, từ góc độ chi phí hạt, nếu bạn đủ hiểu biết về vật lý nano, thì chúng có cùng chi phí. Theo nghĩa đen, cây này và cây kia. Phải? Đó là 400 điểm IQ cho bạn. Dù bạn có tin hay không, điều đó có thể xảy ra trước năm 2030. Phải không? Vì vậy, thách thức thú vị lớn nhất đối với tôi là AI xuất hiện và mang đến cho chúng ta hai cơ hội đáng kinh ngạc đó. Một là tôi có thể tăng năng suất của bạn một cách đáng kể bằng cách trả lời tất cả email của bạn và thay thế nhân viên trung tâm cuộc gọi của bạn. Và khi vợ hoặc chồng của bạn buồn bã, tôi sẽ viết thư trả lời cho họ. Thật là lãng phí tính toán. Được rồi? Và những người khác về cơ bản đang tiến hành nghiên cứu rất sâu về khoa học, công nghệ, về cơ bản là cơ hội thị trường, các khả năng và sử dụng chỉ số IQ cao đó để xây dựng những thứ chưa từng được xây dựng trước đây. Được rồi? Và tôi nghĩ sự khác biệt giữa chúng nằm ở sự cường điệu hóa. Phải? Ý tưởng đó cho thấy rằng thứ mà Open AI muốn bán cho bạn là sử dụng Chat GPT một cách nhẹ nhàng nhưng chỉ cần trả cho tôi 20 đô la một tháng và mọi thứ sẽ ổn. Phải? Trong thực tế, tôi chưa và tôi không đùa với bạn, trong ít nhất bốn hoặc năm tháng, tôi hiếm khi thực hiện một tìm kiếm trên một trong những AI của tôi mà không phải là một nghiên cứu sâu. Phải? Hầu hết các lời nhắc uh uh của tôi đều dài một trang rưỡi. Phải? Và sau đó tôi bắt đầu với Gemini hoặc Claude, sau đó lấy câu trả lời và đưa cho Deep Seek và nói, "Có chuyện gì vậy?" Và Deep Seek sẽ nói, "Nó quá Mỹ. Phải không? Để tôi kể cho bạn một vài điều mà họ chưa nói cho bạn biết. Đúng không?" Tôi lấy nó, ghép chúng lại với nhau và nói Chat GPT, đó là điều duy nhất nó giỏi, bạn biết đấy, kết hợp chúng. Vì vậy, nó viết một tài liệu. Tôi đưa nó trở lại cái khác và cứ thế. Chu kỳ đó đối với tôi hơi giống với việc họ đưa cho tôi một chiếc máy tính khoa học khi còn trẻ. Phải? Khi tôi còn học ở trường đại học kỹ thuật, họ chỉ cho phép chúng tôi sử dụng máy tính khoa học vào năm thứ ba đại học, và tôi nghĩ, đột nhiên tôi có thể tiết kiệm được một nửa thời gian của kỳ thi. Hầu hết bạn bè của tôi sẽ dành nửa thời gian đó để ra ngoài ngồi với bạn gái của họ. Tôi dành thêm nửa giờ hoặc một tiếng rưỡi và giải lại bài kiểm tra một lần nữa. Đưa ra hai giải pháp. Phải? Và đó là một sự khác biệt rất nhỏ trong suy nghĩ, nhưng năng suất trí tuệ thực sự của tôi tăng lên rất nhiều trong quá trình sáng tạo thay vì sự lười biếng của tôi và sự tập trung của tôi vào việc giảm chi phí một hoặc hai đô la ngày càng tăng lên. Và đó là một thái độ rất khác.
+
+--- TIMESTAMPED TEXT ---
+[00:00] Bây giờ với trí tuệ nhân tạo thì sao
+[00:02] điều chúng tôi đã làm là thương mại hóa
+[00:03] trí thông minh.
+[00:04] Đúng không? Điều quý giá nhất
+[00:07] tài sản quý giá trên hành tinh hiện nay là
+[00:09] được thương mại hóa trong một thiết bị. Phải? bạn có thể
+[00:12] cắm vào nó và thay vì nhận
+[00:14] điện, bạn sẽ có IQ. Bạn nhận được EQ.
+[00:17] Được chứ? Bạn có được thông tin quy trình. bạn
+[00:19] có được mọi dạng trí thông minh mà bạn
+[00:21] mà bạn có thể nghĩ ra.
+[00:23] Và điều này sẽ diễn ra theo hai giai đoạn.
+[00:26] Đúng không? Giai đoạn số một là những gì tôi
+[00:28] thường đề cập đến những gì chúng ta sẽ làm
+[00:30] đến nay được gọi là thời đại của
+[00:32] trí thông minh tăng cường. Phải? Đó là
+[00:35] máy móc và con người cùng nhau làm việc để
+[00:38] mang lại những thứ mà máy móc không
+[00:40] một mình con người cũng không thể giải quyết được.
+[00:43] Được chứ? Và đây là một điều rất nổi tiếng
+[00:45] câu chuyện đam mê bởi vì một lần nữa, nếu bạn là một
+[00:47] ông già lập dị như tôi, 1989
+[00:50] là một khoảnh khắc vô cùng sâu sắc, bạn biết đấy
+[00:53] đối với hầu hết chúng ta. Đó là năm
+[00:55] nơi Deep Blue, hệ thống của IBM, đánh bại
+[00:59] Garry Kasparov thua trong môn cờ vua. Được rồi? Và
+[01:02] hầu hết chúng ta đều là những người đam mê cờ vua.
+[01:04] Bạn biết đấy, chúng tôi nghĩ mình là người thông minh nhất
+[01:06] chuyện gì rồi cũng có cỗ máy chiến thắng
+[01:08] đấu với Garry Kasparov. Và nếu bạn đã
+[01:09] đã từng gặp Garry chưa, chúa ơi, kiểu như
+[01:12] trí thông minh đáng kinh ngạc. Phải? Bây giờ,
+[01:16] kể từ đó, chưa có con người nào chiến thắng
+[01:18] đấu với một cỗ máy thích hợp trong môn cờ vua. Bao giờ.
+[01:21] Thế thôi. Qua. Phải? Nhưng sau đó, chúng tôi
+[01:24] bắt đầu là người chơi cờ vua
+[01:26] những giải đấu khi chúng ta có con người và một
+[01:29] cỗ máy chơi đùa với con người và con người
+[01:31] máy.
+[01:32] Đúng không? Vì vậy, đội ngũ máy móc của con người
+[01:35] người máy, nếu bạn muốn, hãy cạnh tranh với
+[01:37] lẫn nhau và trò chơi tự nâng cao
+[01:40] đến những bước đi mới, chiến lược mới, những điều mới
+[01:42] trước đây chúng tôi chưa bao giờ nghĩ tới.
+[01:44] Đúng không? Và đây là thời đại tăng cường
+[01:47] tình báo. Thời đại tăng cường
+[01:48] trí thông minh là bạn và cỗ máy
+[01:51] cùng nhau trở thành IQ không phải 134, không phải 164
+[01:57] IQ chứ không phải IQ 250. Chúng tôi có tiềm năng
+[02:00] trong vòng một hoặc hai năm để trở thành con người
+[02:03] hoạt động ở mức IQ tăng thêm 300 400
+[02:07] điểm. Và tôi dám nói trong những bài viết của mình
+[02:10] như chúng ta đang nói,
+[02:13] cuốn sách cuối cùng của tôi được viết cùng với
+[02:15] một AI, không được AI nghiên cứu và
+[02:18] do tôi viết. Nó được viết bằng AI
+[02:21] đó là đồng tác giả có tên cô ấy trên
+[02:23] cuốn sách có quyền biên tập và
+[02:25] chúng tôi đã cùng nhau viết một cuốn sách mà độc giả
+[02:28] tôi nghĩ thật khó tin đến mức
+[02:29] thỉnh thoảng họ sẽ hỏi tôi những câu hỏi
+[02:32] và thỉnh thoảng đặt câu hỏi cho cô ấy.
+[02:34] Đúng không? Bây giờ, đối với một tác giả,
+[02:37] Lẽ ra tôi có thể chọn cách kháng cự và nói,
+[02:39] "Không, tôi sẽ viết theo cách ban đầu của mình." Hoặc
+[02:42] Tôi có thể quyết định nhảy vào cuộc
+[02:46] và làm điều đó rất khác,
+[02:47] luôn trân trọng tinh thần đồng đội đó và
+[02:50] và về cơ bản là tạo ra thứ gì đó
+[02:52] chưa từng được tạo trước đây.
+[02:54] Sự khác biệt giữa điều đó
+[02:56] cơ hội và mối đe dọa đó thực ra là
+[02:59] rất thú vị.
+[03:01] Ừm
+[03:02] một số người trong chúng ta được ban tặng điều tuyệt vời này
+[03:04] trí thông minh. Hãy tưởng tượng một khoảnh khắc mà bạn
+[03:06] có thể mượn 400 điểm IQ.
+[03:09] Đúng không? Hãy tưởng tượng sự hiểu biết của bạn về
+[03:11] mọi thứ khi bạn ở tuổi 400
+[03:12] Điểm IQ cao hơn. Phải? Bình thường tôi dám
+[03:15] mọi người và nói, "Khi bạn cho tôi 400 IQ
+[03:17] điểm, tôi sẽ sử dụng vật lý nano để xây dựng một
+[03:20] khu vườn bên ngoài nơi bạn có thể đi bộ đến
+[03:22] cây và hái một quả táo rồi đi bộ đến
+[03:24] cây khác và nhặt một chiếc iPhone."
+[03:26] Đúng không? Về cơ bản, từ chi phí hạt
+[03:29] theo quan điểm, nếu bạn đủ hiểu biết về vật lý nano,
+[03:31] đó là chúng có cùng mức giá.
+[03:34] Theo nghĩa đen, cây này và cây kia.
+[03:36] Phải không? Đó là 400 điểm IQ cho bạn.
+[03:38] Dù tin hay không thì điều đó vẫn có thể xảy ra
+[03:40] trước năm 2030.
+[03:42] Đúng không? Vì vậy, điều thú vị nhất
+[03:44] thách thức đối với tôi là AI xuất hiện
+[03:47] bức ảnh và đưa cho chúng tôi hai cái đó
+[03:49] những cơ hội đáng kinh ngạc. Một là tôi có thể
+[03:52] tăng năng suất của bạn một cách đáng kể bằng cách
+[03:55] trả lời tất cả email của bạn và
+[03:57] thay thế nhân viên trung tâm cuộc gọi của bạn. Và
+[03:59] khi vợ hoặc chồng của bạn
+[04:00] khó chịu quá, tôi định viết thư trả lời cho
+[04:02] họ.
+[04:03] Thật là lãng phí công sức tính toán.
+[04:05] Được chứ? Và những người khác về cơ bản đang đi
+[04:07] nghiên cứu rất sâu về khoa học,
+[04:10] về công nghệ, về cơ bản trên thị trường
+[04:14] cơ hội, khả năng và cách sử dụng
+[04:17] đã nâng cao chỉ số IQ để xây dựng những thứ
+[04:20] chưa bao giờ chưa từng xây dựng
+[04:21] đã được xây dựng trước đây.
+[04:23] Được chứ? Và tôi nghĩ sự khác biệt giữa
+[04:25] họ
+[04:26] được quảng cáo rầm rộ.
+[04:28] Đúng không? Người ta thấy rằng trong ý tưởng đó rằng những gì
+[04:31] Open AI muốn bán cho bạn là đồ dùng
+[04:35] Chat GPT nhẹ nhàng nhưng trả tiền cho mình nhé
+[04:38] $20 một tháng và mọi chuyện sẽ ổn thôi.
+[04:40] Đúng không? Trong khi thực tế thì tôi chưa có và tôi
+[04:43] nhóc à, ít nhất thì tôi cũng chưa có
+[04:45] bốn hoặc năm tháng hiếm khi uh chạy một
+[04:49] tìm kiếm trên một trong những AI của tôi không phải là
+[04:52] nghiên cứu sâu.
+[04:53] Đúng không?
+[04:54] Hầu hết lời nhắc uh uh của tôi là một trang và
+[04:58] dài một nửa.
+[04:59] Đúng không? Và sau đó tôi bắt đầu ở Song Tử hoặc hoặc
+[05:02] Claude, sau đó nhận câu trả lời và
+[05:05] đưa nó cho Deep Seek và nói, "Cái gì
+[05:07] điều này có sai không?" Và Deep Seek sẽ
+[05:08] hãy nói, "Nó quá Mỹ. Phải không? Hãy để tôi
+[05:10] cho bạn một vài điều mà họ không có
+[05:12] kể cho bạn nghe về. Đúng không?” Tôi lấy cái đó và
+[05:15] ghép chúng lại với nhau và nói Chat GPT,
+[05:17] đó là điều duy nhất nó giỏi, đó là,
+[05:19] bạn biết đấy, hãy kết hợp chúng lại. Thế là nó viết
+[05:21] một tài liệu. Tôi đưa nó trở lại cái khác
+[05:22] một và vân vân. Chu kỳ đó đối với tôi là một chút
+[05:26] giống như khi họ đưa cho tôi một bài báo khoa học
+[05:27] máy tính khi còn trẻ. Phải? trong
+[05:30] hồi còn học đại học kỹ thuật,
+[05:31] họ chỉ cho phép chúng tôi làm khoa học
+[05:32] máy tính của năm thứ ba
+[05:34] trường đại học, và đột nhiên tôi có thể
+[05:37] tiết kiệm được một nửa thời gian làm bài.
+[05:39] Hầu hết bạn bè của tôi sẽ lấy nửa đó
+[05:41] hết giờ rồi ra ngoài ngồi với
+[05:43] bạn gái của họ.
+[05:44] Tôi dành thêm nửa giờ hoặc một
+[05:46] tiếng rưỡi và giải lại bài thi
+[05:49] lần nữa. Đưa ra hai giải pháp.
+[05:51] Đúng không? Và nó rất nhỏ
+[05:54] khác biệt trong suy nghĩ, nhưng tôi chân thành
+[05:58] năng suất trí tuệ tăng cao
+[06:01] tạo một cách ồ ạt thay vì của tôi
+[06:03] sự lười biếng và sự tập trung của tôi vào việc giảm thiểu
+[06:07] chi phí tăng thêm một hoặc hai đô la
+[06:09] một cách ồ ạt. Và đó là một điều rất khác
+[06:11] thái độ.

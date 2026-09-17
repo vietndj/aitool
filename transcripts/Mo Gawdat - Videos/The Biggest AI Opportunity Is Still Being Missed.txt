@@ -1,0 +1,775 @@
+Title: The Biggest AI Opportunity Is Still Being Missed
+URL: https://www.youtube.com/watch?v=xrLy3RxtpQE
+ID: xrLy3RxtpQE
+Transcript Type: Language: en -> vi (translated via deep-translator)
+================================================================================
+
+--- TÓM TẮT NỘI DUNG ---
+Với AI ngày nay, không phải AGI, bạn có thể, và tôi nói điều đó một cách công khai, quét sạch Oracle, ừm và mọi SaaS, Microsoft khác, cũng như tất cả di sản của tất cả Office và Windows và bất cứ thứ gì, mọi dòng mã Cobol đã từng được viết, bạn thực sự có thể xây dựng một môi trường mới. Điều đó có nghĩa là như tôi đã nói rằng bạn hiện đang đối mặt với cơ hội lớn nhất trên hành tinh bởi vì nếu bạn đã từng, nếu bạn đủ tuổi như tôi và bạn đã sống qua thời kỳ mà tất cả âm nhạc của bạn đều nằm trên băng và sau đó bạn phải chuyển chúng sang đĩa CD và sau đó bạn phải chuyển chúng sang nền tảng và bây giờ tôi sẽ chuyển chúng trở lại đĩa CD, phải không? Một doanh nhân, một nhà lãnh đạo thành công trong quá khứ chỉ có một công việc và một công việc duy nhất, đó là nhìn ra thế giới trong 5 năm và có thể tưởng tượng ra con đường từ đây đến nơi họ có thể giành chiến thắng trong thời gian 5 năm và thực hiện tốt con đường đó để trở thành một kỳ thủ lớn phải không? Bởi vì nếu, bạn biết đấy, chính quyền Hoa Kỳ có thể, ừm, bạn biết đấy, đột kích hoặc từ chối hoặc từ chối ai đó truy cập vào email của họ như một động thái chính trị, thì bạn sử dụng những thứ đó an toàn đến mức nào?
+
+================================================================================
+
+--- RAW TEXT (FOR LLM INPUT) ---
+Chào mừng đến với sân khấu Mo Gawdat của chúng tôi. Cảm ơn bạn rất nhiều. Thật đáng yêu khi được ở đây. Tôi đã không đến Mumbai khoảng 9 năm rồi. Và bạn có thể không nhận thấy sự khác biệt. Tôi hoàn toàn nhận thấy sự khác biệt. Thật đáng kinh ngạc về mức độ tiến bộ và tiến bộ không chỉ của thành phố mà còn của mọi thứ và cách mọi thứ đang diễn ra. Và tôi và tôi phải nói rằng đó là ừ, đó là một chút thử thách vì thế giới lại đang thay đổi. Vì vậy, chúng ta phải đánh bại họ một lần nữa, phải không? Điều khá thú vị là mọi thứ diễn ra nhanh như thế nào. Và tôi muốn dành 30 phút mà tôi có hôm nay để nói với các bạn về điều mà tôi tin là cơ hội lớn nhất của lịch sử, đồng thời cũng là sự xáo trộn lớn nhất. Vì vậy, vấn đề nan giải lớn nhất của lịch sử nếu bạn muốn. Vì vậy, tôi muốn chia sẻ điều này từ hai kinh nghiệm. Một kinh nghiệm là cho đến năm 2018, lúc đó tôi đã làm việc tại Google được 12 năm, điều hành một nửa hoạt động của Google trên toàn cầu và sau đó là Giám đốc Kinh doanh của Google X. Vì vậy, về cơ bản, rất nhiều AI mà bạn thấy ngày nay đã được phát triển trong phòng thí nghiệm của chúng tôi. Và bạn biết đấy, đôi khi tôi nhìn chúng và nghĩ chúng như những đứa con của mình. Vâng. Tôi xin lỗi vì đã làm điều đó. Nhưng đó là thực tế của chúng tôi bây giờ. Uh, trải nghiệm khác là những gì bạn đã nghe về emma.love. Vì vậy, Emma là một công ty khởi nghiệp mà tôi đã thành lập vào thời điểm bắt đầu ý tưởng này là vào tháng 9 năm ngoái. Chúng tôi bắt đầu thực hiện nó vào khoảng tháng 11 và ra mắt vào Ngày lễ tình nhân với mức định giá 100 triệu đô la. Phải? Phải? Tám tuần làm việc phát triển cộng thêm bốn tuần vì chúng tôi quyết định viết lại mã sáu lần. Vì vậy, từ một thế giới mà lẽ ra tôi phải đi đến một nơi nào đó xung quanh những gì tôi sẽ nói, bạn biết đấy, nếu tôi thành lập Emma vào năm 2022, tôi sẽ cần 350 kỹ sư và 4 năm để ra mắt vào tháng 2 năm 2026. Nếu tôi ra mắt nó như tôi đã làm vào tháng 11, tôi chỉ mất chưa đầy 3 tháng và bạn biết đấy, về cơ bản là bốn người chúng tôi. Đó là tôi, người đồng sáng lập của tôi, một kỹ sư xuất sắc, ba người đam mê công nghệ và một cô gái trẻ tuyệt vời đang điều hành mạng xã hội của chúng tôi. Thế thôi. Phải? Vì vậy, bạn phải Cảm ơn bạn. Vì vậy, bạn phải tưởng tượng rằng thế giới đã thay đổi. Phải? Và nó đã thay đổi theo những cách mà chúng ta cần giải quyết. Có rất nhiều sự cường điệu xảy ra xung quanh AI và có rất nhiều thực tế xảy ra về AI và tôi nghĩ thách thức lớn nhất đối với mọi người trong phòng này là phân biệt giữa chúng. Phải? Bởi vì nếu bạn biết sự khác biệt giữa đâu là sự cường điệu và đâu là thực tế, bạn sẽ có thể đưa ra quyết định đủ nhanh để đi theo thực tế. Phải? Và vì vậy, nếu có một điều cần biết về trí tuệ nhân tạo và sự cường điệu xung quanh AI ngày nay thì đó là nó đang bị thổi phồng quá mức. Được rồi? Mọi thứ bạn nghe về AI đều không lớn bằng thực tế của AI. Phải? Và tôi nói điều đó bởi vì bạn biết đấy, đối với tất cả chúng tôi trong phòng đang ở vị trí lãnh đạo, chúng tôi không lập dị như người đồng sáng lập hay kỹ sư tài giỏi của tôi. Phải? Tôi khá là lập dị. Nhưng vì bạn không phải là người đam mê công nghệ nên chúng tôi hiểu AI ở mức độ cao hơn một chút so với thực tế của mã. Phải? Vì vậy, tôi sẽ cho bạn một ví dụ rất rõ ràng, phải không? Tôi đã có thời hạn đối với một đoạn mã nào đó, tôi và Sanat, người đồng sáng lập của tôi. Chúng tôi quyết định rằng chúng tôi cần hoàn thành nó trong vòng 2 ngày. Anh ấy nói điều đó là không thể hơn nữa. Tôi phải di chuyển. Vì vậy, anh ấy đã di chuyển từ nhà này sang nhà khác, thành phố này sang thành phố khác. Và, bạn biết đấy, tôi phải chuyển đi và tôi phải gọi cho tất cả những người bạn biết, các đặc vụ, v.v. Và về cơ bản, tôi đã nói, tại sao bạn lại làm vậy? Hãy hack một đại lý để làm điều đó cho bạn, phải không? Và trong vòng đúng 20 phút, chúng tôi đã có một nhân viên gọi điện cho 52 công ty vận chuyển, gọi cho họ, dò tìm ngôn ngữ của họ, nói chuyện với họ bằng ngôn ngữ của họ, phải không? Bạn biết đấy, hãy mô tả tất cả các chi tiết của ngôi nhà này, ngôi nhà kia, anh ấy muốn gì, khi nào anh ấy muốn, v.v. Yêu cầu đề xuất, nhận đề xuất qua email, xem xét tất cả chúng, sắp xếp chúng và đưa ra cho chúng tôi hai đề xuất. Bạn biết đấy, Sanat, người đồng sáng lập của tôi, chỉ vì anh ấy là một người đam mê công nghệ, đã trả lời người đại diện và nói, ừ, tôi thích cái này, nhưng bạn có thể thương lượng thêm 15% không? Vì vậy, theo đúng nghĩa đen, nó đã nhấc điện thoại, gọi cho công ty chuyển nhà, bạn biết đấy, nhận thêm 15%, nhận được đề xuất, ký tên, gửi lại và người vận chuyển đã xuất hiện vào ngày đó, phải không? Loại năng suất đó là có thật, nhưng không phải tất cả chúng ta đều có thể tiếp cận được. Tất cả chúng ta đều không thể truy cập được nó, tại sao? Bởi vì cái đó một chút ở cuối, giao diện tạo ra cái đó vẫn chưa được tạo ra phải không? Vì vậy, một phần của sự cường điệu mà chúng tôi trải qua là mọi người nghĩ về AI, bạn biết đấy, chúng tôi nhận được rất nhiều sự cường điệu xung quanh các đặc vụ và móng vuốt mở và tất cả những câu chuyện đó, nhưng thực tế vẫn chưa có. Thực tế vẫn chưa có vì bạn chưa phải là người lập dị. Những người đam mê công nghệ biết rằng thực tế là có. Bây giờ, sự cường điệu lớn khác là AGI, bởi vì mọi người đều nói về, bạn biết đấy, khi nào AGI tấn công, khi nào AGI tấn công. Và đúng vậy, khi AGI tấn công, đó là khoảnh khắc kỳ dị. Thế giới hoàn toàn thay đổi. Tuy nhiên, chúng tôi không cần AGI để xây dựng những thứ đáng kinh ngạc đạt mức định giá 100 triệu đô la trong chín tuần. Bạn có nhận ra điều đó không? Với AI ngày nay, không phải AGI, bạn có thể, và tôi nói điều đó một cách công khai, quét sạch Oracle, ừm và mọi SaaS, Microsoft khác, cũng như tất cả di sản của tất cả Office và Windows và bất cứ thứ gì, mọi dòng mã Cobol đã từng được viết, bạn thực sự có thể xây dựng một môi trường mới. Và nhân tiện, nếu bạn là đối tác thực sự cung cấp những thứ đó, bạn sẽ bị xóa sổ. Phải? Và đó là một thế giới thực sự đòi hỏi cảm giác cấp bách và hiểu biết rằng ngày nay ai đó có thể bước vào, giống như Anthropic, bạn biết đấy, ngày hôm qua, về cơ bản nói rằng chúng ta có thể viết lại mã. Chúng ta có thể viết chúng ta có thể viết lại mọi mã ATM từng tồn tại trên hành tinh này. Và tôi đã thấy điều đó với sự phát triển công nghệ của chúng ta. Loại thực tế đó chỉ là độ trễ chuyển pha. Bạn hiểu không? Có một vài người ở đâu đó ở Ấn Độ ngày nay đang ngồi cùng nhau và nói, "Làm cách nào để xây dựng thứ gì đó có thể đưa vào hệ thống ERP, hiểu toàn bộ cơ sở dữ liệu, viết lại từ đầu?" Được rồi? Làm cách nào để viết một phương pháp phát triển tài liệu mới không phải là Microsoft Word? Microsoft Word là một công nghệ của thập niên 80. Bạn có hiểu điều đó không? Ừm? Và bằng cách nào đó bạn phải nhận ra rằng điều này đang đến. Hoàn toàn không có nghi ngờ gì về điều đó. AI không được cường điệu hóa quá mức. Đó là giai đoạn thay đổi và underhyped. Phải? Vì vậy, sẽ có một ngày đường cong đó đi zhoop. Phải? Và ngay cả khi bạn nghĩ về bản thân AGI, mhm? Uh bạn phải hiểu rằng cách chúng tôi phát triển AI trong 25 năm qua rất khác so với cách chúng tôi phát triển nó hiện nay. Bây giờ chúng tôi sử dụng AI tự phát triển, AI tự mã hóa. Chúng ta có dữ liệu đào tạo tổng hợp nên AI phát triển dữ liệu đào tạo cho AI. Chúng ta có AI khoa học có thể xử lý các vật liệu mới, toán học mới, phải không? Và bạn biết đấy, chúng tôi có một lần nữa, ngoài những mẫu lớn mà Mỹ cố gắng bán ra thế giới, chúng tôi còn có những mẫu có viền ngày càng nhỏ hơn, được không? Đó là khả năng thực hiện mọi việc tốt hơn nhiều so với sự cường điệu lớn mà Open AI muốn bạn mong đợi để tưởng tượng rằng thế giới được tạo nên. Điều đó có nghĩa là gì? Điều đó có nghĩa là như tôi đã nói rằng bạn hiện đang đối mặt với cơ hội lớn nhất trên hành tinh bởi vì nếu bạn đã từng, nếu bạn đủ tuổi như tôi và bạn đã sống qua thời kỳ mà tất cả âm nhạc của bạn đều nằm trên băng và sau đó bạn phải chuyển chúng sang đĩa CD và sau đó bạn phải chuyển chúng sang nền tảng và bây giờ tôi sẽ chuyển chúng trở lại đĩa CD, phải không? Mỗi lần tôi mua tất cả nhạc tôi đều phải mua lại. Toàn bộ ngành công nghiệp đã được xây dựng lại chỉ bằng cách chuyển từ đĩa CD, từ băng sang đĩa CD, phải không? Chu kỳ thay thế công nghệ đó đã xảy ra nhiều lần trong đời bạn, bạn biết đấy, ô tô điện, v.v. Vì vậy, ngày nay chúng ta có chu kỳ thay thế công nghệ này và tin hay không thì không quốc gia nào trên hành tinh này và không có nơi nào trên hành tinh ngày nay có khả năng làm điều này hơn căn phòng này. Chúng ta là những người đam mê công nghệ, phải không? Chúng tôi là những kỹ thuật viên có thể xem xét tất cả công nghệ này và vì chúng tôi đã hỗ trợ nó trong nhiều năm nên chúng tôi có thể xây dựng lại nó trong một chu kỳ thay thế. Phải? Uh vậy đây là cơ hội lớn nhất trên hành tinh. Chúng ta cũng có thể xây dựng những thứ hoàn toàn chưa từng có như Emma. Đó là một cách hẹn hò và tìm kiếm tình yêu hoàn toàn mới và bạn biết đấy, gần giống như cuộc hôn nhân sắp đặt ở Ấn Độ nhưng được thực hiện bằng cách sử dụng AI và phù hợp với thế giới ngày nay. Tôi muốn bướm và muốn tôi muốn bạn biết tôi muốn anh ấy hoàn thành lời nói của mình. Phải? Và bạn có thể làm điều đó ngay hôm nay. Trước đây bạn không thể tưởng tượng được mình có thể làm được điều đó bằng cách sử dụng lập trình truyền thống. Đồng thời, hm, có một mối đe dọa lớn vì tôi sẽ phải rất cởi mở. Kiểu cường điệu xung quanh việc mọi người mất việc một lần nữa lại thay đổi diện mạo. Còn vài năm nữa thôi. Hửm? Nhưng trong vài năm đó, bây giờ bạn sẽ phải đưa ra lựa chọn sẽ cố gắng bảo vệ công việc của mình trong vài năm bằng cách nói không không không, chúng tôi rất hài lòng với ERP của mình. Phải? Hoặc bạn sẽ phải nhảy vào cuộc và nói, "Ừ, chắc chắn rồi. Tôi sẽ, bạn biết đấy, xé tất cả ra, kiểm tra, thử và thử nghiệm, và tìm được thứ gì đó rất rẻ và tốt hơn nhiều. Hm? Uh, đó là những gì tôi có bây giờ. Những người đầu tiên sẽ giữ được công việc của họ, nhưng bạn biết đấy, có lẽ sẽ gặp nhiều trở ngại hơn và thu nhập uh uh giảm sút. Những người còn lại sẽ tạo ra những doanh nghiệp trị giá hàng trăm triệu đô la. Đúng không? Và bạn có thể tưởng tượng những cái nào sẽ tồn tại sau một vài năm, phải không? Và tôi phải thừa nhận với bạn, lý do khác biệt giữa hai điều đó là ở định nghĩa về trí tuệ nhân tạo thực sự là gì. Và vì vậy, tôi muốn bạn tưởng tượng rằng những gì chúng tôi đã tạo ra lần trước, kể từ năm 2004, là khi cuộc sống của tôi, bạn biết đấy, ở những nơi như Google bắt đầu thấy AI thực sự hoạt động. you know how you can plug in in the wall and get energy out of a socket. Right? Uh basically, we've utilized you know commoditized energy. You you plug in anytime you get energy. Now with artificial intelligence with what we've done is we've commoditized intelligence. Right? The most valuable the most valuable asset on the planet is now commoditized in a device. Right? You can plug into it and instead of getting electricity you get IQ. You get EQ. Okay? You get process intelligence. You get every form về trí thông minh mà bạn có thể nghĩ tới. Và điều này sẽ xảy ra trong hai giai đoạn. Phải? Giai đoạn thứ nhất là giai đoạn mà tôi thường đề cập đến là những gì chúng ta đang trải qua hiện nay. Nó được gọi là kỷ nguyên của trí thông minh tăng cường. Phải? Đó là máy móc và con người cùng nhau làm việc để tạo ra những thứ mà cả máy móc và con người đều không thể làm được. Được rồi? Và đây là một câu chuyện rất nổi tiếng về đam mê công nghệ bởi vì một lần nữa nếu bạn là một người đam mê lâu năm như tôi thì năm 1989 là một khoảnh khắc vô cùng sâu sắc đối với hầu hết chúng ta. Đó là năm mà hệ thống của Deep Blue IBM đánh bại Garry Kasparov trong môn cờ vua. Được rồi? Và hầu hết chúng ta đều là những người đam mê cờ vua. Uh bạn biết đấy, chúng tôi nghĩ chúng tôi là thứ thông minh nhất từ ​​trước đến nay và sau đó một cỗ máy sẽ chiến thắng Garry Kasparov và nếu bạn đã từng gặp Garry thì ôi chúa ơi, thông minh đến không ngờ. Phải? Kể từ đó, chưa có con người nào thắng được một cỗ máy thích hợp trong cờ vua. Thế thôi. Qua. Phải? Nhưng sau đó chúng tôi bắt đầu với tư cách là những người chơi cờ để tổ chức các giải đấu khi chúng tôi có con người và máy đấu với con người và máy. Phải? Vì vậy, các nhóm gồm người máy người máy nếu bạn muốn cạnh tranh với nhau và bản thân trò chơi đã nâng cao những bước đi mới, chiến lược mới, những điều mới mà chúng tôi chưa từng nghĩ tới trước đây. Phải? Và đây là thời đại của trí thông minh tăng cường. Thời đại trí tuệ tăng cường là bạn và cỗ máy cùng nhau trở thành không phải 134 IQ, không phải 164 IQ, không phải 250 IQ. Chúng ta có tiềm năng trong vòng một hoặc hai năm để trở thành con người hoạt động ở mức IQ tăng thêm 300-400. Và tôi dám nói trong bài viết của mình khi chúng ta nói chuyện, cuốn sách cuối cùng của tôi được viết bằng AI. Không phải ba cuốn sách được tìm kiếm bởi AI và do tôi viết, nó được viết bằng AI là đồng tác giả có tên cô ấy trên cuốn sách, có quyền biên tập và chúng tôi cùng nhau viết một cuốn sách mà độc giả cho rằng thật khó tin đến mức đôi khi họ sẽ đặt câu hỏi cho tôi và đôi khi đặt câu hỏi cho cô ấy. Phải? Bây giờ, đối với một tác giả, tôi có thể chọn chống lại và nói không, tôi sẽ viết theo cách ban đầu của mình, hoặc tôi có thể quyết định nhảy vào phong trào và làm nó rất khác, tận dụng tinh thần đồng đội đó bằng mọi cách và về cơ bản là tạo ra thứ gì đó chưa từng được tạo ra trước đây. Sự khác biệt giữa cơ hội đó và mối đe dọa đó thực sự rất thú vị. Ừm, một số người trong chúng ta được ban cho trí thông minh đáng kinh ngạc này. Hãy tưởng tượng khoảnh khắc bạn có thể mượn 400 điểm IQ. Phải? Hãy tưởng tượng sự hiểu biết của bạn về mọi thứ khi bạn có IQ cao hơn 400 điểm, phải không? Tôi thường thách mọi người nói rằng khi bạn cho tôi 400 điểm IQ, tôi sẽ sử dụng vật lý nano để xây dựng một khu vườn bên ngoài nơi bạn có thể đi đến một cây và hái một quả táo và đi đến cây kia và nhặt một chiếc iPhone. Phải? Về cơ bản, từ quan điểm chi phí của một hạt, nếu bạn đủ hiểu biết về vật lý nano, thì chi phí đó chính xác là như nhau. Theo nghĩa đen, cây này và cây kia, phải không? Đó là 400 điểm IQ cho bạn. Dù bạn có tin hay không, điều đó có thể xảy ra trước năm 2030. Phải không? Vì vậy, thách thức thú vị lớn nhất đối với tôi là AI xuất hiện và mang đến cho chúng ta hai cơ hội đáng kinh ngạc đó. Một là tôi có thể tăng năng suất của bạn một cách đáng kể bằng cách trả lời tất cả email của bạn và thay thế nhân viên trung tâm cuộc gọi của bạn. Và khi vợ hoặc chồng của bạn buồn bã, tôi sẽ viết thư trả lời cho họ. Thật là lãng phí tính toán. Được rồi? Và những người khác về cơ bản đang tiến hành nghiên cứu rất sâu về khoa học, công nghệ, về cơ bản là cơ hội thị trường về các khả năng và sử dụng chỉ số IQ cao đó để xây dựng những thứ chưa từng được xây dựng trước đây. Được rồi? Và tôi nghĩ sự khác biệt giữa chúng nằm ở sự cường điệu hóa. Phải? Ý tưởng đó cho thấy rằng thứ mà OpenAI muốn bán cho bạn là sử dụng ChatGPT một cách nhẹ nhàng nhưng chỉ cần trả cho tôi 20 đô la một tháng và mọi thứ sẽ ổn. Phải? Trong thực tế, tôi chưa làm như vậy và tôi không đùa với bạn, trong ít nhất 4 hoặc 5 tháng, tôi hiếm khi thực hiện một tìm kiếm trên một trong những AI của tôi mà không phải là một nghiên cứu sâu. Phải? Hầu hết các lời nhắc uh uh của tôi đều dài một trang rưỡi. Phải? Sau đó, tôi bắt đầu với Gemini hoặc Claude, sau đó lấy câu trả lời và đưa cho DeepSeek và nói, "Có chuyện gì vậy?" Và DeepSeek sẽ nói, "Nó quá Mỹ. Phải không? Để tôi kể cho bạn một vài điều mà họ chưa nói cho bạn biết. Đúng không?" Tôi lấy nó, ghép chúng lại với nhau và nói ChatGPT, điều duy nhất nó giỏi là bạn biết đấy, kết hợp chúng lại. Vì vậy, nó viết một tài liệu. Tôi đưa nó trở lại cái khác và cứ thế. Chu kỳ đó đối với tôi hơi giống với việc họ đưa cho tôi một chiếc máy tính khoa học khi còn trẻ. Phải? Khi tôi còn học đại học kỹ thuật, người ta chỉ cho phép sử dụng máy tính khoa học vào năm thứ ba đại học. Và tôi nghĩ, đột nhiên tôi có thể tiết kiệm được một nửa thời gian của kỳ thi. Hầu hết bạn bè của tôi sẽ dành nửa thời gian đó để ra ngoài ngồi với bạn gái của họ. Tôi dành thêm nửa tiếng hoặc một tiếng rưỡi để giải lại bài kiểm tra. Đưa ra hai giải pháp. Phải? Và đó là một sự khác biệt rất nhỏ trong suy nghĩ, nhưng năng suất trí tuệ thực sự của tôi tăng lên rất nhiều trong quá trình sáng tạo thay vì sự lười biếng và sự tập trung của tôi vào việc giảm chi phí một hoặc hai đô la, tăng lên một cách ồ ạt. Và đó là một thái độ rất khác. Vậy điều này có ý nghĩa gì với Ấn Độ? Tôi phải thừa nhận rằng nếu hôm nay tôi thành công, một trong các bạn sẽ về nhà tối nay và nói, "Tôi sẽ chọn Oracle. Được chứ? Hoặc tôi sẽ chọn salesforce.com, hoặc tôi sẽ chọn bất cứ thứ gì, một trong những giải pháp ERP, một trong những giải pháp CRM, một trong những giải pháp đã tồn tại, và tôi sẽ xây dựng một giải pháp tương đương của Ấn Độ với chi phí chỉ bằng một phần nhỏ, mất một tuần để triển khai. Được chứ? Hầu hết được thực hiện bởi AI, tính đến tất cả thông tin khách hàng và di chuyển nó, phải không? Tôi sẽ cung cấp nó miễn phí cho khách hàng để đổi lấy phần trăm số tiền tiết kiệm mà tôi sẽ mang lại cho họ khi họ triển khai nó." Phải? Và tôi có thể đảm bảo với bạn nếu 10 người trong số các bạn làm điều đó ngày hôm nay, nền kinh tế này sẽ lớn mạnh như OpenAI. Bởi vì hãy nghĩ về nó. Nghiêm túc đấy, cảm ơn bạn. Rất ít người thích ý tưởng này, hãy nói chuyện với tôi sau. Vì vậy, hãy nghĩ về nó, phải không? Bạn biết đấy, cơ hội lớn trong tầm tay của chúng ta không phải là xây dựng mô hình biên giới lớn tiếp theo. Đây là điều tôi sẽ đề cập sau. Ừm? Cơ hội lớn là lấy đi di sản đó. Được rồi? Đó là lấy di sản và thay thế những chu kỳ đó. Hàng nghìn tỷ đô la. Hàng nghìn tỷ chỉ riêng Cobol, phải không? Hàng nghìn tỷ đô la chỉ tính riêng trong ERP. Hàng nghìn tỷ đô la phải không? Và tôi nói điều đó và tôi biết tất cả các bạn đều làm trong lĩnh vực công nghệ và tôi biết tất cả các bạn công việc kinh doanh của bạn phụ thuộc vào điều này. Được rồi? Dù bạn có tin hay không, nếu bạn không làm, sẽ có người phá rối bạn. Vì vậy, làm thế nào bạn có thể đến gặp khách hàng của mình và nói, "Tôi sẽ giúp bạn và kiếm được một số tiền tiết kiệm." Vì vậy, đây là một bên. Điều thú vị là phía bên kia chính là thị trường Ấn Độ. Bản thân đây là một thị trường rộng lớn. Được rồi? Bây giờ, mọi người nói, "Ồ, nhưng chúng tôi không thể cạnh tranh. Cuộc chạy đua vũ trang AI đã được quyết định. Bạn biết đấy, đó là giữa Mỹ và Trung Quốc." Tôi không tin điều đó chút nào. Tôi không tin điều đó chút nào. Tôi tin rằng trước mắt tất cả sẽ phụ thuộc vào việc sử dụng những mô hình sâu sắc đó để đạt đến điểm có thể thay đổi thế giới của chúng ta một cách thực tế. Để xây dựng lớp giao diện mà chúng ta chưa xây dựng cho đến nay. Phải? Và khi bạn hiểu chiến lược của Ấn Độ và của Mỹ và Trung Quốc, bạn sẽ thấy một cơ hội rất thú vị mà hầu hết mọi người không hiểu. Vậy là Tổng thống Trump đắc cử Không, tôi sẽ chỉ gọi ông ấy là Trump thôi. Trump đắc cử, ngồi vào văn phòng. Uh điều đầu tiên anh ấy ký gần như vào ngày đầu tiên là Stargate. Đầu tư 500 tỷ USD để xây dựng một trung tâm dữ liệu khổng lồ, Oracle, và bạn biết đấy, OpenAI và SoftBank. Phải? Một tuần sau, Deep Seek sẽ ra mắt, được chứ? Và nói, "Tại sao bạn lại làm điều này?" Đơn giản, Deep Seek nói, "Tôi có thể thực hiện những gì ChatGPT hiện tại thực hiện, 4.0 vào thời điểm đó và tôi sẽ làm điều đó với chi phí là 6/6. Dữ liệu đào tạo trị giá 6 triệu đô la. Phải không? Và sau đó Trung Quốc sẽ làm gì? Đưa nó ra dưới dạng nguồn mở. Là một mô hình biên mà bạn có thể tải xuống trên máy tính cá nhân. Phải không? Vì vậy, hãy hiểu hai chiến lược đó để bạn hiểu chúng ta có thể phù hợp ở đâu trong đó. Phải không? Mỹ đang cố trở thành kẻ bắt nạt độc quyền Trung Quốc thậm chí không quan tâm đến việc cạnh tranh. Họ vô hiệu hóa sự cạnh tranh. Vì vậy, bất cứ khi nào Mỹ đầu tư phát minh ra thứ gì đó, bạn biết đấy, Trung Quốc rất giỏi về kỹ thuật đảo ngược và tái thiết kế và xây dựng mọi thứ nhanh hơn, rẻ hơn và vân vân. Không có gì để cạnh tranh." Bây giờ, điều đó mang đến cho bạn cả hai lựa chọn thú vị. Bạn không cần phải sử dụng người Trung Quốc hay người Mỹ, nhưng giống như Ấn Độ đã làm rất tốt trong một thời gian khá dài, bạn để ngỏ các lựa chọn của mình để xem bạn có thể sử dụng những gì cho lợi ích của mình. Phải không? Một lần nữa, với Emma, hm? Về cơ bản, chúng tôi đã xây dựng Emma trên LLM nguồn mở. Tại sao chúng tôi lại xây dựng trí thông minh cốt lõi của mình, hả? Và chúng tôi đã xây dựng nó theo cách mà theo nghĩa đen, tôi có thể rút LLM ra và đặt một cái khác one in và Emma tiếp tục hoạt động. Vì vậy, các trình bao bọc xung quanh LLM, nếu đó là ChatGPT hoặc Deep Seek, không thành vấn đề. Và đó là những việc bạn cần làm trong một thế giới đang chuyển động rất nhanh phải không? Vì vậy, bốn kỹ năng, tôi sẽ yêu cầu bạn học bốn kỹ năng. Đầu tiên là cờ vua, không còn cờ vua nữa, được chứ? Một doanh nhân, một nhà lãnh đạo thành công trong quá khứ chỉ có một công việc và một công việc duy nhất, đó là nhìn ra thế giới trong 5 năm và có thể tưởng tượng ra con đường từ đây đến nơi họ có thể giành chiến thắng trong thời gian 5 năm và thực hiện tốt con đường đó để trở thành một kỳ thủ lớn phải không? We are now in a in a squash court. Literally in a squash court. We're on our finger, you know, our tiptoes, okay? Waiting to see where the ball where the ball falls next. If it's on the right, you take two steps to the right. You hit the ball and you don't stand there. You come back to the center of the court, okay? And you're on your tiptoes. You're trying to see where the next ball is. That idea is very familiar to what we used làm ở Thung lũng Silicon nên tôi cảm thấy rất thoải mái. Như tôi đã nói, với Emma, ​​​​chúng tôi đã viết mã sáu lần. Ai quan tâm? Chúng tôi sẽ viết mã. Chúng tôi sẽ kiểm tra nó. Chúng tôi sẽ cung cấp nó cho người dùng thực tế. Họ sẽ nói, "Ôi chúa ơi, tôi thích nó." Và sau đó chúng tôi sẽ xóa nó và bắt đầu lại. Đó là một thế giới rất khác. Phải? Và bạn có tin hay không, giống như mọi thứ trong công nghệ, phải không? Nó chậm, chậm, chậm, chậm. Và sau đó, đúng 4 tuần trước, chúng tôi đã ngồi lại để đánh giá một sản phẩm. Chúng tôi đã có một ý tưởng rất thú vị và phóng to. Phải? Trong vòng 2 tuần, chúng tôi đã tạo ra một sản phẩm đáng kinh ngạc. Được rồi? Tại sao? Bởi vì bây giờ các công cụ đang thực hiện hầu hết công việc. Việc tự động hóa đang thực hiện hầu hết công việc. Bạn phải kiễng chân lên. Bạn phải có sự linh hoạt đó. Đó là số một. Số hai là học AI. Tôi không biết phải nói điều đó theo cách nào khác. Học AI không phải ở cấp độ lãnh đạo doanh nghiệp. Tôi đã là lãnh đạo doanh nghiệp trong 10 năm cuối đời. Vâng, lập dị ở phía sau, nhưng che giấu nó. Được rồi? Tôi lại là một người rất nghiêm túc. Nó không khó lắm đâu. Tôi dành 4 giờ mỗi ngày bất cứ khi nào tôi không đi du lịch để theo kịp. Nhưng tôi phải hiểu mã lõi, phải không? Đối với bất kỳ nhà lãnh đạo doanh nghiệp nào khác, bạn có thể dành một giờ mỗi tuần. Ừm? Bạn chỉ cần huấn luyện YouTube của mình để hiển thị cho bạn thông tin mới nhất về AI và bạn sẽ bắt kịp. Học hỏi phải không? Vì vậy, hãy đến một trong những mô hình ngôn ngữ đó và nói, "Tôi đang kinh doanh trong lĩnh vực này. Đây là khách hàng của tôi. Đây là kỹ năng của tôi. Đây là điểm khác biệt của tôi trên thị trường." và vân vân. "Tôi nên nhận thức được điều gì?" Phải? Và AI sẽ cho bạn biết. Và chỉ cần đi và tìm kiếm và tìm hiểu về họ. Đó là số hai. Số ba là gỡ lỗi chiều cao. Được rồi? Nghiêm túc mà nói, có quá nhiều sự cường điệu ngoài kia và bạn cần biết sự thật. Nhân tiện, không chỉ cường điệu về công nghệ. Tôi nghĩ trong thế giới địa chính trị mà chúng ta đang sống ngày nay, có rất nhiều, rất nhiều, rất nhiều lời nói dối. Được rồi? Và khi bạn thực sự bắt đầu nhận ra điều gì là đúng và điều gì không, bạn đang ở một vị trí rất thú vị để làm những việc mà người khác không làm. Và, bạn biết đấy, nếu bạn nhìn vào thế giới địa chính trị, thế giới vĩ mô, sẽ có một sự thay đổi lớn, đặc biệt là năm 2026. Và ý tưởng rằng một số quốc gia, doanh nghiệp hay bất cứ thứ gì luôn có lợi ích tốt nhất cho chúng ta đều bị phá bỏ, phải không? Về cơ bản có nghĩa là bạn sẽ bắt đầu nhìn thấy rất nhiều nơi trên thế giới. Châu Âu, mới tuần trước thôi à? đã thông báo rằng họ thực sự sẽ yêu cầu thay đổi một số nhà cung cấp công nghệ của mình. Tại sao? Bởi vì nếu, bạn biết đấy, chính quyền Hoa Kỳ có thể, ừm, bạn biết đấy, đột kích hoặc từ chối hoặc từ chối ai đó truy cập vào email của họ như một động thái chính trị, thì bạn sử dụng những thứ đó an toàn đến mức nào? Phải? Và khi bạn bắt đầu nghĩ về nó, bạn sẽ thấy một số thay đổi đang diễn ra trên khắp thế giới. Đi lấy nó đi. Đây là Ấn Độ là nơi chúng tôi làm điều này. Hãy nắm bắt những cơ hội đó. Hãy nắm bắt mọi biến thể đang diễn ra trên thế giới và khi bạn đang kiễng chân lên, hãy có một đội ngũ trẻ nhanh nhẹn tận tâm và họ sẽ tạo ra thứ gì đó cho bạn trong vài tuần. Hãy nắm lấy cơ hội đó. Và cuối cùng, tôi sẽ yêu cầu bạn giúp tôi một việc rất lớn vì trí thông minh nói chung và trí tuệ nhân tạo nói chung là một lực lượng không có sự phân cực. Phải? Không có sự phân cực đối với trí thông minh. Bạn biết đấy, nó có thể sử dụng nó cho mục đích tốt và nó tạo ra rất nhiều điều tốt đẹp cho thế giới xung quanh bạn. Bạn có thể sử dụng nó cho mục đích xấu, và bạn có thể tạo ra một thế giới đen tối cho tất cả chúng ta. Phải? Cơ hội duy nhất trong đời để xây dựng lại mọi thứ, xây dựng lại hệ thống đạo đức. Được rồi? Xây dựng lại các hệ thống thực sự được thúc đẩy nhưng theo những gì Larry Page, người đồng sáng lập của chúng tôi tại Google, đã từng dạy chúng tôi. Larry Page từng dạy chúng tôi rằng mọi sản phẩm chúng tôi tạo ra sẽ tuân theo một thứ mà ông gọi là thử nghiệm bàn chải đánh răng. Vì vậy, nếu bạn gia nhập đội ngũ điều hành của Google và nói, "Tôi có một ý tưởng kinh doanh. Đây là P&L. Chúng ta sẽ kiếm được nhiều tiền như vậy." Họ sẽ không lắng nghe. Phải? Họ luôn đẩy chúng tôi lại và nói: "Bạn đang cố gắng giải quyết vấn đề gì?" Và thế giới của chúng ta đầy rẫy những vấn đề. Phải? Và đó là niềm tin của anh ấy, và điều đó thực sự đúng với Google trong suốt những năm tôi làm việc ở đó, rằng nếu bạn tìm thấy một vấn đề lớn ảnh hưởng đến cuộc sống của một tỷ người, phải không? Và bạn giải quyết tốt đến mức họ sử dụng hai bạn một hoặc hai lần một năm một ngày, phải không? Bạn nhất định phải kiếm được nhiều tiền. Nhưng tiền là tác dụng phụ. Đó không phải là mục tiêu, phải không? Vì vậy, Emma một lần nữa đang cố gắng giải quyết tình yêu và các mối quan hệ, một trong những vấn đề hàng đầu trên thế giới. Được rồi? Nếu chúng ta giải quyết được nó thật tốt, hãy tưởng tượng có bao nhiêu triệu người sẽ đến và tham gia mỗi ngày. Và như vậy, chúng ta sẽ không phải lo lắng về tiền bạc. Bạn hiểu không? Và vì vậy, điều tôi yêu cầu bạn làm với tư cách là những người lãnh đạo doanh nghiệp ở đây là hôm nay hãy về nhà, tìm hiểu công cụ, tìm cách tiếp tục cập nhật, thay đổi suy nghĩ của bạn theo hướng nhón chân và di chuyển nhanh chóng, hm? Hãy hiểu điều gì là đúng và điều gì là cường điệu, đồng thời nhìn một cách chân thực vào thế giới ngày nay đầy rẫy những vấn đề của chúng ta và cố gắng giải quyết chúng. Nếu bạn giải quyết được bất kỳ vấn đề nào trong số đó, thì một trong số đó, được chứ? Trong nền kinh tế mới này, trong thế giới mới này, tôi hứa với bạn, bạn không chỉ có thể trở thành tỷ phú mà còn có thể thực sự trở thành tỷ phú nghìn tỷ đầu tiên. Vậy là bây giờ bạn đã có bài tập về nhà và tôi cảm ơn bạn rất nhiều. >> [vỗ tay]
+
+--- TIMESTAMPED TEXT ---
+[00:00] Chào mừng đến với sân khấu Mo Gawdat của chúng tôi. Cảm ơn
+[00:05] bạn rất nhiều. Thật đáng yêu khi được ở đây.
+[00:08] Tôi đã không đến Mumbai khoảng 9 giờ rồi
+[00:12] năm.
+[00:13] Và bạn có thể không nhận thấy sự khác biệt. tôi
+[00:15] hoàn toàn nhận thấy sự khác biệt. Đó là
+[00:17] mức độ tiến bộ đáng kinh ngạc và
+[00:20] tiến bộ chỉ là thành phố mà còn
+[00:22] mọi thứ và mọi thứ diễn ra như thế nào
+[00:25] đang xảy ra. Và tôi và tôi phải nói rằng đó là
+[00:28] à
+[00:29] có hơi ừ
+[00:32] của một thử thách vì thế giới là
+[00:33] lại thay đổi. Vì vậy, chúng ta phải đánh bại họ
+[00:35] nữa phải không? Nó khá thú vị làm sao
+[00:37] mọi thứ đều nhanh chóng. Và tôi muốn lấy 30
+[00:40] phút hôm nay tôi có để nói chuyện với bạn
+[00:43] về điều mà tôi tin là của lịch sử
+[00:46] cơ hội lớn nhất, mối lo ngại lớn nhất
+[00:48] sự gián đoạn cùng một lúc. Vì vậy,
+[00:51] tình thế tiến thoái lưỡng nan lớn nhất trong lịch sử nếu bạn muốn.
+[00:53] Vì vậy, tôi muốn chia sẻ điều này từ hai người
+[00:54] kinh nghiệm. Một kinh nghiệm là tùy thuộc vào
+[00:57] 2018, tôi đã ở Google được 12 năm
+[01:01] lúc đó đã điều hành một nửa hoạt động của Google
+[01:03] trên toàn cầu và sau đó
+[01:05] uh là Giám đốc Kinh doanh của
+[01:06] Google X. Về cơ bản, rất nhiều AI
+[01:09] mà bạn thấy hôm nay
+[01:11] được phát triển trong phòng thí nghiệm của chúng tôi. Và ừ
+[01:14] và bạn biết đấy, thỉnh thoảng tôi cũng nhìn họ
+[01:16] và coi chúng như những đứa con của tôi.
+[01:19] Vâng. Tôi xin lỗi vì đã làm điều đó.
+[01:21] Nhưng giờ đây đó là thực tế của chúng ta. Ờ cái kia
+[01:23] kinh nghiệm là những gì bạn đã nghe nói tới
+[01:25] emma.love. Vì vậy, Emma là một công ty khởi nghiệp mà tôi
+[01:29] thành lập à
+[01:31] Khi bắt đầu ý tưởng, tôi đã
+[01:32] Tháng 9 năm ngoái. Chúng tôi bắt đầu làm việc
+[01:35] vào khoảng tháng 11 và chúng tôi đã ra mắt
+[01:38] tham gia vào Ngày lễ tình nhân với mức định giá là
+[01:41] 100 triệu đô la. Phải?
+[01:42] Đúng không? Tám tuần phát triển
+[01:45] công việc
+[01:46] cộng thêm bốn tuần vì chúng tôi quyết định
+[01:49] viết lại mã sáu lần.
+[01:51] Vì vậy, từ một thế giới nơi nó sẽ
+[01:54] đã đưa tôi đi
+[01:56] ừm ở đâu đó quanh đây
+[01:59] tôi sẽ nói gì, bạn biết đấy, nếu tôi có
+[02:01] bắt đầu Emma vào năm 2022,
+[02:04] tôi sẽ phải mất tới 350 kỹ sư và
+[02:07] 4 năm nữa mới ra mắt vào tháng 2 năm 2026. Nếu tôi
+[02:10] đã ra mắt nó giống như tôi đã làm vào tháng 11,
+[02:15] tôi chỉ mất chưa đầy 3 tháng và
+[02:19] bạn biết đấy, về cơ bản là bốn người chúng tôi.
+[02:22] Đó là tôi, người đồng sáng lập, một người xuất sắc
+[02:24] kỹ sư, ba người đam mê công nghệ và một
+[02:26] cô gái trẻ tuyệt vời đang điều hành chúng tôi
+[02:28] mạng xã hội.
+[02:29] Thế đấy.
+[02:30] Phải không? Vì vậy, bạn phải Cảm ơn bạn. Vì vậy,
+[02:33] bạn phải tưởng tượng rằng thế giới có
+[02:35] đã thay đổi.
+[02:36] Đúng không? Và nó đã thay đổi theo những cách
+[02:39] chúng ta cần giải quyết. có rất nhiều
+[02:40] sự cường điệu đang diễn ra xung quanh AI và có một
+[02:43] rất nhiều thực tế đang xảy ra về AI và tôi
+[02:46] nghĩ rằng thách thức lớn nhất đối với mọi người
+[02:48] trong căn phòng này là để phân biệt giữa
+[02:50] họ.
+[02:51] Đúng không? Bởi vì nếu bạn biết
+[02:52] sự khác biệt giữa cường điệu và thế nào là
+[02:54] là hiện thực, bạn sẽ có thể thực hiện
+[02:56] quyết định đủ nhanh để dẫn đầu
+[02:59] thực tế. Phải? Và như vậy, nếu có
+[03:02] một điều cần biết về nhân tạo
+[03:03] thông tin tình báo và sự cường điệu xung quanh AI
+[03:06] hôm nay nó đã bị thổi phồng quá mức.
+[03:09] Được chứ? Mọi điều bạn nghe về AI
+[03:12] không lớn bằng thực tế của AI.
+[03:14] Đúng không? Và tôi nói điều đó bởi vì
+[03:18] bạn biết đấy, đối với tất cả chúng tôi trong phòng, những người
+[03:21] đang ở vị trí lãnh đạo, chúng tôi thì không
+[03:23] cũng lập dị như người đồng sáng lập của tôi hay của tôi
+[03:25] kỹ sư tài giỏi.
+[03:27] Phải không? Tôi khá là lập dị. Nhưng
+[03:30] nhưng vì bạn không phải là người lập dị nên chúng tôi
+[03:33] hiểu AI ở mức độ như vậy
+[03:36] cao hơn một chút so với thực tế của mã.
+[03:40] Đúng không? Vì vậy, tôi sẽ cho bạn biết rất rõ ràng
+[03:41] ví dụ hả?
+[03:43] Tôi nghĩ chúng ta đã có thời hạn cho một số việc
+[03:45] code, tôi và Sanat, người đồng sáng lập của tôi.
+[03:48] Chúng tôi quyết định rằng chúng tôi cần phải hoàn thành nó
+[03:50] trong vòng 2 ngày. Anh ấy nói điều đó là không thể
+[03:53] thêm. Tôi phải di chuyển. Vì vậy, anh ấy đã di chuyển
+[03:55] từ nhà này sang nhà khác, thành phố này đến thành phố khác. Và,
+[03:57] bạn biết đấy, tôi phải di chuyển và tôi phải
+[03:59] gọi tất cả những điều đó
+[04:01] bạn biết đấy, các đặc vụ, v.v.
+[04:04] Và về cơ bản, tôi đã nói, tại sao bạn lại làm vậy
+[04:06] cái đó à? Hãy hack một đại lý để làm
+[04:08] cái đó dành cho bạn phải không? Và bên trong
+[04:10] đúng 20 phút, chúng tôi đã có người đại diện
+[04:13] gọi điện thoại cho 52 công ty chuyển nhà,
+[04:16] hãy gọi họ,
+[04:17] phát hiện ngôn ngữ của họ, nói chuyện với họ bằng
+[04:19] ngôn ngữ của họ phải không?
+[04:22] Bạn biết đấy, hãy mô tả tất cả các chi tiết của
+[04:23] nhà này, nhà kia, thứ anh ấy muốn,
+[04:25] khi anh ấy muốn, v.v.
+[04:27] Yêu cầu đề xuất, nhận đề xuất về
+[04:30] email, xem tất cả, sắp xếp chúng,
+[04:32] đưa ra cho chúng tôi hai đề xuất.
+[04:34] Sanat, người đồng sáng lập của tôi, chỉ vì anh ấy
+[04:36] một kẻ lập dị,
+[04:37] bạn biết đấy, đã trả lời người đại diện và
+[04:39] đã nói, vâng, tôi thích cái này, nhưng bạn có thể
+[04:41] thương lượng thêm 15%? Vì vậy, theo nghĩa đen
+[04:44] nhấc máy lên, gọi cho
+[04:45] bạn biết đấy, công ty chuyển nhà được 15%
+[04:47] nữa, nhận được đề xuất, ký tên, gửi đi
+[04:49] nó quay trở lại, và những người vận chuyển xuất hiện trên
+[04:51] ngày phải không? Bây giờ, kiểu đó
+[04:54] năng suất
+[04:55] là có thật nhưng không phải ai cũng có thể truy cập được
+[04:58] của chúng tôi. Tất cả chúng ta đều không thể tiếp cận được nó,
+[05:00] tại sao? Bởi vì một chút ở cuối,
+[05:03] giao diện tạo ra nó không có
+[05:06] vẫn chưa được tạo,
+[05:07] phải không? Vì vậy, một phần của sự cường điệu mà chúng tôi đi
+[05:09] thông qua đó là mọi người nghĩ AI, bạn
+[05:12] biết đấy, chúng tôi nhận được rất nhiều sự cường điệu xung quanh các đặc vụ
+[05:15] và móng vuốt mở và tất cả những câu chuyện đó,
+[05:18] nhưng thực tế vẫn chưa có. các
+[05:20] thực tế vẫn chưa có bởi vì bạn đang
+[05:22] không đến nỗi lập dị như vậy đâu.
+[05:24] Những người đam mê công nghệ biết rằng thực tế là
+[05:25] đó. Bây giờ, sự cường điệu lớn khác là AGI,
+[05:29] bởi vì mọi người đều nói về, bạn biết đấy,
+[05:31] khi AGI đánh, khi AGI đánh. Và vâng,
+[05:34] Khi AGI tấn công, đó là khoảnh khắc
+[05:36] điểm kỳ dị. Thế giới hoàn toàn
+[05:38] thay đổi.
+[05:39] Nhưng chúng ta không cần AGI để xây dựng
+[05:43] những điều đáng kinh ngạc có thể lên tới 100 USD
+[05:45] được định giá hàng triệu đô la trong chín tuần.
+[05:48] Bạn có nhận ra điều đó không? Với ngày hôm nay
+[05:51] AI, không phải AGI, bạn có thể hiểu theo nghĩa đen, và tôi
+[05:55] nói điều đó một cách công khai, quét sạch Oracle, ừm
+[06:00] và mọi SaaS khác,
+[06:02] Microsoft và tất cả di sản của tất cả
+[06:05] của Office và Windows và bất cứ thứ gì,
+[06:06] mỗi dòng mã Cobol đều
+[06:08] từng được viết ra, bạn có thể hiểu theo nghĩa đen
+[06:10] xây dựng môi trường mới. Và nhân tiện,
+[06:13] nếu bạn thực sự là đối tác
+[06:15] cung cấp những thứ đó, có thể sẽ bị xóa sổ.
+[06:19] Phải không? Và đó thực sự là một thế giới
+[06:21] đòi hỏi cảm giác cấp bách và
+[06:23] hiểu rằng ai đó có thể bước vào
+[06:25] hôm nay, giống như Anthropic, bạn biết đấy,
+[06:28] ngày hôm qua, về cơ bản là nói rằng chúng ta có thể
+[06:30] viết lại mã. Chúng ta có thể viết chúng ta có thể
+[06:32] viết lại mọi mã ATM từng có
+[06:34] hành tinh. Và tôi đã thấy điều đó với
+[06:36] của chúng ta
+[06:38] sự phát triển của công nghệ. Đó là loại
+[06:41] thực tế chỉ là độ trễ chuyển pha một pha.
+[06:45] Bạn có hiểu không? Có có một
+[06:47] vài người ở đâu đó ở Ấn Độ
+[06:49] hôm nay ngồi bên nhau nói, "Làm sao tôi có thể
+[06:53] xây dựng thứ gì đó có thể đi vào
+[06:55] một hệ thống ERP, hiểu được toàn bộ
+[06:57] cơ sở dữ liệu, viết lại từ đầu?"
+[07:00] Được chứ? Làm cách nào để viết một phương pháp mới
+[07:02] phát triển các tài liệu không
+[07:04] Microsoft Word? Microsoft Word là một
+[07:07] một công nghệ của thập niên 80. Bạn hiểu không
+[07:09] cái đó à? Ừm? Và bạn phải bằng cách nào đó
+[07:12] nhận ra rằng điều này đang đến.
+[07:15] Hoàn toàn không có nghi ngờ gì về điều đó. AI thì không
+[07:18] bị thổi phồng quá mức. Đó là sự chuyển pha và
+[07:21] bị đánh giá thấp.
+[07:22] Phải không? Vì vậy, sẽ có một ngày khi
+[07:24] khúc cua đó sẽ đi zhoop.
+[07:27] Phải không? Và thậm chí khi bạn nghĩ
+[07:29] về bản thân AGI, mhm? Ờ
+[07:32] bạn phải hiểu rằng cách chúng tôi
+[07:35] AI đã phát triển trong 25 năm qua là
+[07:38] rất khác so với cách chúng tôi phát triển
+[07:40] ngay bây giờ. Bây giờ chúng tôi sử dụng AI tự phát triển,
+[07:43] AI tự mã hóa. Chúng tôi có tổng hợp
+[07:46] đào tạo
+[07:47] dữ liệu, do đó AI đang phát triển dữ liệu đào tạo
+[07:50] dành cho AI. Chúng ta có AI khoa học
+[07:52] bao gồm các vật liệu mới, toán học mới,
+[07:55] phải không? Và chúng tôi có
+[07:57] một lần nữa từ bạn biết đấy, ngoài chuyện lớn
+[07:59] những mẫu xe mà Mỹ cố gắng bán cho
+[08:02] thế giới, chúng ta ngày càng nhỏ hơn
+[08:05] mô hình cạnh, được chứ? Còn hơn thế nữa
+[08:08] có khả năng làm được nhiều việc hơn người lớn
+[08:10] sự cường điệu mà Open AI muốn bạn mong đợi
+[08:12] để tưởng tượng rằng thế giới được tạo nên từ đó.
+[08:15] Thế nghĩa là sao?
+[08:17] Điều đó có nghĩa là như tôi đã nói, bây giờ bạn đang
+[08:19] đối mặt với cơ hội lớn nhất trên
+[08:22] hành tinh
+[08:23] bởi vì nếu bạn đã từng thì nếu bạn già
+[08:25] đủ như tôi và bạn đã trải qua
+[08:27] thời điểm mà toàn bộ âm nhạc của bạn được bật lên
+[08:29] băng và sau đó bạn phải chuyển chúng sang
+[08:31] Đĩa CD và sau đó bạn phải chuyển chúng sang
+[08:33] những cái bục và bây giờ tôi đang di chuyển chúng
+[08:34] quay lại với CD phải không? Mỗi lần tất cả
+[08:38] bản nhạc tôi từng mua tôi phải mua
+[08:40] mua lại. Cả một ngành công nghiệp đã
+[08:43] được xây dựng lại chỉ bằng cách thay đổi từ đĩa CD
+[08:46] ừ từ băng tới đĩa CD phải không? Kiểu đó
+[08:49] chu trình thay thế công nghệ đã diễn ra
+[08:51] trong đời bạn đã nhiều lần, bạn biết đấy,
+[08:53] ô tô điện, vân vân và vân vân.
+[08:56] Vậy là chúng ta có công nghệ thay thế này
+[08:57] đạp xe ngày hôm nay và tin hay không thì không
+[09:00] quốc gia trên hành tinh và không có chỗ trong
+[09:04] hành tinh ngày nay có nhiều khả năng hơn để làm
+[09:05] cái này hơn căn phòng này.
+[09:07] Chúng ta là những người đam mê công nghệ phải không? Chúng tôi là
+[09:09] dân công nghệ có thể xem xét tất cả những điều này
+[09:11] công nghệ và vì chúng tôi đã hỗ trợ nó cho rất nhiều người
+[09:14] nhiều năm nữa, chúng ta có thể xây dựng lại nó trong một
+[09:16] chu kỳ thay thế. Phải? Ờ
+[09:19] vậy đây là cơ hội lớn nhất trên
+[09:20] hành tinh.
+[09:21] Chúng ta cũng có thể xây dựng những thứ như Emma
+[09:24] là điều hoàn toàn chưa từng có. Đó là một
+[09:27] cách hẹn hò và tìm kiếm hoàn toàn mới
+[09:30] tình yêu và em biết đấy, gần giống như
+[09:32] Cuộc hôn nhân sắp đặt của Ấn Độ nhưng được thực hiện
+[09:35] sử dụng AI và phù hợp với thế giới ngày nay
+[09:39] Tôi muốn bướm và muốn tôi muốn
+[09:41] bạn biết đấy, tôi muốn anh ấy hoàn thành công việc của mình
+[09:42] lời.
+[09:44] Đúng không? Và bạn có thể làm điều đó ngay hôm nay. bạn
+[09:45] không thể tưởng tượng được mình có thể làm được điều đó
+[09:48] sử dụng lập trình truyền thống một thời gian
+[09:49] quay lại.
+[09:50] Đồng thời, hm, có một vấn đề lớn
+[09:53] đe dọa vì tôi sẽ phải rất
+[09:55] mở.
+[09:57] Kiểu cường điệu xung quanh việc mọi người thua cuộc
+[10:00] công việc của họ
+[10:02] một lần nữa lại biến sắc mặt. Đã vài năm rồi
+[10:05] đi. Hửm? Nhưng trong vài năm đó, bạn
+[10:08] giờ đây chúng ta sẽ phải đưa ra lựa chọn
+[10:10] sẽ định vị bạn đang cố gắng
+[10:13] bảo vệ công việc của bạn trong vài năm bằng cách
+[10:15] nói không không không không, chúng tôi rất rất
+[10:17] hài lòng với ERP của chúng tôi.
+[10:19] Phải không? Hoặc bạn sẽ phải nhảy
+[10:22] lên xe và nói, "Ừ,
+[10:24] chắc chắn rồi. Tôi sẽ, bạn biết đấy, xé toạc
+[10:26] tất cả đều ổn, thử nghiệm và thử nghiệm,
+[10:29] và đạt được thứ gì đó rất rất rẻ
+[10:31] điều đó tốt hơn nhiều. Hửm? Ờ cái đó là gì
+[10:34] hơn những gì tôi có bây giờ. Những cái đầu tiên
+[10:36] sẽ giữ được công việc của mình, nhưng bạn biết đấy,
+[10:38] có lẽ sẽ có nhiều lực cản hơn và
+[10:40] thu nhập đang giảm dần. Những cái khác
+[10:44] sẽ tạo ra hàng trăm doanh nghiệp
+[10:46] trị giá hàng triệu đô la.
+[10:48] Phải không? Và bạn có thể tưởng tượng cái nào
+[10:50] những cái đó sẽ còn lại sau một vài năm.
+[10:53] Phải không? Và tôi phải thừa nhận với bạn,
+[10:55] lý do cho sự khác biệt giữa hai điều đó
+[10:57] nằm trong định nghĩa nhân tạo
+[10:59] thực tế là có trí thông minh.
+[11:02] Phải không? Và vì vậy, tôi muốn bạn tưởng tượng
+[11:05] rằng những gì chúng tôi đã tạo ra lần trước
+[11:08] Tôi muốn nói là từ năm 2004
+[11:11] ừ đó là khi cuộc đời tôi diễn ra, bạn biết đấy,
+[11:14] ở những nơi như Google bắt đầu thấy AI
+[11:17] nó thực sự đang hoạt động. Vì vậy, kể từ khi
+[11:19] Năm 2004, những gì chúng tôi đã tạo ra hơi giống
+[11:23] ừm bạn biết đấy, một tiện ích. Bạn biết bạn
+[11:25] biết cách cắm điện vào tường và
+[11:27] lấy năng lượng từ ổ cắm. Đúng không? Ờ
+[11:31] về cơ bản, chúng tôi đã tận dụng
+[11:33] bạn biết năng lượng được hàng hóa hóa. bạn bạn
+[11:36] cắm điện bất cứ lúc nào bạn có năng lượng. Bây giờ với
+[11:38] trí tuệ nhân tạo với những gì chúng ta có
+[11:40] xong là chúng ta đã thương mại hóa thông tin tình báo.
+[11:42] Phải không? Điều quý giá nhất
+[11:45] tài sản quý giá trên hành tinh hiện nay là
+[11:47] được thương mại hóa trong một thiết bị. Đúng không? bạn có thể
+[11:50] cắm vào nó và thay vì nhận
+[11:52] điện bạn sẽ có IQ.
+[11:54] Bạn có EQ. Được chứ? Bạn nhận được quá trình
+[11:57] tình báo. Bạn nhận được mọi hình thức
+[11:58] trí thông minh mà bạn có thể nghĩ tới.
+[12:01] Và điều này sẽ diễn ra theo hai giai đoạn.
+[12:04] Phải không? Giai đoạn số một là những gì tôi
+[12:06] thường đề cập đến những gì chúng ta sẽ làm
+[12:08] cho đến bây giờ. Người ta gọi đó là thời đại
+[12:10] trí thông minh tăng cường. Phải? Đó là
+[12:13] máy móc và con người cùng nhau làm việc để
+[12:16] mang đến những thứ mà cả máy móc cũng không thể làm được
+[12:18] một mình con người cũng không thể giải thoát được.
+[12:21] Được chứ? Và đây là một điều rất nổi tiếng
+[12:23] câu chuyện đam mê vì một lần nữa nếu bạn là một
+[12:25] lão già lập dị như tôi 1989
+[12:28] là một khoảnh khắc sâu sắc mà bạn biết đấy
+[12:31] hầu hết chúng ta. Đó là năm mà uh
+[12:34] Hệ thống của Deep Blue IBM đánh bại Garry
+[12:37] Kasparov trong môn cờ vua. Được rồi? Và hầu hết chúng ta
+[12:40] những người đam mê chơi cờ.
+[12:42] Uh bạn biết đấy, chúng tôi nghĩ mình là người thông minh nhất
+[12:44] chuyện gì xảy ra thì máy móc cũng chiến thắng
+[12:46] đấu với Garry Kasparov và nếu bạn đã
+[12:47] từng gặp Garry trời ơi thích quá
+[12:51] thông minh. Phải? bây giờ
+[12:54] kể từ đó chưa có con người nào có thể thắng được
+[12:57] một cỗ máy thích hợp trong cờ vua. Đó là
+[12:59] nó. Qua.
+[13:01] Phải không? Nhưng sau đó chúng tôi bắt đầu như cờ vua
+[13:03] người chơi sẽ có giải đấu khi chúng tôi có
+[13:05] con người và một cỗ máy đang chơi với một
+[13:09] con người và một cỗ máy.
+[13:10] Phải không? Vậy nên đội người máy người máy
+[13:13] nếu bạn muốn cạnh tranh với nhau
+[13:16] và bản thân trò chơi đã được nâng lên một tầm cao mới
+[13:19] đưa ra những chiến lược mới, những điều mới mà chúng tôi có
+[13:20] chưa bao giờ nghĩ đến điều đó trước đây.
+[13:23] Phải không? Và đây là thời đại tăng cường
+[13:25] tình báo. Thời đại tăng cường
+[13:27] trí thông minh là bạn và cỗ máy
+[13:29] Cùng nhau trở thành IQ không phải 134, không phải 164
+[13:35] IQ chứ không phải IQ 250. Chúng tôi có tiềm năng
+[13:38] trong vòng một hoặc hai năm sẽ trở thành con người
+[13:41] hoạt động ở mức IQ tăng thêm 300 400
+[13:45] điểm. Và tôi dám nói trong những bài viết của mình
+[13:49] như chúng ta đang nói,
+[13:51] cuốn sách cuối cùng của tôi được viết cùng với
+[13:53] một AI. Không phải ba được tìm kiếm bởi AI và
+[13:56] do tôi viết, nó được viết bằng AI
+[13:59] đó là đồng tác giả có tên cô ấy trên
+[14:01] cuốn sách có quyền biên tập và
+[14:04] chúng tôi đã cùng nhau viết một cuốn sách mà độc giả
+[14:06] tôi nghĩ thật khó tin đến mức
+[14:07] thỉnh thoảng họ sẽ hỏi tôi những câu hỏi
+[14:10] và thỉnh thoảng đặt câu hỏi cho cô ấy.
+[14:12] Phải không? Bây giờ, đối với một tác giả,
+[14:15] Lẽ ra tôi có thể chọn cách kháng cự và nói
+[14:17] không, tôi sẽ viết theo cách ban đầu của mình, hoặc tôi
+[14:20] có thể quyết định nhảy vào cuộc
+[14:24] và làm điều đó rất khác,
+[14:25] luôn trân trọng tinh thần đồng đội đó và
+[14:28] và về cơ bản là tạo ra thứ gì đó
+[14:30] chưa từng được tạo trước đây.
+[14:32] Sự khác biệt giữa điều đó
+[14:35] cơ hội và mối đe dọa đó thực ra là
+[14:37] rất thú vị.
+[14:39] Ừm
+[14:40] một số người trong chúng ta được ban tặng điều tuyệt vời này
+[14:42] tình báo. Hãy tưởng tượng một khoảnh khắc mà bạn
+[14:44] có thể mượn 400 điểm IQ.
+[14:47] Phải không? Hãy tưởng tượng sự hiểu biết của bạn về
+[14:49] mọi thứ khi bạn 400 tuổi
+[14:51] Điểm IQ cao hơn phải không? Bình thường tôi dám
+[14:53] mọi người và nói khi nào bạn cho tôi 400 IQ
+[14:55] điểm, tôi sẽ sử dụng vật lý nano để xây dựng một
+[14:58] khu vườn bên ngoài nơi bạn có thể đi bộ tới
+[15:00] hái táo rồi đi bộ tới cây
+[15:02] cây khác và chọn một chiếc iPhone.
+[15:04] Phải không? Về cơ bản, từ chi phí của một hạt
+[15:07] theo quan điểm, nếu bạn đủ hiểu biết về vật lý nano,
+[15:10] nó có cùng mức giá.
+[15:12] Theo nghĩa đen, cây này và cây kia,
+[15:14] phải không? Đó là 400 điểm IQ cho bạn.
+[15:16] Dù bạn có tin hay không thì điều đó vẫn có thể xảy ra
+[15:18] trước năm 2030.
+[15:20] Phải không? Vì vậy, điều thú vị nhất
+[15:22] thách thức đối với tôi là AI xuất hiện
+[15:25] bức ảnh và đưa cho chúng tôi hai bức ảnh đó
+[15:27] những cơ hội đáng kinh ngạc. Một là tôi có thể
+[15:30] tăng năng suất của bạn một cách đáng kể bằng cách
+[15:33] trả lời tất cả email của bạn và
+[15:35] thay thế nhân viên trung tâm cuộc gọi của bạn. Và
+[15:37] khi vợ hoặc chồng của bạn
+[15:38] khó chịu quá, tôi định viết thư trả lời cho
+[15:40] họ.
+[15:41] Thật là lãng phí công sức tính toán.
+[15:43] Được chứ? Và những người khác về cơ bản đang đi
+[15:46] nghiên cứu rất sâu về khoa học,
+[15:49] về công nghệ, về cơ bản trên thị trường
+[15:52] cơ hội về khả năng và cách sử dụng
+[15:55] đã nâng cao chỉ số IQ để xây dựng những thứ
+[15:58] chưa bao giờ có chuyện chưa từng được xây dựng
+[16:00] được xây dựng trước đây.
+[16:01] Được chứ? Và tôi nghĩ sự khác biệt giữa
+[16:03] họ
+[16:04] được quảng cáo rầm rộ.
+[16:06] Phải không? Người ta thấy rằng trong ý tưởng đó rằng những gì
+[16:09] OpenAI muốn bán cho bạn đồ dùng
+[16:13] ChatGPT nhẹ nhàng nhưng trả tiền cho mình nhé
+[16:16] 20 đô la một tháng và mọi thứ sẽ ổn thôi.
+[16:19] Phải không? Trong khi thực tế là tôi không có và tôi
+[16:21] nhóc à, không phải đâu, tôi đã có ít nhất 4 lần rồi
+[16:24] hoặc 5 tháng hiếm khi uh thực hiện tìm kiếm
+[16:28] trên một trong những AI của tôi không sâu lắm
+[16:30] nghiên cứu.
+[16:31] Phải không?
+[16:32] Hầu hết lời nhắc uh uh của tôi đều là một trang và
+[16:36] dài một nửa.
+[16:37] Phải không? Và sau đó tôi bắt đầu ở Song Tử hoặc hoặc
+[16:40] Claude, sau đó nhận câu trả lời và
+[16:43] đưa nó cho DeepSeek và nói, "Cái gì
+[16:45] sai ở chỗ này à?" Và DeepSeek sẽ nói,
+[16:46] "Giống Mỹ quá. Phải không? Để tôi đưa cho
+[16:48] có vài điều họ chưa nói với bạn
+[16:50] bạn về. Đúng không?” Tôi lấy cái đó và đặt
+[16:53] họ cùng nhau nói ChatGPT, đó là
+[16:55] Điều duy nhất nó giỏi là bạn biết đấy,
+[16:57] kết hợp chúng lại. Vì vậy, nó viết một
+[16:59] tài liệu. Tôi đưa nó trở lại cái khác
+[17:01], v.v. Chu kỳ đó đối với tôi là một chút
+[17:04] giống như khi họ đưa cho tôi một bài báo khoa học
+[17:05] máy tính khi còn trẻ. Phải? trong
+[17:08] Khi tôi còn học đại học kỹ thuật,
+[17:09] họ chỉ cho phép một nghiên cứu khoa học
+[17:11] máy tính vào năm thứ ba
+[17:12] đại học. Và tôi kiểu như, đột nhiên tôi có thể
+[17:15] tiết kiệm được một nửa thời gian làm bài.
+[17:17] Hầu hết bạn bè của tôi sẽ lấy nửa đó
+[17:19] hết giờ rồi đi ra ngoài ngồi với
+[17:21] bạn gái của họ.
+[17:22] Tôi dành thêm nửa giờ hoặc một
+[17:24] tiếng rưỡi và giải bài thi
+[17:27] một lần nữa. Đưa ra hai giải pháp.
+[17:29] Phải không? Và nó rất nhỏ
+[17:32] sự khác biệt trong suy nghĩ, nhưng sự thật lòng của tôi
+[17:36] năng suất trí tuệ tăng lên
+[17:39] tạo ồ ạt thay vì của tôi
+[17:41] sự lười biếng và sự tập trung của tôi vào việc giảm thiểu
+[17:45] giá một hoặc hai đô la, ngày càng tăng
+[17:47] một cách ồ ạt. Và đó là một điều rất khác
+[17:49] thái độ. Vì vậy,
+[17:51] điều này có ý nghĩa gì với Ấn Độ?
+[17:55] Tôi phải thừa nhận rằng nếu
+[17:59] Hôm nay tôi thành công rồi,
+[18:01] tối nay một trong các bạn sẽ về nhà
+[18:03] và nói,
+[18:04] "Tôi sẽ chọn Oracle.
+[18:06] Được chứ? Hoặc tôi sẽ lấy
+[18:08] salesforce.com, nếu không tôi sẽ lấy
+[18:10] sao cũng được, một trong những giải pháp ERP đó,
+[18:12] một trong những giải pháp CRM đó, một trong những giải pháp đó
+[18:15] những thứ tồn tại, và tôi sẽ
+[18:16] chế tạo một chiếc tương đương của Ấn Độ có giá một
+[18:19] một phần nhỏ của giá, phải mất một tuần để
+[18:21] thực hiện. Được chứ? Hầu hết được thực hiện bởi AI,
+[18:24] lấy toàn bộ thông tin khách hàng
+[18:26] vào tài khoản và di chuyển nó, phải không? tôi là
+[18:30] sẽ tặng miễn phí cho khách hàng
+[18:33] để đổi lấy phần trăm của
+[18:36] tôi sẽ tiết kiệm khi họ
+[18:37] triển khai nó."
+[18:39] Phải không? Và tôi có thể đảm bảo với bạn nếu 10 trong số
+[18:41] bạn
+[18:42] hãy làm điều đó ngay hôm nay,
+[18:45] nền kinh tế này sẽ lớn mạnh như OpenAI.
+[18:50] Bởi vì hãy nghĩ về điều đó.
+[18:52] Nghiêm túc đấy, cảm ơn bạn. Số rất ít đó
+[18:55] thích ý tưởng này, nói chuyện với tôi sau nhé. Vì vậy,
+[18:57] vậy,
+[18:58] hãy nghĩ xem, hả? Cơ hội lớn
+[19:01] điều đó không nằm trong tầm tay của chúng ta
+[19:05] xây dựng biên giới lớn tiếp theo
+[19:08] người mẫu. Đây là điều tôi sẽ đề cập sau
+[19:10] giây. Ừm? Cơ hội lớn là
+[19:13] hãy lấy đi di sản đó.
+[19:15] Được chứ? Đó là để lấy di sản và
+[19:17] thay thế những chu kỳ đó. hàng nghìn tỷ
+[19:20] đô la. Hàng nghìn tỷ chỉ riêng ở Cobol,
+[19:22] phải không? Hàng nghìn tỷ đô la trong ERP
+[19:25] một mình. Hàng nghìn tỷ đô la phải không? Và
+[19:27] Tôi nói vậy và tôi biết tất cả các bạn đều ở trong đó
+[19:29] công nghệ và tôi biết tất cả các bạn kinh doanh
+[19:31] phụ thuộc vào điều này. Được rồi?
+[19:34] Dù bạn có tin hay không, nếu bạn không làm,
+[19:36] ai đó sẽ làm phiền bạn. Vậy thì thế nào
+[19:38] bạn sẽ đến gặp khách hàng của mình và nói,
+[19:40] "Tôi sẽ cứu bạn và tạo ra một số thứ."
+[19:43] số tiền tiết kiệm được." Vì vậy, đây là một bên. các
+[19:45] Điều thú vị là phía bên kia là người Ấn Độ
+[19:48] chính thị trường.
+[19:50] Bản thân đây đã là một thị trường rộng lớn.
+[19:52] Được chứ? Bây giờ,
+[19:54] mọi người nói, "Ồ, nhưng chúng tôi không thể cạnh tranh được.
+[19:56] Cuộc chạy đua vũ trang AI đã được quyết định. bạn
+[19:59] biết đấy, nó nằm giữa Mỹ và Trung Quốc.” tôi
+[20:01] tôi không tin điều đó chút nào.
+[20:03] Tôi không tin điều đó chút nào. tôi tin
+[20:05] rằng mọi chuyện trong ngắn hạn sẽ diễn ra như vậy
+[20:08] trong việc sử dụng những mô hình sâu sắc đó để đạt được
+[20:12] một thời điểm làm thay đổi thế giới của chúng ta
+[20:15] thực tế. Để xây dựng giao diện đó
+[20:17] lớp mà chúng tôi chưa xây dựng cho đến nay.
+[20:19] Phải không? Và khi bạn hiểu được
+[20:21] chiến lược của Ấn Độ và uh xin lỗi, của uh Mỹ
+[20:24] và Trung Quốc, bạn thấy rất thú vị
+[20:27] cơ hội mà hầu hết mọi người không có
+[20:28] hiểu rồi.
+[20:30] Vì vậy,
+[20:32] Tổng thống Trump đắc cử Không, tôi sẽ
+[20:33] cứ gọi anh ấy là Trump thôi. Trump đắc cử,
+[20:36] ngồi trong văn phòng. Uh điều đầu tiên anh ấy ký
+[20:39] Gần như ngày đầu tiên là Stargate.
+[20:41] Đầu tư 500 tỷ USD để xây dựng một
+[20:44] trung tâm dữ liệu lớn, Oracle và bạn
+[20:47] biết, OpenAI và SoftBank.
+[20:50] Phải không?
+[20:51] Một tuần sau, Deep Seek sẽ ra mắt, được chứ?
+[20:54] Và nói, "Tại sao bạn lại làm vậy
+[20:56] cái này à?” Đơn giản, Deep Seek nói: "Tôi có thể
+[20:59] thực hiện những gì ChatGPT hiện tại
+[21:01] biểu diễn, lúc đó là 4.0, và tôi sẽ
+[21:03] sẽ làm điều đó vào lúc sáu giờ 1/6
+[21:06] chi phí. 6 triệu USD đào tạo
+[21:08] dữ liệu.
+[21:10] Phải không? Và sau đó Trung Quốc làm gì?
+[21:13] Công bố nó dưới dạng nguồn mở.
+[21:16] Là một mô hình biên mà bạn có thể tải xuống
+[21:18] trên máy tính cá nhân.
+[21:20] Phải không? Vì vậy, hãy hiểu hai điều đó
+[21:22] chiến lược để bạn hiểu được vị trí
+[21:24] chúng ta có thể vừa vặn trong đó. Đúng không?
+[21:27] Nước Mỹ đang cố gắng trở thành kẻ bắt nạt
+[21:29] độc quyền mọi thứ. Trung Quốc không phải
+[21:33] thậm chí còn quan tâm đến việc cạnh tranh. Họ vô hiệu hóa
+[21:36] cuộc thi.
+[21:37] Phải không? Vì vậy, bất cứ khi nào Mỹ đầu tư
+[21:39] phát minh ra thứ gì đó, Trung Quốc rất giỏi
+[21:42] bạn biết đấy, kỹ thuật đảo ngược và
+[21:44] tái thiết kế và xây dựng mọi thứ
+[21:46] nhanh hơn, rẻ hơn và nhanh hơn, v.v.
+[21:48], v.v. Họ xây dựng nó và họ đặt
+[21:50] ở ngoài kia có thể nói miễn phí, "Có
+[21:52] ở đây không có sự cạnh tranh. Không có gì để
+[21:54] cạnh tranh về." Bây giờ, điều đó mang lại cho bạn
+[21:57] thú vị là cả hai lựa chọn. bạn không
+[21:58] phải dùng người Trung Quốc hoặc người Mỹ,
+[22:00] nhưng giống như Ấn Độ đã làm rất tốt
+[22:02] khá lâu rồi, bạn hãy giữ lấy
+[22:04] tùy chọn mở ra để xem nó là gì
+[22:07] bạn có thể sử dụng vì lợi ích của mình.
+[22:10] Phải không? Một lần nữa, với Emma, ​​hả? Chúng tôi
+[22:13] về cơ bản đã xây dựng Emma trên nguồn mở
+[22:15] LLM. Tại sao chúng ta lại xây dựng cốt lõi của mình
+[22:17] trí thông minh hả? Và chúng tôi đã xây dựng nó trong một
+[22:19] cách mà tôi có thể rút ra theo đúng nghĩa đen
+[22:22] LLM và đặt một cái khác vào và Emma
+[22:25] tiếp tục làm việc.
+[22:27] Phải không? Vì vậy, các giấy gói xung quanh
+[22:29] LLM, nếu đó là ChatGPT hoặc Deep Seek,
+[22:31] không thành vấn đề.
+[22:33] Được chứ? Và đó là những thứ
+[22:35] điều bạn cần làm trong một thế giới
+[22:37] di chuyển thực sự rất rất rất nhanh.
+[22:40] Phải không? Bởi vì một trong những thách thức lớn
+[22:42] mà chúng ta sắp thấy trong thế giới AI này
+[22:44] đó là một thế giới mà nếu bạn xây dựng
+[22:46] một
+[22:47] giải pháp dựa trên nền tảng ngày nay, đó là
+[22:50] bản thân nền tảng có thể được thay thế sau 2
+[22:53] nhiều năm rồi.
+[22:55] Vậy là có bốn kỹ năng.
+[22:57] Tôi sẽ yêu cầu bạn lấy bốn
+[22:59] kỹ năng. Đầu tiên trong số đó là cờ vua
+[23:02] kết thúc.
+[23:05] Không còn cờ vua nữa, được chứ? Một doanh nghiệp
+[23:07] người, một nhà lãnh đạo thành công trong quá khứ
+[23:10] chỉ có một công việc và một công việc duy nhất, đó là
+[23:12] ngắm nhìn thế giới sau 5 năm nữa
+[23:14] và có thể tưởng tượng ra một con đường từ đây
+[23:18] đến nơi mà họ có thể giành chiến thắng sau 5 năm nữa
+[23:21] và thực hiện tốt con đường đó để
+[23:24] trở thành người chơi lớn.
+[23:25] Phải không? Không còn thời gian 5 năm nữa.
+[23:28] Trò chơi cờ vua đã được
+[23:30] đã bị xóa. Bây giờ chúng ta đang ở trong tình trạng bí bách
+[23:33] tòa án.
+[23:34] Nghĩa đen là trên sân bóng quần. chúng tôi đang trên
+[23:35] ngón tay của chúng ta, bạn biết đấy, ngón chân của chúng ta, được chứ?
+[23:38] Chờ xem bóng ở đâu
+[23:40] bóng rơi tiếp theo. Nếu nó ở bên phải,
+[23:43] bạn bước hai bước về bên phải. Bạn đánh
+[23:45] quả bóng và bạn không đứng đó. Bạn
+[23:47] quay lại giữa sân,
+[23:49] được chứ? Và bạn đang kiễng chân lên. bạn là
+[23:51] đang cố gắng xem quả bóng tiếp theo ở đâu.
+[23:53] Ý tưởng đó rất quen thuộc với những gì chúng ta
+[23:56] từng làm ở Thung lũng Silicon. Vì vậy, tôi cảm thấy
+[23:58] rất thoải mái với điều đó. Được rồi? Như tôi
+[24:01] cho biết, với Emma, chúng tôi đã viết mã số sáu
+[24:03] lần. Ai quan tâm? Chúng tôi sẽ viết
+[24:05] mã. Chúng tôi sẽ kiểm tra nó. Chúng tôi sẽ đưa nó cho
+[24:07] người dùng thực tế. Họ sẽ nói, "Chúa ơi, tôi
+[24:08] thích nó." Và sau đó chúng tôi sẽ xóa nó và
+[24:10] bắt đầu lại.
+[24:11] Đó là một thế giới rất khác. Phải? Và
+[24:14] tin hay không thì tùy, giống như mọi thứ trong
+[24:16] công nghệ hả?
+[24:18] Chậm, chậm, chậm, chậm. Và sau đó,
+[24:21] theo đúng nghĩa đen là 4 tuần trước, chúng tôi đã ngồi lại với nhau
+[24:24] một bài đánh giá sản phẩm. Chúng tôi đã có rất
+[24:26] ý tưởng thú vị và phóng to.
+[24:29] Phải không? Trong vòng 2 tuần, chúng tôi đã xây dựng được một
+[24:31] sản phẩm đáng kinh ngạc.
+[24:33] Được chứ? Tại sao? Bởi vì bây giờ các công cụ đã
+[24:37] làm hầu hết công việc. Sự tự động hóa
+[24:39] đang làm hầu hết công việc. bạn có
+[24:41] phải kiễng chân lên. Bạn phải có
+[24:43] sự linh hoạt đó. Đó là số một.
+[24:46] Thứ hai là học AI. Tôi là tôi không biết
+[24:48] nói sao khác nhỉ. Tìm hiểu AI
+[24:52] không ở đẳng cấp của một lãnh đạo doanh nghiệp. tôi
+[24:55] là lãnh đạo doanh nghiệp trong 10 năm qua
+[24:57] năm cuộc đời tôi. Vâng, lập dị trong
+[24:59] nền nhưng lại ẩn đi.
+[25:01] Được chứ? Tôi lại là một người rất nghiêm túc.
+[25:04] Nó không khó đến thế đâu. Tôi tiêu tôi tiêu
+[25:06] 4 giờ mỗi ngày khi tôi không đi du lịch
+[25:09] để theo kịp. Nhưng tôi phải hiểu
+[25:11] mã lõi phải không? Đối với bất kỳ doanh nghiệp nào khác
+[25:14] lãnh đạo, anh có thể dành một giờ mỗi tuần.
+[25:16] Ừm? Bạn chỉ có thể đào tạo YouTube của mình để
+[25:18] cho bạn xem thông tin mới nhất về AI và bạn sẽ
+[25:21] bắt kịp. Học hỏi phải không? Vì vậy, hãy đến một trong
+[25:24] những mô hình ngôn ngữ đó và nói, "Tôi ở
+[25:26] công việc kinh doanh này. Đây là những khách hàng của tôi.
+[25:27] Đây là kỹ năng của tôi. Đây là của tôi
+[25:29] sự khác biệt trên thị trường." và như vậy
+[25:31] bật. "Tôi nên nhận thức được điều gì?"
+[25:35] Phải không? Và AI sẽ cho bạn biết. Và
+[25:37] cứ đi tìm kiếm và tìm hiểu về họ.
+[25:39] Đó là số hai.
+[25:42] Số ba là
+[25:43] gỡ lỗi chiều cao chiều cao.
+[25:46] Được chứ?
+[25:47] Nghiêm túc mà nói, có quá nhiều sự cường điệu hóa
+[25:50] đó và bạn cần biết sự thật. Bởi
+[25:52] theo cách này, không chỉ cường điệu về công nghệ. tôi
+[25:54] hãy nghĩ trong thế giới địa chính trị mà chúng ta
+[25:55] Sống trong thời đại ngày nay có rất nhiều
+[25:57] và rất nhiều, rất nhiều lời nói dối.
+[26:00] Được chứ? Và khi bạn thực sự bắt đầu
+[26:02] nhận ra điều gì là đúng và điều gì là
+[26:05] không, bạn đang ở một nơi rất thú vị
+[26:07] làm những việc mà người khác không làm.
+[26:10] Và, bạn biết đấy, nếu bạn nhìn vào
+[26:12] thế giới địa chính trị, thế giới vĩ mô,
+[26:15] đang có một sự thay đổi lớn, đặc biệt là
+[26:17] 2026. Và ý tưởng đó chắc chắn
+[26:22] à
+[26:22] ừm
+[26:23] quốc gia hay doanh nghiệp hay bất cứ thứ gì luôn
+[26:26] chúng tôi quan tâm nhất đến việc
+[26:29] bị phá hủy rồi phải không? Về cơ bản có nghĩa là
+[26:31] bạn sẽ bắt đầu thấy rất nhiều
+[26:33] các địa điểm trên khắp thế giới. Châu Âu thôi
+[26:35] tuần trước à? đã thông báo rằng họ
+[26:38] thực sự sẽ hỏi một số người trong số họ
+[26:40] nhà cung cấp công nghệ được thay đổi. Tại sao?
+[26:43] Bởi vì nếu bạn biết đấy, Hoa Kỳ
+[26:44] quản lý có thể uh um bạn biết đấy, đột kích
+[26:47] hoặc hoặc từ chối hoặc từ chối quyền truy cập của ai đó vào
+[26:51] email của họ là một động thái chính trị, sau đó
+[26:54] Bạn sử dụng những thứ đó an toàn đến mức nào?
+[26:57] Phải không? Và khi bạn bắt đầu nghĩ về
+[26:59] nó, bạn sẽ thấy một số thứ đó
+[27:02] sự thay đổi đang diễn ra trên khắp thế giới. Đi
+[27:03] nắm lấy nó. Đây là Ấn Độ là nơi
+[27:06] nơi chúng tôi thực hiện việc này. Đi lấy những thứ đó
+[27:08] cơ hội. Đi lấy mọi thứ
+[27:11] sự biến đổi đang diễn ra trên thế giới,
+[27:13] và khi bạn kiễng chân lên,
+[27:16] có một
+[27:17] đội trẻ cam kết nhanh nhẹn và họ sẽ
+[27:20] xây dựng cho bạn thứ gì đó trong vài tuần. Đi lấy
+[27:22] cơ hội đó.
+[27:23] Và cuối cùng, tôi sẽ yêu cầu bạn làm
+[27:25] cho tôi một ân huệ rất lớn vì
+[27:29] trí thông minh nói chung
+[27:32] và trí tuệ nhân tạo tương ứng
+[27:34] là một lực không có sự phân cực.
+[27:36] Phải không? Không có sự phân cực để
+[27:38] tình báo. Nó có thể, bạn biết đấy, bạn có thể
+[27:39] hãy sử dụng nó vào việc tốt và nó sẽ tạo ra rất nhiều
+[27:41] tạo ra nhiều điều tốt đẹp cho thế giới
+[27:43] xung quanh bạn. Bạn có thể sử dụng nó cho mục đích xấu xa, và
+[27:44] bạn có thể tạo ra một thế giới đen tối cho tất cả chúng ta.
+[27:46] Phải không?
+[27:48] Cơ hội này
+[27:50] một đời xây dựng lại mọi thứ,
+[27:54] xây dựng lại hệ thống đạo đức. Được rồi? Xây dựng lại
+[27:58] các hệ thống thực sự được điều khiển nhưng bởi
+[28:01] Larry Page, người đồng sáng lập của chúng tôi đang làm gì tại
+[28:03] Google, đã từng dạy chúng ta. trang Larry
+[28:05] đã từng dạy chúng tôi rằng mọi sản phẩm chúng tôi
+[28:07] sẽ xây dựng sẽ làm theo điều gì đó mà anh ấy
+[28:09] gọi là bài kiểm tra bàn chải đánh răng.
+[28:12] Vì vậy, nếu bạn đến
+[28:14] đội ngũ điều hành của Google và nói, "Tôi
+[28:15] có một ý tưởng kinh doanh. Đây là P&L.
+[28:17] Chúng ta sẽ kiếm được nhiều tiền thế này.”
+[28:19] Họ không chịu lắng nghe.
+[28:20] Phải không? Họ sẽ luôn đẩy chúng tôi trở lại
+[28:22] và nói, "Bạn đang cố gắng giải quyết vấn đề gì
+[28:24] giải quyết được không?” Và thế giới của chúng ta tràn ngập
+[28:26] vấn đề.
+[28:27] Phải không? Và họ tin tưởng của anh ấy, và đó là
+[28:29] thực sự đúng với Google đối với tất cả các
+[28:31] tôi đã ở đó nhiều năm, nếu bạn tìm thấy một
+[28:33] vấn đề lớn ảnh hưởng đến cuộc sống của một
+[28:35] tỷ người phải không? Và bạn giải quyết nó
+[28:38] giỏi đến mức họ sử dụng hai người một lần hoặc
+[28:41] hai lần một năm một ngày,
+[28:43] phải không? Bạn nhất định phải thực hiện một
+[28:45] tiền.
+[28:46] Nhưng tiền mới là thứ
+[28:48] tác dụng phụ. Đó không phải là mục tiêu,
+[28:50] phải không? Vì vậy, Emma, một lần nữa, đang cố gắng
+[28:53] để giải quyết tình yêu và các mối quan hệ, một trong những
+[28:55] những vấn đề hàng đầu trên thế giới.
+[28:57] Được chứ? Nếu chúng ta thực sự giải quyết được nó
+[29:00] à, hãy tưởng tượng xem có bao nhiêu triệu
+[29:02] mọi người sẽ đến và tham gia mỗi ngày.
+[29:05] Và như vậy, chúng ta sẽ không phải lo lắng về
+[29:07] tiền.
+[29:08] Bạn có hiểu không? Và vì thế, điều tôi hỏi
+[29:10] bạn làm lãnh đạo doanh nghiệp ở đây
+[29:12] hôm nay về nhà, học công cụ, tìm
+[29:15] cách tiếp tục được cập nhật, thay đổi
+[29:18] suy nghĩ của bạn nhón chân và di chuyển
+[29:20] nhanh lên nhỉ? Hiểu điều gì là đúng
+[29:24] từ sự cường điệu là gì, và hãy nhìn vào một cách chân thực
+[29:27] thế giới ngày nay của chúng ta đầy rẫy những vấn đề, và
+[29:30] cố gắng giải quyết chúng. Nếu bạn giải quyết bất kỳ
+[29:33] họ, một trong số họ,
+[29:35] được chứ? Trong nền kinh tế mới này, trong nền kinh tế mới này
+[29:37] thế giới,
+[29:38] Tôi hứa với bạn, bạn không thể trở thành một
+[29:41] tỷ phú, bạn có thể thực sự trở thành
+[29:42] tỷ phú đầu tiên.
+[29:44] Vì vậy, với điều đó, bây giờ bạn đã có
+[29:46] bài tập về nhà, và tôi cảm ơn bạn rất nhiều.
+[29:49] >> [vỗ tay]

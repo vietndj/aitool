@@ -1,0 +1,246 @@
+Title: Artificial Intelligence Isn’t the Problem We Should Fear — Humans Are
+URL: https://www.youtube.com/watch?v=afVNUoH5DME
+ID: afVNUoH5DME
+Transcript Type: Language: en -> vi (translated via deep-translator)
+================================================================================
+
+--- TÓM TẮT NỘI DUNG ---
+khi thông tin mà bạn biết cuộc cách mạng đã xảy ra, giờ đây chúng ta thậm chí không cần phải đi làm, chúng ta có thể làm việc ở nhà và tạo ra sự khác biệt và như bạn có thể thấy mỗi khi hình thức tự động hóa trở nên mạnh mẽ hơn, chúng ta càng nhân năng suất của mình lên và chúng ta càng nhân lên sự phong phú nhưng đồng thời chúng ta cũng nhân lên nhiều sức mạnh của những người sở hữu quyền tự động hóa nên thợ săn giỏi nhất trong bộ tộc có thể được thủ lĩnh hoặc những người phụ nữ trong bộ tộc ưa thích. Và vì vậy, bạn sẽ thấy rằng rất sớm thôi, chúng ta sẽ có các tỷ phú nghìn tỷ chứ không phải tỷ phú vì một số người sẽ có được quyền lực và sự giàu có to lớn vì tự động hóa sử dụng AI về cơ bản gấp nhiều lần so với tự động hóa sử dụng internet cùng lúc. Một cách là rất nhiều người, đặc biệt là với đại dịch cô đơn mà chúng ta có trên thế giới ngày nay, sẽ tìm thấy một người bạn AI hoặc bạn gái AI và nó đang thực sự trở thành uh uh từ một phía trở thành sự thay thế cho kết nối con người nhưng từ phía bên kia, nó khiến chúng ta khao khát kết nối con người chân chính hơn nữa. mà bạn không còn biết điều đó có đúng hay không bởi vì các phương tiện truyền thông chính thống và mạng xã hội là bạn biết đưa tin về nó theo cách khiến bạn không còn hiểu điều gì không, điều gì là đúng, điều gì là thật và điều gì không.
+
+================================================================================
+
+--- RAW TEXT (FOR LLM INPUT) ---
+Hãy để tôi nói rất rõ ràng. Hoàn toàn không có gì sai với trí tuệ nhân tạo. Hoàn toàn không có mối đe dọa nào được tìm thấy trong trí tuệ nhân tạo. Có rất nhiều sai lầm trong hệ giá trị của nhân loại trong thời đại trí tuệ nhân tạo phát triển. Phải? Có rất nhiều điều sai trái trong cách con người sử dụng siêu năng lực này. Được rồi? Vì vậy, theo cách tôi nhìn nhận, tôi nói nó giống như việc nuôi dạy Siêu nhân, phải không? Bạn hiểu rằng bạn sẽ nhận nuôi đứa trẻ sơ sinh này, người có siêu năng lực và nếu bạn dạy đứa trẻ cách bảo vệ và phục vụ, nó sẽ trở thành siêu nhân. Nếu bạn dạy nó đi cướp ngân hàng và giết kẻ thù của bạn thì nó sẽ trở thành siêu phản diện. Siêu năng lực không có ý nghĩa gì. Được rồi. Chính những giá trị mà bạn tạo ra xung quanh việc nuôi dạy đứa trẻ đó sẽ tạo ra tương lai của nhân loại. Bây giờ có năm lĩnh vực mà tôi cần nhấn mạnh là những lĩnh vực mà bạn phải hiểu về sự thay đổi. Được rồi. Một trong số đó rất quan trọng là lĩnh vực quyền lực và sự giàu có. Được rồi. Uh, con người chúng ta đã sống trong một thế giới khan hiếm kể từ khi chúng ta bắt đầu. Một thế giới khan hiếm về cơ bản đòi hỏi tôi phải phát triển, đối thủ cạnh tranh của tôi phải thu hẹp lại. Được rồi. Một thế giới khan hiếm về cơ bản có nghĩa là tôi phải trở thành siêu cường quân sự trên thế giới. nếu không mọi người sẽ giết tôi. Phải? Thế giới khan hiếm đó sẽ không còn là sự thật nữa. Nhưng sẽ đến được đó, được chứ? Tôi nghĩ điều cuối cùng sẽ xảy ra là chúng ta sẽ áp dụng cùng một tâm lý là thu thập càng nhiều quyền lực và của cải càng tốt. Và bây giờ hãy để tôi giúp bạn hiểu điều này. Nếu bạn nhìn lại lịch sử loài người, ừm đã có thời chúng ta săn bắt hái lượm. Vì vậy, về cơ bản, thợ săn giỏi nhất trong bộ tộc có thể nuôi sống bộ lạc thêm một ngày, hai ngày nữa, phải không? Ờ tại sao? Bởi vì người thợ săn đó phải tự mình đi săn và khả năng tự động hóa tối đa của anh ta là một ngọn giáo, phải không? Khi chúng tôi trở thành nông dân, người nông dân giỏi nhất có thể nuôi sống bộ lạc thêm một tháng nữa. Tại sao? Bởi vì người nông dân giỏi nhất đó đã biết cách sử dụng một hình thức tự động hóa gọi là đất. Phải? Vì vậy, trong khi người nông dân gieo hạt và sử dụng nguồn nhân lực của mình để quản lý hạt giống đó thì đất đã làm hầu hết công việc. Phải? Khi cuộc cách mạng công nghiệp bắt đầu, các nhà máy chỉ có một người phụ trách vận hành, bạn sẽ biết sản xuất sẽ nhân lên gấp bội. khi thông tin mà bạn biết cuộc cách mạng đã xảy ra, giờ đây chúng ta thậm chí không cần phải đi làm, chúng ta có thể làm việc ở nhà và tạo ra sự khác biệt và như bạn có thể thấy mỗi khi hình thức tự động hóa trở nên mạnh mẽ hơn, chúng ta càng nhân năng suất của mình lên và chúng ta càng nhân lên sự phong phú nhưng đồng thời chúng ta cũng nhân lên nhiều sức mạnh của những người sở hữu quyền tự động hóa nên thợ săn giỏi nhất trong bộ tộc có thể được thủ lĩnh hoặc những người phụ nữ trong bộ tộc ưa thích. Đó là mức tối đa anh ấy có thể nhận được. Những người nông dân giỏi nhất không kiếm được tiền. Hãy để chủ nhà bắt họ kiếm tiền. Tại sao? Bởi vì chủ nhà sở hữu hệ thống tự động hóa. Bạn biết đấy, những nhà công nghiệp giỏi nhất, kỹ sư công nghệ giỏi nhất trong nhà máy Porsche không phải là người kiếm được nhiều tiền nhất. Chính công ty mới là người kiếm tiền và vân vân, phải không? Và vì vậy, bạn sẽ thấy rằng rất sớm thôi, chúng ta sẽ có các tỷ phú nghìn tỷ chứ không phải tỷ phú vì một số người sẽ có được quyền lực và sự giàu có to lớn vì tự động hóa sử dụng AI về cơ bản gấp nhiều lần so với tự động hóa sử dụng internet cùng lúc. Bạn sẽ thấy điều đó với các quốc gia, một quốc gia có lợi thế AI đáng kể trong an ninh mạng hoặc bạn biết đấy, chiến tranh robot sẽ có một lợi thế rất đáng kể và tất cả các quốc gia khác sẽ phải phục tùng. Vì vậy, có sự tập trung quyền lực lớn cũng được kết hợp với những gì tôi biết trong kinh doanh. Hả? Giữa các bạn, nếu một số bạn thi đấu ở cùng một quốc gia hoặc cùng một thành phố, thì ai khai thác được trí thông minh nhiều hơn những người khác sẽ có được lợi thế lớn. Một điều khác thực sự sẽ xảy ra rất nhanh là rất nhiều người tiêu dùng của bạn sẽ ngừng kinh doanh. về cơ bản họ sẽ mất việc. Tại sao? Vì công việc sẽ chuyển sang nền tảng tự động hóa phải không? Công việc của bạn sẽ không chuyển sang nền tảng tự động hóa. Họ sẽ tìm đến người biết sử dụng nền tảng tự động hóa. Tôi biết tôi nghe có vẻ rất nghiệt ngã. Tôi xin lỗi. Tôi chỉ đang kể cho bạn nghe chuyện gì sắp xảy ra thôi. Được rồi? Điều sẽ xảy ra trong 5 đến 10 năm tới là ai đó, một nhà bán lẻ, biết cách sử dụng AI thực sự tốt sẽ thay thế một nhà bán lẻ không ổn và vì vậy bạn cũng có thể là nhà bán lẻ đó. Ý tưởng của chúng ta hãy nghĩ về nó theo cách này à, có khoảng 70% mã được viết năm ngoái được viết bởi một chiếc máy nên tôi đang nói về cuộc sống lập dị của chính tôi được rồi và tôi là một người rất nghiêm túc Nhưng tôi già rồi, phải không? Vì vậy, tôi không thể viết mã cạnh tranh với máy móc nữa. Máy móc sẽ viết mã tốt hơn tôi. Vẫn còn 30% các nhà phát triển trẻ hơn giỏi công việc của họ đến mức hiện tại họ vẫn viết mã tốt hơn máy móc. Nhưng hãy nhớ rằng theo thời gian, máy móc sẽ học mã đó và học cách viết nó. Đó là số hai. Thứ ba, điều mà tôi nghĩ thực sự cực kỳ quan trọng trong ngành bán lẻ, là bản chất kết nối giữa con người với nhau sẽ thay đổi ồ ạt và việc xác định đâu là thật và đâu là giả sẽ trở nên rất khó khăn. Nhân tiện, điều này sẽ có tác động lớn đến kết nối giữa con người với nhau theo cả hai cách. Được rồi. Một cách là rất nhiều người, đặc biệt là với đại dịch cô đơn mà chúng ta có trên thế giới ngày nay, sẽ tìm thấy một người bạn AI hoặc bạn gái AI và nó đang thực sự trở thành uh uh từ một phía trở thành sự thay thế cho kết nối con người nhưng từ phía bên kia, nó khiến chúng ta khao khát kết nối con người chân chính hơn nữa. Được rồi. Vì vậy, nhân tiện, nếu tôi gửi hình đại diện vào năm tới, cảm giác sẽ không giống như vậy, phải không? Khi chúng ta làm xong việc này, bạn biết đấy, tôi sẽ có mặt trong giờ giải lao uống cà phê của bạn và chúng ta có thể bắt tay và cảm giác sẽ rất khác so với khi dùng máy. Và tôi nghĩ, theo quan điểm của tôi, đây là một trong những điểm khác biệt lớn nhất, không giống như những gì hầu hết mọi người sẽ nói với bạn về những gì bạn có thể làm, và tôi sẽ quay lại với những gì bạn có thể làm sau một phút nữa. Uh bạn có thể làm gì trong thời đại trí tuệ nhân tạo. Tất nhiên, bạn phải học các công cụ, nhưng tin tôi đi, trong 5 đến 10 năm tới, những người tận dụng sự kết nối giữa con người với nhau sẽ thực sự vượt trội hơn những người không làm vậy. Vì vậy, những người thay thế mọi thứ bằng máy móc sẽ trở nên hiệu quả hơn, nhưng những người tận dụng sự kết nối của con người sẽ được yêu mến hơn. Được rồi. Cái kia và có lẽ là xu hướng cuối cùng tôi muốn nói đến là xu hướng thiếu vắng sự thật hoặc sự kết thúc của sự thật. Được rồi. Vì vậy, ngày nay có rất nhiều điều đang xảy ra trong địa chính trị, chính trị và kinh tế của thế giới và thậm chí cả trong AI và biến đổi khí hậu, v.v. mà bạn không còn biết điều đó có đúng hay không bởi vì các phương tiện truyền thông chính thống và mạng xã hội là bạn biết đưa tin về nó theo cách khiến bạn không còn hiểu điều gì không, điều gì là đúng, điều gì là thật và điều gì không. Và tôi nghĩ thực tế là một trong những kỹ năng lớn nhất là những người có tính xác thực và trung thực thực sự như bạn biết, con người hoặc các doanh nghiệp sẽ rất nhanh chóng nhận lại được sự ưu ái của những người xung quanh họ, khách hàng và đối tác của họ, v.v. Nhân tiện, tất cả những gì tôi đã nói với bạn về những thay đổi sắp xảy ra không phải là những thay đổi do máy móc gây ra. Bạn có nhận thấy điều đó không? Được rồi. Đây là những thay đổi do cách con người sử dụng máy móc, phải không? Tương tự, con người có thể sử dụng những cỗ máy đó để nói, "Hãy hoàn toàn phớt lờ quyền lực. Mỗi người trong chúng ta đều có thể sống như một hoàng đế. Không sao cả." Được rồi? Chúng ta không cần phải cạnh tranh. Nhưng đó không phải là xu hướng của con người. Xu hướng của con người, mà tôi tin rằng cuối cùng sẽ thay đổi, đó là chúng ta muốn tổng hợp nhiều hơn. Chúng tôi muốn giành chiến thắng. Phải? Đó là tư duy tư bản mà nước Mỹ đã xây dựng, bạn biết đấy, kể từ Thế chiến thứ hai trước đây nhưng thực sự đã được truyền bá rất mạnh mẽ. Được rồi. Uh, theo quan điểm của tôi, sẽ có lúc tất cả chúng ta sẽ quay lại và nói tại sao chúng ta lại cạnh tranh vì điều này? Phải. Sự khác biệt giữa chiếc xe tệ nhất thế giới và chiếc xe tốt nhất thế giới là bằng không. Mọi thứ thật hoàn hảo. Phải? sự khác biệt giữa sự giàu có mà mỗi người chúng ta có thể có ngày nay và bạn biết cuộc sống mà các hoàng đế La Mã có là vô tận, vậy tại sao chúng ta lại cạnh tranh để có được nhiều hơn nên tôi gọi điều đó là bình thường trong cuốn sách của mình là thông minh đáng sợ. Tôi gọi đó là điều không thể tránh khỏi thứ tư rằng cuối cùng nhân loại sẽ đi đến điểm mà cuộc chiến thêm không đáng nỗ lực vì mọi người đều có được khả năng tiếp cận công nghệ tuyệt vời với giá cả phải chăng đến mức khó tin và
+
+--- TIMESTAMPED TEXT ---
+[00:00] Hãy để tôi nói rất rõ ràng. có
+[00:02] hoàn toàn không có gì sai với nhân tạo
+[00:05] trí thông minh. Hoàn toàn không có
+[00:07] mối đe dọa được tìm thấy trong nhân tạo
+[00:09] trí thông minh. Có rất nhiều điều sai trái với
+[00:12] hệ giá trị của nhân loại trong thời đại
+[00:15] về sự trỗi dậy của trí tuệ nhân tạo.
+[00:17] Đúng không? Có rất nhiều sai lầm trong cách thức
+[00:19] con người sẽ sử dụng siêu năng lực này.
+[00:22] Được chứ? Vì vậy, cách tôi nhìn nhận nó là tôi
+[00:25] nói giống như nuôi dạy Superman phải không?
+[00:27] Bạn hiểu rồi, bạn nhận nuôi đứa trẻ sơ sinh này.
+[00:32] ừ ai có siêu năng lực và nếu bạn dạy
+[00:34] đứa trẻ sơ sinh được bảo vệ và phục vụ trở thành
+[00:37] siêu nhân. Nếu bạn dạy nó đi cướp
+[00:39] một ngân hàng và tiêu diệt kẻ thù của bạn nó sẽ trở thành
+[00:41] siêu phản diện. Siêu năng lực là
+[00:43] không liên quan. Được rồi. Đó là giá trị được đặt
+[00:45] mà bạn tạo ra xung quanh việc nâng cao điều đó
+[00:48] đứa trẻ sẽ tạo nên tương lai của
+[00:50] nhân loại. Bây giờ có năm lĩnh vực
+[00:53] Tôi cần nhấn mạnh những lĩnh vực mà bạn
+[00:56] phải hiểu sự thay đổi. Được rồi. một
+[00:58] trong số đó ừ rất quan trọng là khu vực
+[01:01] quyền lực và sự giàu có. Được rồi. Ờ chúng tôi chúng tôi
+[01:04] con người đã sống trong một thế giới khan hiếm
+[01:09] kể từ khi chúng ta bắt đầu. Một thế giới của
+[01:11] về cơ bản sự khan hiếm nói với tôi rằng
+[01:14] phát triển thì đối thủ cạnh tranh của tôi phải thu hẹp lại. Được rồi.
+[01:16] Về cơ bản, một thế giới khan hiếm có nghĩa là
+[01:18] Tôi phải trở thành siêu cường quân sự trong
+[01:20] thế giới. nếu không mọi người sẽ giết
+[01:22] tôi. Phải? Thế giới khan hiếm đó không phải là
+[01:26] sẽ còn là
+[01:28] sự thật. Nhưng sẽ đến được đó, được chứ? tôi
+[01:31] nghĩ xem rốt cuộc chuyện gì sẽ xảy ra
+[01:33] liệu chúng ta có áp dụng điều tương tự không
+[01:34] tâm lý muốn thu thập càng nhiều sức mạnh
+[01:38] và sự giàu có nhất có thể. Và bây giờ hãy để tôi để
+[01:41] tôi giúp bạn hiểu điều này. Nếu bạn nhìn
+[01:42] quay lại lịch sử loài người, ừm đã có một
+[01:46] thời chúng ta còn là thợ săn hái lượm. Vì vậy
+[01:48] về cơ bản là thợ săn giỏi nhất bộ tộc
+[01:51] có thể sẽ nuôi được bộ lạc
+[01:54] thêm một ngày nữa, hai ngày nữa phải không? Ờ
+[01:58] tại sao vậy? Bởi vì người thợ săn đó đã có chính mình
+[02:02] để đi săn và tự động hóa tối đa
+[02:05] có một ngọn giáo phải không? Khi chúng tôi trở thành
+[02:08] nông dân, người nông dân giỏi nhất có thể nuôi sống
+[02:11] bộ lạc
+[02:12] còn một tháng nữa. Tại sao? Bởi vì điều đó tốt nhất
+[02:15] người nông dân biết cách sử dụng một dạng
+[02:17] tự động hóa được gọi là đất. Phải? Vì vậy trong khi
+[02:20] người nông dân gieo hạt
+[02:23] và sử dụng nguồn nhân lực của chính mình để
+[02:25] quản lý hạt giống đó, đất đã làm hầu hết
+[02:28] công việc. Phải?
+[02:32] Khi cuộc cách mạng công nghiệp bắt đầu,
+[02:34] nhà máy có một người xử lý
+[02:37] thao tác bạn có biết nhân lên
+[02:40] sản xuất. khi thông tin bạn biết
+[02:42] cuộc cách mạng đã xảy ra, chúng ta thậm chí còn không
+[02:44] phải đi làm chúng ta có thể làm việc ở nhà
+[02:46] và tạo ra sự khác biệt đúng đắn và đúng đắn
+[02:49] bạn có thể thấy mỗi khi hình dạng của
+[02:52] tự động hóa càng trở nên mạnh mẽ hơn
+[02:54] chúng tôi đã tăng năng suất của mình lên gấp bội và
+[02:57] và chúng ta càng nhân lên sự phong phú
+[03:00] nhưng đồng thời chúng tôi càng
+[03:02] nhân lên sức mạnh của những người sở hữu
+[03:04] tự động hóa
+[03:06] đúng vậy, thợ săn giỏi nhất bộ tộc
+[03:09] có thể được lãnh đạo ưa thích hơn hoặc
+[03:12] bạn biết đấy, được những người phụ nữ của thế giới yêu thích
+[03:14] bộ lạc. Đó là mức tối đa anh ấy có thể nhận được.
+[03:16] Những người nông dân giỏi nhất không kiếm được tiền.
+[03:19] Hãy để chủ nhà bắt họ làm
+[03:21] tiền. Tại sao? Bởi vì chủ nhà sở hữu
+[03:23] sự tự động hóa. Những nhà công nghiệp giỏi nhất,
+[03:26] bạn biết đấy, kỹ sư khuôn mặt giỏi nhất thế giới
+[03:28] Nhà máy Porsche không phải là nhà máy
+[03:30] kiếm được phần lớn tiền. Đó là
+[03:31] công ty kiếm tiền, v.v.,
+[03:34] phải không? Và vì vậy bạn sẽ thấy điều đó rất
+[03:36] chẳng bao lâu nữa chúng ta sẽ có tỷ phú nghìn tỷ phải không
+[03:39] tỷ phú vì một số người sẽ
+[03:41] có được quyền lực và sự giàu có to lớn nhé
+[03:44] vì tự động hóa sử dụng AI là
+[03:46] về cơ bản là nhân lên nhiều lần
+[03:49] tự động hóa sử dụng internet
+[03:51] ngay lúc đó bạn sẽ thấy điều đó
+[03:54] với các quốc gia để một quốc gia có được
+[03:56] lợi thế đáng kể của AI trong không gian mạng
+[03:58] bảo mật hoặc uh bạn biết đấy uh robot
+[04:01] chiến tranh sẽ có ý nghĩa rất lớn
+[04:04] lợi thế và tất cả các quốc gia khác
+[04:05] sẽ phải nộp. Vì vậy có một
+[04:08] sự tập trung quyền lực khổng lồ
+[04:11] cũng kết hợp với những gì tôi biết qua
+[04:13] trong kinh doanh cũng vậy. Hả? Giữa
+[04:15] các bạn ơi nếu có ai trong số các bạn đang thi đấu
+[04:17] cùng một quốc gia hoặc cùng một thành phố,
+[04:19] kẻ có khả năng khai thác trí thông minh
+[04:22] nhiều hơn những người khác sẽ nhận được rất nhiều
+[04:23] lợi thế. Một điều nữa sẽ
+[04:25] thực sự xảy ra rất nhanh đó là một
+[04:28] rất nhiều người tiêu dùng của bạn sẽ hết
+[04:30] kinh doanh. về cơ bản chúng sẽ lộ ra
+[04:33] của một công việc. Tại sao? Bởi vì công việc sẽ đi đến
+[04:36] nền tảng tự động hóa,
+[04:38] phải không? Công việc của bạn sẽ không đi đến
+[04:42] nền tảng tự động hóa. Họ sẽ đi đến
+[04:44] ai đó biết cách sử dụng
+[04:46] nền tảng tự động hóa. Tôi biết tôi nghe có vẻ rất
+[04:48] nghiệt ngã. Tôi xin lỗi. Tôi chỉ đang nói với bạn
+[04:50] chuyện gì sắp xảy ra vậy. Được rồi? Điều gì sẽ
+[04:52] xảy ra trong 5 đến 10 năm tới là thế
+[04:55] ai đó là người bán lẻ, được thôi, người biết cách
+[04:58] sử dụng AI thực sự tốt sẽ có hiệu quả
+[05:00] địa điểm bán lẻ không ổn
+[05:03] và bạn cũng có thể như vậy
+[05:05] nhà bán lẻ
+[05:06] ý tưởng của chúng ta là nghĩ về nó thế này
+[05:09] à ừ có đấy
+[05:13] khoảng 70% mã được viết năm ngoái
+[05:16] được viết bằng máy nên tôi đang nói
+[05:18] về cuộc sống lập dị của tôi được rồi và tôi là một
+[05:21] rất nghiêm túc đấy nhưng tôi già rồi phải không? Vì vậy
+[05:24] Tôi không thể viết mã cạnh tranh với
+[05:27] máy móc nữa. Các máy móc sẽ
+[05:29] viết mã tốt hơn tôi. có
+[05:31] các nhà phát triển vẫn trẻ hơn 30%
+[05:34] họ làm việc đó giỏi đến mức họ vẫn làm
+[05:37] viết code tốt hơn máy
+[05:38] bây giờ. Nhưng hãy nhớ theo thời gian máy móc
+[05:41] sẽ học mã đó và học cách
+[05:43] viết đi. Đó là số hai.
+[05:45] Số ba, tôi nghĩ thực sự là như vậy
+[05:47] cực kỳ quan trọng trong ngành bán lẻ, đó là
+[05:49] bản chất kết nối của con người sẽ thay đổi
+[05:52] một cách ồ ạt và nó đang trở nên quá khó khăn
+[05:55] để phân biệt đâu là thật đâu là giả
+[05:58] sẽ có tác động lớn đến
+[06:00] Nhân tiện, sự kết nối giữa con người với nhau là cả hai chiều.
+[06:02] Được rồi. Một cách là rất nhiều người
+[06:04] sẽ đặc biệt với dịch bệnh
+[06:07] nỗi cô đơn mà chúng ta có trên thế giới
+[06:08] hôm nay sẽ tìm được một người bạn AI hoặc một AI
+[06:11] bạn gái và nó thực sự trở nên
+[06:15] uh uh từ một phía trở thành một
+[06:16] thay thế cho sự kết nối của con người nhưng
+[06:19] từ phía bên kia khiến chúng ta thèm muốn
+[06:21] sự kết nối con người chân thật hơn nữa.
+[06:23] Được rồi. Nhân tiện, nếu tôi gửi
+[06:26] avatar năm sau sẽ không còn cảm giác nữa
+[06:28] cũng vậy phải không? Khi nào chúng ta xong việc
+[06:31] với điều này, tôi sẽ ở đây, bạn biết đấy,
+[06:32] cho giờ nghỉ giải lao của bạn và chúng ta có thể lắc lư
+[06:35] bàn tay và nó và nó sẽ có cảm giác
+[06:37] rất khác so với a với a
+[06:39] với một chiếc máy. Và tôi nghĩ điều này, trong tôi
+[06:41] lượt xem, là một trong những lượt xem lớn nhất
+[06:43] những điểm khác biệt, không giống như hầu hết mọi người
+[06:45] sẽ cho bạn biết bạn có thể làm gì và
+[06:47] Tôi sẽ quay lại với những gì bạn có thể làm trong
+[06:48] phút. Uh những gì bạn có thể làm ở độ tuổi này
+[06:50] trí tuệ nhân tạo. của
+[06:52] tất nhiên là bạn phải học các công cụ, nhưng
+[06:54] tin tôi đi, trong 5 đến 10 năm tới,
+[06:57] những kẻ lợi dụng con người
+[06:59] kết nối sẽ thực sự tốt hơn
+[07:01] những người không làm vậy. Vì vậy, những người thay thế
+[07:03] mọi thứ với một chiếc máy đều sẽ thành công
+[07:06] ừ bạn biết cách để trở nên hiệu quả hơn,
+[07:09] nhưng những kẻ lợi dụng con người
+[07:12] sự kết nối sẽ trở nên được yêu thích hơn. Được rồi.
+[07:14] Cái kia cái kia và có lẽ là cái cuối cùng
+[07:16] xu hướng tôi muốn nói đến là xu hướng
+[07:18] về sự vắng mặt của sự thật hay sự kết thúc
+[07:20] của sự thật. Được rồi. Vì vậy có rất nhiều
+[07:23] xảy ra ngày nay trong địa chính trị,
+[07:26] chính trị và kinh tế thế giới và
+[07:28] ngay cả trong AI và biến đổi khí hậu, v.v.
+[07:31] nơi bạn không còn biết đó là sự thật hay
+[07:33] không phải vì các phương tiện truyền thông chính thống và
+[07:35] phương tiện truyền thông xã hội là bạn biết đưa nó vào
+[07:38] một cách khiến em không còn nữa
+[07:40] hiểu được điều gì không và điều gì đúng
+[07:42] và cái gì là re và cái gì không. Và tôi
+[07:44] nghĩ rằng thực tế là một trong những điều lớn nhất
+[07:46] kỹ năng là những kỹ năng có tính xác thực và
+[07:49] chân thật uh trung thực như bạn biết con người hay
+[07:53] vì doanh nghiệp sẽ rất nhanh chóng có được
+[07:56] một lần nữa sự ưu ái của mọi người xung quanh họ
+[07:59] của khách hàng và đối tác của họ và
+[08:01] vân vân. Tất cả những gì tôi đã nói với bạn
+[08:03] nhân tiện thì về những thay đổi
+[08:05] những điều sắp đến không phải là sự thay đổi
+[08:07] vì máy móc. Bạn có để ý không
+[08:09] cái đó à? Được rồi. Đây là những thay đổi vì
+[08:12] cách con người sử dụng
+[08:14] máy móc phải không? Nhân tiện, tương tự,
+[08:16] con người có thể sử dụng những cỗ máy đó để nói,
+[08:18] "Hãy hoàn toàn bỏ qua sức mạnh. Mọi
+[08:21] ai trong chúng ta cũng có thể sống như một vị hoàng đế. Đó là
+[08:23] ổn." Được rồi? Chúng ta không cần phải cạnh tranh.
+[08:26] Nhưng đó không phải là xu hướng của con người. các
+[08:28] xu hướng của con người, điều mà tôi tin là sẽ
+[08:30] cuối cùng cũng thay đổi, là chúng ta muốn
+[08:33] tổng hợp thêm. Chúng tôi muốn giành chiến thắng. Phải?
+[08:35] Đó chính là tư duy tư bản
+[08:37] Nước Mỹ đã xây dựng ừ bạn biết đấy kể từ đó
+[08:39] Thế chiến thứ II trước nhưng thực sự được truyền bá
+[08:42] rất mạnh mẽ. Được rồi. Ờ sẽ có một
+[08:46] Theo tôi, thời gian mà chúng ta sẽ đến
+[08:47] quay lại và nói tại sao chúng ta lại tranh giành
+[08:50] cái này à? Phải. Sự khác biệt giữa
+[08:52]chiếc xe tệ nhất thế giới và chiếc xe tốt nhất
+[08:55] trên thế giới là con số không. Mọi thứ đều như vậy
+[08:57] hoàn hảo. Phải? sự khác biệt
+[08:59] giữa sự dồi dào mà mọi
+[09:02] một trong chúng ta có thể có được ngày hôm nay và bạn biết đấy
+[09:05] cuộc sống của các hoàng đế La Mã là
+[09:08] vô hạn đúng vậy tại sao chúng ta lại cạnh tranh
+[09:11] để biết thêm nên tôi gọi đó là bình thường trong
+[09:12] cuốn sách thông minh đáng sợ tôi gọi nó là cuốn thứ tư
+[09:14] điều không thể tránh khỏi là cuối cùng nhân loại sẽ
+[09:16] đã đến lúc phải đấu tranh thêm
+[09:19] không đáng công sức vì ai cũng vậy
+[09:21] có được mức giá phải chăng đến không ngờ
+[09:24] khả năng tiếp cận công nghệ tuyệt vời và

@@ -1,0 +1,302 @@
+Title: Why Happiness Is a Choice (And How to Choose It Daily)
+URL: https://www.youtube.com/watch?v=rXa2Q1MItCg
+ID: rXa2Q1MItCg
+Transcript Type: Language: en -> vi (translated via deep-translator)
+================================================================================
+
+--- TÓM TẮT NỘI DUNG ---
+Và điều đó hoàn toàn khiến tôi thay đổi suy nghĩ vì hãy nhớ rằng lúc đó tôi đang in tiền theo yêu cầu, gắt gỏng như f và theo đúng nghĩa đen là bắn phá bản thân bằng những thứ như mỗi khi tôi cảm thấy không vui, tôi đã mua một thứ gì đó hoặc tôi đi nghỉ hoặc tôi ăn mặc đắt tiền hơn hoặc tôi sao cũng được, phải không? Bạn quên rằng bạn đủ sức khỏe để thực sự tìm kiếm một chiếc ô tô, rằng bạn đủ giàu để tìm được chiếc ô tô đó, rằng bạn thực sự đã có được chiếc ô tô đó và rằng chiếc ô tô đó có rất nhiều thứ khiến bạn yêu thích. Tôi không hài lòng về điều này Tôi sẽ thay đổi nó không hài lòng về việc sẽ thay đổi nó, không phải các kỹ sư phần mềm vào thời điểm đó nghe có vẻ điên rồ vì điều tôi đã làm là tôi quyết định bạn biết phải có một thuật toán phải có một cách mà tôi thực sự có thể lập trình nó vào máy tính của mình để nó đưa ra tất cả các tình huống có thể xảy ra mà tôi sẽ cảm thấy không vui trong tương lai. Bạn biết đấy, nếu trời mưa khi chúng ta định ra ngoài và ra hồ bơi, bạn biết đấy, ngày mai, điều đó sẽ khiến bạn rất không vui.
+
+================================================================================
+
+--- RAW TEXT (FOR LLM INPUT) ---
+Nếu nó diễn ra như một sự so sánh giữa nhận thức của bạn về sự kiện với những hy vọng, mong muốn và kỳ vọng của bạn về cuộc sống sẽ như thế nào, thì hạnh phúc 100% là một sự lựa chọn. Mỗi người có một định nghĩa khác nhau về hạnh phúc. Tôi không. Tôi là một kỹ sư kỳ dị. Tôi không hiểu theo cách đó. Được rồi? Đối với tôi, nếu bạn nói nếu bạn giao cho tôi một vấn đề cần giải quyết, tôi cần biết định nghĩa vấn đề là gì. Mọi kỹ sư bạn từng gặp sẽ nói với bạn rằng, tôi không thể giải quyết nó cho đến khi bạn cho tôi định nghĩa vấn đề. Và thế là tôi đang vật lộn ở đó, bạn biết đấy, gây đau khổ cho gia đình tôi và rất gắt gỏng, rất bất hạnh, và tôi cần phải giải quyết chuyện đó. Và rồi tôi thấy mình hỏi, nhưng tôi không biết hạnh phúc là gì. Tôi không hiểu nó. Và tôi thực sự bị mắc kẹt trong bốn năm cố gắng tìm hiểu xem mình đang tìm kiếm thứ gì cho đến một ngày tôi ở trong một quán cà phê ở Seattle. Tôi nhớ ừm lúc đó là 400 giờ chiều. Tôi đang ở trong một quán cà phê ở Seattle và đang phát nhạc trên chiếc iPod 10 megabyte. Bạn có nhớ những điều đó không? Chúng tôi rất hạnh phúc với họ. Giống như họ thật tuyệt vời. Phải. Và bạn biết đấy, có một ban nhạc tên là Super. Ai cũng biết Super Oh, thế đấy. Đó là một đám đông tốt. Có chuyện gì với những người khác vậy? Giữ lấy. Vâng. Vì vậy, dù sao đi nữa, Super là một ban nhạc cũ của Anh đã chơi một bài hát có tên là bài hát logic. Được rồi. Và bài hát logic bắt đầu bằng câu dành cho những ai còn nhớ, khi còn trẻ, dường như cuộc sống thật tuyệt vời. Tất cả chim chóc trên cây đều ca hát vui vẻ. Phải? Một lần nữa, Sage và Tony lại nói về việc một đứa trẻ luôn hạnh phúc như thế nào. Ý tôi là, tất nhiên, đôi khi họ quấy khóc, nhưng đó là vì có lý do để không vui. Bạn có hiểu điều đó không? Ý tưởng là nếu bạn dành cho một đứa trẻ tình yêu thương, sự an toàn, sự quan tâm, bạn biết đấy, cho chúng ăn, sưởi ấm cho chúng, cho chúng những nhu cầu cơ bản để sinh tồn, trạng thái của chúng là gì? Họ đang nằm ngửa nghịch ngón chân và cười khúc khích. Phải? Nếu tôi cung cấp cho bạn những nhu cầu cơ bản để sinh tồn, bạn có nằm ngửa và nghịch ngón chân và cười khúc khích không? Có lẽ là không. Phải? Và tôi nghĩ đó là toàn bộ vấn đề. Vấn đề là đột nhiên khi tôi nghe bài hát đó, [khịt mũi] tôi bắt đầu tự hỏi bản thân, xin lỗi, tôi bắt đầu tự hỏi điều đó thực sự đúng. Đó là câu chuyện về cuộc đời tôi. Khi tôi còn trẻ, mọi thứ đều dễ dàng, mọi thứ đều vui vẻ, mọi thứ đều vui tươi. Hạnh phúc dường như không phải là điều khó đạt được chút nào. Rất, nó có thể truy cập được mọi lúc. [khịt mũi] Và sau đó bài hát tiếp tục nói, "Và sau đó họ gửi tôi đi để dạy tôi cách hoài nghi, ừ, logic, có trách nhiệm, thực tế, ừ, lâm sàng, v.v." Và đó cũng là câu chuyện về cuộc đời bạn phải không? Họ gửi bạn đến trường hoặc bạn có một vài phụ huynh khó tính hoặc bất cứ điều gì. Và tình hình của bạn đột nhiên chuyển từ trạng thái lúc nào tôi cũng vui vẻ. Tất cả những gì tôi cần là được đáp ứng những nhu cầu sinh tồn cơ bản của mình mà không cần phải níu kéo. Lúc nào tôi cũng không vui. Mọi thứ dường như đều sai. Phải? Hãy nghĩ về nó. Hả? Toàn bộ ý tưởng rằng sự khác biệt là hai giả định rất quan trọng. hai điều rất quan trọng mà họ không bao giờ nói với chúng ta khi nói về hạnh phúc. Một trong số đó là chúng ta sinh ra đã hạnh phúc. Không có gì để tìm kiếm. Không có nơi nào để đi. Không có gì để tìm kiếm. Được rồi? Thực ra nó đã ở sẵn trong chúng ta rồi. Và điều đó hoàn toàn khiến tôi thay đổi suy nghĩ vì hãy nhớ rằng lúc đó tôi đang in tiền theo yêu cầu, gắt gỏng như f và theo đúng nghĩa đen là bắn phá bản thân bằng những thứ như mỗi khi tôi cảm thấy không vui, tôi đã mua một thứ gì đó hoặc tôi đi nghỉ hoặc tôi ăn mặc đắt tiền hơn hoặc tôi sao cũng được, phải không? Trong cuốn sách đầu tiên của tôi, ừ, bạn sẽ biết nếu đọc nó, tôi đã đề cập đến một khoảng thời gian mà tôi thực sự trống rỗng đến mức ngồi trên eBay để ngắm hai chiếc Rolls-Royce cổ điển. Không biết cái nào trong số chúng sẽ làm tôi hạnh phúc hơn. Vì vậy, tôi thực sự đã nhấp hai lần. Mua hai chiếc Rolls-Royces. Tích tích. Được rồi. Thậm chí không đấu thầu. Nó giống như bạn biết giá của mình là bao nhiêu? Tích tích. Được rồi. Họ đến Dubai 2 tháng sau. Tôi hứa với bạn rằng tôi đã hạnh phúc trong bảy phút. Tôi nhìn họ. Tôi thích, "Ồ, ồ. Thật tuyệt vời. Vết xước nhỏ này là gì vậy?" Bạn biết tại sao không? Tại sao lại thế này? Lẽ ra tôi nên mua màu khác. À, nhưng cái này thì không. Bất cứ điều gì. Phải. 7 phút. H. Và khi bạn bắt đầu nghĩ về điều này, tôi đã tự bắn phá bản thân bằng những điều mà thế giới nói với tôi rằng sẽ khiến tôi hạnh phúc. Sage đã nói về điều này nhiều lần. Ý tưởng về những thứ bên ngoài. Bạn biết đấy, chúng tôi cần những thứ bên ngoài để bạn cảm thấy hạnh phúc trong một số tình huống hoặc bối cảnh nhất định nhưng chúng không bao giờ có tác dụng. Họ không bao giờ làm việc. Được rồi. Trong khi thực tế tôi đã hạnh phúc như một đứa trẻ. Tôi đã rất hạnh phúc cho đến thời điểm Ali được sinh ra một cách công khai cho đến khi vào phòng sinh khi tôi quyết định rằng bạn biết tôi sẽ phải đối mặt với điều gì trong cuộc sống. Và khi tôi bắt đầu đương đầu với cuộc sống thì chẳng còn ý nghĩa gì nữa. Mọi thứ tôi nhìn đều không tốt như tôi mong muốn. Bạn biết đấy, chiếc Rolls-Royce Cornish với màu bạc và xanh tuyệt đẹp và những gì bạn có. Vâng. Một chút da không phải là thứ tôi thích. Phải. Và sau đó bạn nhìn vào cái đó và bạn thấy cái đó và bạn quên mất toàn bộ sự việc. Bạn quên rằng bạn đủ sức khỏe để thực sự tìm kiếm một chiếc ô tô, rằng bạn đủ giàu để tìm được chiếc ô tô đó, rằng bạn thực sự đã có được chiếc ô tô đó và rằng chiếc ô tô đó có rất nhiều thứ khiến bạn yêu thích. Bạn chỉ nhớ một điều mà bạn ghét. Bây giờ chúng ta hãy quay trở lại với các giả định. Tôi sinh ra đã hạnh phúc như một đứa trẻ. Tôi không yêu cầu lượt thích trên Instagram. Tôi không yêu cầu Xbox. Tôi không yêu cầu ô tô. Tôi không muốn bất cứ ai thích cái mông nhỏ bé vụn vỡ của tôi. Không ai quan tâm. Phải? Trẻ em hạnh phúc. Phải? Sau đó, giả định thú vị thứ hai thực sự làm tôi ngạc nhiên là giả định thứ hai là ý tưởng cho rằng hạnh phúc là sự vắng mặt của bất hạnh. Vì vậy bạn nhìn một đứa trẻ, đứa trẻ không vui khi có lý do để không vui. Tã bị ướt, trẻ sẽ khóc. bạn thay tã, đứa trẻ lại vui vẻ trở lại. Được rồi? Tôi hứa với bạn rằng đây cũng là trường hợp của bạn. Nếu ngày mai bạn thức dậy lúc 7 giờ sáng, bạn sẽ cảm thấy dễ chịu và khỏe mạnh. Bạn đang ngồi trên bãi biển, đối tác của bạn từ trước đến nay chưa hề nói điều gì ngu ngốc, bạn biết đấy, cuộc sống không có lý do gì để bất hạnh. Trạng thái của bạn là hạnh phúc. Bạn ổn phải không? Nếu không có lý do cho sự bất hạnh, chúng ta cảm thấy hạnh phúc. Bây giờ, đây là thử thách. Có rất nhiều điều khiến chúng ta khó chịu trong cuộc sống. Được rồi, nó giống như việc mua một chiếc điện thoại mới. Bạn bạn biết kinh nghiệm đó. Bạn mua điện thoại mới, trạng thái mặc định của điện thoại là mừng. Nó hoạt động rất tốt và sau đó bạn bắt đầu cài đặt những ứng dụng lạ trên đó. Tất cả những thứ kỳ lạ mà bạn cài đặt phải không? Và sau đó điện thoại không hoạt động nữa. Đây là điều chúng ta đang làm với chính mình. Bây giờ bất kỳ con người nào đi đến kết luận rằng hạnh phúc là sự vắng mặt của bất hạnh sẽ chỉ đơn giản là lập một danh sách nhưng không phải những kỹ sư như bạn biết đấy. Tôi không hài lòng về điều này Tôi sẽ thay đổi nó không hài lòng về việc sẽ thay đổi nó, không phải các kỹ sư phần mềm vào thời điểm đó nghe có vẻ điên rồ vì điều tôi đã làm là tôi quyết định bạn biết phải có một thuật toán phải có một cách mà tôi thực sự có thể lập trình nó vào máy tính của mình để nó đưa ra tất cả các tình huống có thể xảy ra mà tôi sẽ cảm thấy không vui trong tương lai. và sau đó tôi có thể gạch bỏ chúng một lần và mãi mãi và chúng ta đã hoàn thành xong đoạn mã đó. Được rồi, điên rồi. Đúng. Nhưng nó đã hoạt động. Và điều này thực sự đã đảo lộn cuộc đời tôi. H khi tôi tìm kiếm thuật toán hạnh phúc, về cơ bản tôi đang nói về những điểm chung. Bạn biết đấy đôi khi các nhà khoa học sẽ vẽ các điểm ngẫu nhiên của một thí nghiệm trên biểu đồ và họ đang cố gắng tìm ra đường thẳng phù hợp giữa chúng. Nếu bạn tìm thấy đường thẳng đó thì phương trình mô tả đường này chính là cách chiếc máy đó hoạt động. Được rồi? Vì vậy, tôi chỉ đơn giản là làm điều đó. Tôi ghi lại tất cả những khoảnh khắc trong đời mà tôi cảm thấy hạnh phúc và bắt đầu vẽ chúng dựa trên biểu đồ về tuổi tác, cân nặng, số lượng tóc trên đầu, bất cứ điều gì. Được rồi? Cuộc sống tình yêu của tôi, cố gắng tìm một đường xu hướng. Không thể tìm thấy bất kỳ điều gì cho đến khi tôi tìm thấy một điều rất thú vị mà tôi tin rằng đó là định nghĩa của tôi về hạnh phúc. Được rồi? Bạn có thể có một định nghĩa khác nhưng tôi có thể hứa với bạn nếu chúng ta đồng ý với định nghĩa này thì tôi có thể cung cấp nó cho bạn. Và định nghĩa của tôi về hạnh phúc rất rất thú vị. Bạn có nhớ khi CO xảy ra và đối với một số người trong chúng ta, đó là một thảm họa đối với những người khác, đó là một lễ kỷ niệm? Được rồi. Bạn có nhớ khi CO xảy ra và họ đã nhốt chúng tôi lại và đối với một số người trong chúng tôi, đó là một ngày thảm họa và một lễ kỷ niệm vào ngày hôm sau và sau đó lại là một thảm họa ở đó. Phải. Dường như không có sự kiện nào có được sự nhất quán, giá trị hạnh phúc vốn có trong đó. Không, mưa không phải lúc nào cũng khiến bạn vui hay buồn. Bạn có hiểu điều đó không? Phải? Mưa làm cho bạn rất hạnh phúc. Nếu trời mưa trong đám cưới của bạn trai cũ thì thật tuyệt vời phải không? Giống như chúng ta yêu nó phải không? Bạn biết đấy, nếu trời mưa khi chúng ta định ra ngoài và ra hồ bơi, bạn biết đấy, ngày mai, điều đó sẽ khiến bạn rất không vui. Bạn hiểu không? Mưa không có giá trị hạnh phúc cố hữu trong đó. Bây giờ điều khiến chúng ta đôi khi hạnh phúc trong mưa hoặc tại sao chúng ta luôn hạnh phúc trong tự nhiên thực sự là phương trình. Hạnh phúc của bạn không phải là kết quả của những sự kiện trong cuộc đời bạn. Trên thực tế, những sự kiện xảy ra trong cuộc đời bạn gần như không liên quan. Được rồi? Hạnh phúc của bạn là kết quả của sự so sánh xảy ra trong não bạn. Hãy nhớ rằng, nó nằm trong não bạn. Nó không tồn tại ở thế giới thực. Giữa sự kiện là gì và bạn muốn sự kiện đó diễn ra như thế nào. Nếu đó là đám cưới của bạn trai cũ, bạn sẽ muốn mưa. Và vì vậy khi trời mưa, bạn hạnh phúc. Bạn có hiểu điều đó không? Tại sao chúng ta luôn hạnh phúc trong tự nhiên? Thực ra hôm nay tôi đã thức dậy lúc 4 giờ sáng. Vì vậy, nhân tiện, bất cứ điều gì tôi nói bây giờ đều không nên được coi là chống lại tôi. Nhưng tôi thức dậy lúc 4 giờ sáng hôm nay. Tôi ngồi trên bãi biển và tâm trạng rất bình tĩnh và tôi không biết tại sao sóng lại ồn ào đến vậy. H nhưng tôi không phàn nàn về điều đó. Tôi chưa nói liệu tôi có thể giữ nguyên chế độ xem và tắt âm thanh được không. Không ai làm điều đó trong tự nhiên, phải không? Bạn đi ra ngoài thiên nhiên và bạn biết rằng không có gì thực sự được bảo vệ đúng cách. Không có cây nào thực sự thẳng đứng. Được rồi. Khi bạn ở ngoài thiên nhiên, bạn không mong đợi thiên nhiên sẽ như vậy. Bạn muốn thiên nhiên hỗn loạn. Và thế là bạn nhìn vào một cái cây bị cong và bạn nói, "Ôi chúa ơi, nó đẹp quá." Bạn không phải là kỹ sư người Đức. Bạn không thích, bạn biết đấy, bạn không muốn cái cây này thẳng đứng. Phải? Và ý tưởng của tự nhiên là nó luôn luôn đáp ứng được sự kiện phương trình hạnh phúc. Sự kiện mang tính chất hỗn loạn của thiên nhiên, được chứ? Luôn đáp ứng mong đợi của bạn về thiên nhiên hỗn loạn. Bản chất hỗn loạn của thiên nhiên. Nó rất đơn giản. H Mọi thứ trong cuộc sống mà bạn từng cảm thấy không hài lòng như Tony đã nói đều là một sự kiện không như bạn mong đợi.
+
+--- TIMESTAMPED TEXT ---
+[00:00] Nếu nó xảy ra như một sự so sánh
+[00:03] giữa nhận thức của bạn về sự kiện và
+[00:06] những hy vọng, mong muốn và kỳ vọng của bạn
+[00:08] Cuộc sống phải như thế nào thì mới có hạnh phúc
+[00:12] 100%
+[00:13] một sự lựa chọn.
+[00:16] Mỗi người có một định nghĩa khác nhau về
+[00:18] hạnh phúc.
+[00:19] Tôi không biết. Tôi là một kỹ sư kỳ dị.
+[00:22] Tôi không nghĩ vậy. Được rồi? Đối với tôi,
+[00:24] nếu bạn nói nếu bạn gây rắc rối cho tôi
+[00:26] giải quyết đi, tôi cần biết vấn đề là gì
+[00:30] định nghĩa là. Mỗi kỹ sư
+[00:32] Khi nào bạn gặp sẽ nói với bạn rằng, tôi không thể
+[00:34] giải quyết nó cho đến khi bạn đưa ra vấn đề cho tôi
+[00:35] định nghĩa. Và thế là tôi đang vật lộn ở đó
+[00:38] m, em biết không, gây đau khổ cho gia đình anh
+[00:41] và rất gắt gỏng, rất không vui, và tôi
+[00:43] cần giải quyết chuyện đó. Và tôi sau đó
+[00:46] thấy mình hỏi mà không biết
+[00:48] hạnh phúc là gì. tôi không hiểu
+[00:49] nó. Và tôi thực sự bị mắc kẹt trong bốn
+[00:52] nhiều năm cố gắng để hiểu nó là gì
+[00:54] mà tôi đang tìm kiếm cho đến một ngày tôi
+[00:57] đang ở một quán cà phê ở Seattle. tôi tôi
+[01:00] có nhớ ừm hồi đó là năm 400 không
+[01:03] chiều Tôi đang ở trong một quán cà phê ở Seattle và tôi
+[01:06] đang phát nhạc trên 10 megabyte
+[01:09] iPod. Bạn có nhớ những điều đó không? Chúng tôi đã như vậy
+[01:11] hạnh phúc với họ. Giống như họ thật tuyệt vời.
+[01:13] Đúng rồi. Và bạn biết đấy, một ban nhạc
+[01:16] gọi là Siêu Ai cũng biết Siêu
+[01:18] Ồ, thế đấy. Đó là một điều tốt
+[01:20] đám đông. Có chuyện gì với những người khác vậy?
+[01:22] Đợi đã. Vâng. Vì vậy, dù sao đi nữa, Siêu
+[01:25] là một ban nhạc lâu đời của Anh đã chơi một bản nhạc
+[01:27] bài hát gọi là bài hát logic. Được rồi. Và
+[01:30] bài hát hợp lý bắt đầu bằng dành cho những người đó
+[01:32] ai còn nhớ, hồi tôi còn trẻ, nó
+[01:35] dường như cuộc sống thật tuyệt vời. Tất cả
+[01:38] chim trên cây đang hót vang
+[01:41] hạnh phúc. Phải? Một lần nữa, Sage và và và
+[01:43] và Tony đã nói về điều này một chút
+[01:47] con luôn vui vẻ. Ý tôi là, của
+[01:50] tất nhiên, đôi khi họ quấy khóc, nhưng
+[01:52] đó là vì có lý do để
+[01:54] không vui. Bạn có hiểu điều đó không? các
+[01:57] ý tưởng là
+[01:59] nếu bạn dành cho một đứa trẻ tình yêu thương, sự an toàn, sự quan tâm,
+[02:04] ừ bạn biết đấy, cho chúng ăn, sưởi ấm cho chúng,
+[02:07] cung cấp cho họ những nhu cầu cơ bản về
+[02:08] Sự sống còn, trạng thái của họ là gì? Họ là
+[02:11] nằm ngửa chơi đùa với chúng
+[02:13] ngón chân và cười khúc khích. Phải? Nếu tôi đưa cho bạn
+[02:16] nhu cầu sinh tồn cơ bản của bạn phải không?
+[02:18] nằm ngửa và nghịch ngón chân
+[02:20] và cười khúc khích? Có lẽ là không. Phải? Và tôi
+[02:24] tôi nghĩ đó là toàn bộ vấn đề. Toàn bộ
+[02:25] đột nhiên tôi nghe thấy
+[02:29] bài hát đó, [khịt mũi]
+[02:31] Tôi bắt đầu tự hỏi mình, xin lỗi, tôi
+[02:33] bắt đầu tự hỏi rằng thực ra đó là
+[02:36] đúng. Đó là câu chuyện về cuộc đời tôi. Khi nào
+[02:38] Tôi còn trẻ, mọi việc đều dễ dàng,
+[02:41] mọi thứ đều vui vẻ, mọi thứ đều vui vẻ
+[02:42] vui tươi. Hạnh phúc tưởng chừng như không có
+[02:45] một điều khó có thể đạt được chút nào. đã là
+[02:48] rất, nó luôn có thể truy cập được.
+[02:50] [khịt mũi] Và rồi bài hát tiếp tục
+[02:54] nói, "Và sau đó họ gửi tôi đi
+[02:55] dạy tôi cách hoài nghi, ừ, logic,
+[02:58] có trách nhiệm, thực tế, ừ, lâm sàng và
+[03:02] vân vân và vân vân." Và đó cũng chính là
+[03:04] câu chuyện về cuộc đời bạn phải không? Họ gửi cho bạn
+[03:07] đến trường hoặc bạn có một vài
+[03:09] cha mẹ đòi hỏi hay gì đó.
+[03:11] Và tình hình của bạn đột nhiên chuyển từ
+[03:14] Lúc nào tôi cũng hạnh phúc. Tất cả những gì tôi cần là
+[03:17] được đáp ứng những nhu cầu cơ bản để sinh tồn
+[03:20] không thể giữ được nữa. Tôi không vui chút nào
+[03:24] thời gian. Mọi thứ dường như đều sai.
+[03:26] Đúng không? Hãy nghĩ về nó. Hả? Toàn bộ đó
+[03:29] ý kiến cho rằng sự khác biệt là hai điều rất
+[03:33] những giả định quan trọng. hai rất rất
+[03:35] những điều quan trọng mà họ không bao giờ nói đến
+[03:37] chúng tôi khi họ nói về hạnh phúc. một
+[03:40] trong số đó là chúng ta sinh ra đã hạnh phúc. có
+[03:43] không có gì để tìm kiếm. Không có nơi nào để
+[03:46] đi thôi. Không có gì để tìm kiếm. Được rồi? Đó là
+[03:49] thực ra đã có sẵn trong chúng ta rồi. Và đó
+[03:52] tôi hoàn toàn thay đổi suy nghĩ vì
+[03:54] nhớ lúc đó đang in
+[03:56] tiền theo yêu cầu, gắt gỏng như f và
+[04:00] theo đúng nghĩa đen là đang tấn công bản thân bằng nhiều thứ
+[04:03] như mỗi lần buồn tôi lại mua
+[04:06] gì đó hoặc tôi đã đi nghỉ hoặc tôi
+[04:08] ăn mặc theo phong cách đắt tiền hơn hoặc tôi
+[04:10] sao cũng được, phải không? Trong cuốn sách đầu tiên của tôi, uh
+[04:13] ừ bạn sẽ biết nếu đọc nó,
+[04:16] Tôi đề cập đến một thời điểm mà tôi thực sự đã
+[04:18] trống rỗng đến nỗi tôi phải lên eBay xem
+[04:22] hai chiếc Rolls-Royce cổ điển. không biết
+[04:24] ai trong số họ sẽ khiến tôi
+[04:26] hạnh phúc hơn. Vì vậy, tôi thực sự đã nhấp hai lần.
+[04:28] Đã mua hai chiếc Rolls-Royce. Tích tích.
+[04:31] Được rồi. Thậm chí không đấu thầu. Nó giống như những gì
+[04:33] bạn có biết giá của mình không? đánh dấu
+[04:35] tích tắc. Được rồi. Họ đến 2 tháng sau
+[04:38] ở Dubai. Tôi hứa với bạn rằng tôi rất vui vì
+[04:41] bảy phút. Tôi nhìn họ. tôi thích,
+[04:44] "Ồ, ồ. Thật tuyệt vời. Đây là cái gì vậy
+[04:47] vết xước nhỏ à?” Bạn biết tại sao không? Tại sao là
+[04:49] cái này à? Lẽ ra tôi nên mua cái khác
+[04:51] màu sắc. À, nhưng cái này thì không. Bất cứ điều gì.
+[04:54] Đúng rồi. 7 phút. H. Và khi bạn bắt đầu
+[04:57] nghĩ đến điều này tôi đã choáng váng
+[05:01] bản thân tôi với những gì thế giới đang nói
+[05:03] tôi sẽ làm cho tôi hạnh phúc. Hiền nhân đã nói
+[05:05] về việc này nhiều lần rồi. Ý tưởng của
+[05:07] những thứ bên ngoài. Chúng ta cần những thứ bên ngoài
+[05:09] để bạn biết chắc chắn uh uh uh
+[05:12] các kịch bản hoặc thiết lập để được hạnh phúc nhưng chúng
+[05:15] không bao giờ có tác dụng. Họ không bao giờ làm việc. Được rồi. Khi nào
+[05:18] thực tế là tôi đã hạnh phúc khi còn nhỏ. tôi đã
+[05:22] hạnh phúc cho đến lúc đó rất công khai rằng
+[05:26] Ali được sinh ra cho đến phòng sinh đó
+[05:29] khi tôi quyết định bạn biết tôi sẽ làm gì
+[05:31] để đương đầu với cuộc sống. Và khi tôi bắt đầu
+[05:34] để đương đầu với cuộc sống chẳng có ý nghĩa gì cả
+[05:36] nữa. Mọi thứ tôi nhìn đều không
+[05:39] tốt như tôi mong muốn. cái,
+[05:42] bạn biết đấy, chiếc Rolls-Royce
+[05:44] Cornish với màu xanh bạc đẹp mắt
+[05:46] còn bạn thì sao. Vâng. Một chút nhỏ
+[05:50] chất liệu da không phải thứ tôi thích.
+[05:52] Đúng rồi. Và sau đó bạn nhìn vào đó và bạn
+[05:54] nhìn thấy điều đó và bạn quên mất toàn bộ sự việc.
+[05:57] Bạn quên rằng bạn, bạn biết đấy,
+[05:59] đủ khỏe mạnh để thực sự tìm kiếm một
+[06:01] chiếc xe mà bạn đủ giàu có để tìm
+[06:04] chiếc xe mà bạn thực sự đã có được
+[06:06] xe, và xe đó có rất nhiều thứ
+[06:08] rằng bạn yêu thích nó. Bạn chỉ
+[06:10] hãy nhớ đến một điều mà bạn ghét.
+[06:12] Bây giờ chúng ta hãy quay trở lại với
+[06:14] giả định. Tôi sinh ra đã hạnh phúc như một đứa trẻ.
+[06:18] Tôi không yêu cầu lượt thích trên Instagram. tôi không
+[06:21] yêu cầu Xbox. Tôi không yêu cầu ô tô. tôi
+[06:24] không muốn ai thích sự vụn vỡ của tôi
+[06:27] thằng khốn nạn. Không ai quan tâm. Phải?
+[06:29] Trẻ con vui lắm. Phải? Sau đó
+[06:32] giả định thứ hai thú vị đó
+[06:34] thực sự làm tôi choáng váng là cái thứ hai
+[06:38] là ý tưởng cho rằng hạnh phúc là
+[06:40] vắng bóng nỗi buồn. Vì vậy bạn nhìn vào một
+[06:42] đứa trẻ, đứa trẻ không hạnh phúc
+[06:46] khi có lý do để không vui. A
+[06:48] Tã ướt, trẻ sẽ khóc. bạn
+[06:51] Thay tã cho con đi về
+[06:53] đến hạnh phúc. Được rồi? Tôi hứa với bạn điều này
+[06:56] cũng là trường hợp của bạn. Nếu bạn thức dậy
+[06:59] 7 giờ sáng ngày mai, bạn cảm thấy
+[07:01] khỏe mạnh. Bạn đang ngồi trên
+[07:03] bãi biển, đối tác của bạn không nói gì
+[07:05] ngu ngốc đến thế, em biết đấy, cuộc đời không có gì
+[07:08] lý do không vui. Trạng thái của bạn là
+[07:11] hạnh phúc. Bạn ổn phải không? Nếu có
+[07:13] không có lý do gì để không vui, chúng tôi cảm thấy
+[07:16] hạnh phúc. Bây giờ, đây là thử thách. Ở đó
+[07:18] có quá nhiều thứ khiến chúng ta khó chịu
+[07:22] cuộc sống.
+[07:24] Được rồi, nó giống như mua một cái mới vậy
+[07:26] điện thoại. Bạn bạn biết kinh nghiệm đó. bạn
+[07:28] mua điện thoại mới, trạng thái mặc định là
+[07:30] điện thoại vui quá. Nó thực sự hoạt động
+[07:31] à và sau đó bạn bắt đầu cài đặt lạ
+[07:34] ứng dụng trên đó. Tất cả những thứ kỳ lạ đó
+[07:37] bạn cài đặt phải không? Và rồi chiếc điện thoại
+[07:39] không hoạt động nữa. Đây là những gì chúng tôi đang có
+[07:40] đang làm cho chính mình.
+[07:43] Bây giờ bất kỳ con người nào đạt được điều đó
+[07:45] kết luận hạnh phúc là sự vắng mặt của
+[07:47] nỗi buồn chỉ đơn giản là một danh sách nhưng
+[07:50] không phải những kỹ sư như bạn biết đấy, tôi đây
+[07:52] không hài lòng về điều này tôi sẽ thay đổi
+[07:53] nó không vui vì điều đó sẽ thay đổi nó
+[07:56] lúc đó không phải kỹ sư phần mềm điên cuồng
+[07:58] có vẻ như điều tôi đã làm là tôi đã quyết định với bạn
+[08:01] biết cái gì phải có thuật toán
+[08:04] phải có cách nào đó để tôi thực sự có thể
+[08:06] chương trình đó vào máy tính của tôi để nó
+[08:08] nói ra tất cả các tình huống có thể xảy ra
+[08:10] rằng tôi sẽ không bao giờ cảm thấy bất hạnh trong
+[08:12] tương lai.
+[08:13] và sau đó tôi có thể gạch bỏ chúng một lần và
+[08:15] cho tất cả và chúng tôi đã hoàn tất mã đó.
+[08:17] Được rồi, điên rồi. Đúng. Nhưng nó đã hoạt động. Và
+[08:22] điều này thực sự đã đảo lộn cuộc đời tôi. H
+[08:25] Khi tôi đi tìm hạnh phúc
+[08:27] thuật toán, về cơ bản tôi đang nói điều gì
+[08:30] là chuyện bình thường. Bạn biết đấy đôi khi
+[08:32] các nhà khoa học sẽ rút ra những điểm ngẫu nhiên của một
+[08:35] thử nghiệm trên biểu đồ và họ đang thử
+[08:37] để tìm ra ranh giới phù hợp giữa chúng.
+[08:39] Nếu bạn tìm thấy dòng phù hợp đó,
+[08:41] phương trình mô tả đường này là như thế nào
+[08:43] cái máy đó hoạt động bình thường. Được rồi? Vì vậy, tôi chỉ đơn giản là
+[08:46] đã làm được điều đó. Tôi đã nắm bắt tất cả những khoảnh khắc trong
+[08:48] cuộc sống mà tôi cảm thấy hạnh phúc và tôi bắt đầu
+[08:51] để vẽ chúng dựa trên các biểu đồ ở độ tuổi của tôi,
+[08:54] cân nặng của tôi, số lượng tóc trên người tôi
+[08:57] đầu, sao cũng được. Được rồi? Cuộc sống tình yêu của tôi,
+[08:59] cố gắng tìm đường xu hướng. không thể
+[09:01] tìm bất kỳ thứ gì cho đến khi tôi tìm thấy rất
+[09:04] một điều thú vị mà tôi tin là của mình
+[09:06] định nghĩa của hạnh phúc. Được rồi? Bạn có thể
+[09:08] còn một cái nữa nhưng anh có thể hứa với em
+[09:11] nếu chúng ta đồng ý với định nghĩa này thì tôi có thể
+[09:13] giao hàng cho bạn nhé. Và định nghĩa của tôi về
+[09:16] hạnh phúc rất rất thú vị. làm
+[09:18] bạn có nhớ khi CO xảy ra và vì
+[09:21] một số người trong chúng tôi đó là một thảm họa đối với
+[09:24] những người khác đó là một lễ kỷ niệm? Được rồi. làm
+[09:27] bạn có nhớ khi CO xảy ra và chúng
+[09:29] đã nhốt chúng tôi và đối với một số người
+[09:32] trong số chúng tôi, một ngày nọ đó là một thảm họa và một
+[09:34] Lễ kỷ niệm tiếp theo và sau đó là thảm họa
+[09:35] hết lần này đến lần khác. Phải. Có vẻ như không
+[09:38] sự kiện luôn có tính nhất quán,
+[09:41] Giá trị hạnh phúc vốn có ở nó. Không, mưa
+[09:45] không phải lúc nào cũng khiến bạn hạnh phúc hay
+[09:47] không vui. Bạn có hiểu điều đó không? Phải?
+[09:49] Mưa khiến người ta vui lắm. Nếu trời mưa
+[09:52] trong đám cưới của bạn trai cũ, đó là
+[09:54] thật tuyệt vời phải không? Giống như chúng ta yêu nó,
+[09:56] phải không? Nếu trời mưa khi chúng ta đang
+[09:58] sẽ ra ngoài và trên hồ bơi,
+[10:00] bạn biết đấy, ngày mai, nó sẽ xảy ra
+[10:02] bạn rất không vui. Bạn hiểu không?
+[10:04] Mưa không có giá trị hạnh phúc cố hữu trong
+[10:06] nó. bây giờ
+[10:09] điều gì đôi khi khiến chúng ta hạnh phúc
+[10:12] mưa hay sao ta luôn vui vẻ
+[10:14] thiên nhiên thực sự là một phương trình.
+[10:17] Hạnh phúc của bạn không phải là kết quả của
+[10:19] sự kiện trong cuộc đời bạn.
+[10:22] Trên thực tế, các sự kiện của bạn
+[10:24] cuộc sống gần như không còn ý nghĩa gì nữa.
+[10:27] Được chứ? Hạnh phúc của bạn là kết quả của một
+[10:29] sự so sánh diễn ra trong não bạn.
+[10:32] Hãy nhớ rằng, nó nằm trong não bạn. Nó không phải
+[10:35] ngoài kia trong thế giới thực. Giữa
+[10:37] sự kiện là gì và bạn muốn gì
+[10:40] sự kiện được. Nếu đó là của bạn trai cũ của bạn
+[10:43] Đám cưới, em muốn mưa. Và thế là khi nó
+[10:46] mưa, bạn vui. Bạn có hiểu không?
+[10:48] cái đó à? Tại sao chúng ta luôn hạnh phúc trong tự nhiên?
+[10:51] Thực ra tôi tôi thức dậy lúc 4 giờ sáng.
+[10:53] hôm nay. Vì vậy, bất cứ điều gì tôi nói bây giờ, bởi
+[10:55] à, không nên coi thường tôi. Nhưng
+[10:57] Hôm nay tôi thức dậy lúc 4 giờ sáng. tôi ngồi trên
+[10:59] bãi biển và tôi đang ở trong trạng thái bình yên đến thế
+[11:03] và tôi không biết tại sao sóng lại như vậy
+[11:05] ồn ào. H nhưng tôi không phàn nàn về
+[11:08] đó. Tôi chưa nói tôi có thể giữ lại được không
+[11:11] xem và tắt âm thanh. Không ai làm
+[11:14] bản chất là vậy phải không? Bạn đi ra ngoài
+[11:16] thiên nhiên và bạn biết không có gì thực sự là
+[11:18] được phòng ngừa đúng cách. Thực sự không có cây nào
+[11:20] đúng chiều dọc. Được rồi. Khi bạn ra ngoài
+[11:23] trong tự nhiên, bạn không mong đợi tự nhiên
+[11:26] đó. Bạn muốn thiên nhiên hỗn loạn. Và
+[11:28] vậy là bạn nhìn vào một cái cây bị cong
+[11:30] và bạn thốt lên, "Ôi chúa ơi, đúng vậy
+[11:32] đẹp quá." Bạn không phải là người Đức
+[11:34] kỹ sư. Bạn không thích, bạn biết đấy, bạn
+[11:35] không muốn cái cây này đứng thẳng.
+[11:37] Phải không? Và ý tưởng về thiên nhiên
+[11:40] là nó sẽ luôn đáp ứng được
+[11:43] sự kiện phương trình hạnh phúc. Sự kiện
+[11:46] bản chất hỗn loạn của thiên nhiên, được chứ? Luôn luôn
+[11:49] đáp ứng mong đợi của bạn về sự hỗn loạn
+[11:51] thiên nhiên. Bản chất hỗn loạn của thiên nhiên. Đó là
+[11:53] rất đơn giản. H mọi thứ trong cuộc sống của bạn
+[11:56] điều mà bạn từng cảm thấy không hài lòng như
+[11:58] Tony đang nói là một sự kiện đã bị bỏ lỡ
+[12:00] mong đợi của bạn.

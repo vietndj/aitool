@@ -1,0 +1,126 @@
+Title: Why I Believe AI Has Already Surpassed Me
+URL: https://www.youtube.com/watch?v=CPEKsE69-JM
+ID: CPEKsE69-JM
+Transcript Type: Language: en -> vi (translated via deep-translator)
+================================================================================
+
+--- TÓM TẮT NỘI DUNG ---
+Bây giờ, điểm kỳ dị, nếu bạn nhìn vào, bạn biết đấy, tin tức tiêu đề và CNN và những gì có bạn, họ sẽ nói với bạn rằng đó sẽ là một mối đe dọa hiện hữu khi AI sẽ đi bộ trên đường phố và giết chết con người và, bạn biết đấy, AI là ngày tận thế của nhân loại. mọi giấc mơ bạn từng mơ uh bạn biết sẽ xảy ra uh với AI và uh bạn biết bạn phải tin vào điều này hay điều khác. Và dù bạn có tin hay không, hầu hết các vấn đề mà nhân loại gặp phải ngày nay không phải là vấn đề xuất phát từ trí thông minh của chúng ta. Và vì vậy nếu chúng ta đủ thông minh, nếu chúng ta có nhiều trí thông minh hơn, chúng ta sẽ thực sự không phải gánh chịu những hậu quả, những mặt tiêu cực, mặt tiêu cực của những quyết định đó.
+
+================================================================================
+
+--- RAW TEXT (FOR LLM INPUT) ---
+AGI của tôi, trí tuệ nhân tạo chung của tôi đã xảy ra rồi. Được rồi, AGI, trí tuệ nhân tạo ngày nay đã có năng lực hơn tôi rồi. Bây giờ khi điều đó xảy ra, bạn phải đặt câu hỏi điều gì sẽ xảy ra tiếp theo, phải không? Và điều sẽ xảy ra tiếp theo là bạn biết đấy, hầu hết những người đam mê công nghệ như chúng tôi đều gọi đây là điều này kể từ năm 2007, chúng tôi gần như bắt đầu gọi nó là điểm kỳ dị. Điểm kỳ dị là một chân trời sự kiện mà ngoài đó, bạn biết đấy, luật của trò chơi thay đổi nhiều đến mức thật khó để mong đợi kết quả của trò chơi, phải không? Bởi vì nó không còn được chơi theo cách cũ nữa. Bây giờ, điểm kỳ dị, nếu bạn nhìn vào, bạn biết đấy, tin tức tiêu đề và CNN và những gì có bạn, họ sẽ nói với bạn rằng đó sẽ là một mối đe dọa hiện hữu khi AI sẽ đi bộ trên đường phố và giết chết con người và, bạn biết đấy, AI là ngày tận thế của nhân loại. Tất nhiên, những người khác, đặc biệt là những người tạo ra AI đang nói với mọi người rằng đây sẽ là một điều không tưởng. Chúng tôi sẽ làm mọi thứ trở nên tuyệt vời. mọi giấc mơ bạn từng mơ uh bạn biết sẽ xảy ra uh với AI và uh bạn biết bạn phải tin vào điều này hay điều khác. Tôi buồn bã tin vào cả hai và tôi nghĩ đây có lẽ là cuộc tranh luận duy nhất của tôi với phần còn lại của cộng đồng mà tôi thực sự tin rằng chúng ta sẽ có cả hai. Đầu tiên chúng ta sẽ có những khoảng thời gian rất khó khăn trước khi có những điều không tưởng đáng kinh ngạc như uh uh bạn biết đấy. và tôi bạn biết đấy, tôi nghĩ sự khác biệt giữa chúng là bởi vì từ bây giờ chúng ta sẽ chứng kiến ​​hai kỷ nguyên về mối quan hệ của loài người với AI. Một là cái mà tôi gọi là kỷ nguyên của trí thông minh tăng cường và cái còn lại là cái mà tôi gọi là kỷ nguyên của máy móc. Phải? Hãy để tôi mô tả chúng rất nhanh chóng. Trí thông minh tăng cường là những gì chúng tôi đã tạo ra cho đến nay. Bạn phải tưởng tượng rằng chúng tôi đã tạo ra một cái phích cắm trên tường. Về cơ bản, chúng ta đã thương mại hóa trí thông minh. Vì vậy, chúng tôi có một phích cắm trên tường. bạn cắm vào, bạn sẽ nhận được nhiều điểm IQ hơn, phải không? Điểm IQ của tôi với điểm IQ của AI thông minh hơn. Vì vậy, hy vọng cuốn sách mới nhất của tôi hay hơn mọi cuốn sách khác tôi đã viết. Phải? Thật không may, trong giai đoạn đó, nhân loại, và tôi nói thật không may, nhân loại có tác động đến kết quả. Và dù bạn có tin hay không, hầu hết các vấn đề mà nhân loại gặp phải ngày nay không phải là vấn đề xuất phát từ trí thông minh của chúng ta. Đó là một vấn đề xuất phát từ sự ngu ngốc của chúng ta. Phải. Vì vậy, đôi khi chúng ta đủ thông minh để được phép đưa ra quyết định nhưng những quyết định đó lại trở thành cái chết của chúng ta. Về cơ bản họ làm việc chống lại chúng tôi. Đơn giản hóa bạn biết rằng chúng tôi đưa ra quyết định tạo ra một cỗ máy bay có thể đưa bạn đến tận Úc để lướt sóng. Uh trí thông minh tuyệt vời rất rất thông minh nhưng nó đang đốt cháy hành tinh trên đường đi. Phải. Và vì vậy nếu chúng ta đủ thông minh, nếu chúng ta có nhiều trí thông minh hơn, chúng ta sẽ thực sự không phải gánh chịu những hậu quả, những mặt tiêu cực, mặt tiêu cực của những quyết định đó. Bởi vì nhân loại trong kỷ nguyên trí thông minh tăng cường sẽ ra lệnh cho AI phải làm gì, nên AI sẽ trở thành một phiên bản phóng đại của bất kỳ nhân loại nào vào thời điểm này. Và thật đáng buồn, nhân loại, nó không ở mức tốt nhất, phải không? Và vì vậy, bạn có thể biết trong phân tích của tôi, tôi nói rằng có bảy thời đại nhân loại sẽ thay đổi hoàn toàn được xác định lại đến mức không thể nhận ra trong vòng 3 đến 5 năm tới. Xin hãy lắng nghe điều đó. Phải? Tôi gọi chúng là những vết rách trên mặt để bạn nhớ đến chúng. F A C R I P. Và đó cơ bản là sự tự do, sự hiểu biết của chúng ta về sự tự do và các quyền tự do của con người. Uh trách nhiệm giải trình và pháp quyền uh kết nối con người uh về cơ bản so với kết nối máy móc con người. Kinh tế sẽ được xác định lại. R là định nghĩa về thực tế và sự hiểu biết của chúng ta về điều gì là thật và điều gì là giả. Uh, cái tôi về cơ bản là sự đổi mới, bản thân trí thông minh và sự sáng tạo là một chủ đề lớn đối với chúng ta ở đây ngày nay. Và chữ P là định nghĩa của chúng ta về quyền lực và quyền lực ừm sẽ thay đổi vượt xa mọi thứ chúng ta từng thấy trước đây bởi vì nó sẽ được tập trung một cách ồ ạt nhưng đồng thời cũng được phân bổ cao độ. Nhân tiện, đó là lý do tại sao quyền tự do của chúng ta sẽ được xác định lại bởi vì những người có quyền lực tập trung lớn sẽ cố gắng đảm bảo rằng không ai lạm dụng quá trình dân chủ hóa quyền lực.
+
+--- TIMESTAMPED TEXT ---
+[00:00] AGI của tôi, vị tướng nhân tạo của tôi
+[00:02] thông tin tình báo đã xảy ra rồi. Được rồi,
+[00:04] AGI, trí tuệ nhân tạo ngày nay là
+[00:06] đã có nhiều khả năng hơn tôi rồi. Bây giờ khi
+[00:10] điều đó xảy ra,
+[00:12] bạn phải đặt câu hỏi điều gì sẽ xảy ra
+[00:14] tiếp theo phải không? Và điều gì sẽ xảy ra tiếp theo
+[00:17] bạn có biết hầu hết những người đam mê công nghệ như chúng tôi sẽ
+[00:20] gần như chúng tôi đã gọi điều này từ năm 2007
+[00:23] bắt đầu gọi nó là điểm kỳ dị.
+[00:25] Điểm kỳ dị là một chân trời sự kiện vượt xa
+[00:27] bạn biết đấy, đó là quy tắc của
+[00:30] trò chơi thay đổi nhiều đến mức nó trở thành
+[00:32] thật khó để mong đợi kết quả của
+[00:34] trò chơi phải không? Bởi vì nó không tồn tại
+[00:36] đã chơi theo cách tương tự nữa. Bây giờ,
+[00:38] kỳ dị, nếu bạn uh nếu bạn nhìn vào,
+[00:42] bạn biết đấy, tin tức nổi bật và CNN
+[00:44] còn bạn thì sao, họ sẽ nói với bạn điều đó
+[00:46] nó sẽ là một mối đe dọa hiện hữu
+[00:48] AI sẽ đi tới đâu
+[00:50] đường phố và giết người và bạn
+[00:52] biết rằng AI là ngày tận thế của loài người. Ờ
+[00:55] tất nhiên là những người khác, đặc biệt là những người
+[00:57] điều đó khiến AI phải nói với mọi người
+[00:59] đây sẽ là một điều không tưởng. Chúng tôi
+[01:01] sẽ khiến mọi thứ trở nên tuyệt vời. mỗi
+[01:04] giấc mơ bạn từng mơ uh bạn biết đấy
+[01:06] sắp xảy ra với AI và bạn
+[01:09] biết rằng bạn phải tin vào điều này hoặc điều kia
+[01:11] khác. Tôi buồn bã tin cả hai và tôi nghĩ
+[01:15] đây có lẽ là cuộc tranh luận duy nhất của tôi uh uh
+[01:18] với phần còn lại của cộng đồng mà tôi
+[01:21] thực sự tin rằng chúng ta sẽ có cả hai. Chúng tôi
+[01:23] lần đầu tiên sẽ có những khoảng thời gian rất khó khăn
+[01:25] trước khi chúng ta có những điều không tưởng, ừ không tưởng
+[01:29] kiểu như uh uh bạn biết sự tồn tại. và tôi
+[01:32] bạn biết đấy, tôi nghĩ sự khác biệt giữa
+[01:33] họ là vậy vì chúng ta đến từ bây giờ
+[01:35] sắp tới chúng ta sẽ thấy hai
+[01:37] xóa bỏ mối quan hệ của con người với
+[01:40] AI. Một là cái mà tôi gọi là thời đại của
+[01:42] trí thông minh tăng cường và cái còn lại là
+[01:45] cái mà tôi gọi là thời đại của máy móc
+[01:47] quyền lực tối cao. Phải? Hãy để tôi mô tả chúng
+[01:50] rất nhanh. Trí thông minh tăng cường là
+[01:52] những gì chúng tôi đã tạo ra cho đến nay. Bạn phải
+[01:54] hãy tưởng tượng rằng chúng ta đã tạo một plug trong
+[01:56] bức tường. Chúng ta đã thương mại hóa trí thông minh
+[01:58] về cơ bản. Vì vậy, chúng tôi có một phích cắm trong
+[01:59] bức tường. bạn cắm điện, bạn sẽ nhận được nhiều IQ hơn
+[02:01] điểm phải không? Điểm IQ của tôi bằng IQ của AI
+[02:05] điểm thông minh hơn. Vì vậy, hy vọng của tôi
+[02:07] cuốn sách mới nhất hay hơn mọi cuốn khác
+[02:09] cuốn sách tôi đã viết. Phải? Trong giai đoạn đó,
+[02:13] thật không may, nhân loại, và tôi nói
+[02:15] thật không may, loài người lại có tác động tới
+[02:17] kết quả. Và tin hay không, hầu hết
+[02:20] về những vấn đề mà nhân loại phải đối mặt
+[02:22] hôm nay không phải là vấn đề do
+[02:25] trí thông minh của chúng tôi. Đó là một vấn đề
+[02:27] là kết quả của sự ngu ngốc của chúng ta. Phải. Vì vậy
+[02:30] đôi khi chúng ta đủ thông minh
+[02:33] được phép đưa ra quyết định nhưng
+[02:36] những quyết định đó sẽ trở thành cái chết của chúng tôi.
+[02:39] Về cơ bản thì họ đang chống lại chúng tôi. Đơn giản hóa
+[02:42] bạn biết đấy, chúng tôi đưa ra quyết định tạo ra một
+[02:44] cỗ máy bay có thể đưa bạn đi tất cả
+[02:46] Đường đến Úc để lướt sóng. Ờ tuyệt vời
+[02:49] trí thông minh rất rất thông minh nhưng nó
+[02:51] đốt cháy hành tinh trên đường đi. Phải.
+[02:53] Và nếu chúng ta đủ thông minh, nếu
+[02:56] chúng tôi có nhiều trí thông minh hơn, chúng tôi sẽ
+[02:59] thực ra không phải gánh chịu hậu quả,
+[03:01] mặt tiêu cực, mặt tiêu cực của
+[03:03] những quyết định đó.
+[03:05] Bởi vì nhân loại trong thời đại tăng cường
+[03:08] trí thông minh sẽ ra lệnh cho AI điều gì
+[03:10] để làm thì AI sẽ là một
+[03:12] độ phóng đại của bất cứ điều gì loài người đang ở
+[03:15] lần này. Và đáng buồn thay, nhân loại,
+[03:18] chưa phải ở mức tốt nhất phải không? Và thế là bạn
+[03:21] bạn có biết trong phân tích của tôi không, tôi nói
+[03:23] có bảy thời đại của nhân loại
+[03:25] sẽ thay đổi hoàn toàn được xác định lại ngoài
+[03:28] sự công nhận trong vòng 3 đến 5 tới
+[03:31] năm. Xin hãy lắng nghe điều đó. Phải? tôi
+[03:33] gọi là rách mặt để bạn nhớ
+[03:36] họ. F A C R I P. Và những điều đó về cơ bản
+[03:40] là tự do, là sự hiểu biết của chúng ta về con người
+[03:42] tự do và tự do. Ờ trách nhiệm
+[03:45] và pháp quyền uh kết nối con người
+[03:48] ừ về cơ bản là so với con người, cỗ máy
+[03:51] kết nối. Nền kinh tế sẽ
+[03:53] được xác định lại. R là uh định nghĩa của
+[03:57] thực tế và sự hiểu biết của chúng ta về những gì
+[03:59] thật và đâu là giả. Ờ cái tôi là
+[04:02] về cơ bản là sự đổi mới, trí thông minh
+[04:04] bản thân nó và sự sáng tạo là một thành tựu to lớn
+[04:06] chủ đề dành cho chúng ta hôm nay. Và P là
+[04:09] định nghĩa của chúng ta về sức mạnh và sức mạnh ừm
+[04:14] sẽ thay đổi hơn bất cứ điều gì chúng ta đã có
+[04:16] chưa từng thấy trước đây vì nó sắp
+[04:17] được tập trung ồ ạt nhưng cũng
+[04:20] được phân phối cao cùng lúc.
+[04:22] Nhân tiện, đó là lý do tại sao chúng tôi
+[04:24] tự do sẽ được định nghĩa lại bởi vì
+[04:26] những người có sự tập trung cao độ
+[04:28] quyền lực sẽ cố gắng đảm bảo rằng
+[04:30] không ai lạm dụng việc dân chủ hóa
+[04:32] sức mạnh.

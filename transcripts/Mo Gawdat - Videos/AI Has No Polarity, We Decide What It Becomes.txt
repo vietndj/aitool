@@ -1,0 +1,136 @@
+Title: AI Has No Polarity, We Decide What It Becomes
+URL: https://www.youtube.com/watch?v=umH9r_9rjDw
+ID: umH9r_9rjDw
+Transcript Type: Language: vi (translated from auto en) (Auto-translated)
+================================================================================
+
+--- TÓM TẮT NỘI DUNG ---
+Và tôi nghĩ trách nhiệm quan trọng nhất mà tất cả chúng ta cần gánh vác ngày nay là làm thế nào để chuyển hướng sự tập trung của chúng ta vào trí tuệ nhân tạo sao cho nó được ứng dụng vì mục đích tốt đẹp. Mỗi lần tôi hạ cánh xuống Dubai, tôi đều làm cái mà chúng tôi thường gọi ở UAE là bài kiểm tra, đó là để điện thoại, ví, máy tính xách tay mở trên bàn, rồi biến mất trong 10 phút và khi quay lại thì thấy chúng vẫn còn ở đó. Thách thức mà chúng ta đang gặp phải với trí tuệ nhân tạo, như tôi đã nói với Shahham, là nó không phát triển được tiến bộ, không phát triển được công nghệ, không phát triển được các giải pháp giúp giảm mức tiêu thụ năng lượng. Dù cho điều đó có phục vụ những mục tiêu ích kỷ ngắn hạn của chúng ta trong mọi bộ phim khoa học viễn tưởng, bạn cũng đã từng chứng kiến ​​khoảnh khắc mà siêu cường quốc trở nên quá mạnh mẽ đến mức không còn quan tâm đến nhân loại nữa.
+
+================================================================================
+
+--- RAW TEXT (FOR LLM INPUT) ---
+Trí tuệ nhân tạo không tốt cũng không xấu.  Nó không phải là tích cực cũng không phải là tiêu cực. Được rồi?  Trí thông minh nói chung là một lực lượng không phân cực.  Hãy ghi nhớ điều đó.  Được rồi?  Trí thông minh nói chung là một lực lượng không phân cực.  Nếu bạn áp dụng nó một cách tích cực, bạn có thể xây dựng một xã hội lý tưởng cho tất cả mọi người.  Nếu bạn sử dụng nó cho mục đích xấu, bạn có thể phá hủy khá nhiều thứ.  Phải? Và tôi nghĩ trách nhiệm quan trọng nhất mà tất cả chúng ta cần gánh vác ngày nay là làm thế nào để chuyển hướng sự tập trung của chúng ta vào trí tuệ nhân tạo sao cho nó được ứng dụng vì mục đích tốt đẹp.  Được rồi.  Làm thế nào để chúng ta ngăn chặn những kẻ xấu lợi dụng điều này cho mục đích riêng của chúng, gây thiệt hại cho những người khác?  Và tôi nghĩ, giờ chúng ta đang ở Dubai, tôi sẽ... tôi sẽ dùng những ví dụ từ Dubai.  Được rồi? Mỗi lần tôi hạ cánh xuống Dubai, tôi đều làm cái mà chúng tôi thường gọi ở UAE là bài kiểm tra, đó là để điện thoại, ví, máy tính xách tay mở trên bàn, rồi biến mất trong 10 phút và khi quay lại thì thấy chúng vẫn còn ở đó.  Phải? Lý do khiến cuộc sống chúng ta trở thành hiện thực như vậy là vì việc sử dụng công nghệ. Lực lượng thực thi pháp luật của UAE có khả năng xác định xem có đồ vật nào bị mất hay không, và có khả năng xác định xem có tội phạm nào đang xảy ra hay không.  Và trong suốt những năm tôi sống ở đây, trong những trường hợp hiếm hoi xảy ra sự cố, thì chỉ mất vài phút đến vài giờ là thủ phạm mới được xác định.  Hiện nay, trên thế giới còn có những thành phố khác, nhưng tôi sẽ không nêu tên.  Tôi thường xuyên có mặt ở khắp nơi trên thế giới, nơi mà cùng một công nghệ được áp dụng nhưng cách sử dụng lại khác nhau.  Nó không được sử dụng vì lợi ích của người dân mà có thể là để đàn áp người dân hoặc giám sát người dân, vân vân và vân vân.  Và điều sắp xảy ra trong thế giới của chúng ta ngày nay là chúng ta sắp có được một siêu năng lực đáng kinh ngạc trong tay.  Đúng nghĩa là một siêu năng lực.  Được rồi. Và siêu năng lực này thay đổi mọi thứ. Ý tôi là, trong phần giới thiệu, tôi cũng được giới thiệu là người đồng sáng lập của Emma.  À, và Emma là một công ty khởi nghiệp được xây dựng, bạn biết đấy, nó xây dựng một trí tuệ nhân tạo để giúp mọi người trong chuyện tình cảm và các mối quan hệ.  Nhưng Emma đã được phát triển trong vòng bốn năm qua.  Tôi sẽ cần 350 kỹ sư và có lẽ sẽ mất bốn năm để xây dựng nó.  Được rồi. Emma được xây dựng trong sáu tuần, đúng không?  Và chỉ trong sáu tuần, tôi đã có một công nghệ mà , bạn biết đấy, sẽ khiến bạn kinh ngạc.  Và rồi chúng tôi xóa nó đi và rồi lại phát triển nó lên một lần nữa.  Chúng tôi đã viết lại mã nguồn đến bốn lần chỉ vì chúng tôi có thể làm vậy.  Được rồi?  Và tốc độ cùng sự nhanh nhẹn ở mức độ đó, khi bạn sở hữu siêu năng lực như trong các bộ phim Marvel, đi kèm với đó là trách nhiệm rất lớn.  Giờ thì cho phép tôi đi thẳng vào những điểm mà tôi thực sự cần mọi nhà lãnh đạo có mặt ở đây xem xét. Thách thức mà chúng ta đang gặp phải với trí tuệ nhân tạo, như tôi đã nói với Shahham, là nó không phát triển được tiến bộ, không phát triển được công nghệ, không phát triển được các giải pháp giúp giảm mức tiêu thụ năng lượng.  Hãy tin tôi, đội ngũ chuyên gia công nghệ của chúng tôi đã lo liệu xong xuôi rồi.  Được rồi?  Chúng tôi sẽ khiến các bạn kinh ngạc trong vài năm tới. Chỉ vài năm thôi.  Và đúng vậy, đó là vài năm vì chúng ta đang ở đỉnh của đường cong tăng trưởng theo cấp số nhân.  Được rồi. Việc chúng tôi cần bạn làm là một vấn đề mà tôi thường gọi là "nuôi dưỡng Siêu nhân". Việc nuôi dạy Superman thực chất giống như việc tạo ra một nhân vật khoa học viễn tưởng vậy.  Superman là một sinh vật ngoài hành tinh đến Trái Đất với siêu năng lực, và những siêu năng lực đó cho phép anh ta làm bất cứ điều gì.  Bạn biết đấy, đứa trẻ này có thể bay, chặn được đạn đang bay với tốc độ cao, xuyên thủng tường và vân vân.  Chỉ riêng những siêu năng lực đó thôi chưa đủ để tạo nên Superman.  Điều khiến nó trở thành Superman là gia đình nhận nuôi nó đã dạy nó cách bảo vệ và lướt sóng.  Phải?  Nếu gia đình nhận nuôi nó nói, "Ồ, con có thể bay xuyên tường, bay xuyên qua ngân hàng và cướp bóc mọi người," thì nó sẽ trở thành siêu phản diện.  Phải?  Và sự thay đổi, sự khác biệt đó hoàn toàn là trách nhiệm của bạn.  Đây hoàn toàn là trách nhiệm của tất cả mọi người .  Nhân tiện, đó là trách nhiệm của bạn với tư cách là một người lãnh đạo và một con người.  Được rồi?  Là một người, nếu bạn muốn tham gia thử nghiệm, đừng bao giờ ủng hộ một trí tuệ nhân tạo mà bạn không muốn con gái mình phải chịu hậu quả .  Được rồi?  Và hãy suy nghĩ thật kỹ về điều đó trong mỗi quyết định mà bạn đưa ra, được không?  Bởi vì chúng ta đang đưa Siêu Nhân ra thế giới thực.  Được rồi?  Nếu chúng ta tạo ra một Siêu Nhân mà lại trở thành siêu phản diện, cuối cùng hắn sẽ quay lưng lại với chúng ta.  Dù cho điều đó có phục vụ những mục tiêu ích kỷ ngắn hạn của chúng ta trong mọi bộ phim khoa học viễn tưởng, bạn cũng đã từng chứng kiến ​​khoảnh khắc mà siêu cường quốc trở nên quá mạnh mẽ đến mức không còn quan tâm đến nhân loại nữa.  Và nếu tôi chỉ muốn nói với các bạn một điều, thì đó là điều tôi sẽ nói với các bạn…
+
+--- TIMESTAMPED TEXT ---
+[00:00] Trí tuệ nhân tạo không tốt cũng không
+[00:02] xấu.  Nó không phải là tích cực cũng không phải là tiêu cực.
+[00:04] Được rồi?  Trí thông minh nói chung là một lực lượng
+[00:07] không phân cực.  Hãy ghi
+[00:09] nhớ điều đó.  Được rồi?  Trí thông minh nói chung là một
+[00:12] lực lượng không phân cực.  Nếu bạn áp dụng nó một cách
+[00:14] tích cực, bạn có thể xây dựng một xã hội lý tưởng cho
+[00:16] tất cả mọi người.  Nếu bạn sử dụng nó cho mục đích xấu, bạn
+[00:18] có thể phá hủy khá nhiều thứ.  Phải?
+[00:21] Và tôi nghĩ trách nhiệm quan trọng nhất
+[00:23] mà tất cả chúng ta cần gánh vác ngày nay là
+[00:25] làm thế nào để chuyển hướng sự tập trung của chúng ta
+[00:30] vào trí tuệ nhân tạo sao cho nó được
+[00:32] ứng dụng vì mục đích tốt đẹp.  Được rồi.  Làm thế nào để chúng ta
+[00:34] ngăn chặn những kẻ xấu lợi dụng điều này cho
+[00:38] mục đích riêng của chúng, gây thiệt hại cho những người
+[00:40] khác?  Và tôi nghĩ,
+[00:43] giờ chúng ta đang ở Dubai, tôi sẽ... tôi sẽ
+[00:45] dùng những ví dụ từ Dubai.  Được rồi?
+[00:48] Mỗi lần tôi hạ cánh xuống Dubai, tôi đều làm cái mà chúng tôi
+[00:50] thường gọi ở UAE là bài kiểm tra,
+[00:53] đó là để điện thoại, ví, máy tính
+[00:56] xách tay mở trên bàn, rồi biến mất
+[01:00] trong 10 phút và khi quay lại thì thấy
+[01:02] chúng vẫn còn ở đó.  Phải?
+[01:04] Lý do khiến
+[01:06] cuộc sống chúng ta trở thành hiện thực như vậy là vì việc
+[01:10] sử dụng công nghệ.
+[01:12] Lực lượng thực thi pháp luật của UAE có khả năng
+[01:16] xác định xem có đồ vật nào bị mất hay không, và
+[01:18] có khả năng xác định xem có tội phạm nào đang
+[01:21] xảy ra hay không.  Và trong suốt những năm
+[01:23] tôi sống ở đây, trong những trường hợp hiếm hoi
+[01:26] xảy ra sự cố, thì chỉ mất
+[01:28] vài phút đến vài giờ là
+[01:30] thủ phạm mới được xác định.  Hiện nay,
+[01:33] trên thế giới còn có những thành phố khác, nhưng tôi
+[01:35] sẽ không nêu tên.  Tôi
+[01:37] thường xuyên có mặt ở khắp nơi trên thế giới, nơi mà cùng một
+[01:39] công nghệ được áp dụng nhưng cách sử dụng lại
+[01:41] khác nhau.  Nó không được sử dụng vì
+[01:43] lợi ích của người dân mà có thể là để
+[01:46] đàn áp người dân hoặc
+[01:47] giám sát người dân, vân vân
+[01:49] và vân vân.  Và điều sắp
+[01:52] xảy ra trong thế giới của chúng ta ngày nay là chúng ta
+[01:56] sắp có được một siêu năng lực đáng kinh ngạc trong
+[02:00] tay.  Đúng nghĩa là một siêu năng lực.  Được rồi.
+[02:03] Và siêu năng lực này thay đổi mọi thứ.
+[02:06] Ý tôi là, trong phần giới thiệu, tôi cũng được
+[02:08] giới thiệu là người đồng sáng lập của Emma.  À,
+[02:11] và Emma là một công ty khởi nghiệp được xây dựng,
+[02:14] bạn biết đấy, nó xây dựng một trí tuệ nhân tạo để giúp
+[02:16] mọi người trong chuyện tình cảm và các mối quan hệ.  Nhưng
+[02:18] Emma đã được phát triển trong vòng bốn
+[02:20] năm qua.  Tôi sẽ cần 350
+[02:23] kỹ sư và
+[02:25] có lẽ sẽ mất bốn năm để xây dựng nó.  Được rồi.
+[02:27] Emma được xây dựng trong sáu tuần, đúng không?  Và chỉ
+[02:30] trong sáu tuần, tôi đã có một công nghệ mà
+[02:33] , bạn biết đấy, sẽ khiến bạn kinh ngạc.  Và rồi
+[02:36] chúng tôi xóa nó đi và rồi lại phát triển nó lên
+[02:38] một lần nữa.  Chúng tôi đã viết lại mã nguồn đến bốn lần
+[02:42] chỉ vì chúng tôi có thể làm vậy.  Được rồi?  Và
+[02:45] tốc độ cùng sự nhanh nhẹn ở mức độ đó, khi bạn sở hữu
+[02:47] siêu năng lực như trong các
+[02:50] bộ phim Marvel, đi kèm với đó là
+[02:52] trách nhiệm rất lớn.  Giờ thì cho phép tôi đi thẳng
+[02:55] vào những điểm mà tôi thực sự cần
+[02:57] mọi nhà lãnh đạo có mặt ở đây xem xét.
+[02:59] Thách thức mà chúng ta đang gặp phải với
+[03:01] trí tuệ nhân tạo, như tôi đã nói với
+[03:04] Shahham, là nó không phát triển được
+[03:06] tiến bộ, không phát triển được
+[03:08] công nghệ, không phát triển được
+[03:10] các giải pháp giúp giảm
+[03:11] mức tiêu thụ năng lượng.  Hãy tin tôi, đội ngũ chuyên gia công nghệ của chúng tôi
+[03:15] đã lo liệu xong xuôi rồi.  Được rồi?  Chúng tôi sẽ khiến
+[03:17] các bạn kinh ngạc trong vài năm tới.
+[03:20] Chỉ vài năm thôi.  Và đúng vậy,
+[03:22] đó là vài năm vì chúng ta đang ở
+[03:24] đỉnh của đường cong tăng trưởng theo cấp số nhân.  Được rồi.
+[03:27] Việc chúng tôi cần bạn làm là một vấn đề mà tôi
+[03:30] thường gọi là "nuôi dưỡng Siêu nhân".
+[03:33] Việc nuôi dạy Superman thực chất giống như việc
+[03:37] tạo ra một
+[03:39] nhân vật khoa học viễn tưởng vậy.  Superman là một
+[03:41] sinh vật ngoài hành tinh đến Trái Đất
+[03:44] với siêu năng lực, và những siêu năng lực đó
+[03:47] cho phép anh ta làm bất cứ điều gì.  Bạn
+[03:50] biết đấy, đứa trẻ này có thể bay, chặn được
+[03:52] đạn đang bay với tốc độ cao, xuyên thủng tường
+[03:54] và vân vân.  Chỉ riêng
+[03:57] những siêu năng lực đó thôi chưa đủ để tạo nên
+[03:59] Superman.  Điều khiến nó trở thành Superman là
+[04:02] gia đình nhận nuôi nó đã dạy nó cách
+[04:05] bảo vệ và lướt sóng.  Phải?  Nếu gia đình
+[04:08] nhận nuôi nó nói, "Ồ, con có thể bay
+[04:11] xuyên tường, bay xuyên qua ngân hàng và
+[04:13] cướp bóc mọi người," thì nó sẽ trở thành siêu
+[04:15] phản diện.  Phải?  Và sự thay đổi,
+[04:19] sự khác biệt đó hoàn toàn là
+[04:21] trách nhiệm của bạn.  Đây hoàn toàn là trách nhiệm của tất cả mọi người
+[04:24] .  Nhân tiện, đó là
+[04:26] trách nhiệm của bạn với tư cách là một người lãnh đạo và một
+[04:28] con người.  Được rồi?  Là một người, nếu bạn muốn tham gia
+[04:32] thử nghiệm,
+[04:34] đừng bao giờ ủng hộ một trí tuệ nhân tạo mà bạn không muốn
+[04:37] con gái mình phải chịu hậu quả
+[04:38] .  Được rồi?  Và hãy suy nghĩ thật kỹ về
+[04:42] điều đó trong mỗi quyết định mà bạn đưa ra,
+[04:44] được không?  Bởi vì chúng ta đang đưa Siêu Nhân
+[04:48] ra thế giới thực.  Được rồi?  Nếu chúng ta tạo ra một
+[04:51] Siêu Nhân mà lại trở thành siêu phản diện,
+[04:54] cuối cùng hắn sẽ quay lưng lại với chúng ta.  Dù
+[04:56] cho điều đó có phục vụ những mục tiêu ích kỷ ngắn hạn của chúng ta
+[05:00] trong mọi bộ phim khoa học viễn tưởng, bạn cũng đã từng
+[05:02] chứng kiến ​​khoảnh khắc mà siêu cường quốc trở nên
+[05:05] quá mạnh mẽ đến mức không còn quan tâm
+[05:08] đến nhân loại nữa.  Và nếu tôi chỉ muốn nói với
+[05:10] các bạn một điều, thì đó là điều tôi sẽ nói với các bạn…
