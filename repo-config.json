@@ -1,0 +1,17 @@
+{
+  "site_id": "aitool",
+  "title": "AI TOOL STUDIO • Kho Trợ Lý AI & Sản Xuất Kịch Bản",
+  "brand_badge": "AI",
+  "brand_name": "AITOOL",
+  "github_repo": "vietndj/aitool",
+  "allow_embedded_cover": false,
+  "live_discovery": false,
+  "cover_base_url": "https://media.fedu.vn/k_covers",
+  "exclude_files": [
+    "index.html",
+    "hub.html",
+    "404.html",
+    "fix-url.html",
+    "admin.html"
+  ]
+}

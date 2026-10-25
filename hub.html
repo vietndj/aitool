@@ -1,0 +1,1592 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tập Hồ Sơ • Kho Kịch Bản & Kiến Trúc Thị Giác</title>
+    <meta name="description" content="Kho lưu trữ kịch bản quay, ma trận B-roll, tư duy thị giác và bài giảng video ngắn thực chiến của anh Việt.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        medium: {
+                            green: '#1a8917',
+                            greenHover: '#156d12',
+                            dark: '#242424',
+                            heading: '#191919',
+                            muted: '#6b6b6b',
+                            lightBg: '#fbfbfb',
+                            border: '#f2f2f2',
+                            pill: '#f2f2f2'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['FD Aeonik', 'Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+                        serif: ['Tiempos Text Web', 'Newsreader', 'Georgia', 'serif'],
+                        display: ['FD Aeonik Extended', 'Newsreader', 'Lora', 'Georgia', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+
+    @font-face {
+      font-family: 'FD Aeonik Extended';
+      src: url('./fonts/FDAeonikExtended-Regular.woff2?v=2') format('woff2'),
+           url('./fonts/FDAeonikExtended-Regular.ttf') format('truetype');
+      font-weight: 400; font-style: normal; font-display: swap;
+    }
+    @font-face {
+      font-family: 'FD Aeonik Extended';
+      src: url('./fonts/FDAeonikExtended-Bold.woff2?v=2') format('woff2'),
+           url('./fonts/FDAeonikExtended-Bold.ttf') format('truetype');
+      font-weight: 700; font-style: normal; font-display: swap;
+    }
+    @font-face {
+      font-family: 'FD Integral';
+      src: url('./fonts/SVN-IntegralCF-Regular.ttf') format('truetype');
+      font-weight: 400; font-style: normal; font-display: swap;
+    }
+    @font-face {
+      font-family: 'FD Integral';
+      src: url('./fonts/SVN-IntegralCF-Bold.ttf') format('truetype');
+      font-weight: 700; font-style: normal; font-display: swap;
+    }
+    @font-face {
+      font-family: 'Tiempos Text Web';
+      src: url('./fonts/FDTiemposText-Regular.woff2?v=2') format('woff2');
+      font-weight: 400; font-style: normal; font-display: swap;
+    }
+    @font-face {
+      font-family: 'Tiempos Text Web';
+      src: url('./fonts/FDTiemposText-Bold.woff2?v=2') format('woff2');
+      font-weight: 700; font-style: normal; font-display: swap;
+    }
+    @font-face {
+      font-family: 'Tiempos Text Web';
+      src: url('./fonts/FDTiemposText-Semibold.woff2?v=2') format('woff2');
+      font-weight: 600; font-style: normal; font-display: swap;
+    }
+    @font-face {
+      font-family: 'Tiempos Text Web';
+      src: url('./fonts/FDTiemposText-RegularItalic.woff2?v=2') format('woff2');
+      font-weight: 400; font-style: italic; font-display: swap;
+    }
+
+        
+        @font-face {
+            font-family: 'FD Aeonik';
+            src: local('FD Aeonik'), local('FDAeonik-Regular'), local('SVN-Aeonik'),
+                 url('./fonts/FDAeonikRegular.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+
+        body {
+            background-color: #ffffff;
+            color: #242424;
+            font-family: 'FD Aeonik', 'Inter', -apple-system, sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Medium Underline Links & Titles */
+        .story-title {
+            font-family: 'Newsreader', 'Lora', serif;
+            letter-spacing: -0.015em;
+            line-height: 1.25;
+            transition: color 0.15s ease;
+        }
+        .story-card:hover .story-title {
+            color: #1a8917;
+        }
+
+        /* Image hover zoom */
+        .img-zoom-box {
+            overflow: hidden;
+        }
+        .img-zoom-box img {
+            transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .story-card:hover .img-zoom-box img {
+            transform: scale(1.035);
+        }
+
+        /* Custom Scrollbar for topic tabs */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        /* Shimmer effect for skeleton */
+        @keyframes shimmer {
+            100% { transform: translateX(100%); }
+        }
+        .shimmer-anim {
+            position: relative;
+            overflow: hidden;
+        }
+        .shimmer-anim::after {
+            position: absolute;
+            top: 0; right: 0; bottom: 0; left: 0;
+            transform: translateX(-100%);
+            background-image: linear-gradient(
+                90deg,
+                rgba(255, 255, 255, 0) 0,
+                rgba(255, 255, 255, 0.4) 20%,
+                rgba(255, 255, 255, 0.7) 60%,
+                rgba(255, 255, 255, 0)
+            );
+            animation: shimmer 1.6s infinite;
+            content: '';
+        }
+
+        /* Shake animation for incorrect passcode */
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            20%, 60% { transform: translateX(-8px); }
+            40%, 80% { transform: translateX(8px); }
+        }
+        .animate-shake {
+            animation: shake 0.4s ease-in-out;
+        }
+    </style>
+    <link id="dynamic-favicon" rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='16'%20fill='%2307090E'/%3E%3Cpath%20d='M15.5%2053Q14.3%2053%2014.3%2051.8V11.2Q14.3%2010%2015.5%2010H22.8Q24%2010%2024%2011.2L23.9%2051.8Q23.9%2053%2022.8%2053ZM29.5%2053Q28.4%2053%2028.2%2051.9L24.5%2032Q24.4%2031.6%2024.4%2031.3Q24.4%2031%2024.5%2030.5L27.9%2011.1Q28%2010%2029.1%2010H37.2Q38.6%2010%2038.3%2011.3L33.2%2030.5Q33.1%2030.9%2033.1%2031.3Q33.2%2031.6%2033.3%2032L38.6%2051.7Q39%2053%2037.6%2053Z'%20fill='%2338BDF8'/%3E%3Ccircle%20cx='52'%20cy='13'%20r='4.2'%20fill='%2338BDF8'/%3E%3C/svg%3E">
+</head>
+<body class="min-h-screen flex flex-col selection:bg-green-100 selection:text-green-900 bg-white">
+
+    <!-- ================= GATEKEEPER LOCK SCREEN ================= -->
+    <div id="gatekeeper-screen" class="fixed inset-0 z-[9999] bg-[#080a0f] text-slate-100 flex flex-col justify-between items-center px-4 py-8 sm:py-12 overflow-y-auto">
+        <!-- Ambient Glows -->
+        <div class="fixed top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[30rem] h-[30rem] bg-emerald-500/10 rounded-full blur-[130px] pointer-events-none"></div>
+        <div class="fixed bottom-10 right-10 w-64 h-64 bg-amber-500/5 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <!-- Top Header Minimal -->
+        <div class="w-full max-w-md flex items-center justify-between z-10">
+            <a href="./" class="brand-home-link flex items-center gap-2 text-xs text-slate-400 hover:text-white transition">
+                <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+                <span class="brand-home-label">Trang Chủ Hệ Sinh Thái</span>
+            </a>
+            <span class="text-[11px] font-mono tracking-wider px-2.5 py-0.5 rounded-full bg-slate-900/90 border border-slate-800 text-emerald-400">
+                VIDEO VAULT • SECURE
+            </span>
+        </div>
+
+        <!-- Center Card Box -->
+        <div class="w-full max-w-md my-auto py-6 z-10">
+            <div id="pin-card" class="bg-slate-900/90 backdrop-blur-2xl border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl shadow-black/80 text-center space-y-6 transition-transform">
+                
+                <!-- Icon & Badges -->
+                <div class="relative mx-auto w-16 h-16 rounded-2xl bg-gradient-to-br from-slate-800 to-slate-950 border border-slate-700/60 flex items-center justify-center shadow-inner">
+                    <div class="w-2.5 h-2.5 rounded-full bg-emerald-500 absolute -top-1 -right-1 shadow-lg shadow-emerald-500/50 animate-pulse"></div>
+                    <svg class="w-7 h-7 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                    </svg>
+                </div>
+
+                <!-- Headline -->
+                <div class="space-y-1.5">
+                    <h1 class="text-xl sm:text-2xl font-bold tracking-tight text-white font-sans">
+                        Kho Kịch Bản & Khóa Học
+                    </h1>
+                    <p class="text-xs sm:text-sm text-slate-400 font-sans leading-relaxed">
+                        Khu vực dành riêng cho học viên & thành viên VIDEO.<br>Vui lòng nhập mật khẩu để mở khóa truy cập.
+                    </p>
+                </div>
+
+                <!-- PIN Input Field -->
+                <div class="space-y-3">
+                    <div class="flex justify-center">
+                        <input 
+                            type="password" 
+                            id="pin-input" 
+                            maxlength="6" 
+                            inputmode="numeric" 
+                            pattern="[0-9]*" 
+                            placeholder="••••"
+                            autocomplete="off"
+                            class="w-52 text-center text-3xl tracking-[0.5em] font-mono py-3 px-4 rounded-2xl bg-slate-950 border border-slate-700 text-emerald-400 placeholder:text-slate-700 focus:outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/30 transition-all shadow-inner"
+                        />
+                    </div>
+                    <!-- Error or Hint message -->
+                    <div id="pin-feedback" class="text-xs min-h-[18px] text-slate-500 font-mono transition-colors">
+                        Nhập mã 4 chữ số
+                    </div>
+                </div>
+
+                <!-- Keypad for fast mobile / desktop tap -->
+                <div class="grid grid-cols-3 gap-2 pt-1 max-w-[280px] mx-auto">
+                    <button type="button" class="key-btn h-12 rounded-xl bg-slate-800/60 hover:bg-slate-700/80 active:scale-95 text-base font-semibold text-white border border-slate-700/50 transition font-mono" data-key="1">1</button>
+                    <button type="button" class="key-btn h-12 rounded-xl bg-slate-800/60 hover:bg-slate-700/80 active:scale-95 text-base font-semibold text-white border border-slate-700/50 transition font-mono" data-key="2">2</button>
+                    <button type="button" class="key-btn h-12 rounded-xl bg-slate-800/60 hover:bg-slate-700/80 active:scale-95 text-base font-semibold text-white border border-slate-700/50 transition font-mono" data-key="3">3</button>
+                    <button type="button" class="key-btn h-12 rounded-xl bg-slate-800/60 hover:bg-slate-700/80 active:scale-95 text-base font-semibold text-white border border-slate-700/50 transition font-mono" data-key="4">4</button>
+                    <button type="button" class="key-btn h-12 rounded-xl bg-slate-800/60 hover:bg-slate-700/80 active:scale-95 text-base font-semibold text-white border border-slate-700/50 transition font-mono" data-key="5">5</button>
+                    <button type="button" class="key-btn h-12 rounded-xl bg-slate-800/60 hover:bg-slate-700/80 active:scale-95 text-base font-semibold text-white border border-slate-700/50 transition font-mono" data-key="6">6</button>
+                    <button type="button" class="key-btn h-12 rounded-xl bg-slate-800/60 hover:bg-slate-700/80 active:scale-95 text-base font-semibold text-white border border-slate-700/50 transition font-mono" data-key="7">7</button>
+                    <button type="button" class="key-btn h-12 rounded-xl bg-slate-800/60 hover:bg-slate-700/80 active:scale-95 text-base font-semibold text-white border border-slate-700/50 transition font-mono" data-key="8">8</button>
+                    <button type="button" class="key-btn h-12 rounded-xl bg-slate-800/60 hover:bg-slate-700/80 active:scale-95 text-base font-semibold text-white border border-slate-700/50 transition font-mono" data-key="9">9</button>
+                    <button type="button" class="key-btn h-12 rounded-xl bg-slate-800/30 hover:bg-rose-900/30 active:scale-95 text-xs font-medium text-slate-400 hover:text-rose-300 border border-slate-800 transition" data-key="clear">Xóa</button>
+                    <button type="button" class="key-btn h-12 rounded-xl bg-slate-800/60 hover:bg-slate-700/80 active:scale-95 text-base font-semibold text-white border border-slate-700/50 transition font-mono" data-key="0">0</button>
+                    <button type="button" class="key-btn h-12 rounded-xl bg-slate-800/30 hover:bg-slate-700/50 active:scale-95 text-xs font-medium text-slate-400 hover:text-white border border-slate-800 transition flex items-center justify-center" data-key="del">⌫</button>
+                </div>
+
+                <!-- Submit Button -->
+                <button 
+                    id="submit-unlock-btn" 
+                    type="button" 
+                    class="w-full py-3 px-5 rounded-2xl bg-emerald-600 hover:bg-emerald-500 active:scale-[0.98] text-white font-semibold text-sm transition-all shadow-lg shadow-emerald-950/50 flex items-center justify-center gap-2 cursor-pointer"
+                >
+                    <span>Mở Khóa Truy Cập</span>
+                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </button>
+
+            </div>
+        </div>
+
+        <!-- Bottom Assistance -->
+        <div class="w-full max-w-md text-center text-xs text-slate-500 z-10 space-y-1">
+            <p>Chưa có mã hoặc quên mật khẩu?</p>
+            <p>Học viên liên hệ qua Zalo / Skool hoặc nhắn trực tiếp anh Việt để nhận mã truy cập.</p>
+        </div>
+    </div>
+    <!-- ================= END GATEKEEPER ================= -->
+
+    <!-- ================= MAIN APP VIEW ================= -->
+    <div id="app-view" style="display: none;" class="min-h-screen flex flex-col md:flex-row flex-grow bg-white text-sm">
+        
+        <!-- LEFT SIDEBAR -->
+        <aside id="left-sidebar" class="hidden md:flex flex-col w-64 border-r border-gray-100 bg-[#fbfbfb] sticky top-0 h-screen transition-all duration-300">
+            <div class="px-4 py-6 border-b border-gray-200 flex items-center justify-between">
+                <a href="./" class="brand-home-link flex items-center gap-2 group">
+                    <div class="brand-badge-el w-8 h-8 rounded-md bg-black text-white flex items-center justify-center font-display font-bold text-lg">V</div>
+                    <div class="brand-name-el font-display font-bold text-lg text-gray-900 tracking-tight">VIDEO</div>
+                </a>
+                <button id="lock-screen-btn" class="p-2 text-gray-400 hover:text-rose-500 rounded-md transition" title="Khóa">
+                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+                </button>
+            </div>
+            
+            <div class="flex-1 overflow-y-auto no-scrollbar px-3 py-4 space-y-6">
+                <!-- Smart Tag Navigation -->
+                <div>
+                    <div class="px-2 mb-2 text-[10px] font-bold text-gray-400 uppercase tracking-widest">Phân Loại</div>
+                    <div class="draggable-container" id="sidebar-nav-container">
+                        <!-- Smart tag groups inserted by JS -->
+                    </div>
+                </div>
+
+                <!-- Tập Hồ Sơ (GHI) - Giữ nguyên link cũ -->
+                <div class="pt-4 border-t border-gray-200">
+                    <div class="px-2 mb-2 text-[10px] font-bold text-gray-400 uppercase tracking-widest">Tập Hồ Sơ (GHI)</div>
+                    <div id="hub-links-container" class="space-y-0.5"></div>
+                </div>
+
+                <!-- Wiki & Khóa Học -->
+                <div class="pt-4 border-t border-gray-200">
+                    <div class="px-2 mb-2 text-[10px] font-bold text-gray-400 uppercase tracking-widest">Wiki & Khóa Học</div>
+                    <div id="wiki-links-container" class="space-y-0.5"></div>
+                </div>
+
+                <!-- Phân Tích Video -->
+                <div class="pt-4 border-t border-gray-200">
+                    <div class="px-2 mb-2 text-[10px] font-bold text-gray-400 uppercase tracking-widest">Phân Tích Video</div>
+                    <div id="video-links-container" class="space-y-0.5"></div>
+                </div>
+
+                <!-- Custom Collections (Bộ sưu tập tùy chỉnh) -->
+                <div class="pt-4 border-t border-gray-200">
+                    <div class="flex items-center justify-between px-2 mb-2">
+                        <span class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Bộ Sưu Tập</span>
+                    </div>
+                    <div id="collections-container" class="space-y-1"></div>
+                </div>
+
+                <!-- Custom Links (Liên kết tùy biến) -->
+                <div class="pt-4 border-t border-gray-200">
+                    <div class="flex items-center justify-between px-2 mb-2">
+                        <span class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Liên Kết Tùy Chỉnh</span>
+                        <button id="add-link-btn" class="text-gray-400 hover:text-black">
+                            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg>
+                        </button>
+                    </div>
+                    <div id="custom-links-container" class="space-y-1"></div>
+                </div>
+                <div class="pt-4 border-t border-gray-200">
+                    <a href="./trung-tam-kenh/index.html" class="flex items-center gap-2 p-2 rounded-lg hover:bg-gray-100 text-gray-700 font-medium text-sm">
+                        <span>🧭</span>
+                        <span>Trung Tâm Logic Xây Kênh</span>
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- CENTER FEED -->
+        <main id="main-content" class="flex-grow flex-1 max-w-5xl mx-auto w-full flex flex-col xl:border-r xl:border-gray-100 transition-all duration-300 relative h-screen overflow-y-auto">
+            
+            <!-- Mobile Header -->
+            <header class="md:hidden flex items-center justify-between px-4 py-3 border-b border-gray-100 bg-white sticky top-0 z-20">
+                 <a href="./" class="brand-home-link flex items-center gap-2 group">
+                    <div class="brand-badge-el w-8 h-8 rounded-md bg-black text-white flex items-center justify-center font-display font-bold text-lg">V</div>
+                    <div class="brand-name-el font-display font-bold text-lg text-gray-900 tracking-tight">VIDEO</div>
+                </a>
+                <button class="p-2 text-gray-500 bg-gray-100 rounded-md" id="mobile-search-btn" aria-label="Tìm kiếm">
+                    <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                </button>
+            </header>
+
+            <!-- Mobile Search Bar -->
+            <div id="mobile-search-bar" class="hidden md:hidden px-4 py-2.5 bg-white border-b border-gray-100 sticky top-[57px] z-20">
+                <div class="relative w-full">
+                    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-gray-400">
+                        <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                    </div>
+                    <input type="text" id="global-search" placeholder="Tìm kiếm bài viết..." 
+                        class="w-full pl-9 pr-8 py-2 text-sm bg-gray-50 border border-gray-200 rounded-md focus:outline-none focus:bg-white focus:border-gray-300 focus:ring-2 focus:ring-gray-100 transition-all placeholder:text-gray-400">
+                </div>
+            </div>
+
+            <!-- Top Bar / Search (Desktop) -->
+            <div class="hidden md:flex sticky top-0 z-20 bg-white/80 backdrop-blur-md border-b border-gray-100 px-6 py-4 items-center justify-between">
+                <div class="relative w-full max-w-lg group">
+                    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-gray-400">
+                        <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                    </div>
+                    <input type="text" id="desktop-search-input" placeholder="Tìm kiếm... (Cmd+K)" 
+                        class="w-full pl-9 pr-10 py-2 text-sm bg-gray-50 border border-transparent rounded-md focus:outline-none focus:bg-white focus:border-gray-300 focus:ring-2 focus:ring-gray-100 transition-all placeholder:text-gray-400">
+                    <div class="absolute inset-y-0 right-0 pr-2 flex items-center">
+                        <span class="text-xs text-gray-400 border border-gray-200 rounded px-1.5 py-0.5">⌘K</span>
+                    </div>
+                </div>
+                
+                <div class="flex items-center gap-2">
+                    <button id="batch-mode-btn" class="px-3 py-1.5 text-xs font-medium bg-gray-100 text-gray-600 rounded hover:bg-gray-200 transition">
+                        Chế độ chọn
+                    </button>
+                </div>
+            </div>
+
+            <!-- Content Area -->
+            <div class="p-4 sm:p-6 flex-grow">
+                
+                <div class="flex items-center justify-between mb-6">
+                    <div>
+                        <h2 id="section-title" class="font-display text-2xl font-bold text-gray-900 tracking-tight">Tất Cả Bài Viết</h2>
+                        <div class="text-sm text-gray-500 mt-1" id="results-count">0 bài</div>
+                    </div>
+                    
+                    <!-- View toggle -->
+                    <div class="flex bg-gray-100 p-0.5 rounded-md text-gray-500">
+                        <button class="view-btn p-1.5 rounded bg-white text-black shadow-sm" data-view="grid">
+                            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zm10 0a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zm10 0a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"/></svg>
+                        </button>
+                        <button class="view-btn p-1.5 rounded hover:text-black" data-view="list">
+                            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Shared Collection Banner -->
+                <div id="shared-collection-banner" class="hidden mb-4 p-4 bg-indigo-50 border border-indigo-100 rounded-lg">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-2">
+                            <span class="text-indigo-600">📁</span>
+                            <div>
+                                <div class="text-sm font-bold text-indigo-900">Đang xem bộ sưu tập: <span id="shared-col-name"></span></div>
+                                <div class="text-xs text-indigo-600 mt-0.5"><span id="shared-col-count"></span> bài viết</div>
+                            </div>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="openAddPostModal()" class="px-3 py-1 bg-indigo-100 text-indigo-700 text-xs rounded hover:bg-indigo-200 font-bold" title="Thêm bài viết">+</button>
+                            <button onclick="renameSharedCollection()" class="px-3 py-1 bg-indigo-100 text-indigo-700 text-xs rounded hover:bg-indigo-200" title="Đổi tên">✏️</button>
+                            <button onclick="saveSharedCollection()" id="btn-save-col" class="px-3 py-1 bg-indigo-600 text-white text-xs rounded hover:bg-indigo-700">Lưu vào BST</button>
+                            <button onclick="exitSharedView()" class="px-3 py-1 bg-white border border-indigo-200 text-indigo-700 text-xs rounded hover:bg-indigo-50">Xem tất cả</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Batch Actions -->
+                <div id="batch-actions" class="hidden mb-4 p-3 bg-emerald-50 border border-emerald-100 rounded-lg flex items-center justify-between">
+                    <div class="text-sm text-emerald-800 font-medium">Đã chọn <span id="selected-count">0</span> bài</div>
+                    <div class="flex gap-2">
+                        <button id="group-selected-btn" class="px-3 py-1 bg-emerald-600 text-white text-xs rounded hover:bg-emerald-700">Nhóm lại</button>
+                        <button id="cancel-batch-btn" class="px-3 py-1 bg-gray-200 text-gray-700 text-xs rounded hover:bg-gray-300">Hủy</button>
+                    </div>
+                </div>
+
+                <div id="posts-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <!-- Cards -->
+                </div>
+
+                <div id="empty-state" class="hidden py-12 text-center text-gray-500">
+                    Không tìm thấy kết quả phù hợp.
+                </div>
+            </div>
+        </main>
+
+        <!-- RIGHT SIDEBAR -->
+        <aside id="right-sidebar" class="hidden xl:flex flex-col w-72 py-6 px-4 sticky top-0 h-screen overflow-y-auto no-scrollbar bg-white border-l border-gray-100 transition-all duration-300">
+            <div id="widgets-container" class="draggable-container space-y-6">
+                <!-- Tag Cloud Widget -->
+                <div class="widget bg-gray-50 p-4 rounded-xl border border-gray-100 cursor-move" draggable="true" data-id="tags">
+                    <h3 class="text-xs font-bold text-gray-500 uppercase tracking-widest mb-3 flex items-center justify-between">
+                        Phân Loại 
+                        <span class="text-gray-300">⣿</span>
+                    </h3>
+                    <div id="tag-cloud" class="flex flex-wrap gap-1.5"></div>
+                </div>
+                
+                <!-- Stats Widget -->
+                <div class="widget bg-gray-50 p-4 rounded-xl border border-gray-100 cursor-move" draggable="true" data-id="stats">
+                    <h3 class="text-xs font-bold text-gray-500 uppercase tracking-widest mb-3 flex items-center justify-between">
+                        Thống Kê
+                        <span class="text-gray-300">⣿</span>
+                    </h3>
+                    <div class="space-y-2 text-sm text-gray-600">
+                        <div class="flex justify-between"><span>Tổng số:</span> <strong id="stat-total">0</strong></div>
+                        <div class="flex justify-between"><span>Đã đọc:</span> <strong id="stat-read">0</strong></div>
+                        <div class="flex justify-between"><span>Mới (24h):</span> <strong id="stat-new">0</strong></div>
+                    </div>
+                </div>
+
+                <!-- Custom Links Right Widget -->
+                <div class="widget bg-gray-50 p-4 rounded-xl border border-gray-100 cursor-move" draggable="true" data-id="customlinks">
+                    <h3 class="text-xs font-bold text-gray-500 uppercase tracking-widest mb-3 flex items-center justify-between">
+                        Liên Kết Tùy Chỉnh
+                        <div>
+                            <button id="add-right-link-btn" class="text-gray-400 hover:text-black mr-2 px-1 hover:bg-gray-200 rounded" title="Thêm liên kết"><svg class="w-3.5 h-3.5 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg></button>
+                            <span class="text-gray-300">⣿</span>
+                        </div>
+                    </h3>
+                    <div id="right-links-list" class="space-y-1.5"></div>
+                </div>
+                
+                <!-- Suggestions Widget -->
+                <div class="widget bg-gray-50 p-4 rounded-xl border border-gray-100 cursor-move" draggable="true" data-id="suggest">
+                    <h3 class="text-xs font-bold text-gray-500 uppercase tracking-widest mb-3 flex items-center justify-between">
+                        Có thể bạn quan tâm
+                        <span class="text-gray-300">⣿</span>
+                    </h3>
+                    <div id="suggestions-list" class="space-y-2"></div>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Modals -->
+    <div id="add-post-modal" class="hidden fixed inset-0 z-[100] bg-black/50 flex items-center justify-center p-4 backdrop-blur-sm">
+        <div class="bg-white rounded-xl shadow-xl w-full max-w-md p-6 flex flex-col max-h-[80vh]">
+            <h3 class="font-bold text-lg mb-4 text-gray-900">Thêm bài viết vào BST</h3>
+            <div class="relative mb-4">
+                <input type="text" id="post-search-input" placeholder="Tìm kiếm bài viết..." class="w-full p-2.5 pl-9 border border-gray-200 rounded-lg focus:ring-2 focus:ring-indigo-100 focus:border-indigo-400 outline-none transition">
+                <svg class="w-4 h-4 text-gray-400 absolute left-3 top-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+            </div>
+            <div id="post-search-results" class="flex-1 overflow-y-auto space-y-1 mb-4 min-h-[200px]">
+                <div class="text-sm text-gray-400 text-center mt-8">Gõ từ khóa để tìm...</div>
+            </div>
+            <div class="flex justify-end gap-2 mt-auto border-t border-gray-100 pt-4">
+                <button onclick="closeAddPostModal()" class="px-4 py-2 text-gray-600 bg-gray-100 hover:bg-gray-200 rounded-lg text-sm font-medium transition">Đóng</button>
+            </div>
+        </div>
+    </div>
+    <div id="add-link-modal" class="hidden fixed inset-0 z-50 bg-black/50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-xl shadow-xl w-full max-w-md p-6">
+            <h3 class="font-bold text-lg mb-4">Thêm Liên Kết</h3>
+            <div class="space-y-3">
+                <input type="text" id="new-link-url" placeholder="URL (vd: https://...)" class="w-full p-2 border border-gray-200 rounded">
+                <input type="text" id="new-link-name" placeholder="Tên hiển thị (để trống tự detect nếu repo)" class="w-full p-2 border border-gray-200 rounded">
+            </div>
+            <div class="flex justify-end gap-2 mt-6">
+                <button id="cancel-link-btn" class="px-4 py-2 text-gray-500 hover:bg-gray-100 rounded">Hủy</button>
+                <button id="save-link-btn" class="px-4 py-2 bg-black text-white rounded">Lưu</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="create-group-modal" class="hidden fixed inset-0 z-50 bg-black/50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-xl shadow-xl w-full max-w-md p-6">
+            <h3 class="font-bold text-lg mb-4">Tạo Bộ Sưu Tập</h3>
+            <input type="text" id="new-group-name" placeholder="Tên bộ sưu tập..." class="w-full p-2 border border-gray-200 rounded">
+            <div class="flex justify-end gap-2 mt-6">
+                <button id="cancel-group-btn" class="px-4 py-2 text-gray-500 hover:bg-gray-100 rounded">Hủy</button>
+                <button id="save-group-btn" class="px-4 py-2 bg-black text-white rounded">Lưu</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        // ================= AUTHENTICATION & GATEKEEPER =================
+        const AUTH_STORAGE_KEY = 'fedu_vault_auth_v1';
+        const PASSCODE_HASH = '71ffe84afd528a0365d6ec95c89a64cd6979b4a15730649feddf2dc390db9e3c';
+        const PASSCODE_HASH_ALT = '967824a58fb12d9b859a4a3a5eb52b1615ba62c8429fe697994919e96bf163f2';
+
+        async function sha256Hex(str) {
+            try {
+                const buffer = new TextEncoder().encode(str);
+                const hash = await crypto.subtle.digest('SHA-256', buffer);
+                return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, '0')).join('');
+            } catch (e) { return ''; }
+        }
+
+        function isUserUnlocked() {
+            return localStorage.getItem(AUTH_STORAGE_KEY) === PASSCODE_HASH;
+        }
+
+        let appInitialized = false;
+        function unlockVault() {
+            localStorage.setItem(AUTH_STORAGE_KEY, PASSCODE_HASH);
+            const gate = document.getElementById('gatekeeper-screen');
+            const app = document.getElementById('app-view');
+            if (gate) gate.style.display = 'none';
+            if (app) app.style.display = 'flex';
+            if (!appInitialized) {
+                appInitialized = true;
+                initApp();
+            }
+        }
+
+        function lockVault() {
+            localStorage.removeItem(AUTH_STORAGE_KEY);
+            window.location.reload();
+        }
+
+        async function verifyPasscode(rawPin) {
+            const pin = (rawPin || '').trim();
+            const pinCard = document.getElementById('pin-card');
+            const pinFeedback = document.getElementById('pin-feedback');
+            const pinInput = document.getElementById('pin-input');
+
+            if (!pin) {
+                if (pinFeedback) {
+                    pinFeedback.textContent = 'Vui lòng nhập mật khẩu';
+                    pinFeedback.className = 'text-xs min-h-[18px] text-amber-400 font-mono';
+                }
+                return;
+            }
+
+            const hash = await sha256Hex(pin);
+            const isCorrect = (hash === PASSCODE_HASH || hash === PASSCODE_HASH_ALT);
+
+            if (isCorrect) {
+                if (pinFeedback) {
+                    pinFeedback.textContent = '✅ Mật khẩu chính xác! Đang mở khóa...';
+                    pinFeedback.className = 'text-xs min-h-[18px] text-emerald-400 font-mono font-semibold';
+                }
+                if (pinCard) pinCard.classList.remove('animate-shake');
+                setTimeout(() => unlockVault(), 200);
+            } else {
+                if (pinCard) {
+                    pinCard.classList.remove('animate-shake');
+                    void pinCard.offsetWidth; // trigger reflow
+                    pinCard.classList.add('animate-shake');
+                }
+                if (pinFeedback) {
+                    pinFeedback.textContent = '❌ Mật khẩu không đúng. Vui lòng thử lại!';
+                    pinFeedback.className = 'text-xs min-h-[18px] text-rose-400 font-mono font-semibold';
+                }
+                if (pinInput) {
+                    pinInput.value = '';
+                    pinInput.focus();
+                }
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const pinInput = document.getElementById('pin-input');
+            const unlockBtn = document.getElementById('submit-unlock-btn');
+
+            if (isUserUnlocked()) {
+                unlockVault();
+            } else {
+                if (pinInput) {
+                    pinInput.focus();
+                    pinInput.addEventListener('keydown', (e) => {
+                        if (e.key === 'Enter') verifyPasscode(pinInput.value);
+                    });
+                }
+                if (unlockBtn) unlockBtn.addEventListener('click', () => {
+                    if (pinInput) verifyPasscode(pinInput.value);
+                });
+            }
+
+            document.querySelectorAll('.key-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    if (!pinInput) return;
+                    const key = btn.dataset.key;
+                    if (key === 'clear') pinInput.value = '';
+                    else if (key === 'del') pinInput.value = pinInput.value.slice(0, -1);
+                    else if (pinInput.value.length < 6) pinInput.value += key;
+                    pinInput.dispatchEvent(new Event('input'));
+                });
+            });
+        });
+
+        // ================= NEW APP LOGIC =================
+
+        // Constants & State (Dynamic Universal Repo Hub Config)
+        let SITE_CONFIG = {
+            site_id: 'k',
+            github_repo: 'vietndj/k',
+            live_discovery: false
+        };
+        const FALLBACK_COVERS = [
+            "https://media.fedu.vn/k_covers/poster_the_dark_knight_rises_1790915630558.webp",
+            "https://media.fedu.vn/k_covers/poster_bloodborne_1790915839906.webp",
+            "https://media.fedu.vn/k_covers/poster_skyrim_1790915855678.webp",
+            "https://media.fedu.vn/k_covers/harvey_specter_poster_1791005427104.webp",
+            "https://media.fedu.vn/k_covers/v_cyberpunk_poster_1791005532729.webp",
+            "https://media.fedu.vn/k_covers/walter_white_poster_1790936796056.webp",
+            "https://media.fedu.vn/k_covers/bruce_wayne_poster_1790936369227.webp",
+            "https://media.fedu.vn/k_covers/poster_nier_automata_1790917224295.webp",
+            "https://media.fedu.vn/k_covers/poster_heat_1790916780101.webp",
+            "https://media.fedu.vn/k_covers/akira_kaneda_poster_1790935387833.webp"
+        ];
+        function getDeterministicFallbackCover(filename) {
+            const s = String(filename || 'default');
+            let h = 0;
+            for (let i = 0; i < s.length; i++) {
+                h = ((h << 5) - h + s.charCodeAt(i)) | 0;
+            }
+            return FALLBACK_COVERS[Math.abs(h) % FALLBACK_COVERS.length];
+        }
+        let SMART_TAGS = {
+            'triet-ly': { keywords: ['triet-ly', 'thoi-quen', 'khac-ky', 'tu-chu', 'bay-tien-nghi', 'lo-au'], label: '🧭 Triết lý sống & Thói quen' },
+            'ai-tech': { keywords: ['ai', 'cong-nghe', 'sam-altman', 'mo-gawdat', 'lovable', 'second-brain'], label: '🤖 AI & Công nghệ' },
+            'tam-ly': { keywords: ['tam-ly', 'nao-bo', 'phan-xa', 'the-dien', 'neuroplasticity', 'hach-hanh-nhan'], label: '🧠 Tâm lý học & Não bộ' },
+            'kinh-doanh': { keywords: ['kinh-doanh', 'tai-chinh', 'bill-ackman', 'ray-dalio', 'high-ticket', 'd2c'], label: '💰 Kinh doanh & Tài chính' },
+            'suc-khoe': { keywords: ['suc-khoe', 'tieu-duong', 'carnivore', 'giac-ngu', 'biohacking'], label: '🏋️ Sức khỏe & Y sinh' },
+            'marketing': { keywords: ['marketing', 'xay-kenh', 'retention', 'niche', 'vo-boc-video'], label: '🎬 Marketing & Xây Kênh' },
+            'offline': { keywords: ['kich-ban-offline', 'kichbanoffline', 'case-study', 'video-offline'], label: '📝 Kịch bản Offline' },
+            'hub': { keywords: ['hub', 'dashboard', 'quan-tri', 'hub-kenh'], label: '🏠 Hub & Dashboard' }
+        };
+
+        let allPosts = [];
+        let filteredPosts = [];
+        let activeTags = new Set();
+        let currentView = 'grid'; // grid | list
+        let isBatchMode = false;
+        let selectedPosts = new Set();
+
+        let customCollections = JSON.parse(localStorage.getItem('fedu_custom_collections') || '[]');
+        let customLinks = JSON.parse(localStorage.getItem('fedu_custom_links') || '[]');
+        let readProgress = JSON.parse(localStorage.getItem('fedu_read_progress') || '[]');
+        let sidebarOrder = JSON.parse(localStorage.getItem('fedu_sidebar_order') || '[]');
+        let widgetsOrder = JSON.parse(localStorage.getItem('fedu_widgets_order') || '[]');
+        let pinnedPosts = JSON.parse(localStorage.getItem('fedu_pinned_posts') || '[]');
+        let globalPinnedPosts = [];
+
+        function removeAccents(str) {
+            if (!str) return '';
+            return str.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[đĐ]/g, 'd').toLowerCase();
+        }
+
+        function matchSmartKeyword(searchStr, kw) {
+            const cleanKw = removeAccents(kw).trim();
+            if (!cleanKw) return false;
+            const pattern = cleanKw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/-/g, '[\\s\\-_]*');
+            const regex = new RegExp(`\\b${pattern}\\b`, 'i');
+            return regex.test(searchStr);
+        }
+
+        function togglePin(filename) {
+            const idx = pinnedPosts.indexOf(filename);
+            if (idx > -1) {
+                pinnedPosts.splice(idx, 1);
+            } else {
+                pinnedPosts.push(filename);
+            }
+            localStorage.setItem('fedu_pinned_posts', JSON.stringify(pinnedPosts));
+            const searchInput = document.getElementById('desktop-search-input');
+            filterAndRender(searchInput ? searchInput.value : '');
+        }
+
+        // Init App
+        async function initApp() {
+            try {
+                const cfgRes = await fetch(`./repo-config.json?t=${Date.now()}`);
+                if (cfgRes.ok) {
+                    const cfg = await cfgRes.json();
+                    SITE_CONFIG = Object.assign(SITE_CONFIG, cfg);
+                    if (cfg.title) document.title = cfg.title;
+                    if (cfg.brand_badge) {
+                        document.querySelectorAll('.brand-badge-el').forEach(el => el.textContent = cfg.brand_badge);
+                    }
+                    if (cfg.brand_name) {
+                        document.querySelectorAll('.brand-name-el').forEach(el => el.textContent = cfg.brand_name);
+                    }
+                    if (cfg.smart_tags && Object.keys(cfg.smart_tags).length > 0) {
+                        SMART_TAGS = cfg.smart_tags;
+                    }
+                    if (cfg.sidebar_sections) {
+                        const ns = cfg.site_id && cfg.site_id !== 'k' ? `_${cfg.site_id}` : '';
+                        if (cfg.sidebar_sections.hub_links && !localStorage.getItem('fedu_hub_links' + ns)) {
+                            hubLinks = [...cfg.sidebar_sections.hub_links];
+                        }
+                        if (cfg.sidebar_sections.wiki_links && !localStorage.getItem('fedu_wiki_links' + ns)) {
+                            wikiLinks = [...cfg.sidebar_sections.wiki_links];
+                        }
+                        if (cfg.sidebar_sections.video_links && !localStorage.getItem('fedu_video_links' + ns)) {
+                            videoLinks = [...cfg.sidebar_sections.video_links];
+                        }
+                    }
+                }
+            } catch (e) {}
+            try {
+                const res = await fetch(`./posts-manifest.json?t=${Date.now()}`);
+                if (res.ok) {
+                    const data = await res.json();
+                    allPosts = data.posts || [];
+                }
+            } catch (err) {
+                console.warn("Không tải được posts-manifest.json", err);
+            }
+            try {
+                const res = await fetch(`./pinned.json?t=${Date.now()}`);
+                if (res.ok) {
+                    globalPinnedPosts = await res.json();
+                }
+            } catch (err) {}
+
+            processPostsData();
+            checkGitHubLiveUpdates();
+            setupUI();
+            filterAndRender();
+        }
+
+        function processPostsData() {
+            const now = new Date();
+            allPosts.forEach(post => {
+                if (!post.cover_image) {
+                    post.cover_image = getDeterministicFallbackCover(post.filename);
+                }
+                // Auto tag detection
+                post.tags = [];
+                const searchStr = removeAccents((post.title + ' ' + post.filename + ' ' + (post.excerpt||'')).toLowerCase());
+                
+                for (const [tagKey, tagData] of Object.entries(SMART_TAGS)) {
+                    if (tagData.keywords.some(kw => matchSmartKeyword(searchStr, kw))) {
+                        post.tags.push(tagKey);
+                    }
+                }
+                
+                // If no tag found, use 'hub' as a fallback since no 'other' is specified in the 8 tags requirement
+                if (post.tags.length === 0) post.tags.push('hub');
+
+                // Auto update badges
+                if (post.updated_at) {
+                    const postDate = new Date(post.updated_at.replace(' ', 'T'));
+                    if (!isNaN(postDate.getTime())) {
+                        const diffHours = (now - postDate) / (1000 * 60 * 60);
+                        if (diffHours < 24) post.badge = 'new';
+                        else if (diffHours < 72) post.badge = 'updated';
+                        else post.badge = null;
+                    }
+                }
+            });
+        }
+
+        async function checkGitHubLiveUpdates() {
+            if (SITE_CONFIG.live_discovery !== true) return;
+            try {
+                const repoSlug = SITE_CONFIG.github_repo || 'vietndj/k';
+                const excludeList = SITE_CONFIG.exclude_files || ['index.html', 'fix-url.html', '404.html', 'rajchannel.html', 'skills.html', 'admin.html'];
+                const res = await fetch(`https://api.github.com/repos/${repoSlug}/contents?t=${Date.now()}`, {
+                    headers: { 'Accept': 'application/vnd.github.v3+json' }
+                });
+                if (!res.ok) return;
+                const contents = await res.json();
+                if (!Array.isArray(contents)) return;
+                const existing = new Set(allPosts.map(p => p.filename));
+                let newFound = false;
+
+                contents.forEach(item => {
+                    if (item.type === 'file' && item.name.endsWith('.html') && !excludeList.includes(item.name)) {
+                        if (!existing.has(item.name)) {
+                            allPosts.unshift({
+                                filename: item.name,
+                                title: item.name.replace('.html', '').replace(/[-_]/g, ' '),
+                                excerpt: 'Tài liệu mới vừa được đồng bộ lên kho lưu trữ.',
+                                cover_image: getDeterministicFallbackCover(item.name),
+                                updated_at: new Date().toISOString(),
+                                tags: ['hub'],
+                                badge: 'new'
+                            });
+                            newFound = true;
+                        }
+                    }
+                });
+                if (newFound) {
+                    processPostsData();
+                    filterAndRender();
+                }
+            } catch (e) {}
+        }
+
+        function toggleTag(tagKey) {
+            if (activeTags.has(tagKey)) activeTags.delete(tagKey);
+            else {
+                activeTags.clear();
+                activeTags.add(tagKey);
+            }
+            filterAndRender();
+        }
+
+        function filterAndRender(query = '') {
+            query = removeAccents(query.trim());
+            
+            filteredPosts = allPosts.filter(post => {
+                // Filter by tags
+                if (activeTags.size > 0 && !Array.from(activeTags).some(t => post.tags.includes(t))) return false;
+                
+                // Search query
+                if (query) {
+                    const searchArea = removeAccents(`${post.title} ${post.filename} ${post.excerpt||''}`);
+                    if (!searchArea.includes(query)) return false;
+                }
+                return true;
+            });
+
+            filteredPosts.sort((a, b) => {
+                const pinA = pinnedPosts.includes(a.filename) || globalPinnedPosts.includes(a.filename);
+                const pinB = pinnedPosts.includes(b.filename) || globalPinnedPosts.includes(b.filename);
+                if (pinA && !pinB) return -1;
+                if (!pinA && pinB) return 1;
+                return 0;
+            });
+
+            document.getElementById('results-count').innerText = `${filteredPosts.length} bài`;
+            renderPosts();
+            renderTagCloud();
+            updateStats();
+            renderRecommendations();
+        }
+
+        function renderPosts() {
+            const container = document.getElementById('posts-container');
+            const emptyState = document.getElementById('empty-state');
+            
+            if (filteredPosts.length === 0) {
+                container.innerHTML = '';
+                emptyState.classList.remove('hidden');
+                return;
+            }
+            emptyState.classList.add('hidden');
+
+            container.className = currentView === 'list' 
+                ? 'space-y-3' 
+                : 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4';
+
+            container.innerHTML = filteredPosts.map(post => {
+                const isRead = readProgress.includes(post.filename);
+                const isSelected = selectedPosts.has(post.filename);
+                const isGlobalPinned = globalPinnedPosts.includes(post.filename);
+                const isLocalPinned = pinnedPosts.includes(post.filename);
+                const isPinned = isGlobalPinned || isLocalPinned;
+                const tagsHtml = post.tags.map(t => `<span class="text-[10px] bg-gray-100 px-1.5 py-0.5 rounded text-gray-600 truncate max-w-[80px]" title="${(SMART_TAGS[t] ? SMART_TAGS[t].label : "📌 Khác")}">${(SMART_TAGS[t] ? SMART_TAGS[t].label : "📌 Khác").split(' ')[1]}</span>`).join('');
+                
+                let badgeHtml = '';
+                if (post.badge === 'new') badgeHtml = '<span class="absolute top-2 left-2 z-20 bg-emerald-500 text-white text-[9px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wider shadow-sm">Mới</span>';
+                else if (post.badge === 'updated') badgeHtml = '<span class="absolute top-2 left-2 z-20 bg-blue-500 text-white text-[9px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wider shadow-sm">Cập nhật</span>';
+
+                const readHtml = isRead ? '<span class="text-emerald-500" title="Đã đọc">✓</span>' : '';
+
+                if (currentView === 'list') {
+                    return `
+                    <div class="flex items-center gap-3 p-3 rounded-lg border ${isPinned ? 'border-amber-200 bg-amber-50/30' : 'border-gray-100 bg-white'} hover:border-gray-300 hover:shadow-sm transition relative group">
+                        ${isBatchMode ? `<input type="checkbox" class="post-checkbox w-4 h-4 rounded border-gray-300 text-emerald-600 focus:ring-emerald-500" value="${post.filename}" ${isSelected ? 'checked' : ''}>` : ''}
+                        ${sharedCollectionData ? `<button onclick="removeFromCollection('${post.filename}'); event.preventDefault(); event.stopPropagation();" class="shrink-0 w-6 h-6 bg-gray-100 hover:bg-rose-100 hover:text-rose-600 rounded text-gray-400 flex items-center justify-center transition mr-2" title="Xóa khỏi BST">×</button>` : ''}
+                        ${isGlobalPinned 
+                            ? `<div class="shrink-0 p-1.5 rounded opacity-100" title="Ghim bởi Hệ thống">
+                                   <svg class="w-4 h-4 text-rose-500 fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>
+                               </div>`
+                            : `<button onclick="togglePin('${post.filename}'); event.preventDefault(); event.stopPropagation();" class="shrink-0 p-1.5 rounded transition ${isLocalPinned ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}" title="${isLocalPinned ? 'Bỏ ghim' : 'Ghim bài'}">
+                                   <svg class="w-4 h-4 ${isLocalPinned ? 'text-amber-500 fill-current' : 'text-gray-400 hover:text-amber-500'}" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>
+                               </button>`
+                        }
+                        <a href="./${post.filename}" target="_blank" onclick="markAsRead('${post.filename}')" class="flex-1 min-w-0 flex items-center gap-2 cursor-pointer">
+                            <div class="truncate text-sm font-semibold text-gray-900 group-hover:text-emerald-700 transition">${post.title}</div>
+                            ${readHtml}
+                            <div class="flex items-center gap-2 ml-auto">
+                                <span class="text-[9px] text-gray-300 font-mono hidden sm:inline-block">${post.filename.replace('.html', '')}</span>
+                                <div class="flex gap-1 overflow-hidden hidden sm:flex">${tagsHtml}</div>
+                            </div>
+                        </a>
+                        <a href="./${post.filename}" target="_blank" onclick="markAsRead('${post.filename}')" class="p-1.5 text-gray-400 hover:text-black opacity-0 group-hover:opacity-100 transition" title="Mở tab mới">
+                            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                        </a>
+                    </div>`;
+                } else {
+                    const fallbackCover = getDeterministicFallbackCover(post.filename);
+                    const finalCover = post.cover_image || fallbackCover;
+                    const coverImgHtml = `<div class="w-full aspect-[3/4] bg-gray-100 relative overflow-hidden shrink-0 border-b border-gray-100"><img src="${finalCover}" alt="${post.title}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" onerror="this.onerror=null; this.src='${fallbackCover}';"></div>`;
+                    return `
+                    <div class="rounded-xl border ${isPinned ? 'border-amber-300 shadow-sm' : 'border-gray-100'} hover:border-gray-200 hover:shadow-md transition bg-white overflow-hidden relative flex flex-col group h-full">
+                        ${badgeHtml}
+                        <div class="absolute top-2 right-2 z-20 transition opacity-100">
+                            ${isGlobalPinned 
+                                ? `<div class="w-7 h-7 bg-white/90 backdrop-blur rounded flex items-center justify-center shadow" title="Ghim bởi Hệ thống">
+                                       <svg class="w-4 h-4 text-rose-500 fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>
+                                   </div>`
+                                : `<button onclick="togglePin('${post.filename}'); event.preventDefault(); event.stopPropagation();" class="w-7 h-7 bg-white/90 backdrop-blur rounded flex items-center justify-center shadow hover:scale-110 transition ${isLocalPinned ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}" title="${isLocalPinned ? 'Bỏ ghim' : 'Ghim bài'}">
+                                       <svg class="w-4 h-4 ${isLocalPinned ? 'text-amber-500 fill-current' : 'text-gray-500 hover:text-amber-500'}" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>
+                                   </button>`
+                            }
+                        </div>
+                        ${sharedCollectionData ? `<div class="absolute top-2 left-2 z-20"><button onclick="removeFromCollection('${post.filename}'); event.preventDefault(); event.stopPropagation();" class="w-6 h-6 bg-white/90 backdrop-blur hover:bg-rose-100 hover:text-rose-600 rounded text-gray-500 shadow flex items-center justify-center transition font-bold" title="Xóa khỏi BST">×</button></div>` : ''}
+                        ${isBatchMode ? `<div class="absolute top-2 left-2 z-10 p-1.5 bg-white/50 backdrop-blur-sm rounded-br-lg"><input type="checkbox" class="post-checkbox w-5 h-5 rounded border-gray-300 text-emerald-600 focus:ring-emerald-500 shadow-sm cursor-pointer" value="${post.filename}" ${isSelected ? 'checked' : ''} onclick="event.stopPropagation()"></div>` : ''}
+                        <a href="./${post.filename}" target="_blank" onclick="markAsRead('${post.filename}')" class="flex-1 flex flex-col cursor-pointer">
+                            ${coverImgHtml}
+                            <div class="p-4 flex-1 flex flex-col">
+                                <div class="flex items-start justify-between gap-2 mb-2">
+                                    <h3 class="font-bold text-gray-900 leading-tight group-hover:text-emerald-700 transition line-clamp-2">${post.title}</h3>
+                                </div>
+                                <p class="text-xs text-gray-500 line-clamp-2 mb-3 flex-1">${post.excerpt || 'Không có mô tả'}</p>
+                                <div class="flex items-center justify-between mt-auto">
+                                    <div class="flex flex-wrap gap-1">${tagsHtml}</div>
+                                    <div class="text-[9px] text-gray-300 flex items-center gap-1 font-mono truncate max-w-[120px]" title="${post.filename}">
+                                        ${post.filename.replace('.html', '')} ${readHtml}
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="bg-gray-50 border-t border-gray-100 px-4 py-2 flex items-center justify-between opacity-0 group-hover:opacity-100 transition-opacity">
+                            <span class="text-[10px] text-gray-500">${post.read_time || '5 min'}</span>
+                            <div class="flex items-center gap-2">
+                                <a href="https://github.com/${SITE_CONFIG.github_repo || 'vietndj/k'}/delete/main/${post.filename}" target="_blank" class="text-[10px] text-rose-500 hover:text-rose-700 uppercase" onclick="event.stopPropagation()">Xóa file</a>
+                                <a href="./${post.filename}" target="_blank" class="text-[10px] font-bold text-gray-900 hover:text-emerald-600 uppercase tracking-wide flex items-center gap-1" onclick="markAsRead('${post.filename}'); event.stopPropagation()">
+                                    Đọc <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>`;
+                }
+            }).join('');
+
+            // Batch mode bindings
+            document.querySelectorAll('.post-checkbox').forEach(cb => {
+                cb.addEventListener('change', (e) => {
+                    if (e.target.checked) selectedPosts.add(e.target.value);
+                    else selectedPosts.delete(e.target.value);
+                    document.getElementById('selected-count').innerText = selectedPosts.size;
+                });
+            });
+        }
+
+        // UI & Events Setup
+        function setupUI() {
+            // Lock btn
+            document.getElementById('lock-screen-btn').addEventListener('click', () => {
+                if (confirm('Khóa lại kho kịch bản?')) lockVault();
+            });
+
+            // View toggle
+            document.querySelectorAll('.view-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    const target = e.currentTarget;
+                    currentView = target.dataset.view;
+                    document.querySelectorAll('.view-btn').forEach(b => {
+                        b.classList.remove('bg-white', 'shadow-sm', 'text-black');
+                        b.classList.add('hover:text-black', 'text-gray-500');
+                    });
+                    target.classList.add('bg-white', 'shadow-sm', 'text-black');
+                    target.classList.remove('hover:text-black', 'text-gray-500');
+                    renderPosts();
+                });
+            });
+
+            // Search
+            const searchInput = document.getElementById('desktop-search-input');
+            const mobileSearchBtn = document.getElementById('mobile-search-btn');
+            const mobileSearchBar = document.getElementById('mobile-search-bar');
+            const mobileSearchInput = document.getElementById('global-search');
+            let searchTimeout;
+            searchInput.addEventListener('input', (e) => {
+                if (mobileSearchInput) mobileSearchInput.value = e.target.value;
+                clearTimeout(searchTimeout);
+                searchTimeout = setTimeout(() => {
+                    filterAndRender(e.target.value);
+                }, 300);
+            });
+            if (mobileSearchBtn && mobileSearchBar) {
+                mobileSearchBtn.addEventListener('click', () => {
+                    mobileSearchBar.classList.toggle('hidden');
+                    if (!mobileSearchBar.classList.contains('hidden') && mobileSearchInput) {
+                        mobileSearchInput.focus();
+                    }
+                });
+            }
+            if (mobileSearchInput) {
+                mobileSearchInput.addEventListener('input', (e) => {
+                    if (searchInput) searchInput.value = e.target.value;
+                    clearTimeout(searchTimeout);
+                    searchTimeout = setTimeout(() => {
+                        filterAndRender(e.target.value);
+                    }, 200);
+                });
+            }
+            
+            // Cmd+K hotkey
+            document.addEventListener('keydown', (e) => {
+                if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+                    e.preventDefault();
+                    searchInput.focus();
+                }
+            });
+
+            // Batch Mode
+            const batchBtn = document.getElementById('batch-mode-btn');
+            const batchActions = document.getElementById('batch-actions');
+            batchBtn.addEventListener('click', () => {
+                isBatchMode = !isBatchMode;
+                selectedPosts.clear();
+                document.getElementById('selected-count').innerText = 0;
+                
+                if (isBatchMode) {
+                    batchBtn.classList.add('bg-gray-800', 'text-white');
+                    batchActions.classList.remove('hidden');
+                } else {
+                    batchBtn.classList.remove('bg-gray-800', 'text-white');
+                    batchActions.classList.add('hidden');
+                }
+                renderPosts();
+            });
+            
+            document.getElementById('cancel-batch-btn').addEventListener('click', () => {
+                batchBtn.click();
+            });
+
+            document.getElementById('group-selected-btn').addEventListener('click', () => {
+                if (selectedPosts.size === 0) return alert('Chọn ít nhất 1 bài');
+                document.getElementById('create-group-modal').classList.remove('hidden');
+            });
+
+            // Modal Group Save
+            document.getElementById('cancel-group-btn').addEventListener('click', () => {
+                document.getElementById('create-group-modal').classList.add('hidden');
+            });
+            document.getElementById('save-group-btn').addEventListener('click', () => {
+                const name = document.getElementById('new-group-name').value.trim();
+                if (name) {
+                    customCollections.push({ name, files: Array.from(selectedPosts) });
+                    localStorage.setItem('fedu_custom_collections', JSON.stringify(customCollections));
+                    renderCollections();
+                    document.getElementById('create-group-modal').classList.add('hidden');
+                    document.getElementById('new-group-name').value = '';
+                    batchBtn.click(); // exit batch mode
+                }
+            });
+
+            // Add Link Modal
+            document.getElementById('add-link-btn').addEventListener('click', () => {
+                document.getElementById('add-link-modal').classList.remove('hidden');
+            });
+            document.getElementById('cancel-link-btn').addEventListener('click', () => {
+                document.getElementById('add-link-modal').classList.add('hidden');
+            });
+            document.getElementById('save-link-btn').addEventListener('click', () => {
+                const url = document.getElementById('new-link-url').value.trim();
+                let name = document.getElementById('new-link-name').value.trim();
+                if (url) {
+                    if (!name) name = url.split('/').pop().replace('.html', '') || 'Link mới';
+                    customLinks.push({ name, url });
+                    localStorage.setItem('fedu_custom_links', JSON.stringify(customLinks));
+                    renderLinks();
+                    document.getElementById('add-link-modal').classList.add('hidden');
+                    document.getElementById('new-link-url').value = '';
+                    document.getElementById('new-link-name').value = '';
+                }
+            });
+
+
+
+            // Drag and Drop initialization
+            initDragAndDrop();
+
+            document.getElementById('add-right-link-btn')?.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const url = prompt('Nhập URL liên kết:');
+                if(!url) return;
+                const name = prompt('Nhập tên liên kết:') || url.split('/').pop() || 'Link mới';
+                rightCustomLinks.push({ name, url });
+                localStorage.setItem('fedu_right_custom_links', JSON.stringify(rightCustomLinks));
+                renderRightLinks();
+            });
+            
+            document.getElementById('post-search-input')?.addEventListener('input', (e) => {
+                const q = removeAccents(e.target.value.trim());
+                const c = document.getElementById('post-search-results');
+                if(!q) { c.innerHTML = '<div class="text-sm text-gray-400 text-center mt-8">Gõ từ khóa để tìm...</div>'; return; }
+                let results = allPosts.filter(p => !sharedCollectionData.f.includes(p.filename) && removeAccents(p.title + ' ' + p.filename).includes(q)).slice(0, 15);
+                if(results.length === 0) { c.innerHTML = '<div class="text-sm text-gray-400 text-center mt-8">Không tìm thấy bài nào</div>'; return; }
+                c.innerHTML = results.map(p => `
+                    <div class="p-2 hover:bg-indigo-50 border border-transparent hover:border-indigo-100 rounded-lg flex justify-between items-center cursor-pointer group transition" onclick="addToCollection('${p.filename}')">
+                        <span class="text-sm text-gray-700 line-clamp-1 flex-1 min-w-0 pr-2">${p.title}</span>
+                        <button class="text-[10px] bg-white border border-indigo-200 text-indigo-600 px-2 py-1 rounded shadow-sm opacity-0 group-hover:opacity-100 font-bold uppercase tracking-wide">Thêm</button>
+                    </div>
+                `).join('');
+            });
+
+            // Initial renders
+            renderSidebarNav();
+            renderAllSidebarSections();
+            renderCollections();
+            renderLinks();
+            renderWidgets();
+            renderRightLinks();
+
+            // Check URL hash for shared collection (after posts loaded)
+            setTimeout(() => {
+                if (!checkURLForSharedCollection()) {
+                    filterAndRender();
+                }
+            }, 500);
+
+            // Listen for hash changes
+            window.addEventListener('hashchange', () => {
+                if (!checkURLForSharedCollection()) {
+                    exitSharedView();
+                }
+            });
+        }
+
+        // Drag and Drop (Native HTML5)
+        function initDragAndDrop() {
+            document.querySelectorAll('.draggable-container').forEach(container => {
+                container.addEventListener('dragover', e => {
+                    e.preventDefault();
+                    const afterElement = getDragAfterElement(container, e.clientY);
+                    const draggable = document.querySelector('.dragging');
+                    if (!draggable) return;
+                    if (afterElement == null) {
+                        container.appendChild(draggable);
+                    } else {
+                        container.insertBefore(draggable, afterElement);
+                    }
+                });
+
+                container.addEventListener('drop', e => {
+                    saveOrder(container.id);
+                });
+            });
+        }
+
+        function getDragAfterElement(container, y) {
+            const draggableElements = [...container.querySelectorAll('[draggable="true"]:not(.dragging)')];
+            return draggableElements.reduce((closest, child) => {
+                const box = child.getBoundingClientRect();
+                const offset = y - box.top - box.height / 2;
+                if (offset < 0 && offset > closest.offset) {
+                    return { offset: offset, element: child };
+                } else {
+                    return closest;
+                }
+            }, { offset: Number.NEGATIVE_INFINITY }).element;
+        }
+
+        function makeDraggable(el) {
+            el.addEventListener('dragstart', () => {
+                el.classList.add('dragging', 'opacity-50');
+            });
+            el.addEventListener('dragend', () => {
+                el.classList.remove('dragging', 'opacity-50');
+            });
+        }
+
+        function saveOrder(containerId) {
+            const container = document.getElementById(containerId);
+            const items = [...container.querySelectorAll('[draggable="true"]')].map(el => el.dataset.id);
+            if (containerId === 'widgets-container') {
+                localStorage.setItem('fedu_widgets_order', JSON.stringify(items));
+            } else if (containerId === 'sidebar-nav-container') {
+                localStorage.setItem('fedu_sidebar_order', JSON.stringify(items));
+            }
+        }
+
+        // Renders
+        function renderSidebarNav() {
+            const container = document.getElementById('sidebar-nav-container');
+            container.innerHTML = '';
+            
+            const defaultOrder = Object.keys(SMART_TAGS);
+            const order = sidebarOrder.length ? sidebarOrder : defaultOrder;
+
+            order.forEach(tagKey => {
+                if (!SMART_TAGS[tagKey]) return;
+                const div = document.createElement('div');
+                div.className = 'group flex items-center justify-between p-2 rounded-lg cursor-move hover:bg-gray-100 transition mb-1';
+                div.draggable = true;
+                div.dataset.id = tagKey;
+                
+                const isActive = activeTags.has(tagKey);
+                
+                div.innerHTML = `
+                    <div class="flex items-center gap-2 cursor-pointer w-full" onclick="toggleTag('${tagKey}')">
+                        <span class="text-gray-300 group-hover:text-gray-400">⣿</span>
+                        <span class="text-sm font-medium ${isActive ? 'text-emerald-600 font-bold' : 'text-gray-700'}">${SMART_TAGS[tagKey].label}</span>
+                    </div>
+                `;
+                makeDraggable(div);
+                container.appendChild(div);
+            });
+        }
+        
+        function renderWidgets() {
+            const container = document.getElementById('widgets-container');
+            if (widgetsOrder.length) {
+                const widgets = {};
+                [...container.children].forEach(w => widgets[w.dataset.id] = w);
+                container.innerHTML = '';
+                widgetsOrder.forEach(id => {
+                    if (widgets[id]) container.appendChild(widgets[id]);
+                });
+            }
+            [...container.children].forEach(w => makeDraggable(w));
+        }
+
+        function renderTagCloud() {
+            const tc = document.getElementById('tag-cloud');
+            if (!tc) return;
+            tc.innerHTML = Object.entries(SMART_TAGS).map(([key, data]) => {
+                const isActive = activeTags.has(key);
+                return `<button onclick="toggleTag('${key}')" class="px-2 py-1 text-[11px] rounded border ${isActive ? 'bg-emerald-50 border-emerald-200 text-emerald-700' : 'bg-white border-gray-200 text-gray-600 hover:bg-gray-50'} transition">${data.label.split(' ')[1] || data.label.split(' ')[0]}</button>`;
+            }).join('');
+        }
+
+        // ================= SIDEBAR HUB LINKS (Giữ nguyên link cũ) =================
+        const DEFAULT_HUB_LINKS = [
+            { name: 'Kịch Bản Offline', url: './kichbanoffline.html', icon: '📝' },
+            { name: 'Tâm Lý Học', url: './tamlyhoc.html', icon: '🧠' },
+            { name: 'Kho Banner', url: './banner.html', icon: '🖼️' },
+            { name: 'Logic Kênh', url: './logickenh.html', icon: '📊' },
+            { name: 'Prompt', url: './prompt.html', icon: '⚡' },
+            { name: 'Hub Các Kênh', url: './kenh.html', icon: '📡' }
+        ];
+        const DEFAULT_WIKI_LINKS = [
+            { name: 'Wiki Tầng 2.5', url: '../course/wikicontent.html', icon: '📖' },
+            { name: 'Hồ Sơ Storytelling', url: '../course/storytelling-khoa-hoc.html', icon: '📕' },
+            { name: 'Giáo Trình 2 Ngày', url: '../course/slideoffline3.html', icon: '📚' },
+            { name: 'Kỹ Năng AI', url: '../course/skills.html', icon: '🤖' }
+        ];
+        const DEFAULT_VIDEO_LINKS = [
+            { name: 'Sách Động Video', url: '../course/video-master-hub.html', icon: '🎬' },
+            { name: 'Thư Viện Ảnh AI', url: './anh.html', icon: '🎨' },
+            { name: 'Audit Poster', url: './poster_audit_dashboard.html', icon: '🖼️' },
+            { name: 'B-Roll Bank', url: './brollbank.html', icon: '🎥' }
+        ];
+
+        // Load saved state (user có thể đã xóa 1 số link)
+        let hubLinks = JSON.parse(localStorage.getItem('fedu_hub_links') || 'null') || [...DEFAULT_HUB_LINKS];
+        let wikiLinks = JSON.parse(localStorage.getItem('fedu_wiki_links') || 'null') || [...DEFAULT_WIKI_LINKS];
+        let videoLinks = JSON.parse(localStorage.getItem('fedu_video_links') || 'null') || [...DEFAULT_VIDEO_LINKS];
+
+        function renderSidebarSection(containerId, links, storageKey) {
+            const c = document.getElementById(containerId);
+            if (!c) return;
+            c.innerHTML = links.map((link, idx) => `
+                <div class="flex justify-between items-center p-2 rounded-lg hover:bg-gray-100 group">
+                    <a href="${link.url}" target="_blank" class="flex items-center gap-2 text-sm text-gray-700 font-medium truncate flex-1 min-w-0">
+                        <span class="shrink-0">${link.icon}</span>
+                        <span class="truncate">${link.name}</span>
+                    </a>
+                    <button class="text-gray-400 hover:text-rose-500 hidden group-hover:block shrink-0 ml-1" onclick="deleteSidebarLink('${storageKey}', ${idx})" title="Xóa link này">&times;</button>
+                </div>
+            `).join('');
+        }
+
+        window.deleteSidebarLink = function(storageKey, idx) {
+            if (!confirm('Xóa link này khỏi sidebar?')) return;
+            let target;
+            if (storageKey === 'fedu_hub_links') { target = hubLinks; hubLinks.splice(idx, 1); }
+            else if (storageKey === 'fedu_wiki_links') { target = wikiLinks; wikiLinks.splice(idx, 1); }
+            else if (storageKey === 'fedu_video_links') { target = videoLinks; videoLinks.splice(idx, 1); }
+            localStorage.setItem(storageKey, JSON.stringify(target));
+            renderAllSidebarSections();
+        };
+
+        function renderAllSidebarSections() {
+            renderSidebarSection('hub-links-container', hubLinks, 'fedu_hub_links');
+            renderSidebarSection('wiki-links-container', wikiLinks, 'fedu_wiki_links');
+            renderSidebarSection('video-links-container', videoLinks, 'fedu_video_links');
+        }
+
+        // ================= SHAREABLE COLLECTION URLs =================
+        let sharedCollectionData = null; // Active shared view
+
+        function encodeCollection(name, files) {
+            const payload = JSON.stringify({ n: name, f: files });
+            return btoa(unescape(encodeURIComponent(payload)));
+        }
+
+        function decodeCollection(hash) {
+            try {
+                const json = decodeURIComponent(escape(atob(hash)));
+                return JSON.parse(json);
+            } catch (e) {
+                return null;
+            }
+        }
+
+        function getShareableURL(name, files) {
+            const encoded = encodeCollection(name, files);
+            return `${window.location.origin}${window.location.pathname}#c=${encoded}`;
+        }
+
+        function checkURLForSharedCollection() {
+            const hash = window.location.hash;
+            if (hash.startsWith('#c=')) {
+                const data = decodeCollection(hash.substring(3));
+                if (data && data.f && data.f.length > 0) {
+                    sharedCollectionData = data;
+                    showSharedCollectionView(data.n, data.f);
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        function showSharedCollectionView(name, files) {
+            const banner = document.getElementById('shared-collection-banner');
+            document.getElementById('shared-col-name').innerText = name;
+            filteredPosts = allPosts.filter(p => files.includes(p.filename));
+            document.getElementById('shared-col-count').innerText = filteredPosts.length;
+            document.getElementById('results-count').innerText = `${filteredPosts.length} bài (Bộ sưu tập: ${name})`;
+            document.getElementById('section-title').innerText = `📁 ${name}`;
+            banner.classList.remove('hidden');
+            renderPosts();
+        }
+
+        window.saveSharedCollection = function() {
+            if (!sharedCollectionData) return;
+            // Check if already exists
+            const exists = customCollections.find(c => c.name === sharedCollectionData.n);
+            if (exists) { alert('Bộ sưu tập này đã có trong danh sách!'); return; }
+            customCollections.push({ name: sharedCollectionData.n, files: sharedCollectionData.f });
+            localStorage.setItem('fedu_custom_collections', JSON.stringify(customCollections));
+            renderCollections();
+            alert('Đã lưu bộ sưu tập "' + sharedCollectionData.n + '" vào sidebar!');
+        };
+
+        window.exitSharedView = function() {
+            sharedCollectionData = null;
+            window.location.hash = '';
+            document.getElementById('shared-collection-banner').classList.add('hidden');
+            document.getElementById('section-title').innerText = 'Tất Cả Bài Viết';
+            activeTags.clear();
+            filterAndRender();
+        };
+
+        // ================= UPDATED renderCollections with Share button =================
+        let rightCustomLinks = JSON.parse(localStorage.getItem('fedu_right_custom_links') || '[]');
+        
+        function renderRightLinks() {
+            const c = document.getElementById('right-links-list');
+            if(!c) return;
+            c.innerHTML = rightCustomLinks.map((link, idx) => `
+                <div class="flex justify-between items-center p-2 rounded-lg hover:bg-white border border-transparent hover:border-gray-200 hover:shadow-sm group transition bg-gray-50/50">
+                    <a href="${link.url}" target="_blank" class="text-xs text-gray-700 font-medium truncate flex-1 min-w-0">🔗 ${link.name}</a>
+                    <div class="flex gap-1 ml-1 shrink-0 opacity-0 group-hover:opacity-100 transition">
+                        <button class="text-gray-400 hover:text-indigo-500 w-5 h-5 flex items-center justify-center bg-gray-100 rounded" onclick="editRightLink(${idx})" title="Sửa">✏️</button>
+                        <button class="text-gray-400 hover:text-rose-500 w-5 h-5 flex items-center justify-center bg-gray-100 rounded font-bold" onclick="deleteRightLink(${idx})" title="Xóa">×</button>
+                    </div>
+                </div>
+            `).join('');
+            if(rightCustomLinks.length === 0) {
+                c.innerHTML = `<div class="text-[10px] text-gray-400 text-center py-2 italic">Chưa có liên kết</div>`;
+            }
+        }
+
+        window.editRightLink = function(idx) {
+            const link = rightCustomLinks[idx];
+            const newName = prompt('Tên liên kết:', link.name);
+            if(newName === null) return;
+            const newUrl = prompt('URL liên kết:', link.url);
+            if(newUrl === null) return;
+            rightCustomLinks[idx] = { name: newName.trim() || 'Link', url: newUrl.trim() };
+            localStorage.setItem('fedu_right_custom_links', JSON.stringify(rightCustomLinks));
+            renderRightLinks();
+        };
+
+        window.deleteRightLink = function(idx) {
+            if(confirm('Xóa liên kết này?')) {
+                rightCustomLinks.splice(idx, 1);
+                localStorage.setItem('fedu_right_custom_links', JSON.stringify(rightCustomLinks));
+                renderRightLinks();
+            }
+        };
+
+        function renderCollections() {
+            const c = document.getElementById('collections-container');
+            c.innerHTML = customCollections.map((col, idx) => {
+                const shareURL = getShareableURL(col.name, col.files);
+                return `
+                <div class="flex justify-between items-center p-2 rounded-lg hover:bg-gray-100 group">
+                    <span class="text-sm text-gray-700 font-medium cursor-pointer truncate flex-1 min-w-0" onclick="openCollection(${idx})">📁 ${col.name} <span class="text-xs text-gray-400">(${col.files.length})</span></span>
+                    <div class="flex items-center gap-1 shrink-0 ml-1">
+                        <button class="text-gray-400 hover:text-indigo-600 hidden group-hover:block" onclick="shareCollection(${idx})" title="Sao chép link chia sẻ">
+                            <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
+                        </button>
+                        <button class="text-gray-400 hover:text-rose-500 hidden group-hover:block" onclick="deleteCollection(${idx})">&times;</button>
+                    </div>
+                </div>`;
+            }).join('');
+        }
+
+        window.shareCollection = function(idx) {
+            const col = customCollections[idx];
+            const url = getShareableURL(col.name, col.files);
+            navigator.clipboard.writeText(url).then(() => {
+                alert('✅ Đã sao chép link chia sẻ!\n\n' + url);
+            }).catch(() => {
+                // Fallback
+                prompt('Sao chép link này:', url);
+            });
+        };
+
+        function renderLinks() {
+            const c = document.getElementById('custom-links-container');
+            c.innerHTML = customLinks.map((link, idx) => `
+                <div class="flex justify-between items-center p-2 rounded-lg hover:bg-gray-100 group">
+                    <a href="${link.url}" target="_blank" class="text-sm text-gray-700 font-medium truncate flex-1 min-w-0">🔗 ${link.name}</a>
+                    <button class="text-gray-400 hover:text-rose-500 hidden group-hover:block shrink-0 ml-1" onclick="deleteLink(${idx})">&times;</button>
+                </div>
+            `).join('');
+        }
+
+        function updateStats() {
+            document.getElementById('stat-total').innerText = allPosts.length;
+            document.getElementById('stat-read').innerText = readProgress.length;
+            document.getElementById('stat-new').innerText = allPosts.filter(p => p.badge === 'new').length;
+        }
+
+        function renderRecommendations() {
+            const rc = document.getElementById('suggestions-list');
+            if (!rc) return;
+            let recs = allPosts.filter(p => activeTags.size === 0 || p.tags.some(t => activeTags.has(t)));
+            recs = recs.sort(() => 0.5 - Math.random()).slice(0, 3);
+            
+            rc.innerHTML = recs.map(post => `
+                <a href="./${post.filename}" target="_blank" onclick="markAsRead('${post.filename}')" class="block p-2 bg-white rounded border border-gray-100 cursor-pointer hover:border-gray-300">
+                    <div class="text-xs font-bold text-gray-800 line-clamp-1">${post.title}</div>
+                    <div class="text-[10px] text-gray-500 mt-1">${post.tags.map(t => (SMART_TAGS[t] ? SMART_TAGS[t].label : "📌 Khác").split(' ')[1] || (SMART_TAGS[t] ? SMART_TAGS[t].label : "📌 Khác").split(' ')[0]).join(', ')}</div>
+                </a>
+            `).join('');
+        }
+
+        // ================= ACTIONS =================
+        window.markAsRead = function(filename) {
+            if (!readProgress.includes(filename)) {
+                readProgress.push(filename);
+                localStorage.setItem('fedu_read_progress', JSON.stringify(readProgress));
+                updateStats();
+                // Avoid re-rendering posts immediately if it breaks user click flow,
+                // but since it's opening in a new tab, a slight delay is fine.
+                setTimeout(() => renderPosts(), 100);
+            }
+        };
+
+        // Note: openPreview has been removed to disable the iframe modal per user request
+
+
+        window.openAddPostModal = function() {
+            if(!sharedCollectionData) return;
+            document.getElementById('add-post-modal').classList.remove('hidden');
+            document.getElementById('post-search-input').value = '';
+            document.getElementById('post-search-results').innerHTML = '<div class="text-sm text-gray-400 text-center mt-8">Gõ từ khóa để tìm...</div>';
+            setTimeout(() => document.getElementById('post-search-input').focus(), 100);
+        };
+
+        window.closeAddPostModal = function() {
+            document.getElementById('add-post-modal').classList.add('hidden');
+        };
+
+        window.addToCollection = function(filename) {
+            if(!sharedCollectionData) return;
+            sharedCollectionData.f.unshift(filename); // Add to top
+            updateCollectionState();
+            closeAddPostModal();
+        };
+
+        window.removeFromCollection = function(filename) {
+            if(!sharedCollectionData) return;
+            if(!confirm('Xóa bài này khỏi bộ sưu tập?')) return;
+            sharedCollectionData.f = sharedCollectionData.f.filter(f => f !== filename);
+            updateCollectionState();
+        };
+
+        window.renameSharedCollection = function() {
+            if(!sharedCollectionData) return;
+            const newName = prompt('Nhập tên mới cho Bộ Sưu Tập:', sharedCollectionData.n);
+            if(newName && newName.trim()) {
+                const oldName = sharedCollectionData.n;
+                sharedCollectionData.n = newName.trim();
+                
+                // Update in customCollections if it exists
+                const idx = customCollections.findIndex(c => c.name === oldName);
+                if(idx !== -1) {
+                    customCollections[idx].name = sharedCollectionData.n;
+                    localStorage.setItem('fedu_custom_collections', JSON.stringify(customCollections));
+                    renderCollections();
+                }
+                
+                updateCollectionState();
+            }
+        };
+
+        function updateCollectionState() {
+            // Check if saved
+            const idx = customCollections.findIndex(c => c.name === sharedCollectionData.n);
+            if(idx !== -1) {
+                customCollections[idx].files = sharedCollectionData.f;
+                localStorage.setItem('fedu_custom_collections', JSON.stringify(customCollections));
+                renderCollections();
+            }
+            
+            // Update UI & URL hash
+            const hash = encodeCollection(sharedCollectionData.n, sharedCollectionData.f);
+            window.location.hash = 'c=' + hash;
+            showSharedCollectionView(sharedCollectionData.n, sharedCollectionData.f);
+        }
+
+        window.openCollection = function(idx) {
+            const col = customCollections[idx];
+            sharedCollectionData = { n: col.name, f: col.files };
+            showSharedCollectionView(col.name, col.files);
+            // Update URL hash for shareability
+            window.location.hash = 'c=' + encodeCollection(col.name, col.files);
+        };
+
+        window.deleteCollection = function(idx) {
+            if(confirm('Xóa bộ sưu tập này?')) {
+                customCollections.splice(idx, 1);
+                localStorage.setItem('fedu_custom_collections', JSON.stringify(customCollections));
+                renderCollections();
+            }
+        };
+
+        window.deleteLink = function(idx) {
+            if(confirm('Xóa link này?')) {
+                customLinks.splice(idx, 1);
+                localStorage.setItem('fedu_custom_links', JSON.stringify(customLinks));
+                renderLinks();
+            }
+        };
+
+    </script>
+</body>
+</html>
