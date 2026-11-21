@@ -90,6 +90,42 @@
         .urh-search:focus {
           border-color: #38bdf8;
         }
+        .urh-toggle-btn {
+          display: inline-flex;
+          align-items: center;
+          gap: 7px;
+          background: #111827;
+          border: 1px solid rgba(255, 255, 255, 0.16);
+          color: #e2e8f0;
+          font-size: 13px;
+          font-weight: 600;
+          padding: 10px 14px;
+          border-radius: 10px;
+          cursor: pointer;
+          transition: all 0.18s ease;
+        }
+        .urh-toggle-btn:hover {
+          border-color: #38bdf8;
+          color: #ffffff;
+        }
+        .urh-toggle-btn.is-active {
+          background: #38bdf8;
+          border-color: #38bdf8;
+          color: #080b12;
+          font-weight: 700;
+        }
+        .urh-cat-inline {
+          display: inline-block;
+          align-self: flex-start;
+          background: rgba(56, 189, 248, 0.12);
+          color: #38bdf8;
+          font-size: 10.5px;
+          font-weight: 700;
+          padding: 3px 8px;
+          border-radius: 6px;
+          border: 1px solid rgba(56, 189, 248, 0.24);
+          margin-bottom: 8px;
+        }
         .urh-hub-btn {
           display: inline-flex;
           align-items: center;
@@ -225,20 +261,26 @@
       `;
       document.head.appendChild(style);
 
+      let urhShowImages = false;
+
       const section = document.createElement('section');
       section.id = 'urh-section';
       section.innerHTML = `
         <div id="urh-container">
           <div class="urh-header">
             <div>
-              <div class="urh-badge">⚡ AUTO-DISCOVERY MANIFEST • ${posts.length} TÀI LIỆU</div>
-              <h2 class="urh-title">Kho Bài Viết & Tài Liệu Trong Repo (${manifest.site_id || 'Hub'})</h2>
-              <div class="urh-sub">Tự động cập nhật 100% file HTML mới tải lên repo kèm Poster Tiên Hiệp • Cổ Trang • Liên Minh Huyền Thoại</div>
+              <div class="urh-badge">⚡ KHO BÀI ĐỌC • ${posts.length} TÀI LIỆU</div>
+              <h2 class="urh-title">Kho bài viết & tài liệu trong repo (${manifest.site_id || 'Hub'})</h2>
+              <div class="urh-sub">Chế độ đọc nhanh: mặc định ẩn ảnh bìa để không tải ảnh, bấm nút Hiện ảnh khi cần xem</div>
             </div>
             <div class="urh-controls">
               <input type="text" id="urh-search-input" class="urh-search" placeholder="Tìm nhanh trong ${posts.length} bài viết..." />
+              <button type="button" id="urh-toggle-img-btn" class="urh-toggle-btn" aria-pressed="false" title="Mặc định không tải ảnh bìa, bấm để tải và hiện ảnh">
+                <span>🖼️</span>
+                <span id="urh-toggle-img-label">Hiện ảnh</span>
+              </button>
               <a href="./hub.html" class="urh-hub-btn">
-                <span>🧭 Mở Trang Chủ Hub 3 Cột</span>
+                <span>🧭 Mở trang đọc 3 cột</span>
               </a>
             </div>
           </div>
@@ -250,43 +292,72 @@
       const fab = document.createElement('a');
       fab.id = 'urh-fab';
       fab.href = '#urh-section';
-      fab.innerHTML = `<span>🗂️ Kho Bài Viết (${posts.length})</span>`;
+      fab.innerHTML = `<span>🗂️ Kho bài viết (${posts.length})</span>`;
       document.body.appendChild(fab);
 
       const grid = document.getElementById('urh-grid');
       const searchInput = document.getElementById('urh-search-input');
+      const toggleImgBtn = document.getElementById('urh-toggle-img-btn');
+      const toggleImgLabel = document.getElementById('urh-toggle-img-label');
 
       function removeAccents(str) {
         return (str || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[đĐ]/g, 'd').toLowerCase();
       }
 
       function renderCards(filterText) {
-        const q = removeAccents(filterText.trim());
+        const q = removeAccents((filterText || '').trim());
         const filtered = posts.filter(p => {
           if (!q) return true;
           return removeAccents(p.title + ' ' + p.filename + ' ' + (p.excerpt || '')).includes(q);
         });
-        grid.innerHTML = filtered.map(p => `
-          <a class="urh-card" href="./${p.filename}" target="_blank">
-            <div class="urh-cover-wrap">
-              <img src="${p.cover_image}" alt="${(p.title || '').replace(/"/g, '&quot;')}" loading="lazy" />
-              <span class="urh-cat-pill">${p.category_label || '📌 Tài liệu'}</span>
-            </div>
-            <div class="urh-body">
-              <h3 class="urh-card-title">${p.title}</h3>
-              <p class="urh-card-excerpt">${p.excerpt || ''}</p>
-              <div class="urh-card-meta">
-                <span>${p.filename.replace(/\.html$/, '')}</span>
-                <span>${p.read_time || '5 phút'}</span>
+        grid.innerHTML = filtered.map(p => {
+          const catLabel = p.category_label || '📌 Tài liệu';
+          if (!urhShowImages) {
+            return `
+              <a class="urh-card" href="./${p.filename}" target="_blank">
+                <div class="urh-body">
+                  <span class="urh-cat-inline">${catLabel}</span>
+                  <h3 class="urh-card-title">${p.title}</h3>
+                  <p class="urh-card-excerpt" style="-webkit-line-clamp: 3;">${p.excerpt || ''}</p>
+                  <div class="urh-card-meta">
+                    <span>${p.filename.replace(/\.html$/, '')}</span>
+                    <span>${p.read_time || '5 phút'}</span>
+                  </div>
+                </div>
+              </a>
+            `;
+          }
+          return `
+            <a class="urh-card" href="./${p.filename}" target="_blank">
+              <div class="urh-cover-wrap">
+                <img src="${p.cover_image}" alt="${(p.title || '').replace(/"/g, '&quot;')}" loading="lazy" />
+                <span class="urh-cat-pill">${catLabel}</span>
               </div>
-            </div>
-          </a>
-        `).join('');
+              <div class="urh-body">
+                <h3 class="urh-card-title">${p.title}</h3>
+                <p class="urh-card-excerpt">${p.excerpt || ''}</p>
+                <div class="urh-card-meta">
+                  <span>${p.filename.replace(/\.html$/, '')}</span>
+                  <span>${p.read_time || '5 phút'}</span>
+                </div>
+              </div>
+            </a>
+          `;
+        }).join('');
       }
 
       renderCards('');
       if (searchInput) {
         searchInput.addEventListener('input', e => renderCards(e.target.value));
+      }
+      if (toggleImgBtn && toggleImgLabel) {
+        toggleImgBtn.addEventListener('click', () => {
+          urhShowImages = !urhShowImages;
+          toggleImgBtn.classList.toggle('is-active', urhShowImages);
+          toggleImgBtn.setAttribute('aria-pressed', urhShowImages ? 'true' : 'false');
+          toggleImgLabel.textContent = urhShowImages ? 'Ẩn ảnh' : 'Hiện ảnh';
+          renderCards(searchInput ? searchInput.value : '');
+        });
       }
     } catch (err) {
       console.warn('Universal Repo Hub Widget error:', err);
